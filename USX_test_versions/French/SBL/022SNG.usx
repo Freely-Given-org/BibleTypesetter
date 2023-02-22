@@ -1,0 +1,762 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<usx version="3.0">
+  <book code="SNG" style="id" />
+  <para style="h">Cantique</para>
+  <para style="toc1">Le Cantique des Cantiques</para>
+  <para style="toc2">Cantique</para>
+  <para style="toc3">Cantique</para>
+  <para style="mt1">Le Cantique des Cantiques</para>
+  <chapter number="1" style="c" sid="SNG 1" />
+  <para style="p">
+    <verse number="1" style="v" sid="SNG 1:1" />Le <char style="w" strong="H7892">Cantique</char> <char style="w" strong="H7892">des</char> <char style="w" strong="H7892">chants</char>, qui <char style="w" strong="H8010">est</char> celui <char style="w" strong="H7892">de</char> <char style="w" strong="H8010">Salomon</char>.<verse eid="SNG 1:1" /></para>
+  <para style="sp">Bien-aimé</para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 1:2" />Qu'il m'embrasse <char style="w" strong="H6310">avec</char> <char style="w" strong="H5401">les</char> <char style="w" strong="H5390">baisers</char> <char style="w" strong="H6310">de</char> <char style="w" strong="H6310">sa</char> <char style="w" strong="H6310">bouche</char>  ;</para>
+  <para style="q2" vid="SNG 1:2">
+    <char style="w" strong="H3588">car</char> ton <char style="w" strong="H1730">amour</char> <char style="w" strong="H6310">est</char> <char style="w" strong="H2896">meilleur</char> <char style="w" strong="H3588">que</char> <char style="w" strong="H6310">le</char> <char style="w" strong="H3196">vin</char>.<verse eid="SNG 1:2" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 1:3" />Vos huiles ont <char style="w" strong="H8034">un</char> <char style="w" strong="H7381">parfum</char> <char style="w" strong="H2896">agréable</char>.</para>
+  <para style="q2" vid="SNG 1:3">Votre <char style="w" strong="H8034">nom</char> <char style="w" strong="H8034">est</char> <char style="w" strong="H8034">de</char> l'huile versée,</para>
+  <para style="q2" vid="SNG 1:3">c'est <char style="w" strong="H3651">pourquoi</char> <char style="w" strong="H8034">les</char> vierges t'aiment.<verse eid="SNG 1:3" /></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 1:4" />Emmenez-moi <char style="w" strong="H2142">avec</char> vous.</para>
+  <para style="q2" vid="SNG 1:4">Dépêchons-nous.</para>
+  <para style="q2" vid="SNG 1:4">
+    <char style="w" strong="H4428">Le</char> <char style="w" strong="H4428">roi</char> m'a amené dans <char style="w" strong="H4428">ses</char> <char style="w" strong="H2315">appartements</char>.</para>
+  <para style="sp" vid="SNG 1:4">Amis</para>
+  <para style="q1" vid="SNG 1:4">
+    <char style="w" strong="H4428">Nous</char> serons heureux <char style="w" strong="H4428">et</char> <char style="w" strong="H4428">nous</char> <char style="w" strong="H4428">nous</char> <char style="w" strong="H8055">réjouirons</char> <char style="w" strong="H4428">en</char> vous.</para>
+  <para style="q2" vid="SNG 1:4">
+    <char style="w" strong="H4428">Nous</char> louerons <char style="w" strong="H2142">ton</char> <char style="w" strong="H1730">amour</char> plus <char style="w" strong="H4428">que</char> <char style="w" strong="H4428">le</char> <char style="w" strong="H3196">vin</char>  !</para>
+  <para style="sp" vid="SNG 1:4">Bien-aimé</para>
+  <para style="q1" vid="SNG 1:4">Ils <char style="w" strong="H4428">ont</char> <char style="w" strong="H4339">raison</char> <char style="w" strong="H4428">de</char> vous aimer.<verse eid="SNG 1:4" /></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 1:5" />Je suis sombre, mais charmant,</para>
+  <para style="q2" vid="SNG 1:5">vous, <char style="w" strong="H1323">filles</char> <char style="w" strong="H1323">de</char> <char style="w" strong="H3389">Jérusalem</char>,</para>
+  <para style="q2" vid="SNG 1:5">
+    <char style="w" strong="H5000">comme</char> <char style="w" strong="H3389">les</char> <char style="w" strong="H3407">tentes</char> <char style="w" strong="H1323">de</char> <char style="w" strong="H6938">Kedar</char>,</para>
+  <para style="q2" vid="SNG 1:5">
+    <char style="w" strong="H5000">comme</char> <char style="w" strong="H3389">les</char> rideaux <char style="w" strong="H1323">de</char> <char style="w" strong="H8010">Salomon</char>.<verse eid="SNG 1:5" /></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 1:6" />
+    <char style="w" strong="H1121">Ne</char> me fixez <char style="w" strong="H3808">pas</char> parce <char style="w" strong="H7200">que</char> je suis sombre,</para>
+  <para style="q2" vid="SNG 1:6">parce <char style="w" strong="H7200">que</char> <char style="w" strong="H7200">le</char> <char style="w" strong="H8121">soleil</char> <char style="w" strong="H8121">m'a</char> <char style="w" strong="H2787">brûlé</char>.</para>
+  <para style="q1" vid="SNG 1:6">
+    <char style="w" strong="H7200">Les</char> <char style="w" strong="H1121">fils</char> <char style="w" strong="H1121">de</char> <char style="w" strong="H7200">ma</char> mère <char style="w" strong="H1121">étaient</char> <char style="w" strong="H7760">en</char> colère <char style="w" strong="H7760">contre</char> moi.</para>
+  <para style="q2" vid="SNG 1:6">
+    <char style="w" strong="H1121">Ils</char> <char style="w" strong="H1121">m'ont</char> <char style="w" strong="H7760">fait</char> gardien <char style="w" strong="H1121">des</char> <char style="w" strong="H3754">vignes</char>.</para>
+  <para style="q2" vid="SNG 1:6">Je n'ai <char style="w" strong="H3808">pas</char> <char style="w" strong="H7760">gardé</char> <char style="w" strong="H7200">ma</char> propre <char style="w" strong="H3754">vigne</char>.<verse eid="SNG 1:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 1:7" />Dis-moi, <char style="w" strong="H5315">toi</char> <char style="w" strong="H5046">que</char> <char style="w" strong="H7462">mon</char> <char style="w" strong="H5315">âme</char> aime,</para>
+  <para style="q2" vid="SNG 1:7">où <char style="w" strong="H5315">vous</char> faites <char style="w" strong="H7462">paître</char> <char style="w" strong="H1961">votre</char> <char style="w" strong="H5739">troupeau</char>,</para>
+  <para style="q2" vid="SNG 1:7">où <char style="w" strong="H5315">vous</char> <char style="w" strong="H7462">les</char> reposez <char style="w" strong="H5046">à</char> <char style="w" strong="H6672">midi</char>  ;</para>
+  <para style="q2" vid="SNG 1:7">
+    <char style="w" strong="H4100">car</char> <char style="w" strong="H4100">pourquoi</char> devrais-je <char style="w" strong="H5315">être</char> <char style="w" strong="H1961">comme</char> <char style="w" strong="H5315">celle</char> <char style="w" strong="H5315">qui</char> <char style="w" strong="H5315">est</char> voilée</para>
+  <para style="q2" vid="SNG 1:7">
+    <char style="w" strong="H5046">à</char> côté <char style="w" strong="H5315">des</char> <char style="w" strong="H5739">troupeaux</char> <char style="w" strong="H5315">de</char> <char style="w" strong="H7462">vos</char> <char style="w" strong="H2270">compagnons</char>  ?<verse eid="SNG 1:7" /></para>
+  <para style="sp">Amoureux</para>
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 1:8" />
+    <char style="w" strong="H3808">Si</char> vous <char style="w" strong="H3808">ne</char> <char style="w" strong="H3045">le</char> <char style="w" strong="H3045">savez</char> <char style="w" strong="H3808">pas</char>, <char style="w" strong="H3045">la</char> <char style="w" strong="H3808">plus</char> <char style="w" strong="H3303">belle</char> <char style="w" strong="H3318">des</char> femmes,</para>
+  <para style="q2" vid="SNG 1:8">suivre <char style="w" strong="H3318">les</char> <char style="w" strong="H6119">traces</char> <char style="w" strong="H3318">des</char> <char style="w" strong="H6629">moutons</char>.</para>
+  <para style="q2" vid="SNG 1:8">Faites <char style="w" strong="H7462">paître</char> <char style="w" strong="H3318">vos</char> chèvres <char style="w" strong="H3318">à</char> côté <char style="w" strong="H3318">des</char> tentes <char style="w" strong="H3318">des</char> <char style="w" strong="H7462">bergers</char>.<verse eid="SNG 1:8" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="9" style="v" sid="SNG 1:9" />Je t'ai <char style="w" strong="H1819">comparé</char>, mon amour,</para>
+  <para style="q2" vid="SNG 1:9">
+    <char style="w" strong="H1819">à</char> un coursier dans <char style="w" strong="H6547">les</char> <char style="w" strong="H7393">chars</char> <char style="w" strong="H7393">de</char> <char style="w" strong="H6547">Pharaon</char>.<verse eid="SNG 1:9" /></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 1:10" />Tes <char style="w" strong="H3895">joues</char> <char style="w" strong="H3895">sont</char> <char style="w" strong="H4998">belles</char> avec <char style="w" strong="H3895">des</char> boucles d'oreilles,</para>
+  <para style="q2" vid="SNG 1:10">votre <char style="w" strong="H6677">cou</char> avec <char style="w" strong="H3895">des</char> <char style="w" strong="H8447">colliers</char> <char style="w" strong="H6677">de</char> bijoux.<verse eid="SNG 1:10" /></para>
+  <para style="sp">Amis</para>
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 1:11" />
+    <char style="w" strong="H6213">Nous</char> te <char style="w" strong="H6213">ferons</char> <char style="w" strong="H6213">des</char> boucles d'oreilles <char style="w" strong="H6213">en</char> <char style="w" strong="H2091">or</char>,</para>
+  <para style="q2" vid="SNG 1:11">
+    <char style="w" strong="H6213">avec</char> <char style="w" strong="H6213">des</char> clous <char style="w" strong="H6213">d'argent</char>.<verse eid="SNG 1:11" /></para>
+  <para style="sp">Bien-aimé</para>
+  <para style="q1">
+    <verse number="12" style="v" sid="SNG 1:12" />Pendant <char style="w" strong="H5704">que</char> <char style="w" strong="H5414">le</char> <char style="w" strong="H4428">roi</char> <char style="w" strong="H4428">était</char> assis <char style="w" strong="H5414">à</char> <char style="w" strong="H5414">sa</char> table,</para>
+  <para style="q2" vid="SNG 1:12">
+    <char style="w" strong="H4428">mon</char> <char style="w" strong="H7381">parfum</char> <char style="w" strong="H5414">a</char> <char style="w" strong="H5414">répandu</char> <char style="w" strong="H5414">sa</char> fragrance.<verse eid="SNG 1:12" /></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="SNG 1:13" />Mon bien-aimé <char style="w" strong="H1730">est</char> pour moi un sachet <char style="w" strong="H1730">de</char> <char style="w" strong="H4753">myrrhe</char>,</para>
+  <para style="q2" vid="SNG 1:13">qui <char style="w" strong="H7699">se</char> trouve entre mes <char style="w" strong="H7699">seins</char>.<verse eid="SNG 1:13" /></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="SNG 1:14" />Mon bien-aimé <char style="w" strong="H1730">est</char> pour moi une grappe <char style="w" strong="H3754">de</char> fleurs <char style="w" strong="H3754">de</char> henné.</para>
+  <para style="q2" vid="SNG 1:14">
+    <char style="w" strong="H3724">des</char> vignobles <char style="w" strong="H3754">de</char> <char style="w" strong="H3724">En</char> Gedi.<verse eid="SNG 1:14" /></para>
+  <para style="sp">Amoureux</para>
+  <para style="q1">
+    <verse number="15" style="v" sid="SNG 1:15" />
+    <char style="w" strong="H2005">Voici</char>, <note caller="+" style="f"><char style="fr" closed="false">1.15 </char><char style="ft" closed="false">« Voici », de « הִנֵּה », signifie regarder, prendre note, observer, voir ou fixer. Il est souvent utilisé comme une interjection.</char></note><char style="w" strong="H5869">tu</char> es <char style="w" strong="H3303">belle</char>, mon amour.</para>
+  <para style="q2" vid="SNG 1:15">
+    <char style="w" strong="H5869">Regarde</char>, <char style="w" strong="H5869">tu</char> es <char style="w" strong="H3303">belle</char>.</para>
+  <para style="q2" vid="SNG 1:15">Vos <char style="w" strong="H5869">yeux</char> <char style="w" strong="H5869">sont</char> <char style="w" strong="H5869">comme</char> <char style="w" strong="H5869">des</char> <char style="w" strong="H3123">colombes</char>.<verse eid="SNG 1:15" /></para>
+  <para style="sp">Bien-aimé</para>
+  <para style="q1">
+    <verse number="16" style="v" sid="SNG 1:16" />
+    <char style="w" strong="H2005">Voici</char>, tu es <char style="w" strong="H3303">belle</char>, ma bien-aimée, oui, <char style="w" strong="H5273">agréable</char>  ;</para>
+  <para style="q2" vid="SNG 1:16">
+    <char style="w" strong="H3303">et</char> notre canapé <char style="w" strong="H1730">est</char> <char style="w" strong="H7488">verdoyant</char>.<verse eid="SNG 1:16" /></para>
+  <para style="sp">Amoureux</para>
+  <para style="q1">
+    <verse number="17" style="v" sid="SNG 1:17" />
+    <char style="w" strong="H1004">Les</char> <char style="w" strong="H6982">poutres</char> <char style="w" strong="H1004">de</char> notre <char style="w" strong="H1004">maison</char> <char style="w" strong="H1004">sont</char> <char style="w" strong="H1004">des</char> cèdres.</para>
+  <para style="q2" vid="SNG 1:17">Nos chevrons <char style="w" strong="H1004">sont</char> <char style="w" strong="H1004">en</char> sapin.<verse eid="SNG 1:17" /></para>
+  <chapter eid="SNG 1" />
+  <chapter number="2" style="c" sid="SNG 2" />
+  <para style="sp">Bien-aimé</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="SNG 2:1" />Je suis une rose <char style="w" strong="H6010">de</char> <char style="w" strong="H8289">Saron</char>,</para>
+  <para style="q2" vid="SNG 2:1">un muguet <char style="w" strong="H6010">des</char> <char style="w" strong="H6010">vallées</char>.<verse eid="SNG 2:1" /></para>
+  <para style="sp">Amoureux</para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 2:2" />Comme <char style="w" strong="H1323">un</char> lys <char style="w" strong="H1323">au</char> milieu <char style="w" strong="H1323">des</char> <char style="w" strong="H2336">épines</char>,</para>
+  <para style="q2" vid="SNG 2:2">
+    <char style="w" strong="H3651">ainsi</char> est mon amour parmi les <char style="w" strong="H1323">filles</char>.<verse eid="SNG 2:2" /></para>
+  <para style="sp">Bien-aimé</para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 2:3" />
+    <char style="w" strong="H6529">Comme</char> <char style="w" strong="H3427">le</char> <char style="w" strong="H8598">pommier</char> parmi <char style="w" strong="H3427">les</char> <char style="w" strong="H6086">arbres</char> <char style="w" strong="H1121">de</char> <char style="w" strong="H3427">la</char> <char style="w" strong="H3293">forêt</char>,</para>
+  <para style="q2" vid="SNG 2:3">
+    <char style="w" strong="H3651">ainsi</char> <char style="w" strong="H1121">est</char> mon bien-aimé parmi <char style="w" strong="H3427">les</char> <char style="w" strong="H1121">fils</char>.</para>
+  <para style="q1" vid="SNG 2:3">Je me suis <char style="w" strong="H3427">assis</char> <char style="w" strong="H3427">sous</char> <char style="w" strong="H3427">son</char> <char style="w" strong="H6738">ombre</char> <char style="w" strong="H3427">avec</char> grand <char style="w" strong="H2530">plaisir</char>,</para>
+  <para style="q2" vid="SNG 2:3">
+    <char style="w" strong="H3427">son</char> <char style="w" strong="H6529">fruit</char> <char style="w" strong="H1121">était</char> <char style="w" strong="H4966">doux</char> <char style="w" strong="H3427">à</char> mon goût.<verse eid="SNG 2:3" /></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 2:4" />Il m'a amené <char style="w" strong="H1004">à</char> <char style="w" strong="H5921">la</char> <char style="w" strong="H1004">salle</char> <char style="w" strong="H1004">de</char> banquet.</para>
+  <para style="q2" vid="SNG 2:4">
+    <char style="w" strong="H5921">Sa</char> <char style="w" strong="H1714">bannière</char> <char style="w" strong="H5921">sur</char> moi <char style="w" strong="H1004">est</char> l'amour.<verse eid="SNG 2:4" /></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 2:5" />Fortifiez-moi avec des raisins secs,</para>
+  <para style="q2" vid="SNG 2:5">me rafraîchir avec des <char style="w" strong="H8598">pommes</char>  ;</para>
+  <para style="q2" vid="SNG 2:5">
+    <char style="w" strong="H3588">car</char> <char style="w" strong="H3588">je</char> suis <char style="w" strong="H2470">faible</char> d'amour.<verse eid="SNG 2:5" /></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 2:6" />Sa <char style="w" strong="H3225">main</char> <char style="w" strong="H8040">gauche</char> <char style="w" strong="H7218">est</char> <char style="w" strong="H8478">sous</char> <char style="w" strong="H8478">ma</char> <char style="w" strong="H7218">tête</char>.</para>
+  <para style="q2" vid="SNG 2:6">Sa <char style="w" strong="H3225">main</char> <char style="w" strong="H3225">droite</char> m'enlace.<verse eid="SNG 2:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 2:7" />Je vous adjure, <char style="w" strong="H1323">filles</char> <char style="w" strong="H1323">de</char> <char style="w" strong="H3389">Jérusalem</char>,</para>
+  <para style="q2" vid="SNG 2:7">
+    <char style="w" strong="H7650">par</char> <char style="w" strong="H3389">les</char> chevreuils, ou <char style="w" strong="H7650">par</char> <char style="w" strong="H3389">les</char> biches <char style="w" strong="H1323">des</char> <char style="w" strong="H7704">champs</char>,</para>
+  <para style="q2" vid="SNG 2:7">
+    <char style="w" strong="H5704">que</char> vous n'excitez <char style="w" strong="H2654">pas</char>, <char style="w" strong="H5704">ni</char> <char style="w" strong="H7704">ne</char> <char style="w" strong="H5782">réveillez</char> l'amour,</para>
+  <para style="q2" vid="SNG 2:7">jusqu'à <char style="w" strong="H3389">ce</char> qu'il <char style="w" strong="H3389">le</char> souhaite.<verse eid="SNG 2:7" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 2:8" />
+    <char style="w" strong="H5921">La</char> <char style="w" strong="H6963">voix</char> <char style="w" strong="H2022">de</char> mon bien-aimé  !</para>
+  <para style="q2" vid="SNG 2:8">
+    <char style="w" strong="H2009">Voici</char> qu'il arrive,</para>
+  <para style="q2" vid="SNG 2:8">
+    <char style="w" strong="H5921">en</char> <char style="w" strong="H1801">sautant</char> <char style="w" strong="H5921">sur</char> <char style="w" strong="H6963">les</char> <char style="w" strong="H2022">montagnes</char>,</para>
+  <para style="q2" vid="SNG 2:8">
+    <char style="w" strong="H1801">sautant</char> <char style="w" strong="H5921">sur</char> <char style="w" strong="H6963">les</char> <char style="w" strong="H1389">collines</char>.<verse eid="SNG 2:8" /></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="SNG 2:9" />
+    <char style="w" strong="H5975">Mon</char> bien-aimé <char style="w" strong="H1730">est</char> comme <char style="w" strong="H5975">un</char> chevreuil <char style="w" strong="H4480">ou</char> <char style="w" strong="H5975">une</char> jeune biche.</para>
+  <para style="q2" vid="SNG 2:9">Regardez, <char style="w" strong="H2088">il</char> se <char style="w" strong="H5975">tient</char> <char style="w" strong="H5975">derrière</char> notre <char style="w" strong="H3796">mur</char>  !</para>
+  <para style="q1" vid="SNG 2:9">
+    <char style="w" strong="H2088">Il</char> <char style="w" strong="H6692">regarde</char> <char style="w" strong="H5975">les</char> <char style="w" strong="H2474">fenêtres</char>.</para>
+  <para style="q2" vid="SNG 2:9">
+    <char style="w" strong="H2088">Il</char> jette <char style="w" strong="H5975">un</char> coup d'œil <char style="w" strong="H5975">à</char> travers <char style="w" strong="H4480">le</char> <char style="w" strong="H2762">treillis</char>.<verse eid="SNG 2:9" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 2:10" />
+    <char style="w" strong="H6965">Mon</char> bien-aimé <char style="w" strong="H3212">a</char> <char style="w" strong="H6030">parlé</char>, <char style="w" strong="H6030">et</char> m'a <char style="w" strong="H6030">dit</char>,</para>
+  <para style="q2" vid="SNG 2:10">« Lève-toi, <char style="w" strong="H6965">mon</char> <char style="w" strong="H1730">amour</char>, <char style="w" strong="H3212">ma</char> <char style="w" strong="H3303">belle</char>, <char style="w" strong="H6030">et</char> <char style="w" strong="H3212">viens</char>.<verse eid="SNG 2:10" /></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 2:11" />
+    <char style="w" strong="H3588">Car</char> <char style="w" strong="H2009">voici</char>, l'hiver <char style="w" strong="H5638">est</char> <char style="w" strong="H5674">passé</char>.</para>
+  <para style="q2" vid="SNG 2:11">
+    <char style="w" strong="H5674">La</char> <char style="w" strong="H1653">pluie</char> <char style="w" strong="H5638">est</char> finie <char style="w" strong="H5674">et</char> partie.<verse eid="SNG 2:11" /></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="SNG 2:12" />
+    <char style="w" strong="H8085">Les</char> <char style="w" strong="H5339">fleurs</char> apparaissent <char style="w" strong="H7200">sur</char> <char style="w" strong="H8085">la</char> terre.</para>
+  <para style="q2" vid="SNG 2:12">
+    <char style="w" strong="H7200">Le</char> <char style="w" strong="H6256">temps</char> <char style="w" strong="H6963">du</char> <char style="w" strong="H6963">chant</char> <char style="w" strong="H6963">est</char> <char style="w" strong="H5060">arrivé</char>,</para>
+  <para style="q2" vid="SNG 2:12">
+    <char style="w" strong="H8085">et</char> <char style="w" strong="H8085">la</char> <char style="w" strong="H6963">voix</char> <char style="w" strong="H6963">de</char> <char style="w" strong="H8085">la</char> <char style="w" strong="H8449">tourterelle</char> <char style="w" strong="H7200">se</char> <char style="w" strong="H6256">fait</char> <char style="w" strong="H8085">entendre</char> <char style="w" strong="H6963">dans</char> <char style="w" strong="H7200">notre</char> pays.<verse eid="SNG 2:12" /></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="SNG 2:13" />
+    <char style="w" strong="H5414">Le</char> <char style="w" strong="H8384">figuier</char> mûrit <char style="w" strong="H5414">ses</char> <char style="w" strong="H8384">figues</char> vertes.</para>
+  <para style="q2" vid="SNG 2:13">
+    <char style="w" strong="H5414">Les</char> <char style="w" strong="H1612">vignes</char> <char style="w" strong="H8384">sont</char> <char style="w" strong="H5414">en</char> fleurs.</para>
+  <para style="q2" vid="SNG 2:13">
+    <char style="w" strong="H3212">Ils</char> dégagent <char style="w" strong="H5414">leur</char> <char style="w" strong="H7381">parfum</char>.</para>
+  <para style="q1" vid="SNG 2:13">Lève-toi, <char style="w" strong="H5414">mon</char> amour, <char style="w" strong="H5414">ma</char> <char style="w" strong="H3303">belle</char>,</para>
+  <para style="q2" vid="SNG 2:13">
+    <char style="w" strong="H6965">et</char> s'en <char style="w" strong="H3212">aller</char>. »<verse eid="SNG 2:13" /></para>
+  <para style="sp">Amoureux</para>
+  <para style="q1">
+    <verse number="14" style="v" sid="SNG 2:14" />
+    <char style="w" strong="H8085">Ma</char> <char style="w" strong="H3123">colombe</char> <char style="w" strong="H6963">dans</char> <char style="w" strong="H8085">les</char> <char style="w" strong="H2288">fentes</char> <char style="w" strong="H6963">du</char> <char style="w" strong="H5553">rocher</char>,</para>
+  <para style="q2" vid="SNG 2:14">
+    <char style="w" strong="H6963">dans</char> <char style="w" strong="H8085">les</char> cachettes <char style="w" strong="H6963">du</char> flanc <char style="w" strong="H6963">de</char> <char style="w" strong="H8085">la</char> montagne,</para>
+  <para style="q2" vid="SNG 2:14">laisse-moi <char style="w" strong="H7200">voir</char> <char style="w" strong="H7200">ton</char> <char style="w" strong="H4758">visage</char>.</para>
+  <para style="q2" vid="SNG 2:14">Laisse-moi <char style="w" strong="H8085">entendre</char> <char style="w" strong="H8085">ta</char> <char style="w" strong="H6963">voix</char>  ;</para>
+  <para style="q2" vid="SNG 2:14">
+    <char style="w" strong="H3588">car</char> <char style="w" strong="H8085">ta</char> <char style="w" strong="H6963">voix</char> <char style="w" strong="H4758">est</char> <char style="w" strong="H6156">douce</char> <char style="w" strong="H8085">et</char> <char style="w" strong="H7200">ton</char> <char style="w" strong="H4758">visage</char> <char style="w" strong="H4758">est</char> beau.<verse eid="SNG 2:14" /></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="SNG 2:15" />Attrapez <char style="w" strong="H6996">pour</char> nous <char style="w" strong="H2254">les</char> <char style="w" strong="H7776">renards</char>,</para>
+  <para style="q2" vid="SNG 2:15">
+    <char style="w" strong="H2254">les</char> <char style="w" strong="H6996">petits</char> <char style="w" strong="H7776">renards</char> <char style="w" strong="H7776">qui</char> pillent <char style="w" strong="H2254">les</char> vignobles  ;</para>
+  <para style="q2" vid="SNG 2:15">car nos vignobles sont en <char style="w" strong="H5563">fleur</char>.<verse eid="SNG 2:15" /></para>
+  <para style="sp">Bien-aimé</para>
+  <para style="q1">
+    <verse number="16" style="v" sid="SNG 2:16" />
+    <char style="w" strong="H7462">Mon</char> bien-aimé <char style="w" strong="H1730">est</char> <char style="w" strong="H7462">à</char> moi, <char style="w" strong="H7462">et</char> je suis <char style="w" strong="H7462">à</char> lui.</para>
+  <para style="q2" vid="SNG 2:16">Il <char style="w" strong="H7462">se</char> promène parmi <char style="w" strong="H7462">les</char> lys.<verse eid="SNG 2:16" /></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="SNG 2:17" />Jusqu'à ce <char style="w" strong="H3117">que</char> <char style="w" strong="H3117">le</char> <char style="w" strong="H3117">jour</char> <char style="w" strong="H3117">se</char> <char style="w" strong="H6315">rafraîchisse</char>, <char style="w" strong="H3117">et</char> <char style="w" strong="H3117">que</char> <char style="w" strong="H3117">les</char> <char style="w" strong="H6752">ombres</char> s'enfuient,</para>
+  <para style="q2" vid="SNG 2:17">
+    <char style="w" strong="H5437">tourne</char>, <char style="w" strong="H3117">ma</char> bien-aimée,</para>
+  <para style="q2" vid="SNG 2:17">
+    <char style="w" strong="H3117">et</char> être <char style="w" strong="H3117">comme</char> <char style="w" strong="H3117">un</char> chevreuil <char style="w" strong="H3117">ou</char> <char style="w" strong="H3117">un</char> jeune cerf <char style="w" strong="H5921">sur</char> <char style="w" strong="H3117">les</char> <char style="w" strong="H2022">montagnes</char> <char style="w" strong="H2022">de</char> Bether.<verse eid="SNG 2:17" /></para>
+  <chapter eid="SNG 2" />
+  <chapter number="3" style="c" sid="SNG 3" />
+  <para style="p">
+    <verse number="1" style="v" sid="SNG 3:1" />
+    <char style="w" strong="H4672">La</char> <char style="w" strong="H3915">nuit</char>, <char style="w" strong="H5921">sur</char> <char style="w" strong="H4672">mon</char> <char style="w" strong="H4904">lit</char>,</para>
+  <para style="q2" vid="SNG 3:1">J'ai <char style="w" strong="H1245">cherché</char> <char style="w" strong="H5315">celui</char> <char style="w" strong="H5315">que</char> <char style="w" strong="H4672">mon</char> <char style="w" strong="H5315">âme</char> aime.</para>
+  <para style="q2" vid="SNG 3:1">
+    <char style="w" strong="H5315">Je</char> l'ai <char style="w" strong="H1245">cherché</char>, mais <char style="w" strong="H5315">je</char> <char style="w" strong="H3808">ne</char> l'ai <char style="w" strong="H3808">pas</char> <char style="w" strong="H4672">trouvé</char>.<verse eid="SNG 3:1" /></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 3:2" />
+    <char style="w" strong="H5315">Je</char> vais <char style="w" strong="H5315">me</char> <char style="w" strong="H6965">lever</char> maintenant, <char style="w" strong="H6965">et</char> parcourir <char style="w" strong="H4672">la</char> <char style="w" strong="H5892">ville</char>  ;</para>
+  <para style="q2" vid="SNG 3:2">
+    <char style="w" strong="H4672">dans</char> <char style="w" strong="H6965">les</char> <char style="w" strong="H7339">rues</char> <char style="w" strong="H6965">et</char> <char style="w" strong="H6965">sur</char> <char style="w" strong="H6965">les</char> <char style="w" strong="H7339">places</char>, <char style="w" strong="H5315">je</char> <char style="w" strong="H1245">chercherai</char> <char style="w" strong="H5315">celui</char> <char style="w" strong="H5315">que</char> <char style="w" strong="H6965">mon</char> <char style="w" strong="H5315">âme</char> aime.</para>
+  <para style="q2" vid="SNG 3:2">
+    <char style="w" strong="H5315">Je</char> l'ai <char style="w" strong="H1245">cherché</char>, mais <char style="w" strong="H5315">je</char> <char style="w" strong="H3808">ne</char> l'ai <char style="w" strong="H3808">pas</char> <char style="w" strong="H4672">trouvé</char>.<verse eid="SNG 3:2" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 3:3" />
+    <char style="w" strong="H7200">Les</char> <char style="w" strong="H8104">gardes</char> <char style="w" strong="H5315">qui</char> <char style="w" strong="H5437">parcourent</char> <char style="w" strong="H7200">la</char> <char style="w" strong="H5892">ville</char> <char style="w" strong="H5892">m'ont</char> <char style="w" strong="H4672">trouvé</char>  ;</para>
+  <para style="q2" vid="SNG 3:3">« Avez-vous <char style="w" strong="H7200">vu</char> <char style="w" strong="H5315">celui</char> <char style="w" strong="H7200">que</char> <char style="w" strong="H8104">mon</char> <char style="w" strong="H5315">âme</char> aime  ? »<verse eid="SNG 3:3" /></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 3:4" />
+    <char style="w" strong="H5315">Je</char> <char style="w" strong="H1004">les</char> avais <char style="w" strong="H5704">à</char> <char style="w" strong="H4592">peine</char> quittés,</para>
+  <para style="q2" vid="SNG 3:4">
+    <char style="w" strong="H5704">quand</char> <char style="w" strong="H1004">j'ai</char> <char style="w" strong="H4672">trouvé</char> <char style="w" strong="H5315">celui</char> <char style="w" strong="H5704">que</char> <char style="w" strong="H5674">mon</char> <char style="w" strong="H5315">âme</char> aime.</para>
+  <para style="q1" vid="SNG 3:4">
+    <char style="w" strong="H5315">Je</char> l'ai tenu <char style="w" strong="H4672">dans</char> <char style="w" strong="H5674">mes</char> bras, <char style="w" strong="H1004">et</char> <char style="w" strong="H5315">je</char> <char style="w" strong="H3808">ne</char> voulais <char style="w" strong="H3808">pas</char> <char style="w" strong="H5674">le</char> laisser partir,</para>
+  <para style="q2" vid="SNG 3:4">
+    <char style="w" strong="H5674">jusqu'à</char> <char style="w" strong="H5674">ce</char> <char style="w" strong="H5704">que</char> <char style="w" strong="H5315">je</char> l'amène <char style="w" strong="H4672">dans</char> <char style="w" strong="H4672">la</char> <char style="w" strong="H1004">maison</char> <char style="w" strong="H1004">de</char> <char style="w" strong="H5315">ma</char> mère,</para>
+  <para style="q2" vid="SNG 3:4">
+    <char style="w" strong="H4672">dans</char> <char style="w" strong="H4672">la</char> <char style="w" strong="H2315">chambre</char> <char style="w" strong="H1004">de</char> <char style="w" strong="H5315">celle</char> <char style="w" strong="H5315">qui</char> <char style="w" strong="H5315">m'a</char> <char style="w" strong="H2029">conçu</char>.<verse eid="SNG 3:4" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 3:5" />Je vous adjure, <char style="w" strong="H1323">filles</char> <char style="w" strong="H1323">de</char> <char style="w" strong="H3389">Jérusalem</char>,</para>
+  <para style="q2" vid="SNG 3:5">
+    <char style="w" strong="H7650">par</char> <char style="w" strong="H3389">les</char> chevreuils, ou <char style="w" strong="H7650">par</char> <char style="w" strong="H3389">les</char> biches <char style="w" strong="H1323">des</char> <char style="w" strong="H7704">champs</char>,</para>
+  <para style="q2" vid="SNG 3:5">
+    <char style="w" strong="H1323">de</char> <char style="w" strong="H7704">ne</char> <char style="w" strong="H2654">pas</char> <char style="w" strong="H5782">susciter</char> <char style="w" strong="H5704">ni</char> réveiller l'amour,</para>
+  <para style="q2" vid="SNG 3:5">jusqu'à <char style="w" strong="H3389">ce</char> qu'il <char style="w" strong="H3389">le</char> souhaite.<verse eid="SNG 3:5" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 3:6" />
+    <char style="w" strong="H4310">Qui</char> <char style="w" strong="H4057">est</char> celui <char style="w" strong="H4310">qui</char> <char style="w" strong="H5927">monte</char> <char style="w" strong="H5927">du</char> <char style="w" strong="H4057">désert</char> <char style="w" strong="H6999">comme</char> <char style="w" strong="H5927">des</char> <char style="w" strong="H8490">colonnes</char> <char style="w" strong="H4057">de</char> <char style="w" strong="H6227">fumée</char>,</para>
+  <para style="q2" vid="SNG 3:6">parfumée <char style="w" strong="H5927">à</char> <char style="w" strong="H5927">la</char> <char style="w" strong="H4753">myrrhe</char> <char style="w" strong="H5927">et</char> <char style="w" strong="H5927">à</char> l'encens,</para>
+  <para style="q2" vid="SNG 3:6">
+    <char style="w" strong="H5927">avec</char> toutes <char style="w" strong="H5927">les</char> épices <char style="w" strong="H5927">du</char> marchand  ?<verse eid="SNG 3:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 3:7" />
+    <char style="w" strong="H2009">Voici</char> <char style="w" strong="H3478">le</char> carrosse <char style="w" strong="H5439">de</char> <char style="w" strong="H8010">Salomon</char>  !</para>
+  <para style="q2" vid="SNG 3:7">
+    <char style="w" strong="H8346">Soixante</char> <char style="w" strong="H1368">hommes</char> <char style="w" strong="H1368">puissants</char> l'entourent,</para>
+  <para style="q2" vid="SNG 3:7">
+    <char style="w" strong="H8010">des</char> <char style="w" strong="H1368">hommes</char> forts d'Israël.<verse eid="SNG 3:7" /></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 3:8" />
+    <char style="w" strong="H2719">Ils</char> manient <char style="w" strong="H3605">tous</char> l'épée, <char style="w" strong="H3915">et</char> <char style="w" strong="H2719">sont</char> experts <char style="w" strong="H3915">en</char> <char style="w" strong="H4421">guerre</char>.</para>
+  <para style="q2" vid="SNG 3:8">
+    <char style="w" strong="H3605">Chaque</char> homme <char style="w" strong="H4421">a</char> <char style="w" strong="H4421">son</char> <char style="w" strong="H2719">épée</char> <char style="w" strong="H5921">sur</char> <char style="w" strong="H5921">sa</char> <char style="w" strong="H3409">cuisse</char>,</para>
+  <para style="q2" vid="SNG 3:8">
+    <char style="w" strong="H4421">à</char> <char style="w" strong="H5921">cause</char> <char style="w" strong="H2719">de</char> <char style="w" strong="H3925">la</char> peur <char style="w" strong="H3925">dans</char> <char style="w" strong="H3925">la</char> <char style="w" strong="H3915">nuit</char>.<verse eid="SNG 3:8" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="9" style="v" sid="SNG 3:9" />
+    <char style="w" strong="H6213">Le</char> <char style="w" strong="H4428">roi</char> <char style="w" strong="H8010">Salomon</char> <char style="w" strong="H4428">s'est</char> <char style="w" strong="H6213">fait</char> <char style="w" strong="H6213">une</char> voiture</para>
+  <para style="q2" vid="SNG 3:9">
+    <char style="w" strong="H6213">du</char> <char style="w" strong="H6086">bois</char> <char style="w" strong="H6213">du</char> <char style="w" strong="H3844">Liban</char>.<verse eid="SNG 3:9" /></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 3:10" />
+    <char style="w" strong="H3389">Il</char> <char style="w" strong="H6213">a</char> <char style="w" strong="H6213">fait</char> <char style="w" strong="H6213">ses</char> piliers <char style="w" strong="H6213">en</char> <char style="w" strong="H3701">argent</char>,</para>
+  <para style="q2" vid="SNG 3:10">
+    <char style="w" strong="H6213">son</char> <char style="w" strong="H8432">fond</char> <char style="w" strong="H6213">d'or</char>, <char style="w" strong="H6213">son</char> <char style="w" strong="H4817">siège</char> <char style="w" strong="H1323">de</char> pourpre,</para>
+  <para style="q2" vid="SNG 3:10">
+    <char style="w" strong="H6213">le</char> <char style="w" strong="H8432">milieu</char> <char style="w" strong="H1323">de</char> celui-ci étant pavé d'amour,</para>
+  <para style="q2" vid="SNG 3:10">
+    <char style="w" strong="H6213">des</char> <char style="w" strong="H1323">filles</char> <char style="w" strong="H1323">de</char> <char style="w" strong="H3389">Jérusalem</char>.<verse eid="SNG 3:10" /></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 3:11" />
+    <char style="w" strong="H3318">Sortez</char>, <char style="w" strong="H1323">filles</char> <char style="w" strong="H4428">de</char> <char style="w" strong="H6726">Sion</char>, <char style="w" strong="H3117">et</char> <char style="w" strong="H3318">allez</char> <char style="w" strong="H7200">voir</char> <char style="w" strong="H7200">le</char> <char style="w" strong="H4428">roi</char> <char style="w" strong="H8010">Salomon</char>,</para>
+  <para style="q2" vid="SNG 3:11">
+    <char style="w" strong="H7200">avec</char> <char style="w" strong="H7200">la</char> <char style="w" strong="H5850">couronne</char> dont <char style="w" strong="H7200">sa</char> mère l'a <char style="w" strong="H5850">couronné</char>,</para>
+  <para style="q2" vid="SNG 3:11">
+    <char style="w" strong="H7200">le</char> <char style="w" strong="H3117">jour</char> <char style="w" strong="H4428">de</char> <char style="w" strong="H7200">ses</char> noces,</para>
+  <para style="q2" vid="SNG 3:11">
+    <char style="w" strong="H3318">au</char> <char style="w" strong="H3117">jour</char> <char style="w" strong="H4428">de</char> l'allégresse <char style="w" strong="H4428">de</char> <char style="w" strong="H3117">son</char> <char style="w" strong="H3820">cœur</char>.<verse eid="SNG 3:11" /></para>
+  <chapter eid="SNG 3" />
+  <chapter number="4" style="c" sid="SNG 4" />
+  <para style="sp">Amoureux</para>
+  <para style="p">
+    <verse number="1" style="v" sid="SNG 4:1" />
+    <char style="w" strong="H2005">Voici</char>, <char style="w" strong="H5869">tu</char> es <char style="w" strong="H3303">belle</char>, mon amour.</para>
+  <para style="q2" vid="SNG 4:1">
+    <char style="w" strong="H5869">Regarde</char>, <char style="w" strong="H5869">tu</char> es <char style="w" strong="H3303">belle</char>.</para>
+  <para style="q1" vid="SNG 4:1">Tes <char style="w" strong="H5869">yeux</char> <char style="w" strong="H5869">sont</char> <char style="w" strong="H5869">comme</char> <char style="w" strong="H5869">des</char> <char style="w" strong="H3123">colombes</char> <char style="w" strong="H1157">derrière</char> <char style="w" strong="H1157">ton</char> <char style="w" strong="H6777">voile</char>.</para>
+  <para style="q2" vid="SNG 4:1">Vos <char style="w" strong="H8181">cheveux</char> <char style="w" strong="H5869">sont</char> <char style="w" strong="H5869">comme</char> <char style="w" strong="H5739">un</char> <char style="w" strong="H5739">troupeau</char> <char style="w" strong="H2022">de</char> <char style="w" strong="H5795">chèvres</char>,</para>
+  <para style="q2" vid="SNG 4:1">
+    <char style="w" strong="H5869">qui</char> descendent <char style="w" strong="H5869">du</char> <char style="w" strong="H2022">mont</char> Gilead.<verse eid="SNG 4:1" /></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 4:2" />
+    <char style="w" strong="H5927">Tes</char> <char style="w" strong="H8127">dents</char> sont comme <char style="w" strong="H5927">un</char> <char style="w" strong="H5739">troupeau</char> nouvellement tondu,</para>
+  <para style="q2" vid="SNG 4:2">qui sont <char style="w" strong="H5927">remontés</char> <char style="w" strong="H5927">du</char> lavage,</para>
+  <para style="q2" vid="SNG 4:2">
+    <char style="w" strong="H8127">où</char> chacun d'entre eux <char style="w" strong="H5927">a</char> <char style="w" strong="H5927">des</char> <char style="w" strong="H8382">jumeaux</char>.</para>
+  <para style="q2" vid="SNG 4:2">Aucun d'entre eux n'est endeuillé.<verse eid="SNG 4:2" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 4:3" />Tes <char style="w" strong="H8193">lèvres</char> <char style="w" strong="H8193">sont</char> <char style="w" strong="H5000">comme</char> <char style="w" strong="H8193">un</char> <char style="w" strong="H2339">fil</char> d'écarlate.</para>
+  <para style="q2" vid="SNG 4:3">
+    <char style="w" strong="H1157">Votre</char> <char style="w" strong="H8193">bouche</char> <char style="w" strong="H4057">est</char> <char style="w" strong="H5000">charmante</char>.</para>
+  <para style="q2" vid="SNG 4:3">Vos tempes <char style="w" strong="H8193">sont</char> <char style="w" strong="H5000">comme</char> <char style="w" strong="H8193">un</char> <char style="w" strong="H6400">morceau</char> <char style="w" strong="H4057">de</char> <char style="w" strong="H7416">grenade</char> <char style="w" strong="H1157">derrière</char> <char style="w" strong="H1157">votre</char> <char style="w" strong="H6777">voile</char>.<verse eid="SNG 4:3" /></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 4:4" />
+    <char style="w" strong="H1129">Ton</char> <char style="w" strong="H6677">cou</char> <char style="w" strong="H1368">est</char> <char style="w" strong="H1129">comme</char> <char style="w" strong="H1129">la</char> <char style="w" strong="H4026">tour</char> <char style="w" strong="H4026">de</char> <char style="w" strong="H1732">David</char>, <char style="w" strong="H1129">construite</char> <char style="w" strong="H1732">pour</char> servir d'arsenal,</para>
+  <para style="q2" vid="SNG 4:4">
+    <char style="w" strong="H5921">sur</char> lequel <char style="w" strong="H1129">un</char> millier <char style="w" strong="H4026">de</char> <char style="w" strong="H4043">boucliers</char> <char style="w" strong="H4043">sont</char> accrochés,</para>
+  <para style="q2" vid="SNG 4:4">
+    <char style="w" strong="H3605">tous</char> <char style="w" strong="H1732">les</char> <char style="w" strong="H4043">boucliers</char> <char style="w" strong="H1129">des</char> <char style="w" strong="H1368">hommes</char> <char style="w" strong="H1368">puissants</char>.<verse eid="SNG 4:4" /></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 4:5" />
+    <char style="w" strong="H7462">Tes</char> <char style="w" strong="H8147">deux</char> <char style="w" strong="H7699">seins</char> <char style="w" strong="H8147">sont</char> comme <char style="w" strong="H8147">deux</char> <char style="w" strong="H6082">faons</char>.</para>
+  <para style="q2" vid="SNG 4:5">
+    <char style="w" strong="H7462">qui</char> <char style="w" strong="H8147">sont</char> <char style="w" strong="H8147">des</char> <char style="w" strong="H8380">jumeaux</char> d'un chevreuil,</para>
+  <para style="q2" vid="SNG 4:5">
+    <char style="w" strong="H7462">qui</char> <char style="w" strong="H7699">se</char> nourrissent parmi <char style="w" strong="H7462">les</char> lys.<verse eid="SNG 4:5" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 4:6" />
+    <char style="w" strong="H3212">Jusqu'à</char> ce <char style="w" strong="H3117">que</char> <char style="w" strong="H3117">le</char> <char style="w" strong="H3117">jour</char> <char style="w" strong="H3117">se</char> <char style="w" strong="H6315">rafraîchisse</char>, <char style="w" strong="H3117">et</char> <char style="w" strong="H3117">que</char> <char style="w" strong="H3212">les</char> <char style="w" strong="H6752">ombres</char> s'enfuient,</para>
+  <para style="q2" vid="SNG 4:6">
+    <char style="w" strong="H3117">Je</char> <char style="w" strong="H3212">vais</char> <char style="w" strong="H3212">aller</char> <char style="w" strong="H3212">à</char> <char style="w" strong="H3117">la</char> <char style="w" strong="H2022">montagne</char> <char style="w" strong="H2022">de</char> <char style="w" strong="H3117">la</char> <char style="w" strong="H4753">myrrhe</char>,</para>
+  <para style="q2" vid="SNG 4:6">
+    <char style="w" strong="H3212">à</char> <char style="w" strong="H3117">la</char> <char style="w" strong="H1389">colline</char> <char style="w" strong="H2022">de</char> l'encens.<verse eid="SNG 4:6" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 4:7" />Vous êtes toutes <char style="w" strong="H3303">belles</char>, mon amour.</para>
+  <para style="q2" vid="SNG 4:7">Il n'y <char style="w" strong="H3303">a</char> pas <char style="w" strong="H3303">de</char> <char style="w" strong="H3971">tache</char> en vous.<verse eid="SNG 4:7" /></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 4:8" />Viens avec moi <char style="w" strong="H7218">du</char> <char style="w" strong="H3844">Liban</char>, ma <char style="w" strong="H3618">fiancée</char>,</para>
+  <para style="q2" vid="SNG 4:8">avec moi depuis <char style="w" strong="H7218">le</char> <char style="w" strong="H3844">Liban</char>.</para>
+  <para style="q2" vid="SNG 4:8">Regardez depuis <char style="w" strong="H7218">le</char> <char style="w" strong="H7218">sommet</char> d'Amana,</para>
+  <para style="q2" vid="SNG 4:8">
+    <char style="w" strong="H7218">du</char> <char style="w" strong="H7218">sommet</char> <char style="w" strong="H7218">du</char> <char style="w" strong="H8149">Senir</char> <char style="w" strong="H7218">et</char> <char style="w" strong="H7218">du</char> <char style="w" strong="H2768">Hermon</char>,</para>
+  <para style="q2" vid="SNG 4:8">
+    <char style="w" strong="H7218">de</char> <char style="w" strong="H7218">la</char> <char style="w" strong="H4585">tanière</char> <char style="w" strong="H7218">des</char> lions,</para>
+  <para style="q2" vid="SNG 4:8">
+    <char style="w" strong="H7218">de</char> <char style="w" strong="H7218">la</char> <char style="w" strong="H2042">montagne</char> <char style="w" strong="H7218">des</char> <char style="w" strong="H5246">léopards</char>.<verse eid="SNG 4:8" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="9" style="v" sid="SNG 4:9" />
+    <char style="w" strong="H5869">Tu</char> as séduit mon <char style="w" strong="H3823">coeur</char>, ma soeur, ma <char style="w" strong="H3618">fiancée</char>.</para>
+  <para style="q2" vid="SNG 4:9">
+    <char style="w" strong="H5869">Tu</char> as ravi mon <char style="w" strong="H3823">cœur</char> <char style="w" strong="H3823">d'un</char> seul <char style="w" strong="H5869">de</char> tes <char style="w" strong="H5869">yeux</char>,</para>
+  <para style="q2" vid="SNG 4:9">
+    <char style="w" strong="H5869">avec</char> <char style="w" strong="H5869">une</char> chaîne <char style="w" strong="H5869">de</char> votre <char style="w" strong="H6677">cou</char>.<verse eid="SNG 4:9" /></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 4:10" />Que ton <char style="w" strong="H1730">amour</char> <char style="w" strong="H1730">est</char> <char style="w" strong="H3302">beau</char>, <char style="w" strong="H8081">ma</char> sœur, <char style="w" strong="H8081">ma</char> <char style="w" strong="H3618">fiancée</char>  !</para>
+  <para style="q2" vid="SNG 4:10">Combien ton <char style="w" strong="H1730">amour</char> <char style="w" strong="H1730">est</char> meilleur que <char style="w" strong="H3605">le</char> <char style="w" strong="H3196">vin</char>,</para>
+  <para style="q2" vid="SNG 4:10">
+    <char style="w" strong="H4100">la</char> fragrance <char style="w" strong="H1730">de</char> vos <char style="w" strong="H7381">parfums</char> que toutes sortes d'épices  !<verse eid="SNG 4:10" /></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 4:11" />Tes <char style="w" strong="H8193">lèvres</char>, <char style="w" strong="H8478">ma</char> <char style="w" strong="H3618">fiancée</char>, coulent <char style="w" strong="H3956">comme</char> <char style="w" strong="H8193">un</char> rayon <char style="w" strong="H3956">de</char> <char style="w" strong="H1706">miel</char>.</para>
+  <para style="q2" vid="SNG 4:11">
+    <char style="w" strong="H5197">Le</char> <char style="w" strong="H1706">miel</char> et <char style="w" strong="H5197">le</char> <char style="w" strong="H2461">lait</char> <char style="w" strong="H8193">sont</char> <char style="w" strong="H8478">sous</char> ta <char style="w" strong="H3956">langue</char>.</para>
+  <para style="q2" vid="SNG 4:11">L'odeur <char style="w" strong="H3956">de</char> vos <char style="w" strong="H8008">vêtements</char> <char style="w" strong="H3956">est</char> <char style="w" strong="H3956">comme</char> l'odeur <char style="w" strong="H8193">du</char> <char style="w" strong="H3844">Liban</char>.<verse eid="SNG 4:11" /></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="SNG 4:12" />Ma sœur, mon <char style="w" strong="H3618">épouse</char>, est un <char style="w" strong="H1588">jardin</char> <char style="w" strong="H5274">fermé</char>  ;</para>
+  <para style="q2" vid="SNG 4:12">un ressort bloqué,</para>
+  <para style="q2" vid="SNG 4:12">une <char style="w" strong="H4599">fontaine</char> <char style="w" strong="H2856">scellée</char>.<verse eid="SNG 4:12" /></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="SNG 4:13" />Tes pousses sont un verger <char style="w" strong="H5973">de</char> <char style="w" strong="H7416">grenadiers</char>, aux <char style="w" strong="H6529">fruits</char> précieux,</para>
+  <para style="q2" vid="SNG 4:13">
+    <char style="w" strong="H6529">du</char> henné <char style="w" strong="H5973">avec</char> <char style="w" strong="H6529">des</char> plantes <char style="w" strong="H5973">de</char> <char style="w" strong="H5373">nard</char>,<verse eid="SNG 4:13" /></para>
+  <para style="q2">
+    <verse number="14" style="v" sid="SNG 4:14" />
+    <char style="w" strong="H5373">nard</char> <char style="w" strong="H6086">et</char> <char style="w" strong="H3750">safran</char>,</para>
+  <para style="q2" vid="SNG 4:14">
+    <char style="w" strong="H7218">du</char> calamus <char style="w" strong="H6086">et</char> <char style="w" strong="H7218">de</char> <char style="w" strong="H7218">la</char> cannelle, <char style="w" strong="H5973">avec</char> toutes sortes d'arbres <char style="w" strong="H6086">à</char> <char style="w" strong="H3828">encens</char>  ;</para>
+  <para style="q2" vid="SNG 4:14">
+    <char style="w" strong="H7218">de</char> <char style="w" strong="H7218">la</char> <char style="w" strong="H4753">myrrhe</char> <char style="w" strong="H6086">et</char> <char style="w" strong="H7218">de</char> l'aloès, <char style="w" strong="H5973">avec</char> toutes <char style="w" strong="H3605">les</char> meilleures épices,<verse eid="SNG 4:14" /></para>
+  <para style="q2">
+    <verse number="15" style="v" sid="SNG 4:15" />une <char style="w" strong="H4599">fontaine</char> <char style="w" strong="H4325">de</char> <char style="w" strong="H1588">jardins</char>,</para>
+  <para style="q2" vid="SNG 4:15">un puits d'eau <char style="w" strong="H2416">vive</char>,</para>
+  <para style="q2" vid="SNG 4:15">
+    <char style="w" strong="H2416">des</char> <char style="w" strong="H5140">ruisseaux</char> <char style="w" strong="H4325">qui</char> <char style="w" strong="H5140">coulent</char> <char style="w" strong="H4325">du</char> <char style="w" strong="H3844">Liban</char>.<verse eid="SNG 4:15" /></para>
+  <para style="sp">Bien-aimé</para>
+  <para style="q1">
+    <verse number="16" style="v" sid="SNG 4:16" />Réveille-toi, vent <char style="w" strong="H6529">du</char> <char style="w" strong="H6828">nord</char>, et viens, toi <char style="w" strong="H6828">le</char> sud  !</para>
+  <para style="q2" vid="SNG 4:16">
+    <char style="w" strong="H6315">Souffle</char> sur <char style="w" strong="H5782">mon</char> <char style="w" strong="H1588">jardin</char>, <char style="w" strong="H6828">pour</char> que ses épices s'écoulent.</para>
+  <para style="q1" vid="SNG 4:16">Laissez <char style="w" strong="H5782">mon</char> bien-aimé entrer dans <char style="w" strong="H5782">son</char> <char style="w" strong="H1588">jardin</char>,</para>
+  <para style="q2" vid="SNG 4:16">et goûter ses précieux <char style="w" strong="H6529">fruits</char>.<verse eid="SNG 4:16" /></para>
+  <chapter eid="SNG 4" />
+  <chapter number="5" style="c" sid="SNG 5" />
+  <para style="sp">Amoureux</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="SNG 5:1" />Je suis venu dans <char style="w" strong="H8354">mon</char> <char style="w" strong="H1588">jardin</char>, ma sœur, ma <char style="w" strong="H3618">fiancée</char>.</para>
+  <para style="q2" vid="SNG 5:1">J'ai rassemblé ma <char style="w" strong="H4753">myrrhe</char> <char style="w" strong="H5973">avec</char> <char style="w" strong="H8354">mon</char> épice  ;</para>
+  <para style="q2" vid="SNG 5:1">J'ai mangé <char style="w" strong="H8354">mon</char> rayon <char style="w" strong="H1730">de</char> <char style="w" strong="H1706">miel</char> <char style="w" strong="H5973">avec</char> <char style="w" strong="H8354">mon</char> <char style="w" strong="H1706">miel</char>  ;</para>
+  <para style="q2" vid="SNG 5:1">J'ai <char style="w" strong="H8354">bu</char> <char style="w" strong="H8354">mon</char> <char style="w" strong="H3196">vin</char> <char style="w" strong="H5973">avec</char> <char style="w" strong="H8354">mon</char> <char style="w" strong="H2461">lait</char>.</para>
+  <para style="sp" vid="SNG 5:1">Amis</para>
+  <para style="q1" vid="SNG 5:1">Mangez, <char style="w" strong="H7937">mes</char> <char style="w" strong="H7453">amis</char>  !</para>
+  <para style="q2" vid="SNG 5:1">
+    <char style="w" strong="H8354">Buvez</char>, oui, <char style="w" strong="H8354">buvez</char> abondamment, <char style="w" strong="H7937">mes</char> chers.<verse eid="SNG 5:1" /></para>
+  <para style="sp">Bien-aimé</para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 5:2" />
+    <char style="w" strong="H6963">Je</char> dormais, mais <char style="w" strong="H3820">mon</char> <char style="w" strong="H3820">coeur</char> <char style="w" strong="H3820">était</char> <char style="w" strong="H5782">éveillé</char>.</para>
+  <para style="q2" vid="SNG 5:2">C'est <char style="w" strong="H4390">la</char> <char style="w" strong="H6963">voix</char> <char style="w" strong="H4390">de</char> <char style="w" strong="H3820">mon</char> bien-aimé <char style="w" strong="H6963">qui</char> <char style="w" strong="H1849">frappe</char>  :</para>
+  <para style="q2" vid="SNG 5:2">« Ouvre-moi, <char style="w" strong="H4390">ma</char> soeur, <char style="w" strong="H3820">mon</char> <char style="w" strong="H1730">amour</char>, <char style="w" strong="H4390">ma</char> <char style="w" strong="H3123">colombe</char>, <char style="w" strong="H3820">mon</char> indéfectible  ;</para>
+  <para style="q2" vid="SNG 5:2">car <char style="w" strong="H4390">ma</char> <char style="w" strong="H7218">tête</char> <char style="w" strong="H3820">est</char> <char style="w" strong="H4390">remplie</char> <char style="w" strong="H4390">de</char> <char style="w" strong="H2919">rosée</char>,</para>
+  <para style="q2" vid="SNG 5:2">
+    <char style="w" strong="H6963">et</char> <char style="w" strong="H6605">mes</char> cheveux <char style="w" strong="H3915">avec</char> l'humidité <char style="w" strong="H4390">de</char> <char style="w" strong="H4390">la</char> <char style="w" strong="H3915">nuit</char>. »<verse eid="SNG 5:2" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 5:3" />J'ai enlevé <char style="w" strong="H6584">ma</char> robe. <char style="w" strong="H3847">En</char> effet, dois-je <char style="w" strong="H3847">la</char> remettre  ?</para>
+  <para style="q2" vid="SNG 5:3">J'ai <char style="w" strong="H7364">lavé</char> <char style="w" strong="H7364">mes</char> <char style="w" strong="H7272">pieds</char>. <char style="w" strong="H3847">En</char> effet, dois-je <char style="w" strong="H7364">les</char> salir  ?<verse eid="SNG 5:3" /></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 5:4" />
+    <char style="w" strong="H7971">Mon</char> bien-aimé <char style="w" strong="H3027">a</char> <char style="w" strong="H7971">passé</char> <char style="w" strong="H7971">sa</char> <char style="w" strong="H3027">main</char> <char style="w" strong="H3027">par</char> l'ouverture <char style="w" strong="H3027">du</char> loquet.</para>
+  <para style="q2" vid="SNG 5:4">
+    <char style="w" strong="H7971">Mon</char> <char style="w" strong="H4578">cœur</char> battait <char style="w" strong="H7971">pour</char> <char style="w" strong="H3027">lui</char>.<verse eid="SNG 5:4" /></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 5:5" />
+    <char style="w" strong="H3027">Je</char> <char style="w" strong="H3027">me</char> suis <char style="w" strong="H6965">levé</char> <char style="w" strong="H6965">pour</char> <char style="w" strong="H6605">ouvrir</char> <char style="w" strong="H6965">pour</char> <char style="w" strong="H6965">mon</char> bien-aimé.</para>
+  <para style="q2" vid="SNG 5:5">
+    <char style="w" strong="H6605">Mes</char> <char style="w" strong="H3027">mains</char> dégoulinaient <char style="w" strong="H3027">de</char> <char style="w" strong="H4753">myrrhe</char>,</para>
+  <para style="q2" vid="SNG 5:5">
+    <char style="w" strong="H6605">mes</char> <char style="w" strong="H3709">doigts</char> <char style="w" strong="H3027">avec</char> <char style="w" strong="H3027">de</char> <char style="w" strong="H6605">la</char> <char style="w" strong="H4753">myrrhe</char> liquide,</para>
+  <para style="q2" vid="SNG 5:5">
+    <char style="w" strong="H3027">sur</char> <char style="w" strong="H3027">les</char> poignées <char style="w" strong="H3027">de</char> <char style="w" strong="H6605">la</char> serrure.<verse eid="SNG 5:5" /></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 5:6" />J'ai <char style="w" strong="H6605">ouvert</char> <char style="w" strong="H1696">à</char> <char style="w" strong="H7121">mon</char> bien-aimé  ;</para>
+  <para style="q2" vid="SNG 5:6">mais <char style="w" strong="H7121">mon</char> bien-aimé <char style="w" strong="H5315">est</char> <char style="w" strong="H3318">parti</char>, <char style="w" strong="H6030">et</char> <char style="w" strong="H5315">s'est</char> <char style="w" strong="H5674">éloigné</char>.</para>
+  <para style="q1" vid="SNG 5:6">
+    <char style="w" strong="H7121">Mon</char> <char style="w" strong="H5315">cœur</char> <char style="w" strong="H1696">a</char> <char style="w" strong="H5674">lâché</char> <char style="w" strong="H3808">quand</char> <char style="w" strong="H5315">il</char> <char style="w" strong="H1696">a</char> <char style="w" strong="H1696">parlé</char>.</para>
+  <para style="q2" vid="SNG 5:6">
+    <char style="w" strong="H5315">Je</char> l'ai <char style="w" strong="H1245">cherché</char>, mais <char style="w" strong="H5315">je</char> <char style="w" strong="H3808">ne</char> l'ai <char style="w" strong="H3808">pas</char> <char style="w" strong="H4672">trouvé</char>.</para>
+  <para style="q2" vid="SNG 5:6">
+    <char style="w" strong="H5315">Je</char> l'ai <char style="w" strong="H7121">appelé</char>, mais <char style="w" strong="H5315">il</char> n'a <char style="w" strong="H3808">pas</char> <char style="w" strong="H6030">répondu</char>.<verse eid="SNG 5:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 5:7" />
+    <char style="w" strong="H5375">Les</char> <char style="w" strong="H8104">gardes</char> <char style="w" strong="H5892">qui</char> <char style="w" strong="H5437">parcourent</char> <char style="w" strong="H5375">la</char> <char style="w" strong="H5892">ville</char> <char style="w" strong="H5892">m'ont</char> <char style="w" strong="H4672">trouvé</char>.</para>
+  <para style="q2" vid="SNG 5:7">Ils <char style="w" strong="H5892">m'ont</char> <char style="w" strong="H5221">battu</char>.</para>
+  <para style="q2" vid="SNG 5:7">Ils <char style="w" strong="H5892">m'ont</char> meurtri.</para>
+  <para style="q2" vid="SNG 5:7">
+    <char style="w" strong="H5375">Les</char> <char style="w" strong="H8104">gardiens</char> <char style="w" strong="H5892">des</char> <char style="w" strong="H2346">murs</char> <char style="w" strong="H5892">m'ont</char> <char style="w" strong="H5375">pris</char> <char style="w" strong="H8104">mon</char> manteau.<verse eid="SNG 5:7" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 5:8" />Je vous adjure, <char style="w" strong="H1323">filles</char> <char style="w" strong="H1323">de</char> <char style="w" strong="H3389">Jérusalem</char>,</para>
+  <para style="q2" vid="SNG 5:8">Si vous <char style="w" strong="H4672">trouvez</char> <char style="w" strong="H5046">ma</char> bien-aimée,</para>
+  <para style="q2" vid="SNG 5:8">
+    <char style="w" strong="H5046">que</char> vous <char style="w" strong="H3389">lui</char> disiez <char style="w" strong="H5046">que</char> je suis <char style="w" strong="H2470">faible</char> d'amour.<verse eid="SNG 5:8" /></para>
+  <para style="sp">Amis</para>
+  <para style="q1">
+    <verse number="9" style="v" sid="SNG 5:9" />
+    <char style="w" strong="H7650">En</char> <char style="w" strong="H4100">quoi</char> ton bien-aimé <char style="w" strong="H1730">est</char> meilleur qu'un <char style="w" strong="H1730">autre</char> bien-aimé,</para>
+  <para style="q2" vid="SNG 5:9">
+    <char style="w" strong="H7650">la</char> plus <char style="w" strong="H3303">belle</char> <char style="w" strong="H3303">des</char> femmes  ?</para>
+  <para style="q1" vid="SNG 5:9">
+    <char style="w" strong="H7650">En</char> <char style="w" strong="H4100">quoi</char> votre bien-aimé est-il meilleur qu'un <char style="w" strong="H1730">autre</char> bien-aimé,</para>
+  <para style="q1" vid="SNG 5:9">que vous <char style="w" strong="H3602">nous</char> adjurez <char style="w" strong="H3602">ainsi</char>  ?<verse eid="SNG 5:9" /></para>
+  <para style="sp">Bien-aimé</para>
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 5:10" />Mon bien-aimé <char style="w" strong="H1730">est</char> <char style="w" strong="H6703">blanc</char> <char style="w" strong="H6703">et</char> roux.</para>
+  <para style="q2" vid="SNG 5:10">Le meilleur parmi <char style="w" strong="H7233">dix</char> <char style="w" strong="H7233">mille</char>.<verse eid="SNG 5:10" /></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 5:11" />
+    <char style="w" strong="H6158">Sa</char> <char style="w" strong="H7218">tête</char> <char style="w" strong="H7218">est</char> <char style="w" strong="H7218">comme</char> l'or <char style="w" strong="H7218">le</char> plus <char style="w" strong="H6337">pur</char>.</para>
+  <para style="q2" vid="SNG 5:11">Ses cheveux <char style="w" strong="H7218">sont</char> touffus, <char style="w" strong="H7838">noirs</char> <char style="w" strong="H7218">comme</char> <char style="w" strong="H7218">un</char> <char style="w" strong="H6158">corbeau</char>.<verse eid="SNG 5:11" /></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="SNG 5:12" />
+    <char style="w" strong="H5921">Ses</char> <char style="w" strong="H5869">yeux</char> <char style="w" strong="H4325">sont</char> <char style="w" strong="H5869">comme</char> <char style="w" strong="H5869">des</char> <char style="w" strong="H3123">colombes</char> <char style="w" strong="H5921">près</char> <char style="w" strong="H5869">des</char> ruisseaux,</para>
+  <para style="q2" vid="SNG 5:12">lavés <char style="w" strong="H3427">au</char> <char style="w" strong="H2461">lait</char>, montés <char style="w" strong="H5869">comme</char> <char style="w" strong="H5869">des</char> bijoux.<verse eid="SNG 5:12" /></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="SNG 5:13" />
+    <char style="w" strong="H5674">Ses</char> <char style="w" strong="H3895">joues</char> <char style="w" strong="H8193">sont</char> comme <char style="w" strong="H8193">un</char> lit d'épices <char style="w" strong="H5674">avec</char> <char style="w" strong="H4026">des</char> <char style="w" strong="H4026">tours</char> <char style="w" strong="H4026">de</char> <char style="w" strong="H1314">parfums</char>.</para>
+  <para style="q2" vid="SNG 5:13">
+    <char style="w" strong="H5674">Ses</char> <char style="w" strong="H8193">lèvres</char> <char style="w" strong="H8193">sont</char> comme <char style="w" strong="H4026">des</char> lys, elles laissent échapper <char style="w" strong="H4026">de</char> <char style="w" strong="H5674">la</char> <char style="w" strong="H4753">myrrhe</char> liquide.<verse eid="SNG 5:13" /></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="SNG 5:14" />
+    <char style="w" strong="H3027">Ses</char> <char style="w" strong="H3027">mains</char> <char style="w" strong="H3027">sont</char> comme <char style="w" strong="H3027">des</char> <char style="w" strong="H1550">anneaux</char> d'or sertis <char style="w" strong="H3027">de</char> béryl.</para>
+  <para style="q2" vid="SNG 5:14">
+    <char style="w" strong="H3027">Son</char> <char style="w" strong="H4578">corps</char> <char style="w" strong="H3027">est</char> comme <char style="w" strong="H3027">un</char> <char style="w" strong="H3027">travail</char> d'ivoire recouvert <char style="w" strong="H3027">de</char> <char style="w" strong="H5601">saphirs</char>.<verse eid="SNG 5:14" /></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="SNG 5:15" />
+    <char style="w" strong="H5921">Ses</char> <char style="w" strong="H7785">jambes</char> <char style="w" strong="H5982">sont</char> <char style="w" strong="H4758">comme</char> <char style="w" strong="H4758">des</char> <char style="w" strong="H5982">colonnes</char> <char style="w" strong="H5982">de</char> <char style="w" strong="H8336">marbre</char> <char style="w" strong="H3245">posées</char> <char style="w" strong="H5921">sur</char> <char style="w" strong="H4758">des</char> socles d'or <char style="w" strong="H6337">fin</char>.</para>
+  <para style="q2" vid="SNG 5:15">Son <char style="w" strong="H4758">aspect</char> <char style="w" strong="H4758">est</char> <char style="w" strong="H4758">semblable</char> au <char style="w" strong="H3844">Liban</char>, excellent <char style="w" strong="H4758">comme</char> <char style="w" strong="H5921">les</char> cèdres.<verse eid="SNG 5:15" /></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="SNG 5:16" />Sa <char style="w" strong="H2441">bouche</char> <char style="w" strong="H1730">est</char> <char style="w" strong="H3389">une</char> <char style="w" strong="H4477">douceur</char>  ;</para>
+  <para style="q2" vid="SNG 5:16">Oui, <char style="w" strong="H3389">il</char> <char style="w" strong="H1730">est</char> <char style="w" strong="H3605">tout</char> <char style="w" strong="H3389">à</char> fait charmant.</para>
+  <para style="q1" vid="SNG 5:16">C'est ma bien-aimée, <char style="w" strong="H3389">et</char> c'est <char style="w" strong="H3389">mon</char> amie,</para>
+  <para style="q2" vid="SNG 5:16">
+    <char style="w" strong="H3605">les</char> <char style="w" strong="H1323">filles</char> <char style="w" strong="H1323">de</char> <char style="w" strong="H3389">Jérusalem</char>.<verse eid="SNG 5:16" /></para>
+  <chapter eid="SNG 5" />
+  <chapter number="6" style="c" sid="SNG 6" />
+  <para style="sp">Amis</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="SNG 6:1" />Où <char style="w" strong="H1730">est</char> <char style="w" strong="H1980">parti</char> <char style="w" strong="H1245">ton</char> bien-aimé, <char style="w" strong="H1245">la</char> <char style="w" strong="H1980">plus</char> <char style="w" strong="H3303">belle</char> <char style="w" strong="H1980">des</char> femmes  ?</para>
+  <para style="q2" vid="SNG 6:1">Où s'est <char style="w" strong="H6437">tourné</char> <char style="w" strong="H1980">votre</char> bien-aimé, afin <char style="w" strong="H1245">que</char> nous puissions <char style="w" strong="H6437">le</char> <char style="w" strong="H1245">chercher</char> <char style="w" strong="H1980">avec</char> vous  ?<verse eid="SNG 6:1" /></para>
+  <para style="sp">Bien-aimé</para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 6:2" />
+    <char style="w" strong="H7462">Mon</char> bien-aimé <char style="w" strong="H1730">est</char> <char style="w" strong="H3381">descendu</char> dans <char style="w" strong="H3381">son</char> <char style="w" strong="H1588">jardin</char>,</para>
+  <para style="q2" vid="SNG 6:2">
+    <char style="w" strong="H3381">aux</char> lits d'épices,</para>
+  <para style="q2" vid="SNG 6:2">
+    <char style="w" strong="H3381">pour</char> faire <char style="w" strong="H7462">paître</char> <char style="w" strong="H3381">son</char> troupeau dans <char style="w" strong="H7462">les</char> <char style="w" strong="H1588">jardins</char>, <char style="w" strong="H3381">et</char> <char style="w" strong="H3381">pour</char> <char style="w" strong="H3950">cueillir</char> <char style="w" strong="H3381">des</char> lys.<verse eid="SNG 6:2" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 6:3" />Je suis <char style="w" strong="H7462">à</char> <char style="w" strong="H7462">mon</char> bien-aimé, <char style="w" strong="H7462">et</char> <char style="w" strong="H7462">mon</char> bien-aimé <char style="w" strong="H1730">est</char> <char style="w" strong="H7462">à</char> moi.</para>
+  <para style="q2" vid="SNG 6:3">Il <char style="w" strong="H7462">se</char> promène parmi <char style="w" strong="H7462">les</char> lys.<verse eid="SNG 6:3" /></para>
+  <para style="b" />
+  <para style="sp">Amoureux</para>
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 6:4" />Tu es <char style="w" strong="H3303">belle</char>, <char style="w" strong="H3389">mon</char> amour, <char style="w" strong="H5000">comme</char> Tirzah,</para>
+  <para style="q2" vid="SNG 6:4">
+    <char style="w" strong="H3303">belle</char> <char style="w" strong="H5000">comme</char> <char style="w" strong="H3389">Jérusalem</char>,</para>
+  <para style="q2" vid="SNG 6:4">Génial <char style="w" strong="H5000">comme</char> armée <char style="w" strong="H3389">avec</char> <char style="w" strong="H3303">des</char> <char style="w" strong="H1713">bannières</char>.<verse eid="SNG 6:4" /></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 6:5" />Détournez vos <char style="w" strong="H5869">yeux</char> <char style="w" strong="H5869">de</char> moi,</para>
+  <para style="q2" vid="SNG 6:5">car <char style="w" strong="H1992">ils</char> m'ont vaincu.</para>
+  <para style="q1" vid="SNG 6:5">Vos <char style="w" strong="H8181">cheveux</char> <char style="w" strong="H5869">sont</char> <char style="w" strong="H5869">comme</char> <char style="w" strong="H5437">un</char> <char style="w" strong="H5739">troupeau</char> <char style="w" strong="H5869">de</char> <char style="w" strong="H5795">chèvres</char>,</para>
+  <para style="q2" vid="SNG 6:5">
+    <char style="w" strong="H1992">qui</char> s'étendent <char style="w" strong="H4480">le</char> long <char style="w" strong="H5869">du</char> <char style="w" strong="H5437">côté</char> <char style="w" strong="H5869">de</char> Gilead.<verse eid="SNG 6:5" /></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 6:6" />
+    <char style="w" strong="H5927">Tes</char> <char style="w" strong="H8127">dents</char> sont comme <char style="w" strong="H5927">un</char> <char style="w" strong="H5739">troupeau</char> <char style="w" strong="H5927">de</char> <char style="w" strong="H7353">brebis</char>,</para>
+  <para style="q2" vid="SNG 6:6">qui sont <char style="w" strong="H5927">remontés</char> <char style="w" strong="H5927">du</char> lavage,</para>
+  <para style="q2" vid="SNG 6:6">dont chacun <char style="w" strong="H5927">a</char> <char style="w" strong="H5927">des</char> <char style="w" strong="H8382">jumeaux</char>  ;</para>
+  <para style="q2" vid="SNG 6:6">
+    <char style="w" strong="H5927">pas</char> <char style="w" strong="H5927">un</char> seul n'est endeuillé <char style="w" strong="H4480">parmi</char> eux.<verse eid="SNG 6:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 6:7" />Tes temples sont comme un <char style="w" strong="H6400">morceau</char> <char style="w" strong="H6400">de</char> <char style="w" strong="H7416">grenade</char> <char style="w" strong="H1157">derrière</char> <char style="w" strong="H1157">ton</char> <char style="w" strong="H6777">voile</char>.<verse eid="SNG 6:7" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 6:8" />Il y a <char style="w" strong="H8346">soixante</char> <char style="w" strong="H4436">reines</char>, quatre-vingts <char style="w" strong="H6370">concubines</char>,</para>
+  <para style="q2" vid="SNG 6:8">
+    <char style="w" strong="H8346">et</char> <char style="w" strong="H4557">des</char> vierges <char style="w" strong="H5959">sans</char> <char style="w" strong="H4557">nombre</char>.<verse eid="SNG 6:8" /></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="SNG 6:9" />
+    <char style="w" strong="H7200">Ma</char> <char style="w" strong="H3123">colombe</char>, <char style="w" strong="H7200">ma</char> <char style="w" strong="H8535">parfaite</char>, <char style="w" strong="H1931">est</char> unique.</para>
+  <para style="q2" vid="SNG 6:9">
+    <char style="w" strong="H1931">Elle</char> <char style="w" strong="H1931">est</char> <char style="w" strong="H7200">la</char> <char style="w" strong="H1323">fille</char> unique <char style="w" strong="H1323">de</char> <char style="w" strong="H7200">sa</char> mère.</para>
+  <para style="q2" vid="SNG 6:9">
+    <char style="w" strong="H1931">Elle</char> <char style="w" strong="H1931">est</char> <char style="w" strong="H7200">la</char> <char style="w" strong="H1249">préférée</char> <char style="w" strong="H1323">de</char> ceux <char style="w" strong="H1931">qui</char> l'ont portée.</para>
+  <para style="q1" vid="SNG 6:9">
+    <char style="w" strong="H7200">Les</char> <char style="w" strong="H1323">filles</char> l'ont <char style="w" strong="H7200">vue</char> <char style="w" strong="H7200">et</char> l'ont appelée « bénie ».</para>
+  <para style="q2" vid="SNG 6:9">
+    <char style="w" strong="H7200">Les</char> <char style="w" strong="H4436">reines</char> <char style="w" strong="H7200">et</char> <char style="w" strong="H7200">les</char> <char style="w" strong="H6370">concubines</char> <char style="w" strong="H7200">la</char> <char style="w" strong="H7200">voyaient</char>, <char style="w" strong="H7200">et</char> elles <char style="w" strong="H7200">la</char> <char style="w" strong="H1984">louaient</char>.<verse eid="SNG 6:9" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 6:10" />
+    <char style="w" strong="H4310">Qui</char> est celle <char style="w" strong="H4310">qui</char> <char style="w" strong="H8259">regarde</char> <char style="w" strong="H3644">comme</char> <char style="w" strong="H2063">le</char> matin,</para>
+  <para style="q2" vid="SNG 6:10">
+    <char style="w" strong="H2063">aussi</char> <char style="w" strong="H3303">belle</char> <char style="w" strong="H2063">que</char> <char style="w" strong="H8259">la</char> <char style="w" strong="H3842">lune</char>,</para>
+  <para style="q2" vid="SNG 6:10">clair <char style="w" strong="H3644">comme</char> <char style="w" strong="H2063">le</char> <char style="w" strong="H2535">soleil</char>,</para>
+  <para style="q2" vid="SNG 6:10">
+    <char style="w" strong="H3303">et</char> génial <char style="w" strong="H3644">en</char> tant qu'armée avec <char style="w" strong="H3303">des</char> <char style="w" strong="H1713">bannières</char>  ?<verse eid="SNG 6:10" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 6:11" />Je suis <char style="w" strong="H3381">descendu</char> <char style="w" strong="H7200">dans</char> <char style="w" strong="H7200">le</char> bosquet d'arbres <char style="w" strong="H3381">à</char> noix,</para>
+  <para style="q2" vid="SNG 6:11">
+    <char style="w" strong="H3381">pour</char> <char style="w" strong="H7200">voir</char> <char style="w" strong="H7200">les</char> plantes vertes <char style="w" strong="H5158">de</char> <char style="w" strong="H7200">la</char> <char style="w" strong="H5158">vallée</char>,</para>
+  <para style="q2" vid="SNG 6:11">
+    <char style="w" strong="H3381">pour</char> <char style="w" strong="H7200">voir</char> <char style="w" strong="H7200">si</char> <char style="w" strong="H7200">la</char> <char style="w" strong="H1612">vigne</char> bourgeonne,</para>
+  <para style="q2" vid="SNG 6:11">
+    <char style="w" strong="H7200">et</char> <char style="w" strong="H7200">les</char> <char style="w" strong="H7416">grenades</char> étaient <char style="w" strong="H3381">en</char> fleur.<verse eid="SNG 6:11" /></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="SNG 6:12" />
+    <char style="w" strong="H3808">Sans</char> <char style="w" strong="H5971">s'en</char> rendre compte,</para>
+  <para style="q2" vid="SNG 6:12">
+    <char style="w" strong="H7760">mon</char> <char style="w" strong="H5315">désir</char> <char style="w" strong="H5971">m'a</char> <char style="w" strong="H7760">placé</char> <char style="w" strong="H5971">avec</char> <char style="w" strong="H7760">les</char> <char style="w" strong="H4818">chars</char> <char style="w" strong="H5971">de</char> <char style="w" strong="H7760">mon</char> <char style="w" strong="H5971">peuple</char> royal.<verse eid="SNG 6:12" /></para>
+  <para style="sp">Amis</para>
+  <para style="q1">
+    <verse number="13" style="v" sid="SNG 6:13" />Reviens, reviens, Shulammite  !</para>
+  <para style="q2" vid="SNG 6:13">Reviens, reviens, que nous puissions te contempler.</para>
+  <para style="sp" vid="SNG 6:13">Amoureux</para>
+  <para style="q1" vid="SNG 6:13">Pourquoi désirez-vous contempler la Shulammite,</para>
+  <para style="q2" vid="SNG 6:13">comme lors de la danse de Mahanaïm  ?<verse eid="SNG 6:13" /></para>
+  <chapter eid="SNG 6" />
+  <chapter number="7" style="c" sid="SNG 7" />
+  <para style="p">
+    <verse number="1" style="v" sid="SNG 7:1" />Que <char style="w" strong="H7725">tes</char> pieds <char style="w" strong="H2372">sont</char> beaux <char style="w" strong="H2372">dans</char> <char style="w" strong="H7725">les</char> sandales, fille <char style="w" strong="H4264">de</char> prince !</para>
+  <para style="q2" vid="SNG 7:1">
+    <char style="w" strong="H7725">Vos</char> cuisses arrondies <char style="w" strong="H2372">sont</char> comme <char style="w" strong="H4264">des</char> bijoux,</para>
+  <para style="q2" vid="SNG 7:1">
+    <char style="w" strong="H7725">le</char> travail <char style="w" strong="H4264">des</char> mains d'un habile ouvrier.<verse eid="SNG 7:1" /></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 7:2" />Votre corps <char style="w" strong="H3027">est</char> <char style="w" strong="H3644">comme</char> <char style="w" strong="H3027">un</char> gobelet rond,</para>
+  <para style="q2" vid="SNG 7:2">aucun vin mélangé n'est souhaité.</para>
+  <para style="q1" vid="SNG 7:2">Votre taille <char style="w" strong="H3027">est</char> <char style="w" strong="H3644">comme</char> <char style="w" strong="H3027">un</char> tas <char style="w" strong="H1323">de</char> blé,</para>
+  <para style="q2" vid="SNG 7:2">entouré <char style="w" strong="H1323">de</char> lys.<verse eid="SNG 7:2" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 7:3" />Tes deux seins sont comme deux faons,</para>
+  <para style="q2" vid="SNG 7:3">qui sont <char style="w" strong="H7799">des</char> jumeaux d'un chevreuil.<verse eid="SNG 7:3" /></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 7:4" />Ton cou est comme une tour d'ivoire.</para>
+  <para style="q2" vid="SNG 7:4">Tes yeux <char style="w" strong="H8147">sont</char> comme <char style="w" strong="H8147">les</char> étangs de Heshbon, <char style="w" strong="H8147">à</char> la porte de Bathrabbim.</para>
+  <para style="q2" vid="SNG 7:4">Votre nez est comme la tour du Liban <char style="w" strong="H8147">qui</char> regarde vers Damas.<verse eid="SNG 7:4" /></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 7:5" />
+    <char style="w" strong="H5921">Ta</char> <char style="w" strong="H6440">tête</char> <char style="w" strong="H5869">est</char> <char style="w" strong="H6440">sur</char> <char style="w" strong="H6440">toi</char> <char style="w" strong="H5869">comme</char> <char style="w" strong="H6440">le</char> Carmel.</para>
+  <para style="q2" vid="SNG 7:5">
+    <char style="w" strong="H6440">Les</char> cheveux <char style="w" strong="H6440">de</char> <char style="w" strong="H5921">ta</char> <char style="w" strong="H6440">tête</char> <char style="w" strong="H8179">sont</char> violets.</para>
+  <para style="q2" vid="SNG 7:5">
+    <char style="w" strong="H6440">Le</char> <char style="w" strong="H6440">roi</char> <char style="w" strong="H5869">est</char> retenu captif <char style="w" strong="H6440">dans</char> <char style="w" strong="H6440">ses</char> tresses.<verse eid="SNG 7:5" /></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 7:6" />
+    <char style="w" strong="H7218">Comme</char> tu es belle <char style="w" strong="H4428">et</char> agréable,</para>
+  <para style="q2" vid="SNG 7:6">l'amour, <char style="w" strong="H7218">pour</char> <char style="w" strong="H4428">les</char> délices !<verse eid="SNG 7:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 7:7" />Ceci, ta stature, est comme un palmier,</para>
+  <para style="q2" vid="SNG 7:7">vos seins comme son fruit.<verse eid="SNG 7:7" /></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 7:8" />J'ai dit : « Je vais grimper sur <char style="w" strong="H2063">le</char> <char style="w" strong="H8558">palmier</char>.</para>
+  <para style="q2" vid="SNG 7:8">Je saisirai son fruit. »</para>
+  <para style="q1" vid="SNG 7:8">
+    <char style="w" strong="H2063">Que</char> vos <char style="w" strong="H7699">seins</char> soient comme <char style="w" strong="H2063">les</char> grappes <char style="w" strong="H6967">de</char> la vigne,</para>
+  <para style="q2" vid="SNG 7:8">l'odeur <char style="w" strong="H6967">de</char> ton haleine comme <char style="w" strong="H2063">les</char> pommes.<verse eid="SNG 7:8" /></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="SNG 7:9" />Ta bouche <char style="w" strong="H1961">est</char> <char style="w" strong="H1961">comme</char> <char style="w" strong="H5927">le</char> meilleur <char style="w" strong="H5927">des</char> vins,</para>
+  <para style="q2" vid="SNG 7:9">qui descend <char style="w" strong="H5927">en</char> douceur <char style="w" strong="H5927">pour</char> <char style="w" strong="H5927">ma</char> bien-aimée,</para>
+  <para style="q2" vid="SNG 7:9">glissant entre <char style="w" strong="H5927">les</char> lèvres <char style="w" strong="H5927">de</char> ceux qui sont endormis.<verse eid="SNG 7:9" /></para>
+  <para style="sp">Bien-aimé</para>
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 7:10" />Je suis <char style="w" strong="H1980">à</char> mon bien-aimé.</para>
+  <para style="q2" vid="SNG 7:10">
+    <char style="w" strong="H1980">Son</char> désir <char style="w" strong="H1730">est</char> envers moi.<verse eid="SNG 7:10" /></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 7:11" />Viens, mon bien-aimé ! Allons <char style="w" strong="H5921">dans</char> <char style="w" strong="H5921">les</char> champs.</para>
+  <para style="q2" vid="SNG 7:11">Allons nous loger <char style="w" strong="H5921">dans</char> <char style="w" strong="H5921">les</char> villages.<verse eid="SNG 7:11" /></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="SNG 7:12" />
+    <char style="w" strong="H3212">Allons</char> <char style="w" strong="H3318">de</char> bonne heure dans <char style="w" strong="H3318">les</char> vignes.</para>
+  <para style="q2" vid="SNG 7:12">Voyons si <char style="w" strong="H3318">la</char> vigne <char style="w" strong="H3212">a</char> bourgeonné,</para>
+  <para style="q2" vid="SNG 7:12">
+    <char style="w" strong="H3885">sa</char> fleur <char style="w" strong="H1730">est</char> ouverte,</para>
+  <para style="q2" vid="SNG 7:12">
+    <char style="w" strong="H3212">et</char> <char style="w" strong="H3318">les</char> grenades <char style="w" strong="H7704">sont</char> <char style="w" strong="H3212">en</char> fleur.</para>
+  <para style="q2" vid="SNG 7:12">
+    <char style="w" strong="H3318">Là</char>, <char style="w" strong="H3885">je</char> <char style="w" strong="H3212">te</char> donnerai <char style="w" strong="H3318">mon</char> <char style="w" strong="H1730">amour</char>.<verse eid="SNG 7:12" /></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="SNG 7:13" />
+    <char style="w" strong="H5414">Les</char> mandragores <char style="w" strong="H5414">produisent</char> <char style="w" strong="H5414">du</char> parfum.</para>
+  <para style="q2" vid="SNG 7:13">
+    <char style="w" strong="H5414">A</char> <char style="w" strong="H5414">nos</char> portes <char style="w" strong="H7200">se</char> trouvent <char style="w" strong="H5414">toutes</char> sortes <char style="w" strong="H5414">de</char> fruits précieux, nouveaux <char style="w" strong="H7200">et</char> anciens,</para>
+  <para style="q2" vid="SNG 7:13">
+    <char style="w" strong="H7200">que</char> j'ai <char style="w" strong="H5414">mis</char> <char style="w" strong="H5414">en</char> réserve <char style="w" strong="H5414">pour</char> <char style="w" strong="H7925">toi</char>, <char style="w" strong="H5414">mon</char> bien-aimé.<verse eid="SNG 7:13" /></para>
+  <chapter eid="SNG 7" />
+  <chapter number="8" style="c" sid="SNG 8" />
+  <para style="p">
+    <verse number="1" style="v" sid="SNG 8:1" />
+    <char style="w" strong="H5414">Oh</char>, <char style="w" strong="H1571">que</char> <char style="w" strong="H5414">tu</char> <char style="w" strong="H5414">sois</char> <char style="w" strong="H5414">comme</char> <char style="w" strong="H5414">mon</char> frère,</para>
+  <para style="q2" vid="SNG 8:1">
+    <char style="w" strong="H4310">qui</char> <char style="w" strong="H5414">a</char> <char style="w" strong="H3243">allaité</char> <char style="w" strong="H5414">au</char> <char style="w" strong="H7699">sein</char> <char style="w" strong="H2351">de</char> <char style="w" strong="H5414">ma</char> mère  !</para>
+  <para style="q1" vid="SNG 8:1">
+    <char style="w" strong="H3808">Si</char> <char style="w" strong="H1571">je</char> <char style="w" strong="H4310">vous</char> trouvais <char style="w" strong="H2351">dehors</char>, <char style="w" strong="H1571">je</char> <char style="w" strong="H4310">vous</char> <char style="w" strong="H5401">embrasserais</char>  ;</para>
+  <para style="q2" vid="SNG 8:1">oui, <char style="w" strong="H5414">et</char> personne <char style="w" strong="H3808">ne</char> <char style="w" strong="H4672">me</char> mépriserait.<verse eid="SNG 8:1" /></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="SNG 8:2" />Je te conduisais, je te faisais <char style="w" strong="H5090">entrer</char> <char style="w" strong="H3925">dans</char> <char style="w" strong="H3925">la</char> <char style="w" strong="H1004">maison</char> <char style="w" strong="H1004">de</char> ma mère,</para>
+  <para style="q2" vid="SNG 8:2">
+    <char style="w" strong="H3196">qui</char> m'instruirait.</para>
+  <para style="q1" vid="SNG 8:2">Je <char style="w" strong="H1004">vous</char> ferais <char style="w" strong="H8248">boire</char> <char style="w" strong="H1004">du</char> <char style="w" strong="H3196">vin</char> épicé,</para>
+  <para style="q2" vid="SNG 8:2">
+    <char style="w" strong="H1004">du</char> jus <char style="w" strong="H1004">de</char> ma <char style="w" strong="H7416">grenade</char>.<verse eid="SNG 8:2" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="SNG 8:3" />Sa <char style="w" strong="H3225">main</char> <char style="w" strong="H8040">gauche</char> serait <char style="w" strong="H8478">sous</char> <char style="w" strong="H8478">ma</char> <char style="w" strong="H7218">tête</char>.</para>
+  <para style="q2" vid="SNG 8:3">Sa <char style="w" strong="H3225">main</char> <char style="w" strong="H3225">droite</char> m'embrasserait.<verse eid="SNG 8:3" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="4" style="v" sid="SNG 8:4" />Je vous adjure, <char style="w" strong="H1323">filles</char> <char style="w" strong="H1323">de</char> <char style="w" strong="H3389">Jérusalem</char>,</para>
+  <para style="q2" vid="SNG 8:4">
+    <char style="w" strong="H5704">que</char> vous n'excitez <char style="w" strong="H2654">pas</char>, <char style="w" strong="H5704">ni</char> ne <char style="w" strong="H5782">réveillez</char> l'amour,</para>
+  <para style="q2" vid="SNG 8:4">jusqu'à <char style="w" strong="H4100">ce</char> qu'il <char style="w" strong="H3389">le</char> souhaite.<verse eid="SNG 8:4" /></para>
+  <para style="sp">Amis</para>
+  <para style="q1">
+    <verse number="5" style="v" sid="SNG 8:5" />
+    <char style="w" strong="H4310">Qui</char> <char style="w" strong="H1730">est</char> celui <char style="w" strong="H4310">qui</char> <char style="w" strong="H5927">monte</char> <char style="w" strong="H5927">du</char> <char style="w" strong="H4057">désert</char>,</para>
+  <para style="q2" vid="SNG 8:5">
+    <char style="w" strong="H5927">en</char> s'appuyant <char style="w" strong="H5921">sur</char> <char style="w" strong="H3205">son</char> bien-aimé  ?</para>
+  <para style="b" vid="SNG 8:5" />
+  <para style="sp" vid="SNG 8:5">Bien-aimé</para>
+  <para style="q1" vid="SNG 8:5">
+    <char style="w" strong="H8478">Sous</char> <char style="w" strong="H5927">le</char> <char style="w" strong="H8598">pommier</char>, je t'ai <char style="w" strong="H5782">réveillé</char>.</para>
+  <para style="q2" vid="SNG 8:5">C'est <char style="w" strong="H5927">là</char> <char style="w" strong="H2063">que</char> <char style="w" strong="H5921">ta</char> mère <char style="w" strong="H4310">t'a</char> conçu.</para>
+  <para style="q2" vid="SNG 8:5">
+    <char style="w" strong="H2063">Elle</char> était <char style="w" strong="H5927">en</char> <char style="w" strong="H3205">travail</char> <char style="w" strong="H5927">et</char> <char style="w" strong="H4310">t'a</char> mis <char style="w" strong="H5927">au</char> <char style="w" strong="H3205">monde</char>.<verse eid="SNG 8:5" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="6" style="v" sid="SNG 8:6" />Mets-moi <char style="w" strong="H7760">comme</char> <char style="w" strong="H7760">un</char> <char style="w" strong="H2368">sceau</char> <char style="w" strong="H5921">sur</char> <char style="w" strong="H7760">ton</char> <char style="w" strong="H3820">cœur</char>,</para>
+  <para style="q2" vid="SNG 8:6">
+    <char style="w" strong="H7760">comme</char> <char style="w" strong="H7760">un</char> <char style="w" strong="H2368">sceau</char> <char style="w" strong="H5921">sur</char> votre <char style="w" strong="H2220">bras</char>  ;</para>
+  <para style="q2" vid="SNG 8:6">
+    <char style="w" strong="H3588">car</char> l'amour <char style="w" strong="H3820">est</char> <char style="w" strong="H5794">fort</char> <char style="w" strong="H7760">comme</char> <char style="w" strong="H7760">la</char> <char style="w" strong="H4194">mort</char>.</para>
+  <para style="q2" vid="SNG 8:6">
+    <char style="w" strong="H7760">La</char> <char style="w" strong="H7068">jalousie</char> <char style="w" strong="H3820">est</char> aussi cruelle <char style="w" strong="H3588">que</char> <char style="w" strong="H7760">le</char> séjour <char style="w" strong="H7760">des</char> <char style="w" strong="H7585">morts</char>. <note caller="+" style="f"><char style="fr" closed="false">8.6 </char><char style="ft" closed="false">Sheol est le lieu des morts. </char></note></para>
+  <para style="q2" vid="SNG 8:6">
+    <char style="w" strong="H7760">Ses</char> éclairs <char style="w" strong="H3820">sont</char> <char style="w" strong="H7760">des</char> éclairs <char style="w" strong="H3820">de</char> feu,</para>
+  <para style="q2" vid="SNG 8:6">
+    <char style="w" strong="H7760">une</char> véritable <char style="w" strong="H7957">flamme</char> <char style="w" strong="H3820">de</char> Yahvé. <note caller="+" style="f"><char style="fr" closed="false">8.6 </char><char style="ft" closed="false">« Yahvé » est le nom propre de Dieu, parfois rendu par « Seigneur » ou « l'Éternel » dans d'autres traductions.</char></note><verse eid="SNG 8:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="SNG 8:7" />
+    <char style="w" strong="H1004">De</char> <char style="w" strong="H7227">nombreuses</char> <char style="w" strong="H4325">eaux</char> <char style="w" strong="H3808">ne</char> <char style="w" strong="H3201">peuvent</char> <char style="w" strong="H3518">éteindre</char> l'amour,</para>
+  <para style="q2" vid="SNG 8:7">
+    <char style="w" strong="H5414">les</char> inondations <char style="w" strong="H3808">ne</char> <char style="w" strong="H3201">peuvent</char> <char style="w" strong="H3201">pas</char> <char style="w" strong="H3808">non</char> <char style="w" strong="H3201">plus</char> <char style="w" strong="H5414">le</char> noyer.</para>
+  <para style="q1" vid="SNG 8:7">
+    <char style="w" strong="H3808">Si</char> <char style="w" strong="H5414">un</char> homme <char style="w" strong="H5414">donnait</char> <char style="w" strong="H5414">toutes</char> <char style="w" strong="H5414">les</char> <char style="w" strong="H1952">richesses</char> <char style="w" strong="H1004">de</char> <char style="w" strong="H5414">sa</char> <char style="w" strong="H1004">maison</char> <char style="w" strong="H3808">par</char> amour,</para>
+  <para style="q2" vid="SNG 8:7">il <char style="w" strong="H3808">serait</char> complètement méprisé.<verse eid="SNG 8:7" /></para>
+  <para style="sp">Frères</para>
+  <para style="q1">
+    <verse number="8" style="v" sid="SNG 8:8" />
+    <char style="w" strong="H6213">Nous</char> avons <char style="w" strong="H6213">une</char> <char style="w" strong="H6996">petite</char> sœur.</para>
+  <para style="q2" vid="SNG 8:8">Elle n'a <char style="w" strong="H6213">pas</char> <char style="w" strong="H3117">de</char> <char style="w" strong="H7699">seins</char>.</para>
+  <para style="q1" vid="SNG 8:8">
+    <char style="w" strong="H3117">Que</char> devons-nous <char style="w" strong="H6213">faire</char> <char style="w" strong="H6213">pour</char> <char style="w" strong="H3117">notre</char> soeur</para>
+  <para style="q2" vid="SNG 8:8">
+    <char style="w" strong="H6213">le</char> <char style="w" strong="H3117">jour</char> <char style="w" strong="H3117">où</char> <char style="w" strong="H3117">il</char> faudra <char style="w" strong="H1696">parler</char> <char style="w" strong="H6213">pour</char> elle  ?<verse eid="SNG 8:8" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="9" style="v" sid="SNG 8:9" />Si <char style="w" strong="H1931">elle</char> <char style="w" strong="H1931">est</char> <char style="w" strong="H1129">un</char> <char style="w" strong="H2346">mur</char>,</para>
+  <para style="q2" vid="SNG 8:9">
+    <char style="w" strong="H1129">nous</char> <char style="w" strong="H1129">construirons</char> <char style="w" strong="H5921">sur</char> <char style="w" strong="H1931">elle</char> <char style="w" strong="H1129">une</char> tourelle d'argent.</para>
+  <para style="q1" vid="SNG 8:9">Si <char style="w" strong="H1931">elle</char> <char style="w" strong="H1931">est</char> <char style="w" strong="H1129">une</char> <char style="w" strong="H1817">porte</char>,</para>
+  <para style="q2" vid="SNG 8:9">
+    <char style="w" strong="H1129">nous</char> l'entourerons <char style="w" strong="H2346">de</char> <char style="w" strong="H3871">planches</char> <char style="w" strong="H2346">de</char> cèdre.<verse eid="SNG 8:9" /></para>
+  <para style="sp">Bien-aimé</para>
+  <para style="q1">
+    <verse number="10" style="v" sid="SNG 8:10" />Je <char style="w" strong="H1961">suis</char> <char style="w" strong="H4672">une</char> <char style="w" strong="H2346">muraille</char>, <char style="w" strong="H5869">et</char> mes <char style="w" strong="H7699">seins</char> <char style="w" strong="H5869">sont</char> <char style="w" strong="H5869">comme</char> <char style="w" strong="H5869">des</char> <char style="w" strong="H4026">tours</char>,</para>
+  <para style="q2" vid="SNG 8:10">puis j'étais <char style="w" strong="H4672">dans</char> <char style="w" strong="H5869">ses</char> <char style="w" strong="H5869">yeux</char> <char style="w" strong="H5869">comme</char> quelqu'un <char style="w" strong="H5869">qui</char> <char style="w" strong="H5869">a</char> <char style="w" strong="H4672">trouvé</char> <char style="w" strong="H4672">la</char> <char style="w" strong="H7965">paix</char>.<verse eid="SNG 8:10" /></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="SNG 8:11" />
+    <char style="w" strong="H8010">Salomon</char> <char style="w" strong="H8010">avait</char> <char style="w" strong="H5414">une</char> <char style="w" strong="H3754">vigne</char> <char style="w" strong="H5414">à</char> Baal <char style="w" strong="H1174">Hamon</char>.</para>
+  <para style="q2" vid="SNG 8:11">
+    <char style="w" strong="H8010">Il</char> <char style="w" strong="H5414">a</char> loué <char style="w" strong="H5414">le</char> vignoble <char style="w" strong="H5414">à</char> <char style="w" strong="H5414">des</char> <char style="w" strong="H5201">gardiens</char>.</para>
+  <para style="q2" vid="SNG 8:11">Chacun <char style="w" strong="H5414">devait</char> apporter mille shekels<note caller="+" style="f"><char style="fr" closed="false">8.11 </char><char style="ft" closed="false">Un shekel pèse environ 10 grammes ou environ 0,35 once, donc 1000 shekels représentent environ 10 kilogrammes ou environ 22 livres.</char></note> d'argent <char style="w" strong="H5414">pour</char> <char style="w" strong="H5414">son</char> <char style="w" strong="H6529">fruit</char>.<verse eid="SNG 8:11" /></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="SNG 8:12" />
+    <char style="w" strong="H6440">Ma</char> <char style="w" strong="H6440">propre</char> <char style="w" strong="H3754">vigne</char> <char style="w" strong="H6440">est</char> <char style="w" strong="H6440">devant</char> <char style="w" strong="H6440">moi</char>.</para>
+  <para style="q2" vid="SNG 8:12">
+    <char style="w" strong="H6440">Les</char> mille <char style="w" strong="H6440">sont</char> <char style="w" strong="H6440">pour</char> <char style="w" strong="H6440">toi</char>, Solomon,</para>
+  <para style="q2" vid="SNG 8:12">deux <char style="w" strong="H3967">cents</char> <char style="w" strong="H6440">pour</char> <char style="w" strong="H6440">ceux</char> qui s'occupent <char style="w" strong="H6440">de</char> <char style="w" strong="H6440">ses</char> <char style="w" strong="H6529">fruits</char>.<verse eid="SNG 8:12" /></para>
+  <para style="sp">Amoureux</para>
+  <para style="q1">
+    <verse number="13" style="v" sid="SNG 8:13" />Vous <char style="w" strong="H6963">qui</char> <char style="w" strong="H3427">habitez</char> <char style="w" strong="H3427">dans</char> <char style="w" strong="H8085">les</char> <char style="w" strong="H1588">jardins</char>, <char style="w" strong="H3427">avec</char> <char style="w" strong="H6963">des</char> <char style="w" strong="H2270">amis</char> <char style="w" strong="H3427">à</char> <char style="w" strong="H8085">vos</char> côtés,</para>
+  <para style="q2" vid="SNG 8:13">fais-moi <char style="w" strong="H8085">entendre</char> <char style="w" strong="H8085">ta</char> <char style="w" strong="H6963">voix</char>  !<verse eid="SNG 8:13" /></para>
+  <para style="sp">Bien-aimé</para>
+  <para style="q1">
+    <verse number="14" style="v" sid="SNG 8:14" />Viens, mon bien-aimé  !</para>
+  <para style="q2" vid="SNG 8:14">Soyez comme <char style="w" strong="H5921">une</char> <char style="w" strong="H6643">gazelle</char> ou un jeune cerf <char style="w" strong="H5921">sur</char> <char style="w" strong="H1272">les</char> <char style="w" strong="H2022">montagnes</char> d'épices  !<verse eid="SNG 8:14" /></para>
+  <chapter eid="SNG 8" />
+</usx>

@@ -1,0 +1,1132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<usx version="3.0">
+  <book code="OBA" style="id">EN_ULT en_English_ltr Mon Mar 29 2021 09:50:08 GMT-0500 (Central Daylight Time) tc</book>
+  <para style="usfm">3.0</para>
+  <para style="ide">UTF-8</para>
+  <para style="h">Obadiah</para>
+  <para style="toc1">The Book of Obadiah</para>
+  <para style="toc2">Obadiah</para>
+  <para style="toc3">Oba</para>
+  <para style="mt">Obadiah </para>
+  <para style="ts" status="unknown">
+    <unmatched marker="*" /></para>
+  <chapter number="1" style="c" sid="OBA 1" />
+  <para style="p">
+    <verse number="1" style="v" sid="OBA 1:1" />
+    <verse eid="OBA 1:1" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="H2377" x-lemma="חָזוֹן" x-morph="He,Ncmsc" x-occurrence="1" x-occurrences="1" x-content="חֲז֖וֹן"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">The</char> <char style="w" x-occurrence="1" x-occurrences="1">vision</char> <char style="w" x-occurrence="1" x-occurrences="1">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H5662" x-lemma="עֹבַדְיָה" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="עֹֽבַדְיָ֑ה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Obadiah</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />: </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3541" x-lemma="כֹּה" x-morph="He,D" x-occurrence="1" x-occurrences="1" x-content="כֹּֽה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">thus</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0559" x-lemma="אָמַר" x-morph="He,Vqp3ms" x-occurrence="1" x-occurrences="1" x-content="אָמַר֩"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">says</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0136" x-lemma="אֲדֹנָי" x-morph="He,Ncmpc:Sp1cs" x-occurrence="1" x-occurrences="1" x-content="אֲדֹנָ֨⁠י"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">my</char> <char style="w" x-occurrence="1" x-occurrences="1">Lord</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3069" x-lemma="יְהֹוִה" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="יְהוִ֜ה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">Yahweh</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="l:H0123" x-lemma="אֱדֹם" x-morph="He,R:Np" x-occurrence="1" x-occurrences="1" x-content="לֶ⁠אֱד֗וֹם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">concerning</char> <char style="w" x-occurrence="1" x-occurrences="1">Edom</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />.</para>
+  <para style="q1" />
+  <para style="zaln-s" status="unknown">|x-strong="H8085" x-lemma="שָׁמַע" x-morph="He,Vqp1cp" x-occurrence="1" x-occurrences="1" x-content="שָׁמַ֜עְנוּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">We</char> <char style="w" x-occurrence="1" x-occurrences="1">have</char> <char style="w" x-occurrence="1" x-occurrences="1">heard</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H8052" x-lemma="שְׁמוּעָה" x-morph="He,Ncfsa" x-occurrence="1" x-occurrences="1" x-content="שְׁמוּעָ֨ה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">a</char> <char style="w" x-occurrence="1" x-occurrences="1">message</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="m:H0854" x-lemma="אֵת" x-morph="He,R:R" x-occurrence="1" x-occurrences="1" x-content="מֵ⁠אֵ֤ת"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">from</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3068" x-lemma="יְהֹוָה" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="יְהוָה֙"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">Yahweh</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H6735a" x-lemma="צִיר" x-morph="He,C:Ncmsa" x-occurrence="1" x-occurrences="1" x-content="וְ⁠צִיר֙"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">and</char> <char style="w" x-occurrence="2" x-occurrences="2">a</char> <char style="w" x-occurrence="1" x-occurrences="1">messenger</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H7971" x-lemma="שָׁלַח" x-morph="He,VPp3ms" x-occurrence="1" x-occurrences="1" x-content="שֻׁלָּ֔ח"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">has</char> <char style="w" x-occurrence="1" x-occurrences="1">been</char> <char style="w" x-occurrence="1" x-occurrences="1">sent</char> <char style="w" x-occurrence="1" x-occurrences="1">off</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="b:H1471a" x-lemma="גּוֹי" x-morph="He,Rd:Ncmpa" x-occurrence="1" x-occurrences="1" x-content="בַּ⁠גּוֹיִ֣ם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">among</char> <char style="w" x-occurrence="1" x-occurrences="1">the</char> <char style="w" x-occurrence="1" x-occurrences="1">nations</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />:</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="H6965b" x-lemma="קוּם" x-morph="He,Vqv2mp" x-occurrence="1" x-occurrences="1" x-content="ק֛וּמוּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Get</char> <char style="w" x-occurrence="1" x-occurrences="2">up</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />! </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H6965b" x-lemma="קוּם" x-morph="He,C:Vqh1cp" x-occurrence="1" x-occurrences="1" x-content="וְ⁠נָק֥וּמָה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">And</char> <char style="w" x-occurrence="1" x-occurrences="1">let</char> <char style="w" x-occurrence="1" x-occurrences="1">us</char> <char style="w" x-occurrence="1" x-occurrences="1">rise</char> <char style="w" x-occurrence="2" x-occurrences="2">up</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H5921a" x-lemma="עַל" x-morph="He,R:Sp3fs" x-occurrence="1" x-occurrences="1" x-content="עָלֶי⁠הָ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">against</char> <char style="w" x-occurrence="1" x-occurrences="1">her</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="l:H4421" x-lemma="מִלְחָמָה" x-morph="He,Rd:Ncfsa" x-occurrence="1" x-occurrences="1" x-content="לַ⁠מִּלְחָמָֽה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">for</char> <char style="w" x-occurrence="1" x-occurrences="1">battle</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />!</para>
+  <para style="q1">
+    <verse number="2" style="v" sid="OBA 1:2" />
+    <verse eid="OBA 1:2" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="H2009" x-lemma="הִנֵּה" x-morph="He,Tm" x-occurrence="1" x-occurrences="1" x-content="הִנֵּ֥ה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Behold</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="H5414" x-lemma="נָתַן" x-morph="He,Vqp1cs:Sp2ms" x-occurrence="1" x-occurrences="1" x-content="נְתַתִּ֖י⁠ךָ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">I</char> <char style="w" x-occurrence="1" x-occurrences="1">am</char> <char style="w" x-occurrence="1" x-occurrences="1">making</char> <char style="w" x-occurrence="1" x-occurrences="2">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H6996b" x-lemma="קָטָן" x-morph="He,Aamsa" x-occurrence="1" x-occurrences="1" x-content="קָטֹ֛ן"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">small</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="b:H1471a" x-lemma="גּוֹי" x-morph="He,Rd:Ncmpa" x-occurrence="1" x-occurrences="1" x-content="בַּ⁠גּוֹיִ֑ם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">among</char> <char style="w" x-occurrence="1" x-occurrences="1">the</char> <char style="w" x-occurrence="1" x-occurrences="1">nations</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />,</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="H0859a" x-lemma="אַתָּה" x-morph="He,Pp2ms" x-occurrence="1" x-occurrences="1" x-content="אַתָּ֖ה"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0959" x-lemma="בָּזָה" x-morph="He,Vqsmsa" x-occurrence="1" x-occurrences="1" x-content="בָּז֥וּי"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">are</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3966" x-lemma="מְאֹד" x-morph="He,D" x-occurrence="1" x-occurrences="1" x-content="מְאֹֽד"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">extremely</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0959" x-lemma="בָּזָה" x-morph="He,Vqsmsa" x-occurrence="1" x-occurrences="1" x-content="בָּז֥וּי"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">despised</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. </para>
+  <para style="ts" status="unknown">
+    <unmatched marker="*" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="OBA 1:3" />
+    <verse eid="OBA 1:3" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="H2087" x-lemma="זָדוֹן" x-morph="He,Ncmsc" x-occurrence="1" x-occurrences="1" x-content="זְד֤וֹן"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">The</char> <char style="w" x-occurrence="1" x-occurrences="1">pride</char> <char style="w" x-occurrence="1" x-occurrences="2">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3820a" x-lemma="לֵב" x-morph="He,Ncmsc:Sp2ms" x-occurrence="1" x-occurrences="1" x-content="לִבְּ⁠ךָ֙"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">your</char> <char style="w" x-occurrence="1" x-occurrences="2">heart</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H5377" x-lemma="נָשָׁא" x-morph="He,Vhp3ms:Sp2ms" x-occurrence="1" x-occurrences="1" x-content="הִשִּׁיאֶ֔⁠ךָ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">has</char> <char style="w" x-occurrence="1" x-occurrences="1">deceived</char> <char style="w" x-occurrence="1" x-occurrences="1">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />: </para>
+  <para style="zaln-s" status="unknown">|x-strong="H7931" x-lemma="שָׁכַן" x-morph="He,Vqrmsc" x-occurrence="1" x-occurrences="1" x-content="שֹׁכְנִ֥י"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">he</char> <char style="w" x-occurrence="1" x-occurrences="2">who</char> <char style="w" x-occurrence="1" x-occurrences="1">dwells</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="b:H2288" x-lemma="חֲגָו" x-morph="He,R:Ncmpc" x-occurrence="1" x-occurrences="1" x-content="בְ⁠חַגְוֵי"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="3">in</char> <char style="w" x-occurrence="1" x-occurrences="2">the</char> <char style="w" x-occurrence="1" x-occurrences="1">clefts</char> <char style="w" x-occurrence="2" x-occurrences="2">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H5553" x-lemma="סֶלַע" x-morph="He,Ncmsa" x-occurrence="1" x-occurrences="1" x-content="סֶּ֖לַע"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">the</char> <char style="w" x-occurrence="1" x-occurrences="1">rock</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="H4791" x-lemma="מָרוֹם" x-morph="He,Ncmsc" x-occurrence="1" x-occurrences="1" x-content="מְר֣וֹם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">lofty</char> <char style="w" x-occurrence="2" x-occurrences="3">in</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H7675" x-lemma="שֶׁבֶת" x-morph="He,Ncfsc:Sp3ms" x-occurrence="1" x-occurrences="1" x-content="שִׁבְתּ֑⁠וֹ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">his</char> <char style="w" x-occurrence="1" x-occurrences="1">dwelling</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />;</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="H0559" x-lemma="אָמַר" x-morph="He,Vqrmsa" x-occurrence="1" x-occurrences="1" x-content="אֹמֵ֣ר"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">he</char> <char style="w" x-occurrence="2" x-occurrences="2">who</char> <char style="w" x-occurrence="1" x-occurrences="1">says</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="b:H3820a" x-lemma="לֵב" x-morph="He,R:Ncmsc:Sp3ms" x-occurrence="1" x-occurrences="1" x-content="בְּ⁠לִבּ֔⁠וֹ"<unmatched marker="*" /><char style="w" x-occurrence="3" x-occurrences="3">in</char> <char style="w" x-occurrence="2" x-occurrences="2">his</char> <char style="w" x-occurrence="2" x-occurrences="2">heart</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, “</para>
+  <para style="zaln-s" status="unknown">|x-strong="H4310" x-lemma="מִי" x-morph="He,Ti" x-occurrence="1" x-occurrences="1" x-content="מִ֥י"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Who</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3381" x-lemma="יָרַד" x-morph="He,Vhi3ms:Sp1cs" x-occurrence="1" x-occurrences="1" x-content="יוֹרִדֵ֖⁠נִי"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">will</char> <char style="w" x-occurrence="1" x-occurrences="1">bring</char> <char style="w" x-occurrence="1" x-occurrences="1">me</char> <char style="w" x-occurrence="1" x-occurrences="1">down</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0776" x-lemma="אֶרֶץ" x-morph="He,Ncbsa" x-occurrence="1" x-occurrences="1" x-content="אָֽרֶץ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">to</char> <char style="w" x-occurrence="1" x-occurrences="1">earth</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />?”</para>
+  <para style="q1">
+    <verse number="4" style="v" sid="OBA 1:4" />
+    <verse eid="OBA 1:4" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0518a" x-lemma="אִם" x-morph="He,C" x-occurrence="1" x-occurrences="1" x-content="אִם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">If</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H1361" x-lemma="גָּבַהּ" x-morph="He,Vhi2ms" x-occurrence="1" x-occurrences="1" x-content="תַּגְבִּ֣יהַּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">you</char> <char style="w" x-occurrence="1" x-occurrences="1">make</char> <char style="w" x-occurrence="1" x-occurrences="1">yourself</char> <char style="w" x-occurrence="1" x-occurrences="1">high</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="k:H5404" x-lemma="נֶשֶׁר" x-morph="He,Rd:Ncmsa" x-occurrence="1" x-occurrences="1" x-content="כַּ⁠נֶּ֔שֶׁר"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">like</char> <char style="w" x-occurrence="1" x-occurrences="2">the</char> <char style="w" x-occurrence="1" x-occurrences="1">eagle</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />,</para>
+  <para style="q1" />
+  <para style="zaln-s" status="unknown">|x-strong="c:H0518a" x-lemma="אִם" x-morph="He,C:C" x-occurrence="1" x-occurrences="1" x-content="וְ⁠אִם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">even</char> <char style="w" x-occurrence="1" x-occurrences="1">if</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H7064" x-lemma="קֵן" x-morph="He,Ncmsc:Sp2ms" x-occurrence="1" x-occurrences="1" x-content="קִנֶּ֑⁠ךָ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">your</char> <char style="w" x-occurrence="1" x-occurrences="1">nest</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H7760a" x-lemma="שׂוּם" x-morph="He,Vqsmsa" x-occurrence="1" x-occurrences="1" x-content="שִׂ֣ים"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">is</char> <char style="w" x-occurrence="1" x-occurrences="1">set</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0996" x-lemma="בֵּין" x-morph="He,R" x-occurrence="1" x-occurrences="1" x-content="בֵּ֥ין"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">between</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3556" x-lemma="כּוֹכָב" x-morph="He,Ncmpa" x-occurrence="1" x-occurrences="1" x-content="כּֽוֹכָבִ֖ים"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">the</char> <char style="w" x-occurrence="1" x-occurrences="1">stars</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />,</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="m:H8033" x-lemma="שָׁם" x-morph="He,R:D" x-occurrence="1" x-occurrences="1" x-content="מִ⁠שָּׁ֥ם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">from</char> <char style="w" x-occurrence="1" x-occurrences="1">there</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3381" x-lemma="יָרַד" x-morph="He,Vhi1cs:Sp2ms" x-occurrence="1" x-occurrences="1" x-content="אוֹרִֽידְ⁠ךָ֖"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">I</char> <char style="w" x-occurrence="1" x-occurrences="1">will</char> <char style="w" x-occurrence="1" x-occurrences="1">bring</char> <char style="w" x-occurrence="2" x-occurrences="2">you</char> <char style="w" x-occurrence="1" x-occurrences="1">down</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />: </para>
+  <para style="zaln-s" status="unknown">|x-strong="H5002" x-lemma="נְאֻם" x-morph="He,Ncmsc" x-occurrence="1" x-occurrences="1" x-content="נְאֻם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">a</char> <char style="w" x-occurrence="1" x-occurrences="1">declaration</char> <char style="w" x-occurrence="1" x-occurrences="1">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3068" x-lemma="יְהֹוָה" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="יְהוָֽה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Yahweh</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. </para>
+  <para style="ts" status="unknown">
+    <unmatched marker="*" /></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="OBA 1:5" />
+    <verse eid="OBA 1:5" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0518a" x-lemma="אִם" x-morph="He,C" x-occurrence="1" x-occurrences="3" x-content="אִם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">If</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H1590" x-lemma="גַּנָּב" x-morph="He,Ncmpa" x-occurrence="1" x-occurrences="1" x-content="גַּנָּבִ֤ים"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">thieves</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0935" x-lemma="בּוֹא" x-morph="He,Vqp3cp" x-occurrence="1" x-occurrences="1" x-content="בָּאֽוּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">came</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="l" x-lemma="" x-morph="He,R:Sp2ms" x-occurrence="1" x-occurrences="1" x-content="לְ⁠ךָ֙"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">to</char> <char style="w" x-occurrence="1" x-occurrences="3">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />,</para>
+  <para style="q1" />
+  <para style="zaln-s" status="unknown">|x-strong="H0518a" x-lemma="אִם" x-morph="He,C" x-occurrence="2" x-occurrences="3" x-content="אִם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">and</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H7703" x-lemma="שָׁדַד" x-morph="He,Vqrmpc" x-occurrence="1" x-occurrences="1" x-content="שׁ֣וֹדְדֵי"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">plunderers</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3915" x-lemma="לַיִל" x-morph="He,Ncmsa" x-occurrence="1" x-occurrences="1" x-content="לַ֔יְלָה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">by</char> <char style="w" x-occurrence="1" x-occurrences="1">night</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> (</para>
+  <para style="zaln-s" status="unknown">|x-strong="H0349a" x-lemma="אֵיךְ" x-morph="He,Ti" x-occurrence="1" x-occurrences="1" x-content="אֵ֣יךְ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">how</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H1820" x-lemma="דָּמָה" x-morph="He,VNp2ms" x-occurrence="1" x-occurrences="1" x-content="נִדְמֵ֔יתָה"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="3">you</char> <char style="w" x-occurrence="1" x-occurrences="1">are</char> <char style="w" x-occurrence="1" x-occurrences="1">being</char> <char style="w" x-occurrence="1" x-occurrences="1">destroyed</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />!), </para>
+  <para style="zaln-s" status="unknown">|x-strong="i:H3808" x-lemma="לֹא" x-morph="He,Ti:Tn" x-occurrence="1" x-occurrences="1" x-content="הֲ⁠ל֥וֹא"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">would</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H1589" x-lemma="גָּנַב" x-morph="He,Vqi3mp" x-occurrence="1" x-occurrences="1" x-content="יִגְנְב֖וּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">they</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="i:H3808" x-lemma="לֹא" x-morph="He,Ti:Tn" x-occurrence="1" x-occurrences="1" x-content="הֲ⁠ל֥וֹא"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">not</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H1589" x-lemma="גָּנַב" x-morph="He,Vqi3mp" x-occurrence="1" x-occurrences="1" x-content="יִגְנְב֖וּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">steal</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H1767" x-lemma="דַּי" x-morph="He,Ncmsc:Sp3mp" x-occurrence="1" x-occurrences="1" x-content="דַּיָּ֑⁠ם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">enough</char> <char style="w" x-occurrence="1" x-occurrences="1">for</char> <char style="w" x-occurrence="1" x-occurrences="1">them</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />?</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="H0518a" x-lemma="אִם" x-morph="He,C" x-occurrence="3" x-occurrences="3" x-content="אִם"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">If</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H1219" x-lemma="בָּצַר" x-morph="He,Vqrmpa" x-occurrence="1" x-occurrences="1" x-content="בֹּֽצְרִים֙"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">grape</char>-<char style="w" x-occurrence="1" x-occurrences="1">cutters</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0935" x-lemma="בּוֹא" x-morph="He,Vqp3cp" x-occurrence="1" x-occurrences="1" x-content="בָּ֣אוּ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">came</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="l" x-lemma="" x-morph="He,R:Sp2fs" x-occurrence="1" x-occurrences="1" x-content="לָ֔⁠ךְ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">to</char> <char style="w" x-occurrence="3" x-occurrences="3">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="i:H3808" x-lemma="לֹא" x-morph="He,Ti:Tn" x-occurrence="1" x-occurrences="1" x-content="הֲ⁠ל֖וֹא"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">would</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H7604" x-lemma="שָׁאַר" x-morph="He,Vhi3mp" x-occurrence="1" x-occurrences="1" x-content="יַשְׁאִ֥ירוּ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">they</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="i:H3808" x-lemma="לֹא" x-morph="He,Ti:Tn" x-occurrence="1" x-occurrences="1" x-content="הֲ⁠ל֖וֹא"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">not</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H7604" x-lemma="שָׁאַר" x-morph="He,Vhi3mp" x-occurrence="1" x-occurrences="1" x-content="יַשְׁאִ֥ירוּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">leave</char> <char style="w" x-occurrence="1" x-occurrences="1">behind</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H5955" x-lemma="עֹלֵלָה" x-morph="He,Ncfpa" x-occurrence="1" x-occurrences="1" x-content="עֹלֵלֽוֹת"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">gleanings</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />?</para>
+  <para style="q1">
+    <verse number="6" style="v" sid="OBA 1:6" />
+    <verse eid="OBA 1:6" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0349a" x-lemma="אֵיךְ" x-morph="He,Ti" x-occurrence="1" x-occurrences="1" x-content="אֵ֚יךְ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">How</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H6215" x-lemma="עֵשָׂו" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="עֵשָׂ֔ו"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Esau</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H2664" x-lemma="חָפַשׂ" x-morph="He,VNp3cp" x-occurrence="1" x-occurrences="1" x-content="נֶחְפְּשׂ֣וּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">is</char> <char style="w" x-occurrence="1" x-occurrences="2">being</char> <char style="w" x-occurrence="1" x-occurrences="1">ransacked</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />,</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="H4710" x-lemma="מִצְפֻּן" x-morph="He,Ncmpc:Sp3ms" x-occurrence="1" x-occurrences="1" x-content="מַצְפֻּנָֽי⁠ו"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">his</char> <char style="w" x-occurrence="1" x-occurrences="1">hidden</char> <char style="w" x-occurrence="1" x-occurrences="1">treasures</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H1158" x-lemma="בָּעָה" x-morph="He,VNp3cp" x-occurrence="1" x-occurrences="1" x-content="נִבְע֖וּ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">being</char> <char style="w" x-occurrence="1" x-occurrences="1">searched</char> <char style="w" x-occurrence="1" x-occurrences="1">out</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />!</para>
+  <para style="q1">
+    <verse number="7" style="v" sid="OBA 1:7" />
+    <verse eid="OBA 1:7" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3605" x-lemma="כֹּל" x-morph="He,Ncmsc" x-occurrence="1" x-occurrences="1" x-content="כֹּ֚ל"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">All</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0376" x-lemma="אִישׁ" x-morph="He,Ncmpc" x-occurrence="1" x-occurrences="2" x-content="אַנְשֵׁ֣י"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">the</char> <char style="w" x-occurrence="1" x-occurrences="2">men</char> <char style="w" x-occurrence="1" x-occurrences="3">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H1285" x-lemma="בְּרִית" x-morph="He,Ncfsc:Sp2ms" x-occurrence="1" x-occurrences="1" x-content="בְרִיתֶ֔⁠ךָ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="3">your</char> <char style="w" x-occurrence="1" x-occurrences="1">covenant</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H7971" x-lemma="שָׁלַח" x-morph="He,Vpp3cp:Sp2ms" x-occurrence="1" x-occurrences="1" x-content="שִׁלְּח֗וּ⁠ךָ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="3">are</char> <char style="w" x-occurrence="1" x-occurrences="1">sending</char> <char style="w" x-occurrence="1" x-occurrences="4">you</char> <char style="w" x-occurrence="1" x-occurrences="1">away</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H5704" x-lemma="עַד" x-morph="He,R" x-occurrence="1" x-occurrences="1" x-content="עַֽד"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">as</char> <char style="w" x-occurrence="1" x-occurrences="1">far</char> <char style="w" x-occurrence="2" x-occurrences="2">as</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="d:H1366" x-lemma="גְּבוּל" x-morph="He,Td:Ncmsa" x-occurrence="1" x-occurrences="1" x-content="הַ⁠גְּב֣וּל"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">the</char> <char style="w" x-occurrence="1" x-occurrences="1">border</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />.</para>
+  <para style="q1" />
+  <para style="zaln-s" status="unknown">|x-strong="H0376" x-lemma="אִישׁ" x-morph="He,Ncmpc" x-occurrence="2" x-occurrences="2" x-content="אַנְשֵׁ֣י"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">The</char> <char style="w" x-occurrence="2" x-occurrences="2">men</char> <char style="w" x-occurrence="2" x-occurrences="3">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H7965" x-lemma="שָׁלוֹם" x-morph="He,Ncmsc:Sp2ms" x-occurrence="1" x-occurrences="1" x-content="שְׁלֹמֶ֑⁠ךָ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="3">your</char> <char style="w" x-occurrence="1" x-occurrences="1">peace</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H5377" x-lemma="נָשָׁא" x-morph="He,Vhp3cp:Sp2ms" x-occurrence="1" x-occurrences="1" x-content="הִשִּׁיא֛וּ⁠ךָ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="3">are</char> <char style="w" x-occurrence="1" x-occurrences="1">deceiving</char> <char style="w" x-occurrence="2" x-occurrences="4">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3201" x-lemma="יָכֹל" x-morph="He,Vqp3cp" x-occurrence="1" x-occurrences="1" x-content="יָכְל֥וּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">and</char> <char style="w" x-occurrence="3" x-occurrences="3">are</char> <char style="w" x-occurrence="1" x-occurrences="1">prevailing</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="l" x-lemma="" x-morph="He,R:Sp2ms" x-occurrence="1" x-occurrences="1" x-content="לְ⁠ךָ֖"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">against</char> <char style="w" x-occurrence="3" x-occurrences="4">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />.</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="H7760a" x-lemma="שׂוּם" x-morph="He,Vqi3mp" x-occurrence="1" x-occurrences="1" x-content="יָשִׂ֤ימוּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">They</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3899" x-lemma="לֶחֶם" x-morph="He,Ncbsc:Sp2ms" x-occurrence="1" x-occurrences="1" x-content="לַחְמְ⁠ךָ֗"<unmatched marker="*" /><char style="w" x-occurrence="3" x-occurrences="3">of</char> <char style="w" x-occurrence="3" x-occurrences="3">your</char> <char style="w" x-occurrence="1" x-occurrences="1">bread</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H7760a" x-lemma="שׂוּם" x-morph="He,Vqi3mp" x-occurrence="1" x-occurrences="1" x-content="יָשִׂ֤ימוּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">will</char> <char style="w" x-occurrence="1" x-occurrences="1">set</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H4204" x-lemma="מָזוֹר" x-morph="He,Ncmsa" x-occurrence="1" x-occurrences="1" x-content="מָזוֹר֙"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">a</char> <char style="w" x-occurrence="1" x-occurrences="1">trap</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H8478" x-lemma="תַּחַת" x-morph="He,R:Sp2ms" x-occurrence="1" x-occurrences="1" x-content="תַּחְתֶּ֔י⁠ךָ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">under</char> <char style="w" x-occurrence="4" x-occurrences="4">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0369" x-lemma="אַיִן" x-morph="He,Tn" x-occurrence="1" x-occurrences="1" x-content="אֵ֥ין"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">There</char> <char style="w" x-occurrence="1" x-occurrences="1">is</char> <char style="w" x-occurrence="1" x-occurrences="1">no</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H8394" x-lemma="תָּבוּן" x-morph="He,Ncfsa" x-occurrence="1" x-occurrences="1" x-content="תְּבוּנָ֖ה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">understanding</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="b" x-lemma="" x-morph="He,R:Sp3ms" x-occurrence="1" x-occurrences="1" x-content="בּֽ⁠וֹ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">in</char> <char style="w" x-occurrence="1" x-occurrences="1">him</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. </para>
+  <para style="ts" status="unknown">
+    <unmatched marker="*" /></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="OBA 1:8" />
+    <verse eid="OBA 1:8" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="i:H3808" x-lemma="לֹא" x-morph="He,Ti:Tn" x-occurrence="1" x-occurrences="1" x-content="הֲ⁠ל֛וֹא"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Will</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H0006" x-lemma="אָבַד" x-morph="He,C:Vhq1cs" x-occurrence="1" x-occurrences="1" x-content="וְ⁠הַאֲבַדְתִּ֤י"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">I</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="i:H3808" x-lemma="לֹא" x-morph="He,Ti:Tn" x-occurrence="1" x-occurrences="1" x-content="הֲ⁠ל֛וֹא"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">not</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="b:H3117" x-lemma="יוֹם" x-morph="He,Rd:Ncmsa" x-occurrence="1" x-occurrences="1" x-content="בַּ⁠יּ֥וֹם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">on</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="d:H1931" x-lemma="הוּא" x-morph="He,Td:Pp3ms" x-occurrence="1" x-occurrences="1" x-content="הַ⁠ה֖וּא"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">that</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="b:H3117" x-lemma="יוֹם" x-morph="He,Rd:Ncmsa" x-occurrence="1" x-occurrences="1" x-content="בַּ⁠יּ֥וֹם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">day</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> (</para>
+  <para style="zaln-s" status="unknown">|x-strong="H5002" x-lemma="נְאֻם" x-morph="He,Ncmsc" x-occurrence="1" x-occurrences="1" x-content="נְאֻם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">a</char> <char style="w" x-occurrence="1" x-occurrences="1">declaration</char> <char style="w" x-occurrence="1" x-occurrences="2">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3068" x-lemma="יְהֹוָה" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="יְהוָ֑ה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Yahweh</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />)</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="c:H0006" x-lemma="אָבַד" x-morph="He,C:Vhq1cs" x-occurrence="1" x-occurrences="1" x-content="וְ⁠הַאֲבַדְתִּ֤י"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">destroy</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H2450" x-lemma="חָכָם" x-morph="He,Aampa" x-occurrence="1" x-occurrences="1" x-content="חֲכָמִים֙"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">wise</char> <char style="w" x-occurrence="1" x-occurrences="1">men</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="m:H0123" x-lemma="אֱדֹם" x-morph="He,R:Np" x-occurrence="1" x-occurrences="1" x-content="מֵֽ⁠אֱד֔וֹם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">from</char> <char style="w" x-occurrence="1" x-occurrences="1">Edom</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />,</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="c:H8394" x-lemma="תָּבוּן" x-morph="He,C:Ncfsa" x-occurrence="1" x-occurrences="1" x-content="וּ⁠תְבוּנָ֖ה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">and</char> <char style="w" x-occurrence="1" x-occurrences="1">understanding</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="m:H2022" x-lemma="הַר" x-morph="He,R:Ncmsc" x-occurrence="1" x-occurrences="1" x-content="מֵ⁠הַ֥ר"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">from</char> <char style="w" x-occurrence="1" x-occurrences="1">the</char> <char style="w" x-occurrence="1" x-occurrences="1">mountain</char> <char style="w" x-occurrence="2" x-occurrences="2">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H6215" x-lemma="עֵשָׂו" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="עֵשָֽׂו"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Esau</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />?</para>
+  <para style="q1">
+    <verse number="9" style="v" sid="OBA 1:9" />
+    <verse eid="OBA 1:9" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H2865" x-lemma="חָתַת" x-morph="He,C:Vqq3cp" x-occurrence="1" x-occurrences="1" x-content="וְ⁠חַתּ֥וּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">And</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H1368" x-lemma="גִּבּוֹר" x-morph="He,Aampc:Sp2ms" x-occurrence="1" x-occurrences="1" x-content="גִבּוֹרֶ֖י⁠ךָ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">your</char> <char style="w" x-occurrence="1" x-occurrences="1">mighty</char> <char style="w" x-occurrence="1" x-occurrences="1">men</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H2865" x-lemma="חָתַת" x-morph="He,C:Vqq3cp" x-occurrence="1" x-occurrences="1" x-content="וְ⁠חַתּ֥וּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">will</char> <char style="w" x-occurrence="1" x-occurrences="2">be</char> <char style="w" x-occurrence="1" x-occurrences="1">dismayed</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="H8487" x-lemma="תֵּימָן" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="תֵּימָ֑ן"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">O</char> <char style="w" x-occurrence="1" x-occurrences="1">Teman</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />,</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="H4616" x-lemma="מַעַן" x-morph="He,R" x-occurrence="1" x-occurrences="1" x-content="לְמַ֧עַן"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">so</char> <char style="w" x-occurrence="1" x-occurrences="1">that</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0376" x-lemma="אִישׁ" x-morph="He,Ncmsa" x-occurrence="1" x-occurrences="1" x-content="אִ֛ישׁ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">a</char> <char style="w" x-occurrence="1" x-occurrences="1">man</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3772" x-lemma="כָּרַת" x-morph="He,VNi3ms" x-occurrence="1" x-occurrences="1" x-content="יִכָּֽרֶת"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">will</char> <char style="w" x-occurrence="2" x-occurrences="2">be</char> <char style="w" x-occurrence="1" x-occurrences="1">cut</char> <char style="w" x-occurrence="1" x-occurrences="1">off</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="m:H2022" x-lemma="הַר" x-morph="He,R:Ncmsc" x-occurrence="1" x-occurrences="1" x-content="מֵ⁠הַ֥ר"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">from</char> <char style="w" x-occurrence="1" x-occurrences="1">the</char> <char style="w" x-occurrence="1" x-occurrences="1">mountain</char> <char style="w" x-occurrence="1" x-occurrences="1">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H6215" x-lemma="עֵשָׂו" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="עֵשָׂ֖ו"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Esau</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="m:H6993" x-lemma="קֶטֶל" x-morph="He,R:Ncmsa" x-occurrence="1" x-occurrences="1" x-content="מִ⁠קָּֽטֶל"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">by</char> <char style="w" x-occurrence="1" x-occurrences="1">slaughter</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />.</para>
+  <para style="q1">
+    <verse number="10" style="v" sid="OBA 1:10" />
+    <verse eid="OBA 1:10" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="m:H2555" x-lemma="חָמָס" x-morph="He,R:Ncmsc" x-occurrence="1" x-occurrences="1" x-content="מֵ⁠חֲמַ֛ס"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Because</char> <char style="w" x-occurrence="1" x-occurrences="1">of</char> <char style="w" x-occurrence="1" x-occurrences="1">violence</char> <char style="w" x-occurrence="1" x-occurrences="1">against</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0251" x-lemma="אָח" x-morph="He,Ncmsc:Sp2ms" x-occurrence="1" x-occurrences="1" x-content="אָחִ֥י⁠ךָ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">your</char> <char style="w" x-occurrence="1" x-occurrences="1">brother</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3290" x-lemma="יַעֲקֹב" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="יַעֲקֹ֖ב"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Jacob</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0955" x-lemma="בּוּשָׁה" x-morph="He,Ncfsa" x-occurrence="1" x-occurrences="1" x-content="בוּשָׁ֑ה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">shame</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3680" x-lemma="כָּסָה" x-morph="He,Vpi3fs:Sp2ms" x-occurrence="1" x-occurrences="1" x-content="תְּכַסְּ⁠ךָ֣"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">will</char> <char style="w" x-occurrence="1" x-occurrences="1">cover</char> <char style="w" x-occurrence="1" x-occurrences="2">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />,</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="c:H3772" x-lemma="כָּרַת" x-morph="He,C:VNq2ms" x-occurrence="1" x-occurrences="1" x-content="וְ⁠נִכְרַ֖תָּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">and</char> <char style="w" x-occurrence="2" x-occurrences="2">you</char> <char style="w" x-occurrence="2" x-occurrences="2">will</char> <char style="w" x-occurrence="1" x-occurrences="1">be</char> <char style="w" x-occurrence="1" x-occurrences="1">cut</char> <char style="w" x-occurrence="1" x-occurrences="1">off</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="l:H5769" x-lemma="עוֹלָם" x-morph="He,R:Ncmsa" x-occurrence="1" x-occurrences="1" x-content="לְ⁠עוֹלָֽם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">for</char> <char style="w" x-occurrence="1" x-occurrences="1">eternity</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. </para>
+  <para style="ts" status="unknown">
+    <unmatched marker="*" /></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="OBA 1:11" />
+    <verse eid="OBA 1:11" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="b:H3117" x-lemma="יוֹם" x-morph="He,R:Ncmsc" x-occurrence="1" x-occurrences="1" x-content="בְּ⁠יוֹם֙"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">On</char> <char style="w" x-occurrence="1" x-occurrences="2">the</char> <char style="w" x-occurrence="1" x-occurrences="2">day</char> <char style="w" x-occurrence="1" x-occurrences="2">that</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H5975" x-lemma="עָמַד" x-morph="He,Vqc:Sp2ms" x-occurrence="1" x-occurrences="1" x-content="עֲמָֽדְ⁠ךָ֣"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">you</char> <char style="w" x-occurrence="1" x-occurrences="1">stood</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="m:H5048" x-lemma="נֶגֶד" x-morph="He,R:R" x-occurrence="1" x-occurrences="1" x-content="מִ⁠נֶּ֔גֶד"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">opposite</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />,</para>
+  <para style="q1" />
+  <para style="zaln-s" status="unknown">|x-strong="b:H3117" x-lemma="יוֹם" x-morph="He,R:Ncmsc" x-occurrence="1" x-occurrences="1" x-content="בְּ⁠י֛וֹם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">on</char> <char style="w" x-occurrence="2" x-occurrences="2">the</char> <char style="w" x-occurrence="2" x-occurrences="2">day</char> <char style="w" x-occurrence="2" x-occurrences="2">that</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H2114a" x-lemma="זוּר" x-morph="He,Aampa" x-occurrence="1" x-occurrences="1" x-content="זָרִ֖ים"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">strangers</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H7617" x-lemma="שָׁבָה" x-morph="He,Vqc" x-occurrence="1" x-occurrences="1" x-content="שְׁב֥וֹת"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">took</char> <char style="w" x-occurrence="1" x-occurrences="1">captive</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H2428" x-lemma="חַיִל" x-morph="He,Ncmsc:Sp3ms" x-occurrence="1" x-occurrences="1" x-content="חֵיל֑⁠וֹ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">his</char> <char style="w" x-occurrence="1" x-occurrences="1">wealth</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />,</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="c:H5237" x-lemma="נׇכְרִי" x-morph="He,C:Aampa" x-occurrence="1" x-occurrences="1" x-content="וְ⁠נָכְרִ֞ים"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">and</char> <char style="w" x-occurrence="1" x-occurrences="1">foreigners</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0935" x-lemma="בּוֹא" x-morph="He,Vqp3cp" x-occurrence="1" x-occurrences="1" x-content="בָּ֣אוּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">entered</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H8179" x-lemma="שַׁעַר" x-morph="He,Ncmsc:Sp3mp" x-occurrence="1" x-occurrences="1" x-content="שְׁעָרָ֗יו"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">his</char> <char style="w" x-occurrence="1" x-occurrences="1">gates</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H5921a" x-lemma="עַל" x-morph="He,C:R" x-occurrence="1" x-occurrences="1" x-content="וְ⁠עַל"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">and</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3032" x-lemma="יָדַד" x-morph="He,Vqp3cp" x-occurrence="1" x-occurrences="1" x-content="יַדּ֣וּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">cast</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H1486" x-lemma="גּוֹרָל" x-morph="He,Ncmsa" x-occurrence="1" x-occurrences="1" x-content="גוֹרָ֔ל"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">lots</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H5921a" x-lemma="עַל" x-morph="He,C:R" x-occurrence="1" x-occurrences="1" x-content="וְ⁠עַל"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">for</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3389" x-lemma="יְרוּשָׁלִַ͏ם" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="יְרוּשָׁלִַ֨ם֙"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Jerusalem</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />,</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="H0859a" x-lemma="אַתָּה" x-morph="He,Pp2ms" x-occurrence="1" x-occurrences="1" x-content="אַתָּ֖ה"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H1571" x-lemma="גַּם" x-morph="He,Ta" x-occurrence="1" x-occurrences="1" x-content="גַּם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">also</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="k:H0259" x-lemma="אֶחָד" x-morph="He,R:Acmsc" x-occurrence="1" x-occurrences="1" x-content="כְּ⁠אַחַ֥ד"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">were</char> <char style="w" x-occurrence="1" x-occurrences="1">like</char> <char style="w" x-occurrence="1" x-occurrences="1">one</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="m" x-lemma="" x-morph="He,R:Sp3mp" x-occurrence="1" x-occurrences="1" x-content="מֵ⁠הֶֽם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">of</char> <char style="w" x-occurrence="1" x-occurrences="1">them</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />.</para>
+  <para style="q1">
+    <verse number="12" style="v" sid="OBA 1:12" />
+    <verse eid="OBA 1:12" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H0408" x-lemma="אַל" x-morph="He,C:Tn" x-occurrence="1" x-occurrences="3" x-content="וְ⁠אַל"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">But</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H7200" x-lemma="רָאָה" x-morph="He,Vqj2ms" x-occurrence="1" x-occurrences="1" x-content="תֵּ֤רֶא"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="3">you</char> <char style="w" x-occurrence="1" x-occurrences="3">should</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H0408" x-lemma="אַל" x-morph="He,C:Tn" x-occurrence="1" x-occurrences="3" x-content="וְ⁠אַל"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="3">not</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H7200" x-lemma="רָאָה" x-morph="He,Vqj2ms" x-occurrence="1" x-occurrences="1" x-content="תֵּ֤רֶא"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="3">have</char> <char style="w" x-occurrence="1" x-occurrences="1">looked</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="b:H3117" x-lemma="יוֹם" x-morph="He,R:Ncmsc" x-occurrence="1" x-occurrences="1" x-content="בְ⁠יוֹם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">on</char> <char style="w" x-occurrence="1" x-occurrences="4">the</char> <char style="w" x-occurrence="1" x-occurrences="4">day</char> <char style="w" x-occurrence="1" x-occurrences="5">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0251" x-lemma="אָח" x-morph="He,Ncmsc:Sp2ms" x-occurrence="1" x-occurrences="1" x-content="אָחִ֨י⁠ךָ֙"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">your</char> <char style="w" x-occurrence="1" x-occurrences="1">brother</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="b:H3117" x-lemma="יוֹם" x-morph="He,R:Ncmsc" x-occurrence="1" x-occurrences="2" x-content="בְּ⁠י֣וֹם"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">on</char> <char style="w" x-occurrence="2" x-occurrences="4">the</char> <char style="w" x-occurrence="2" x-occurrences="4">day</char> <char style="w" x-occurrence="2" x-occurrences="5">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H5235" x-lemma="נֶכֶר" x-morph="He,Ncmsc:Sp3ms" x-occurrence="1" x-occurrences="1" x-content="נָכְר֔⁠וֹ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">his</char> <char style="w" x-occurrence="1" x-occurrences="1">misfortune</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />.</para>
+  <para style="q1" />
+  <para style="zaln-s" status="unknown">|x-strong="c:H0408" x-lemma="אַל" x-morph="He,C:Tn" x-occurrence="2" x-occurrences="3" x-content="וְ⁠אַל"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">And</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H8055" x-lemma="שָׂמַח" x-morph="He,Vqj2ms" x-occurrence="1" x-occurrences="1" x-content="תִּשְׂמַ֥ח"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="3">you</char> <char style="w" x-occurrence="2" x-occurrences="3">should</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H0408" x-lemma="אַל" x-morph="He,C:Tn" x-occurrence="2" x-occurrences="3" x-content="וְ⁠אַל"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="3">not</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H8055" x-lemma="שָׂמַח" x-morph="He,Vqj2ms" x-occurrence="1" x-occurrences="1" x-content="תִּשְׂמַ֥ח"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="3">have</char> <char style="w" x-occurrence="1" x-occurrences="1">rejoiced</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="l:H1121a" x-lemma="בֵּן" x-morph="He,R:Ncmpc" x-occurrence="1" x-occurrences="1" x-content="לִ⁠בְנֵֽי"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">over</char> <char style="w" x-occurrence="3" x-occurrences="4">the</char> <char style="w" x-occurrence="1" x-occurrences="1">sons</char> <char style="w" x-occurrence="3" x-occurrences="5">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3063" x-lemma="יְהוּדָה" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="יְהוּדָ֖ה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Judah</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="b:H3117" x-lemma="יוֹם" x-morph="He,R:Ncmsc" x-occurrence="2" x-occurrences="2" x-content="בְּ⁠י֣וֹם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">in</char> <char style="w" x-occurrence="4" x-occurrences="4">the</char> <char style="w" x-occurrence="3" x-occurrences="4">day</char> <char style="w" x-occurrence="4" x-occurrences="5">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0006" x-lemma="אָבַד" x-morph="He,Vqc:Sp3mp" x-occurrence="1" x-occurrences="1" x-content="אָבְדָ֑⁠ם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">their</char> <char style="w" x-occurrence="1" x-occurrences="1">perishing</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />.</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="c:H0408" x-lemma="אַל" x-morph="He,C:Tn" x-occurrence="3" x-occurrences="3" x-content="וְ⁠אַל"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">And</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H1431" x-lemma="גָּדַל" x-morph="He,Vhj2ms" x-occurrence="1" x-occurrences="1" x-content="תַּגְדֵּ֥ל"<unmatched marker="*" /><char style="w" x-occurrence="3" x-occurrences="3">you</char> <char style="w" x-occurrence="3" x-occurrences="3">should</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H0408" x-lemma="אַל" x-morph="He,C:Tn" x-occurrence="3" x-occurrences="3" x-content="וְ⁠אַל"<unmatched marker="*" /><char style="w" x-occurrence="3" x-occurrences="3">not</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H1431" x-lemma="גָּדַל" x-morph="He,Vhj2ms" x-occurrence="1" x-occurrences="1" x-content="תַּגְדֵּ֥ל"<unmatched marker="*" /><char style="w" x-occurrence="3" x-occurrences="3">have</char> <char style="w" x-occurrence="1" x-occurrences="1">made</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H6310" x-lemma="פֶּה" x-morph="He,Ncmsc:Sp2ms" x-occurrence="1" x-occurrences="1" x-content="פִּ֖י⁠ךָ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">your</char> <char style="w" x-occurrence="1" x-occurrences="1">mouth</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H1431" x-lemma="גָּדַל" x-morph="He,Vhj2ms" x-occurrence="1" x-occurrences="1" x-content="תַּגְדֵּ֥ל"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">great</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="b:H3117" x-lemma="יוֹם" x-morph="He,R:Ncmsc" x-occurrence="1" x-occurrences="1" x-content="בְּ⁠י֥וֹם"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">in</char> <char style="w" x-occurrence="1" x-occurrences="1">a</char> <char style="w" x-occurrence="4" x-occurrences="4">day</char> <char style="w" x-occurrence="5" x-occurrences="5">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H6869b" x-lemma="צָרָה" x-morph="He,Ncfsa" x-occurrence="1" x-occurrences="1" x-content="צָרָֽה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">distress</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />.</para>
+  <para style="q1">
+    <verse number="13" style="v" sid="OBA 1:13" />
+    <verse eid="OBA 1:13" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0935" x-lemma="בּוֹא" x-morph="He,Vqj2ms" x-occurrence="1" x-occurrences="1" x-content="תָּב֤וֹא"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">You</char> <char style="w" x-occurrence="1" x-occurrences="3">should</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0408" x-lemma="אַל" x-morph="He,Tn" x-occurrence="1" x-occurrences="2" x-content="אַל"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="3">not</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0935" x-lemma="בּוֹא" x-morph="He,Vqj2ms" x-occurrence="1" x-occurrences="1" x-content="תָּב֤וֹא"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="3">have</char> <char style="w" x-occurrence="1" x-occurrences="1">entered</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="b:H8179" x-lemma="שַׁעַר" x-morph="He,R:Ncmsc" x-occurrence="1" x-occurrences="1" x-content="בְ⁠שַֽׁעַר"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="4">the</char> <char style="w" x-occurrence="1" x-occurrences="1">gate</char> <char style="w" x-occurrence="1" x-occurrences="4">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H5971a" x-lemma="עַם" x-morph="He,Ncmsc:Sp1cs" x-occurrence="1" x-occurrences="1" x-content="עַמִּ⁠י֙"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">my</char> <char style="w" x-occurrence="1" x-occurrences="1">people</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="b:H3117" x-lemma="יוֹם" x-morph="He,R:Ncmsc" x-occurrence="1" x-occurrences="2" x-content="בְּ⁠י֣וֹם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="3">in</char> <char style="w" x-occurrence="2" x-occurrences="4">the</char> <char style="w" x-occurrence="1" x-occurrences="3">day</char> <char style="w" x-occurrence="2" x-occurrences="4">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0343" x-lemma="אֵיד" x-morph="He,Ncmsc:Sp3mp" x-occurrence="1" x-occurrences="1" x-content="אֵידָ֔⁠ם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">their</char> <char style="w" x-occurrence="1" x-occurrences="3">calamity</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />.</para>
+  <para style="q1" />
+  <para style="zaln-s" status="unknown">|x-strong="H7200" x-lemma="רָאָה" x-morph="He,Vqj2ms" x-occurrence="1" x-occurrences="1" x-content="תֵּ֧רֶא"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">You</char> <char style="w" x-occurrence="2" x-occurrences="3">should</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0408" x-lemma="אַל" x-morph="He,Tn" x-occurrence="2" x-occurrences="2" x-content="אַל"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="3">not</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H7200" x-lemma="רָאָה" x-morph="He,Vqj2ms" x-occurrence="1" x-occurrences="1" x-content="תֵּ֧רֶא"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="3">have</char> <char style="w" x-occurrence="1" x-occurrences="1">looked</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />—</para>
+  <para style="zaln-s" status="unknown">|x-strong="H1571" x-lemma="גַּם" x-morph="He,D" x-occurrence="1" x-occurrences="1" x-content="גַם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">yes</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0859a" x-lemma="אַתָּה" x-morph="He,Pp2ms" x-occurrence="1" x-occurrences="1" x-content="אַתָּ֛ה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />!—</para>
+  <para style="zaln-s" status="unknown">|x-strong="b:H7451c" x-lemma="רַע" x-morph="He,R:Ncfsc:Sp3ms" x-occurrence="1" x-occurrences="1" x-content="בְּ⁠רָעָת֖⁠וֹ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">on</char> <char style="w" x-occurrence="1" x-occurrences="4">his</char> <char style="w" x-occurrence="1" x-occurrences="1">evil</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="b:H3117" x-lemma="יוֹם" x-morph="He,R:Ncmsc" x-occurrence="2" x-occurrences="2" x-content="בְּ⁠י֣וֹם"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="3">in</char> <char style="w" x-occurrence="3" x-occurrences="4">the</char> <char style="w" x-occurrence="2" x-occurrences="3">day</char> <char style="w" x-occurrence="3" x-occurrences="4">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0343" x-lemma="אֵיד" x-morph="He,Ncmsc:Sp3ms" x-occurrence="1" x-occurrences="1" x-content="אֵיד֑⁠וֹ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="4">his</char> <char style="w" x-occurrence="2" x-occurrences="3">calamity</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />.</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="c:H0408" x-lemma="אַל" x-morph="He,C:Tn" x-occurrence="1" x-occurrences="1" x-content="וְ⁠אַל"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">And</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H7971" x-lemma="שָׁלַח" x-morph="He,Vqj2fp" x-occurrence="1" x-occurrences="1" x-content="תִּשְׁלַ֥חְנָה"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">you</char> <char style="w" x-occurrence="1" x-occurrences="1">women</char> <char style="w" x-occurrence="3" x-occurrences="3">should</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H0408" x-lemma="אַל" x-morph="He,C:Tn" x-occurrence="1" x-occurrences="1" x-content="וְ⁠אַל"<unmatched marker="*" /><char style="w" x-occurrence="3" x-occurrences="3">not</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H7971" x-lemma="שָׁלַח" x-morph="He,Vqj2fp" x-occurrence="1" x-occurrences="1" x-content="תִּשְׁלַ֥חְנָה"<unmatched marker="*" /><char style="w" x-occurrence="3" x-occurrences="3">have</char> <char style="w" x-occurrence="1" x-occurrences="1">looted</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="b:H2428" x-lemma="חַיִל" x-morph="He,R:Ncmsc:Sp3ms" x-occurrence="1" x-occurrences="1" x-content="בְ⁠חֵיל֖⁠וֹ"<unmatched marker="*" /><char style="w" x-occurrence="3" x-occurrences="4">his</char> <char style="w" x-occurrence="1" x-occurrences="1">wealth</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="b:H3117" x-lemma="יוֹם" x-morph="He,R:Ncmsc" x-occurrence="1" x-occurrences="1" x-content="בְּ⁠י֥וֹם"<unmatched marker="*" /><char style="w" x-occurrence="3" x-occurrences="3">in</char> <char style="w" x-occurrence="4" x-occurrences="4">the</char> <char style="w" x-occurrence="3" x-occurrences="3">day</char> <char style="w" x-occurrence="4" x-occurrences="4">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0343" x-lemma="אֵיד" x-morph="He,Ncmsc:Sp3ms" x-occurrence="1" x-occurrences="1" x-content="אֵידֽ⁠וֹ"<unmatched marker="*" /><char style="w" x-occurrence="4" x-occurrences="4">his</char> <char style="w" x-occurrence="3" x-occurrences="3">calamity</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />.</para>
+  <para style="q1">
+    <verse number="14" style="v" sid="OBA 1:14" />
+    <verse eid="OBA 1:14" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H0408" x-lemma="אַל" x-morph="He,C:Tn" x-occurrence="1" x-occurrences="1" x-content="וְ⁠אַֽל"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">And</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H5975" x-lemma="עָמַד" x-morph="He,Vqj2ms" x-occurrence="1" x-occurrences="1" x-content="תַּעֲמֹד֙"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">you</char> <char style="w" x-occurrence="1" x-occurrences="2">should</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H0408" x-lemma="אַל" x-morph="He,C:Tn" x-occurrence="1" x-occurrences="1" x-content="וְ⁠אַֽל"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">not</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H5975" x-lemma="עָמַד" x-morph="He,Vqj2ms" x-occurrence="1" x-occurrences="1" x-content="תַּעֲמֹד֙"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">have</char> <char style="w" x-occurrence="1" x-occurrences="1">stood</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H5921a" x-lemma="עַל" x-morph="He,R" x-occurrence="1" x-occurrences="1" x-content="עַל"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">at</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="d:H6563" x-lemma="פֶּרֶק" x-morph="He,Td:Ncmsa" x-occurrence="1" x-occurrences="1" x-content="הַ⁠פֶּ֔רֶק"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">the</char> <char style="w" x-occurrence="1" x-occurrences="1">crossroads</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="l:H3772" x-lemma="כָּרַת" x-morph="He,R:Vhc" x-occurrence="1" x-occurrences="1" x-content="לְ⁠הַכְרִ֖ית"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">to</char> <char style="w" x-occurrence="1" x-occurrences="1">cut</char> <char style="w" x-occurrence="1" x-occurrences="1">down</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0853" x-lemma="אֵת" x-morph="He,To" x-occurrence="1" x-occurrences="1" x-content="אֶת"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="H6412a" x-lemma="פָּלִיט" x-morph="He,Ncmpc:Sp3ms" x-occurrence="1" x-occurrences="1" x-content="פְּלִיטָ֑י⁠ו"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">his</char> <char style="w" x-occurrence="1" x-occurrences="1">fugitives</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />.</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="c:H0408" x-lemma="אַל" x-morph="He,C:Tn" x-occurrence="1" x-occurrences="1" x-content="וְ⁠אַל"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">And</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H5462" x-lemma="סָגַר" x-morph="He,Vhj2ms" x-occurrence="1" x-occurrences="1" x-content="תַּסְגֵּ֥ר"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">you</char> <char style="w" x-occurrence="2" x-occurrences="2">should</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H0408" x-lemma="אַל" x-morph="He,C:Tn" x-occurrence="1" x-occurrences="1" x-content="וְ⁠אַל"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">not</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H5462" x-lemma="סָגַר" x-morph="He,Vhj2ms" x-occurrence="1" x-occurrences="1" x-content="תַּסְגֵּ֥ר"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">have</char> <char style="w" x-occurrence="1" x-occurrences="1">delivered</char> <char style="w" x-occurrence="1" x-occurrences="1">up</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H8300" x-lemma="שָׂרִיד" x-morph="He,Ncmpc:Sp3ms" x-occurrence="1" x-occurrences="1" x-content="שְׂרִידָ֖י⁠ו"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">his</char> <char style="w" x-occurrence="1" x-occurrences="1">survivors</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="b:H3117" x-lemma="יוֹם" x-morph="He,R:Ncmsc" x-occurrence="1" x-occurrences="1" x-content="בְּ⁠י֥וֹם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">in</char> <char style="w" x-occurrence="1" x-occurrences="1">a</char> <char style="w" x-occurrence="1" x-occurrences="1">day</char> <char style="w" x-occurrence="1" x-occurrences="1">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H6869b" x-lemma="צָרָה" x-morph="He,Ncfsa" x-occurrence="1" x-occurrences="1" x-content="צָרָֽה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">distress</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. </para>
+  <para style="ts" status="unknown">
+    <unmatched marker="*" /></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="OBA 1:15" />
+    <verse eid="OBA 1:15" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3588a" x-lemma="כִּי" x-morph="He,C" x-occurrence="1" x-occurrences="1" x-content="כִּֽי"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">For</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3117" x-lemma="יוֹם" x-morph="He,Ncmsc" x-occurrence="1" x-occurrences="1" x-content="יוֹם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">the</char> <char style="w" x-occurrence="1" x-occurrences="1">day</char> <char style="w" x-occurrence="1" x-occurrences="1">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3068" x-lemma="יְהֹוָה" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="יְהוָ֖ה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Yahweh</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H7138" x-lemma="קָרוֹב" x-morph="He,Aamsa" x-occurrence="1" x-occurrences="1" x-content="קָר֥וֹב"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">is</char> <char style="w" x-occurrence="1" x-occurrences="1">near</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H5921a" x-lemma="עַל" x-morph="He,R" x-occurrence="1" x-occurrences="1" x-content="עַל"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">upon</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3605" x-lemma="כֹּל" x-morph="He,Ncmsc" x-occurrence="1" x-occurrences="1" x-content="כָּל"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">all</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="d:H1471a" x-lemma="גּוֹי" x-morph="He,Td:Ncmpa" x-occurrence="1" x-occurrences="1" x-content="הַ⁠גּוֹיִ֑ם"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">the</char> <char style="w" x-occurrence="1" x-occurrences="1">nations</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />.</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="k:H0834d" x-lemma="אֲשֶׁר" x-morph="He,R:Tr" x-occurrence="1" x-occurrences="1" x-content="כַּ⁠אֲשֶׁ֤ר"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">According</char> <char style="w" x-occurrence="1" x-occurrences="2">to</char> <char style="w" x-occurrence="1" x-occurrences="1">what</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H6213a" x-lemma="עָשָׂה" x-morph="He,Vqp2ms" x-occurrence="1" x-occurrences="1" x-content="עָשִׂ֨יתָ֙"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">you</char> <char style="w" x-occurrence="1" x-occurrences="1">have</char> <char style="w" x-occurrence="1" x-occurrences="2">done</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="H6213a" x-lemma="עָשָׂה" x-morph="He,VNi3ms" x-occurrence="1" x-occurrences="1" x-content="יֵעָ֣שֶׂה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">it</char> <char style="w" x-occurrence="1" x-occurrences="2">will</char> <char style="w" x-occurrence="1" x-occurrences="1">be</char> <char style="w" x-occurrence="2" x-occurrences="2">done</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="l" x-lemma="" x-morph="He,R:Sp2fs" x-occurrence="1" x-occurrences="1" x-content="לָּ֔⁠ךְ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">to</char> <char style="w" x-occurrence="2" x-occurrences="2">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />;</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="H1576" x-lemma="גְּמוּל" x-morph="He,Ncmsc:Sp2ms" x-occurrence="1" x-occurrences="1" x-content="גְּמֻלְ⁠ךָ֖"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">your</char> <char style="w" x-occurrence="1" x-occurrences="1">recompense</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H7725" x-lemma="שׁוּב" x-morph="He,Vqi3ms" x-occurrence="1" x-occurrences="1" x-content="יָשׁ֥וּב"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">will</char> <char style="w" x-occurrence="1" x-occurrences="1">return</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="b:H7218a" x-lemma="רֹאשׁ" x-morph="He,R:Ncmsc:Sp2ms" x-occurrence="1" x-occurrences="1" x-content="בְּ⁠רֹאשֶֽׁ⁠ךָ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">on</char> <char style="w" x-occurrence="2" x-occurrences="2">your</char> <char style="w" x-occurrence="1" x-occurrences="1">own</char> <char style="w" x-occurrence="1" x-occurrences="1">head</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />.</para>
+  <para style="q1">
+    <verse number="16" style="v" sid="OBA 1:16" />
+    <verse eid="OBA 1:16" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3588a" x-lemma="כִּי" x-morph="He,C" x-occurrence="1" x-occurrences="1" x-content="כִּ֗י"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">For</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="k:H0834d" x-lemma="אֲשֶׁר" x-morph="He,R:Tr" x-occurrence="1" x-occurrences="1" x-content="כַּֽ⁠אֲשֶׁ֤ר"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">according</char> <char style="w" x-occurrence="1" x-occurrences="1">to</char> <char style="w" x-occurrence="1" x-occurrences="1">how</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H8354" x-lemma="שָׁתָה" x-morph="He,Vqp2mp" x-occurrence="1" x-occurrences="1" x-content="שְׁתִיתֶם֙"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">you</char> <char style="w" x-occurrence="1" x-occurrences="1">drank</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H5921a" x-lemma="עַל" x-morph="He,R" x-occurrence="1" x-occurrences="1" x-content="עַל"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">on</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H2022" x-lemma="הַר" x-morph="He,Ncmsc" x-occurrence="1" x-occurrences="1" x-content="הַ֣ר"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">the</char> <char style="w" x-occurrence="1" x-occurrences="1">mountain</char> <char style="w" x-occurrence="1" x-occurrences="1">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H6944" x-lemma="קֹדֶשׁ" x-morph="He,Ncmsc:Sp1cs" x-occurrence="1" x-occurrences="1" x-content="קָדְשִׁ֔⁠י"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">my</char> <char style="w" x-occurrence="1" x-occurrences="1">holiness</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3605" x-lemma="כֹּל" x-morph="He,Ncmsc" x-occurrence="1" x-occurrences="1" x-content="כָֽל"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">all</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="d:H1471a" x-lemma="גּוֹי" x-morph="He,Td:Ncmpa" x-occurrence="1" x-occurrences="1" x-content="הַ⁠גּוֹיִ֖ם"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">the</char> <char style="w" x-occurrence="1" x-occurrences="1">nations</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H8354" x-lemma="שָׁתָה" x-morph="He,Vqi3mp" x-occurrence="1" x-occurrences="1" x-content="יִשְׁתּ֥וּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">shall</char> <char style="w" x-occurrence="1" x-occurrences="2">drink</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H8548" x-lemma="תָּמִיד" x-morph="He,Ncmsa" x-occurrence="1" x-occurrences="1" x-content="תָּמִ֑יד"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">continually</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />.</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="c:H8354" x-lemma="שָׁתָה" x-morph="He,C:Vqq3cp" x-occurrence="1" x-occurrences="1" x-content="וְ⁠שָׁת֣וּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">And</char> <char style="w" x-occurrence="1" x-occurrences="4">they</char> <char style="w" x-occurrence="1" x-occurrences="3">will</char> <char style="w" x-occurrence="2" x-occurrences="2">drink</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H3886a" x-lemma="לוּעַ" x-morph="He,C:Vqq3cp" x-occurrence="1" x-occurrences="1" x-content="וְ⁠לָע֔וּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">and</char> <char style="w" x-occurrence="2" x-occurrences="4">they</char> <char style="w" x-occurrence="2" x-occurrences="3">will</char> <char style="w" x-occurrence="1" x-occurrences="1">swallow</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H1961" x-lemma="הָיָה" x-morph="He,C:Vqq3cp" x-occurrence="1" x-occurrences="1" x-content="וְ⁠הָי֖וּ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">and</char> <char style="w" x-occurrence="3" x-occurrences="4">they</char> <char style="w" x-occurrence="3" x-occurrences="3">will</char> <char style="w" x-occurrence="1" x-occurrences="1">become</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="k:H3808" x-lemma="לֹא" x-morph="He,R:Tn" x-occurrence="1" x-occurrences="1" x-content="כְּ⁠ל֥וֹא"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">like</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H1961" x-lemma="הָיָה" x-morph="He,Vqp3cp" x-occurrence="1" x-occurrences="1" x-content="הָיֽוּ"<unmatched marker="*" /><char style="w" x-occurrence="4" x-occurrences="4">they</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="k:H3808" x-lemma="לֹא" x-morph="He,R:Tn" x-occurrence="1" x-occurrences="1" x-content="כְּ⁠ל֥וֹא"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">never</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H1961" x-lemma="הָיָה" x-morph="He,Vqp3cp" x-occurrence="1" x-occurrences="1" x-content="הָיֽוּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">existed</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />.</para>
+  <para style="q1">
+    <verse number="17" style="v" sid="OBA 1:17" />
+    <verse eid="OBA 1:17" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:b:H2022" x-lemma="הַר" x-morph="He,C:R:Ncmsc" x-occurrence="1" x-occurrences="1" x-content="וּ⁠בְ⁠הַ֥ר"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">But</char> <char style="w" x-occurrence="1" x-occurrences="1">in</char> <char style="w" x-occurrence="1" x-occurrences="2">the</char> <char style="w" x-occurrence="1" x-occurrences="1">mountain</char> <char style="w" x-occurrence="1" x-occurrences="2">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H6726" x-lemma="צִיּוֹן" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="צִיּ֛וֹן"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Zion</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H1961" x-lemma="הָיָה" x-morph="He,Vqi3fs" x-occurrence="1" x-occurrences="1" x-content="תִּהְיֶ֥ה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">there</char> <char style="w" x-occurrence="1" x-occurrences="3">will</char> <char style="w" x-occurrence="1" x-occurrences="2">be</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H6413" x-lemma="פְּלֵיטָה" x-morph="He,Ncfsa" x-occurrence="1" x-occurrences="1" x-content="פְלֵיטָ֖ה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">an</char> <char style="w" x-occurrence="1" x-occurrences="1">escape</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />,</para>
+  <para style="q1" />
+  <para style="zaln-s" status="unknown">|x-strong="c:H1961" x-lemma="הָיָה" x-morph="He,C:Vqq3ms" x-occurrence="1" x-occurrences="1" x-content="וְ⁠הָ֣יָה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">and</char> <char style="w" x-occurrence="2" x-occurrences="2">there</char> <char style="w" x-occurrence="2" x-occurrences="3">will</char> <char style="w" x-occurrence="2" x-occurrences="2">be</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H6944" x-lemma="קֹדֶשׁ" x-morph="He,Ncmsa" x-occurrence="1" x-occurrences="1" x-content="קֹ֑דֶשׁ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">holiness</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />,</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="c:H3423" x-lemma="יָרַשׁ" x-morph="He,C:Vqq3cp" x-occurrence="1" x-occurrences="1" x-content="וְ⁠יָֽרְשׁוּ֙"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">and</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H1004b" x-lemma="בַּיִת" x-morph="He,Ncmsc" x-occurrence="1" x-occurrences="1" x-content="בֵּ֣ית"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">the</char> <char style="w" x-occurrence="1" x-occurrences="1">house</char> <char style="w" x-occurrence="2" x-occurrences="2">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3290" x-lemma="יַעֲקֹב" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="יַֽעֲקֹ֔ב"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Jacob</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H3423" x-lemma="יָרַשׁ" x-morph="He,C:Vqq3cp" x-occurrence="1" x-occurrences="1" x-content="וְ⁠יָֽרְשׁוּ֙"<unmatched marker="*" /><char style="w" x-occurrence="3" x-occurrences="3">will</char> <char style="w" x-occurrence="1" x-occurrences="1">possess</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0853" x-lemma="אֵת" x-morph="He,To" x-occurrence="1" x-occurrences="1" x-content="אֵ֖ת"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="H4180" x-lemma="מוֹרָשׁ" x-morph="He,Ncmpc:Sp3mp" x-occurrence="1" x-occurrences="1" x-content="מוֹרָֽשֵׁי⁠הֶם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">their</char> <char style="w" x-occurrence="1" x-occurrences="1">own</char> <char style="w" x-occurrence="1" x-occurrences="1">possessions</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. </para>
+  <para style="ts" status="unknown">
+    <unmatched marker="*" /></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="OBA 1:18" />
+    <verse eid="OBA 1:18" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H1961" x-lemma="הָיָה" x-morph="He,C:Vqq3ms" x-occurrence="1" x-occurrences="1" x-content="וְ⁠הָיָה֩"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="3">And</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H1004b" x-lemma="בַּיִת" x-morph="He,Ncmsc" x-occurrence="1" x-occurrences="1" x-content="בֵית"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="4">the</char> <char style="w" x-occurrence="1" x-occurrences="4">house</char> <char style="w" x-occurrence="1" x-occurrences="4">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3290" x-lemma="יַעֲקֹב" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="יַעֲקֹ֨ב"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Jacob</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H1961" x-lemma="הָיָה" x-morph="He,C:Vqq3ms" x-occurrence="1" x-occurrences="1" x-content="וְ⁠הָיָה֩"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="3">will</char> <char style="w" x-occurrence="1" x-occurrences="1">become</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0784" x-lemma="אֵשׁ" x-morph="He,Ncbsa" x-occurrence="1" x-occurrences="1" x-content="אֵ֜שׁ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">a</char> <char style="w" x-occurrence="1" x-occurrences="1">fire</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H1004b" x-lemma="בַּיִת" x-morph="He,C:Ncmsc" x-occurrence="1" x-occurrences="1" x-content="וּ⁠בֵ֧ית"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="3">and</char> <char style="w" x-occurrence="2" x-occurrences="4">the</char> <char style="w" x-occurrence="2" x-occurrences="4">house</char> <char style="w" x-occurrence="2" x-occurrences="4">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3130" x-lemma="יוֹסֵף" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="יוֹסֵ֣ף"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Joseph</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3852" x-lemma="לֶהָבָה" x-morph="He,Ncfsa" x-occurrence="1" x-occurrences="1" x-content="לֶהָבָ֗ה"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">a</char> <char style="w" x-occurrence="1" x-occurrences="1">flame</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H1004b" x-lemma="בַּיִת" x-morph="He,C:Ncmsc" x-occurrence="1" x-occurrences="1" x-content="וּ⁠בֵ֤ית"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="3">and</char> <char style="w" x-occurrence="3" x-occurrences="4">the</char> <char style="w" x-occurrence="3" x-occurrences="4">house</char> <char style="w" x-occurrence="3" x-occurrences="4">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H6215" x-lemma="עֵשָׂו" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="עֵשָׂו֙"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">Esau</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="l:H7179" x-lemma="קַשׁ" x-morph="He,R:Ncmsa" x-occurrence="1" x-occurrences="1" x-content="לְ⁠קַ֔שׁ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">as</char> <char style="w" x-occurrence="1" x-occurrences="1">stubble</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H1814" x-lemma="דָּלַק" x-morph="He,C:Vqq3cp" x-occurrence="1" x-occurrences="1" x-content="וְ⁠דָלְק֥וּ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="3">And</char> <char style="w" x-occurrence="1" x-occurrences="1">they</char> <char style="w" x-occurrence="2" x-occurrences="3">will</char> <char style="w" x-occurrence="1" x-occurrences="1">burn</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="b" x-lemma="" x-morph="He,R:Sp3mp" x-occurrence="1" x-occurrences="1" x-content="בָ⁠הֶ֖ם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">them</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H0398" x-lemma="אָכַל" x-morph="He,C:Vqq3cp:Sp3mp" x-occurrence="1" x-occurrences="1" x-content="וַ⁠אֲכָל֑וּ⁠ם"<unmatched marker="*" /><char style="w" x-occurrence="3" x-occurrences="3">and</char> <char style="w" x-occurrence="1" x-occurrences="1">consume</char> <char style="w" x-occurrence="2" x-occurrences="2">them</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />.</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="c:H3808" x-lemma="לֹא" x-morph="He,C:Tn" x-occurrence="1" x-occurrences="1" x-content="וְ⁠לֹֽא"<unmatched marker="*" /><char style="w" x-occurrence="3" x-occurrences="3">And</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H1961" x-lemma="הָיָה" x-morph="He,Vqi3ms" x-occurrence="1" x-occurrences="1" x-content="יִֽהְיֶ֤ה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">there</char> <char style="w" x-occurrence="3" x-occurrences="3">will</char> <char style="w" x-occurrence="1" x-occurrences="1">be</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H3808" x-lemma="לֹא" x-morph="He,C:Tn" x-occurrence="1" x-occurrences="1" x-content="וְ⁠לֹֽא"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">no</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H8300" x-lemma="שָׂרִיד" x-morph="He,Ncmsa" x-occurrence="1" x-occurrences="1" x-content="שָׂרִיד֙"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">survivor</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="l:H1004b" x-lemma="בַּיִת" x-morph="He,R:Ncmsc" x-occurrence="1" x-occurrences="1" x-content="לְ⁠בֵ֣ית"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">for</char> <char style="w" x-occurrence="4" x-occurrences="4">the</char> <char style="w" x-occurrence="4" x-occurrences="4">house</char> <char style="w" x-occurrence="4" x-occurrences="4">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H6215" x-lemma="עֵשָׂו" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="עֵשָׂ֔ו"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">Esau</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />,</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="H3588a" x-lemma="כִּי" x-morph="He,C" x-occurrence="1" x-occurrences="1" x-content="כִּ֥י"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">for</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3068" x-lemma="יְהֹוָה" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="יְהוָ֖ה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Yahweh</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H1696" x-lemma="דָבַר" x-morph="He,Vpp3ms" x-occurrence="1" x-occurrences="1" x-content="דִּבֵּֽר"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">has</char> <char style="w" x-occurrence="1" x-occurrences="1">spoken</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />.</para>
+  <para style="q1">
+    <verse number="19" style="v" sid="OBA 1:19" />
+    <verse eid="OBA 1:19" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H3423" x-lemma="יָרַשׁ" x-morph="He,C:Vqq3cp" x-occurrence="1" x-occurrences="1" x-content="וְ⁠יָרְשׁ֨וּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">And</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="d:H5045" x-lemma="נֶגֶב" x-morph="He,Td:Ncmsa" x-occurrence="1" x-occurrences="1" x-content="הַ⁠נֶּ֜גֶב"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="6">the</char> <char style="w" x-occurrence="1" x-occurrences="1">Negev</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H3423" x-lemma="יָרַשׁ" x-morph="He,C:Vqq3cp" x-occurrence="1" x-occurrences="1" x-content="וְ⁠יָרְשׁ֨וּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">will</char> <char style="w" x-occurrence="1" x-occurrences="2">possess</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0853" x-lemma="אֵת" x-morph="He,To" x-occurrence="1" x-occurrences="4" x-content="אֶת"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="H2022" x-lemma="הַר" x-morph="He,Ncmsc" x-occurrence="1" x-occurrences="1" x-content="הַ֣ר"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="6">the</char> <char style="w" x-occurrence="1" x-occurrences="1">mountain</char> <char style="w" x-occurrence="1" x-occurrences="3">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H6215" x-lemma="עֵשָׂו" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="עֵשָׂ֗ו"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Esau</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />,</para>
+  <para style="q1" />
+  <para style="zaln-s" status="unknown">|x-strong="c:d:H8219" x-lemma="שְׁפֵלָה" x-morph="He,C:Td:Ncfsa" x-occurrence="1" x-occurrences="1" x-content="וְ⁠הַ⁠שְּׁפֵלָה֙"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="3">and</char> <char style="w" x-occurrence="3" x-occurrences="6">the</char> <char style="w" x-occurrence="1" x-occurrences="1">Shephelah</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0853" x-lemma="אֵת" x-morph="He,To" x-occurrence="2" x-occurrences="4" x-content="אֶת"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="H6430" x-lemma="פְּלִשְׁתִּי" x-morph="He,Ngmpa" x-occurrence="1" x-occurrences="1" x-content="פְּלִשְׁתִּ֔ים"<unmatched marker="*" /><char style="w" x-occurrence="4" x-occurrences="6">the</char> <char style="w" x-occurrence="1" x-occurrences="1">Philistines</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />.</para>
+  <para style="q1" />
+  <para style="zaln-s" status="unknown">|x-strong="c:H3423" x-lemma="יָרַשׁ" x-morph="He,C:Vqq3cp" x-occurrence="1" x-occurrences="1" x-content="וְ⁠יָרְשׁוּ֙"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">And</char> <char style="w" x-occurrence="1" x-occurrences="1">they</char> <char style="w" x-occurrence="2" x-occurrences="2">will</char> <char style="w" x-occurrence="2" x-occurrences="2">possess</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0853" x-lemma="אֵת" x-morph="He,To" x-occurrence="3" x-occurrences="4" x-content="אֶת"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="H7704b" x-lemma="שָׂדֶה" x-morph="He,Ncmsc" x-occurrence="1" x-occurrences="2" x-content="שְׂדֵ֣ה"<unmatched marker="*" /><char style="w" x-occurrence="5" x-occurrences="6">the</char> <char style="w" x-occurrence="1" x-occurrences="2">field</char> <char style="w" x-occurrence="2" x-occurrences="3">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0669" x-lemma="אֶפְרַיִם" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="אֶפְרַ֔יִם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Ephraim</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H0853" x-lemma="אֵת" x-morph="He,C:To" x-occurrence="1" x-occurrences="1" x-content="וְ⁠אֵ֖ת"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="3">and</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H7704b" x-lemma="שָׂדֶה" x-morph="He,Ncmsc" x-occurrence="2" x-occurrences="2" x-content="שְׂדֵ֣ה"<unmatched marker="*" /><char style="w" x-occurrence="6" x-occurrences="6">the</char> <char style="w" x-occurrence="2" x-occurrences="2">field</char> <char style="w" x-occurrence="3" x-occurrences="3">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H8111" x-lemma="שֹׁמְרוֹן" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="שֹׁמְר֑וֹן"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Samaria</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />,</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="c:H1144" x-lemma="בִּנְיָמִין" x-morph="He,C:Np" x-occurrence="1" x-occurrences="1" x-content="וּ⁠בִנְיָמִ֖ן"<unmatched marker="*" /><char style="w" x-occurrence="3" x-occurrences="3">and</char> <char style="w" x-occurrence="1" x-occurrences="1">Benjamin</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0853" x-lemma="אֵת" x-morph="He,To" x-occurrence="4" x-occurrences="4" x-content="אֶת"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="d:H1568" x-lemma="גִּלְעָד" x-morph="He,Td:Np" x-occurrence="1" x-occurrences="1" x-content="הַ⁠גִּלְעָֽד"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Gilead</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. </para>
+  <para style="ts" status="unknown">
+    <unmatched marker="*" /></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="OBA 1:20" />
+    <verse eid="OBA 1:20" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H1546" x-lemma="גָּלוּת" x-morph="He,C:Ncfsc" x-occurrence="1" x-occurrences="1" x-content="וְ⁠גָלֻ֣ת"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">And</char> <char style="w" x-occurrence="1" x-occurrences="5">the</char> <char style="w" x-occurrence="1" x-occurrences="2">exile</char> <char style="w" x-occurrence="1" x-occurrences="5">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="d:H2088" x-lemma="זֶה" x-morph="He,Td:Pdxms" x-occurrence="1" x-occurrences="1" x-content="הַ֠⁠זֶּה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">this</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="d:H2426" x-lemma="חֵיל" x-morph="He,Td:Ncmsa" x-occurrence="1" x-occurrences="1" x-content="הַֽ⁠חֵל"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">army</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="l:H1121a" x-lemma="בֵּן" x-morph="He,R:Ncmpc" x-occurrence="1" x-occurrences="1" x-content="לִ⁠בְנֵ֨י"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="5">of</char> <char style="w" x-occurrence="2" x-occurrences="5">the</char> <char style="w" x-occurrence="1" x-occurrences="1">sons</char> <char style="w" x-occurrence="3" x-occurrences="5">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3478" x-lemma="יִשְׂרָאֵל" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="יִשְׂרָאֵ֤ל"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Israel</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0834a" x-lemma="אֲשֶׁר" x-morph="He,Tr" x-occurrence="1" x-occurrences="1" x-content="אֲשֶֽׁר"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">who</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3669a" x-lemma="כְּנַעַנִי" x-morph="He,Ngmpa" x-occurrence="1" x-occurrences="1" x-content="כְּנַעֲנִים֙"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">are</char> <char style="w" x-occurrence="1" x-occurrences="1">Canaanites</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="H5704" x-lemma="עַד" x-morph="He,R" x-occurrence="1" x-occurrences="1" x-content="עַד"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">as</char> <char style="w" x-occurrence="1" x-occurrences="1">far</char> <char style="w" x-occurrence="2" x-occurrences="2">as</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H6886" x-lemma="צָרְפַת" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="צָ֣רְפַ֔ת"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Zarephath</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />,</para>
+  <para style="q1" />
+  <para style="zaln-s" status="unknown">|x-strong="c:H1546" x-lemma="גָּלוּת" x-morph="He,C:Ncfsc" x-occurrence="1" x-occurrences="1" x-content="וְ⁠גָלֻ֥ת"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">and</char> <char style="w" x-occurrence="3" x-occurrences="5">the</char> <char style="w" x-occurrence="2" x-occurrences="2">exile</char> <char style="w" x-occurrence="4" x-occurrences="5">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3389" x-lemma="יְרוּשָׁלִַ͏ם" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="יְרוּשָׁלִַ֖ם"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Jerusalem</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0834a" x-lemma="אֲשֶׁר" x-morph="He,Tr" x-occurrence="1" x-occurrences="1" x-content="אֲשֶׁ֣ר"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">who</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="b:H5614" x-lemma="סְפָרָד" x-morph="He,R:Np" x-occurrence="1" x-occurrences="1" x-content="בִּ⁠סְפָרַ֑ד"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">are</char> <char style="w" x-occurrence="1" x-occurrences="1">in</char> <char style="w" x-occurrence="1" x-occurrences="1">Sepharad</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />:</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="H3423" x-lemma="יָרַשׁ" x-morph="He,Vqi3mp" x-occurrence="1" x-occurrences="1" x-content="יִֽרְשׁ֕וּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">they</char> <char style="w" x-occurrence="1" x-occurrences="1">will</char> <char style="w" x-occurrence="1" x-occurrences="1">possess</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0853" x-lemma="אֵת" x-morph="He,To" x-occurrence="1" x-occurrences="1" x-content="אֵ֖ת"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="H5892b" x-lemma="עִיר" x-morph="He,Ncfpc" x-occurrence="1" x-occurrences="1" x-content="עָרֵ֥י"<unmatched marker="*" /><char style="w" x-occurrence="4" x-occurrences="5">the</char> <char style="w" x-occurrence="1" x-occurrences="1">cities</char> <char style="w" x-occurrence="5" x-occurrences="5">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="d:H5045" x-lemma="נֶגֶב" x-morph="He,Td:Ncmsa" x-occurrence="1" x-occurrences="1" x-content="הַ⁠נֶּֽגֶב"<unmatched marker="*" /><char style="w" x-occurrence="5" x-occurrences="5">the</char> <char style="w" x-occurrence="1" x-occurrences="1">Negev</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />.</para>
+  <para style="q1">
+    <verse number="21" style="v" sid="OBA 1:21" />
+    <verse eid="OBA 1:21" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H5927" x-lemma="עָלָה" x-morph="He,C:Vqq3cp" x-occurrence="1" x-occurrences="1" x-content="וְ⁠עָל֤וּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">And</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H3467" x-lemma="יָשַׁע" x-morph="He,Vhrmpa" x-occurrence="1" x-occurrences="1" x-content="מֽוֹשִׁעִים֙"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">saviors</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H5927" x-lemma="עָלָה" x-morph="He,C:Vqq3cp" x-occurrence="1" x-occurrences="1" x-content="וְ⁠עָל֤וּ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">will</char> <char style="w" x-occurrence="1" x-occurrences="1">go</char> <char style="w" x-occurrence="1" x-occurrences="1">up</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="b:H2022" x-lemma="הַר" x-morph="He,R:Ncmsc" x-occurrence="1" x-occurrences="1" x-content="בְּ⁠הַ֣ר"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="3">to</char> <char style="w" x-occurrence="1" x-occurrences="3">the</char> <char style="w" x-occurrence="1" x-occurrences="2">mountain</char> <char style="w" x-occurrence="1" x-occurrences="2">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H6726" x-lemma="צִיּוֹן" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="צִיּ֔וֹן"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Zion</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="l:H8199" x-lemma="שָׁפַט" x-morph="He,R:Vqc" x-occurrence="1" x-occurrences="1" x-content="לִ⁠שְׁפֹּ֖ט"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="3">to</char> <char style="w" x-occurrence="1" x-occurrences="1">judge</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H0853" x-lemma="אֵת" x-morph="He,To" x-occurrence="1" x-occurrences="1" x-content="אֶת"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="H2022" x-lemma="הַר" x-morph="He,Ncmsc" x-occurrence="1" x-occurrences="1" x-content="הַ֣ר"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="3">the</char> <char style="w" x-occurrence="2" x-occurrences="2">mountain</char> <char style="w" x-occurrence="2" x-occurrences="2">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="H6215" x-lemma="עֵשָׂו" x-morph="He,Np" x-occurrence="1" x-occurrences="1" x-content="עֵשָׂ֑ו"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Esau</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />,</para>
+  <para style="q2" />
+  <para style="zaln-s" status="unknown">|x-strong="c:H1961" x-lemma="הָיָה" x-morph="He,C:Vqq3fs" x-occurrence="1" x-occurrences="1" x-content="וְ⁠הָיְתָ֥ה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">and</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="d:H4410" x-lemma="מְלוּכָה" x-morph="He,Td:Ncfsa" x-occurrence="1" x-occurrences="1" x-content="הַ⁠מְּלוּכָֽה"<unmatched marker="*" /><char style="w" x-occurrence="3" x-occurrences="3">the</char> <char style="w" x-occurrence="1" x-occurrences="1">kingdom</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="c:H1961" x-lemma="הָיָה" x-morph="He,C:Vqq3fs" x-occurrence="1" x-occurrences="1" x-content="וְ⁠הָיְתָ֥ה"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">will</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="l:H3068" x-lemma="יְהֹוָה" x-morph="He,R:Np" x-occurrence="1" x-occurrences="1" x-content="לַֽ⁠יהוָ֖ה"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">belong</char> <char style="w" x-occurrence="3" x-occurrences="3">to</char> <char style="w" x-occurrence="1" x-occurrences="1">Yahweh</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />.</para>
+  <chapter eid="OBA 1" />
+</usx>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<usx version="3.0">
+  <book code="3JN" style="id">- Open English Translation—Readers' Version (OET-RV) v0.0.01</book>
+  <para style="usfm">3.0</para>
+  <para style="ide">UTF-8</para>
+  <para style="rem">ESFM v0.5 JN3</para>
+  <para style="h">3 John</para>
+  <para style="toc1">3 John</para>
+  <para style="toc2">3 John</para>
+  <para style="toc3">3 Jn</para>
+  <para style="mt1">3 John</para>
+  <para style="is1">Introduction</para>
+  <para style="is2">The author</para>
+  <para style="ip">This the third letter of John, one of the twelve interns who spent the most time with Jesus.</para>
+  <para style="is2">This letter</para>
+  <para style="ip">Igpeendiye din this of sabeka alukuy rin migpalintutuu migngaranan ki Gayu. Indayan of John si Gayu tenged of pegtanggu rin of duma believers miggiphipanew the egpangguhud of lalag of God. Impanpanayan din also si Gayu concerning the sabeka person named ki Diyutripis bad the batasan.</para>
+  <para style="iot">Main components of John's letter</para>
+  <para style="io1">Greetings <char style="ior"><ref loc="3JN 1:1-4">1-4</ref></char></para>
+  <para style="io1">Praising Gaius <char style="ior"><ref loc="3JN 1:5-8">5-8</ref></char></para>
+  <para style="io1">Scolding Diyutripis <char style="ior"><ref loc="3JN 1:9-10">9-10</ref></char></para>
+  <para style="io1">Impeggasal ran si Dimitriyu <char style="ior"><ref loc="3JN 1:11-12">11-12</ref></char></para>
+  <para style="io1">The ending <char style="ior"><ref loc="3JN 1:13-15">13-15</ref></char></para>
+  <para style="ie" />
+  <para style="rem">This is still a very early look into the unfinished text of the <char style="em">Open English Translation</char> of the Bible. Please double-check the text in advance before using in public.</para>
+  <chapter number="1" style="c" sid="3JN 1" />
+  <para style="p">
+    <verse number="1" style="v" sid="3JN 1:1" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">1: </char>
+      <char style="xt" closed="false">Acts 19:29; Rom 16:23; 1Cor 1:14.</char>
+    </note>This letter is from John the elder to my dear friend Gaius who I love <char style="add">because we both</char> follow the truth.<verse eid="3JN 1:1" /></para>
+  <para style="p">
+    <verse number="2" style="v" sid="3JN 1:2" />My dear friend, I trust that you are healthy and doing well in everything just as you are also doing well spiritually. <verse eid="3JN 1:2" /><verse number="3" style="v" sid="3JN 1:3" />I was very happy when some of our <char style="add">spiritual</char> brothers came and told us about your faithfulness to the truth and how you are living it out. <verse eid="3JN 1:3" /><verse number="4" style="v" sid="3JN 1:4" />Nothing makes me more happy than hearing that other believers that I've helped are living out the truth.<verse eid="3JN 1:4" /></para>
+  <para style="s1">Praising Gaius</para>
+  <para style="p">
+    <verse number="5" style="v" sid="3JN 1:5" />My dear friend, you are fatihful in what you do for other believers. Even strangers <verse eid="3JN 1:5" /><verse number="6" style="v" sid="3JN 1:6" />have told the assembly about your caring for them before sending them on. Your actions will be praised by God <verse eid="3JN 1:6" /><verse number="7" style="v" sid="3JN 1:7" />because they went out to serve God, not getting any help from the unbelievers. <verse eid="3JN 1:7" /><verse number="8" style="v" sid="3JN 1:8" />We should be supporting believers like them so that we may also become their workmates in sharing the truth.<verse eid="3JN 1:8" /></para>
+  <para style="s1">Diotrephes and Demetrius</para>
+  <para style="p">
+    <verse number="9" style="v" sid="3JN 1:9" />I wrote something to the assembly, but Diotrephes won't listen to us—he always wants the limelight for himself. <verse eid="3JN 1:9" /><verse number="10" style="v" sid="3JN 1:10" />Because of that, if I do end up coming, I will be reminding him about what he's been doing—rambling on against us with evil talks, and then, not being happy with that, he doesn't accept other believers and expels them from the assembly then forbids others from accepting them either.<verse eid="3JN 1:10" /></para>
+  <para style="p">
+    <verse number="11" style="v" sid="3JN 1:11" />My dear friend, don't copy the evil things <char style="add">that others do</char>, just the good things. Anyone who does what is good belongs to God—whoever does evil things has not seen God.<verse eid="3JN 1:11" /></para>
+  <para style="p">
+    <verse number="12" style="v" sid="3JN 1:12" />Demetrius has been talked about by everyone and even the truth itself speaks. We have also spoken about him, and you know that what we say is true.<verse eid="3JN 1:12" /></para>
+  <para style="s1">The pegpanaha-taha</para>
+  <para style="p">
+    <verse number="13" style="v" sid="3JN 1:13" />I had many things I wanted to write about, but won't do it by means of ink and pen, <verse eid="3JN 1:13" /><verse number="14" style="v" sid="3JN 1:14" />but instead I hope to see you soon and then we can speak face to face.<verse eid="3JN 1:14" /></para>
+  <para style="p">
+    <verse number="15" style="v" sid="3JN 1:15" />Wishing all peace and happiness for you. <char style="add">Your</char> friends here also greet you. Please greet <char style="add">our</char> friends there by name.<verse eid="3JN 1:15" /></para>
+  <chapter eid="3JN 1" />
+</usx>

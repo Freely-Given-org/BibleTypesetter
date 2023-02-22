@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<usx version="3.0">
+  <book code="PS2" style="id" />
+  <para style="h">Psalm 151</para>
+  <para style="toc1">Psalm 151</para>
+  <para style="toc2">Psalm 151</para>
+  <para style="toc3">Ps151</para>
+  <para style="mt1">PSALM 151</para>
+  <para style="ip">
+    <char style="bk">Psalm 151</char> is recognized as Deuterocanonical Scripture by the Greek Orthodox and Russian Orthodox Churches.</para>
+  <chapter number="1" style="c" pubnumber="151" sid="PS2 1" />
+  <para style="d">This Psalm is a genuine one of David, though extra,<note caller="+" style="f"><char style="fr" closed="false">1:0 </char><char style="ft" closed="false">or, supernumerary</char></note> composed when he fought in single combat with Goliath.</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="PS2 1:1" />I was small among my brothers,</para>
+  <para style="q2" vid="PS2 1:1">and youngest in my father’s house.</para>
+  <para style="q2" vid="PS2 1:1">I tended my father’s sheep.<verse eid="PS2 1:1" /></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="PS2 1:2" />My hands formed a musical instrument,</para>
+  <para style="q2" vid="PS2 1:2">and my fingers tuned a lyre.<verse eid="PS2 1:2" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="PS2 1:3" />Who shall tell my Lord?</para>
+  <para style="q2" vid="PS2 1:3">The Lord himself, he himself hears.<verse eid="PS2 1:3" /></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="PS2 1:4" />He sent forth his angel and took me from my father’s sheep,</para>
+  <para style="q2" vid="PS2 1:4">and he anointed me with his anointing oil.<verse eid="PS2 1:4" /></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="PS2 1:5" />My brothers were handsome and tall;</para>
+  <para style="q2" vid="PS2 1:5">but the Lord didn’t take pleasure in them.<verse eid="PS2 1:5" /></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="PS2 1:6" />I went out to meet the Philistine,</para>
+  <para style="q2" vid="PS2 1:6">and he cursed me by his idols.<verse eid="PS2 1:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="PS2 1:7" />But I drew his own sword and beheaded him,</para>
+  <para style="q2" vid="PS2 1:7">and removed reproach from the children of Israel.<verse eid="PS2 1:7" /></para>
+  <chapter eid="PS2 1" />
+</usx>

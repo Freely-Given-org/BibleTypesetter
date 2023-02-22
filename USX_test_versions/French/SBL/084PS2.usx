@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<usx version="3.0">
+  <book code="PS2" style="id" />
+  <para style="h">Psaume 151</para>
+  <para style="toc1">Psaume 151</para>
+  <para style="toc2">Psaume 151</para>
+  <para style="toc3">Psaume 151</para>
+  <para style="mt1">PSAUME 151</para>
+  <para style="ip">
+    <char style="bk">Le psaume 151 </char> est reconnu comme Écriture deutérocanonique par les Églises orthodoxe grecque et orthodoxe russe.</para>
+  <chapter number="1" style="c" sid="PS2 1" />
+  <chapter eid="PS2 1" />
+  <chapter number="151" style="c" sid="PS2 151" />
+  <para style="d">Ce psaume est un véritable psaume de David, bien que supplémentaire,<note caller="+" style="f"><char style="fr" closed="false">151.0 </char><char style="ft" closed="false">ou, surnuméraire</char></note> composé lorsqu'il combattait en combat singulier contre Goliath.</para>
+  <para style="q1">
+    <verse number="1" style="v" sid="PS2 151:1" />J'étais petit parmi mes frères,</para>
+  <para style="q2" vid="PS2 151:1">et le plus jeune dans la maison de mon père.</para>
+  <para style="q2" vid="PS2 151:1">Je gardais les moutons de mon père.<verse eid="PS2 151:1" /></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="PS2 151:2" />Mes mains ont formé un instrument de musique,</para>
+  <para style="q2" vid="PS2 151:2">et mes doigts ont accordé une lyre.<verse eid="PS2 151:2" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="PS2 151:3" />Qui le dira à mon Seigneur ?</para>
+  <para style="q2" vid="PS2 151:3">Le Seigneur lui-même, c'est lui qui entend.<verse eid="PS2 151:3" /></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="PS2 151:4" />Il envoya son ange et me prit des brebis de mon père,</para>
+  <para style="q2" vid="PS2 151:4">et il m'a oint de son huile d'onction.<verse eid="PS2 151:4" /></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="PS2 151:5" />Mes frères étaient beaux et grands ;</para>
+  <para style="q2" vid="PS2 151:5">mais le Seigneur n'a pas pris plaisir à les voir.<verse eid="PS2 151:5" /></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="PS2 151:6" />Je suis allé à la rencontre du Philistin,</para>
+  <para style="q2" vid="PS2 151:6">et il m'a maudit par ses idoles.<verse eid="PS2 151:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="PS2 151:7" />Mais j'ai tiré sa propre épée et je l'ai décapité,</para>
+  <para style="q2" vid="PS2 151:7">et a fait disparaître l'opprobre des enfants d'Israël.<verse eid="PS2 151:7" /></para>
+  <chapter eid="PS2 151" />
+</usx>

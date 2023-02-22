@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<usx version="3.0">
+  <book code="JUD" style="id">- Open English Translation—Readers' Version (OET-RV) v0.0.01</book>
+  <para style="usfm">3.0</para>
+  <para style="ide">UTF-8</para>
+  <para style="rem">ESFM v0.5 JDE</para>
+  <para style="h">Judas</para>
+  <para style="toc1">Judas</para>
+  <para style="toc2">Judas</para>
+  <para style="toc3">Jud.</para>
+  <para style="mt1">Judas</para>
+  <para style="is1">Introduction</para>
+  <para style="is2">Author</para>
+  <para style="ip">This letter was written by Judas the younger brother of James. (Note that he wasn't the Judas who handed Jesus over to the Jewish religious leaders.)</para>
+  <para style="is2">This letter</para>
+  <para style="ip">We don't know which group of believers that this letter was sent to. Here in this letter, Judas warns the believers about teachers of false doctrines who teach that it's okay for believers to continue sinning since they'll just be forgiven due to God's mercy. That's the reason Judas wrote this, to warn the believers so that they won't fall for false beliefs, but instead will continue to follow the true teaching that came from God. He also encourages the readers that it's necessary to strive to continue in their faith in God along with turning away from evil actions.</para>
+  <para style="iot">Main components of Judas' letter</para>
+  <para style="io1">Introduction <char style="ior"><ref loc="JUD 1:1-2">1-2</ref></char></para>
+  <para style="io1">The work and judgement of false teachers <char style="ior"><ref loc="JUD 1:3-16">3-16</ref></char></para>
+  <para style="io1">Warnings and teaching <char style="ior"><ref loc="JUD 1:17-23">17-23</ref></char></para>
+  <para style="io1">The need to honour God <char style="ior"><ref loc="JUD 1:24-25">24-25</ref></char></para>
+  <para style="ie" />
+  <para style="rem">This is still a very early look into the unfinished text of the <char style="em">Open English Translation</char> of the Bible. Please double-check the text in advance before using in public.</para>
+  <chapter number="1" style="c" sid="JUD 1" />
+  <para style="p">
+    <verse number="1" style="v" sid="JUD 1:1" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">1: </char>
+      <char style="xt" closed="false">Mat 13:55; Mrk 6:3.</char>
+    </note>
+    <char style="add">This letter is from</char> Judas, a slave of Jesus the messiah, and brother of James. It's written to all those who have been called and loved by God the father and who have kept <char style="add">believing</char> in Jesus the messiah.<verse eid="JUD 1:1" /></para>
+  <para style="p">
+    <verse number="2" style="v" sid="JUD 1:2" />
+    <char style="add">I pray</char> that you all will experience <char style="add">God's</char> mercy and peace, and a bountiful supply of love.<verse eid="JUD 1:2" /></para>
+  <para style="s1">The judgement of false-teachers and god-rejecters</para>
+  <para style="p">
+    <verse number="3" style="v" sid="JUD 1:3" />Friends, I was so enthusiastic to write to you concerning our salvation that we have in common, but I needed to write to you all, encouraging you to stand strong for the teaching that was entrusted to the believers at a certain point in time. <verse eid="JUD 1:3" /><verse number="4" style="v" sid="JUD 1:4" />Because some people have quietly come into <char style="add">our groups</char> who think they can take advantage of God's grace to bring in immoral lifestyles and disowning the only master, and our master who is Jesus the messiah. But they are destined for judgement.<verse eid="JUD 1:4" /></para>
+  <para style="p">
+    <verse number="5" style="v" sid="JUD 1:5" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">5: a </char>
+      <char style="xt" closed="false">Exo 12:51; </char>
+      <char style="xo" closed="false">b </char>
+      <char style="xt" closed="false">Num 14:29-30.</char>
+    </note>Now I want to remind you that although you all know how Jesus rescued our people out of Egypt, yet <char style="add">at the same time</char> he destroyed the ones who didn't believe. <verse eid="JUD 1:5" /><verse number="6" style="v" sid="JUD 1:6" />Even the angels who broke their own rules and left their own domain have been held in eternal chains in the darkness until the time of judgement in the great day. <verse eid="JUD 1:6" /><verse number="7" style="v" sid="JUD 1:7" /><note caller="+" style="x"><char style="xo" closed="false">7: </char><char style="xt" closed="false">Gen 19:1-24.</char></note>Similarly Sodom and Gomorrah and the towns around them stay in our minds as an example of the judgement of eternal fire due to similar sexual perversions.<verse eid="JUD 1:7" /></para>
+  <para style="p">
+    <verse number="8" style="v" sid="JUD 1:8" />in the same way these dreamers defile their own bodies while rejecting the master and dishonouring those who should be honoured. <verse eid="JUD 1:8" /><verse number="9" style="v" sid="JUD 1:9" /><note caller="+" style="x"><char style="xo" closed="false">9: a </char><char style="xt" closed="false">Dan 10:13,21; 12:1; Rev 12:7; </char><char style="xo" closed="false">b </char><char style="xt" closed="false">Deu 34:6; </char><char style="xo" closed="false">c </char><char style="xt" closed="false">Zech 3:2.</char></note>Even Michael, <char style="add">one of</char> the top angels, when he was arguing with the devil about Moses' body, he didn't belittle him, but left it to the master to punish him. <verse eid="JUD 1:9" /><verse number="10" style="v" sid="JUD 1:10" />But these people mock what they don't even grasp, but they'll be destroyed by what their animal instincts do understand. <verse eid="JUD 1:10" /><verse number="11" style="v" sid="JUD 1:11" /><note caller="+" style="x"><char style="xo" closed="false">11: a </char><char style="xt" closed="false">Gen 4:3-8; 1Jn 3:12; </char><char style="xo" closed="false">b </char><char style="xt" closed="false">Num 22–24; 31:16; 2Pe 2:15-16; </char><char style="xo" closed="false">c </char><char style="xt" closed="false">Num 16:1-35.</char></note>Oh dear! Because they've followed the actions of Cain and have embraced the deception of Balaam for monetary gain, so too they'll perish like Korah's destruction. <verse eid="JUD 1:11" /><verse number="12" style="v" sid="JUD 1:12" />These are the people who ruin your love feasts when they eat without shame and only look after themselves. They're like clouds that are blown away by the wind without bringing the needed rain or trees that don't produce any fruit then are doubly useless by falling over; <verse eid="JUD 1:12" /><verse number="13" style="v" sid="JUD 1:13" />like wild waves in the ocean that foam in their own shame or like <char style="add">unreliable </char> wandering stars that are already doomed to the darkest darkness in the next age.<verse eid="JUD 1:13" /></para>
+  <para style="p">
+    <verse number="14" style="v" sid="JUD 1:14" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">14: </char>
+      <char style="xt" closed="false">Gen 5:18,21-24.</char>
+    </note>Enoch (the seventh generation from Adam) prophesied <char style="add">way back then</char> about these people, “Look, the master, surrounded by tens of thousands of his holy <char style="add">angels</char>, came <verse eid="JUD 1:14" /><verse number="15" style="v" sid="JUD 1:15" />to sentence everybody and to punish everyone who rejected God for everything they did that demonstrated this rejection and everything they said against him.” <verse eid="JUD 1:15" /><verse number="16" style="v" sid="JUD 1:16" />This includes their grumbling and complaining, the fulfilling of their own lustful desires, the arrogant way that they spoke, and their flattering of others in order to gain from them.<verse eid="JUD 1:16" /></para>
+  <para style="s1">Keep your faith and keep ministering to others</para>
+  <para style="p">
+    <verse number="17" style="v" sid="JUD 1:17" />But you, friends, always be thinking about how the missionaries of our master Jesus the messiah <verse eid="JUD 1:17" /><verse number="18" style="v" sid="JUD 1:18" /><note caller="+" style="x"><char style="xo" closed="false">18: </char><char style="xt" closed="false">2Pe 3:3.</char></note>told you that mockers near the end of time would come out following their own god-rejecting lusts. <verse eid="JUD 1:18" /><verse number="19" style="v" sid="JUD 1:19" />These people will cause division as they just demonstrate sensuality since they don't know <char style="add">God's</char> spirit. <verse eid="JUD 1:19" /><verse number="20" style="v" sid="JUD 1:20" />But you, friends, work to increase your faith in God, praying as the pure spirit helps you. <verse eid="JUD 1:20" /><verse number="21" style="v" sid="JUD 1:21" />Keep receiving God's love as you look forward to living forever thanks to the mercy of our master, Jesus the messiah.<verse eid="JUD 1:21" /></para>
+  <para style="p">
+    <verse number="22" style="v" sid="JUD 1:22" />Show grace to those <char style="add">still</char> doubting <verse eid="JUD 1:22" /><verse number="23" style="v" sid="JUD 1:23" />whereas others need to be ‘snatched out of the fire’ in order to be saved. To some, show mercy but very carefully, hating even their clothes which reflect their crude lifestyles.<verse eid="JUD 1:23" /></para>
+  <para style="s1">Honouring God</para>
+  <para style="p">
+    <verse number="24-25" style="v" sid="JUD 1:24-25" />Our master, Jesus the messiah, is the infallible one who is quite capable of looking after all of us so that we can stand blameless in front of him and praise him in his full honour and greatness. Let us honour and praise our only God and savior, acknowledging his greatness and power and authority through Jesus from before the creation, right through these current times, and in the age to come. May it be so.<verse eid="JUD 1:24-25" /></para>
+  <chapter eid="JUD 1" />
+</usx>

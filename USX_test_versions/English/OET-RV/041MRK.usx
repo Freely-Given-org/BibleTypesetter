@@ -1,0 +1,1024 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<usx version="3.0">
+  <book code="MRK" style="id">- Open English Translation—Readers' Version (OET-RV) v0.0.01</book>
+  <para style="usfm">3.0</para>
+  <para style="ide">UTF-8</para>
+  <para style="rem">ESFM v0.5 MRK</para>
+  <para style="h">Mark</para>
+  <para style="toc1">Mark</para>
+  <para style="toc2">Mark</para>
+  <para style="toc3">Mrk</para>
+  <para style="mt2">The account of Jesus' ministry by</para>
+  <para style="mt1">Mark</para>
+  <para style="is1">Introduction</para>
+  <para style="is2">Author</para>
+  <para style="ip">This account about the works and teachings of Jesus was written by Mark, the son of a Jewish family who lived in Jerusalem. His mother was named Mary (&lt;a href="ACT.html#C12V12"&gt;Acts 12:12&lt;/a&gt;).</para>
+  <para style="ip">Many people think he was John Mark, a cousin of Barnabas (&lt;a href="COL.html#C4V10"&gt;Col. 4:10&lt;/a&gt;) who accompanied Paul on his first long-distance trip to spread the good news about Jesus the messiah (&lt;a href="ACT.html#C12V25"&gt;Acts 12:25&lt;/a&gt;, &lt;a href="ACT.html#C13V13"&gt;13:13&lt;/a&gt;). We also know that Mark accompanied Peter (&lt;a href="PE1.html#C5V13"&gt;1 Peter 5:13&lt;/a&gt;), and some consider that it might have been Peter who narrated to Mark what Jesus had done and taught.</para>
+  <para style="is2">This account</para>
+  <para style="ip">This account seems to have been written for non-Jews, especially perhaps those familiar with Roman customs. So he didn't use as much ink as Matthew or Luke explaining prophecies from the Jewish scriptures but he does however, take time to explain Jewish customs to help non-Jewish readers.</para>
+  <para style="ip">Mark explains here that Jesus came to serve both God and the people, and he often refers to him as ‘mankind's child’ (traditionally translated very literally from the Greek as the ‘Son of Man’). We can see that especially in &lt;a href="#C10V45"&gt;10:45&lt;/a&gt;: “Even mankind's child didn't come to be served, but to serve others and to give his life as a ransom to set many people free.” Mark wants his readers to know that Jesus did incredible things, but especially focuses on his teaching. He confirms the power and authority of Jesus by telling about the miracles that he did, his healing of the sick, and his exorcism of demons.</para>
+  <para style="ip">The ending of this account is often disputed, and scholars are still &lt;a href="https:<optbreak />textandcanon.org/a-case-for-the-longer-ending-of-mark"&gt;debating&lt;/a&gt; about whether or not the longer ending (&lt;a href="#C16V9"&gt;16:9-20&lt;/a&gt;) is original. The <char style="em">OET</char> includes the disputed longer ending, but displays it in a lighter colour to indicate its debatable status.</para>
+  <para style="iot">Main components of Mark's account</para>
+  <para style="io1">Preparation for and arrival of the messiah <char style="ior">1:1-13</char></para>
+  <para style="io1">Jesus' activites in and around Galilee <char style="ior">1:14–9:50</char></para>
+  <para style="io1">The transition from Galilee to Jerusalem <char style="ior">10:1-52</char></para>
+  <para style="io1">The final week in Jerusalem <char style="ior">11:1–15:47</char></para>
+  <para style="io1">Jesus comes back to life <char style="ior">16:1-20</char></para>
+  <para style="ie" />
+  <para style="rem">This is still a very early look into the unfinished text of the <char style="em">Open English Translation</char> of the Bible. Please double-check the text in advance before using in public.</para>
+  <chapter number="1" style="c" sid="MRK 1" />
+  <para style="m">
+    <verse number="1" style="v" sid="MRK 1:1" />Here begins the good news about Jesus the messiah—the son of god:<verse eid="MRK 1:1" /></para>
+  <para style="s1">The ministry of John the immerser (The return of ‘Elijah’)</para>
+  <para style="r">(Mat. 3:1-12; Luk. 3:1-18; Jhn. 1:19-28)</para>
+  <para style="p">
+    <verse number="2" style="v" sid="MRK 1:2" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">1:2: </char>
+      <char style="xt" closed="false">Mal 3:1.</char>
+    </note>The prophet Isaiah wrote:</para>
+  <para style="q1" vid="MRK 1:2">“See, I am sending my messenger to you,</para>
+  <para style="q1" vid="MRK 1:2">the one who be be preparing your path.<verse eid="MRK 1:2" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="MRK 1:3" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">1:3: </char>
+      <char style="xt" closed="false">Isa 40:3 (LXX).</char>
+    </note>The voice out in the wilderness shouting,</para>
+  <para style="q2" vid="MRK 1:3">‘Get the path ready for the master;</para>
+  <para style="q2" vid="MRK 1:3">Make it smooth for him to travel on.’ ”<verse eid="MRK 1:3" /></para>
+  <para style="p">
+    <verse number="4" style="v" sid="MRK 1:4" />John turned up in the wilderness announcing that people should get immersed in water in order to show that their sins have been forgiven. <verse eid="MRK 1:4" /><verse number="5" style="v" sid="MRK 1:5" />And many from the Judean region and from the city of Jerusalem went out to hear him, and they confessed their sins and asked John to immerse them in the Jordan river.<verse eid="MRK 1:5" /></para>
+  <para style="p">
+    <verse number="6" style="v" sid="MRK 1:6" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">1:6: </char>
+      <char style="xt" closed="false">2Ki 1:8.</char>
+    </note>John was dressed in simple clothes made from camel hair with a leather belt around his waist, and he lived on locusts and wild honey. <verse eid="MRK 1:6" /><verse number="7" style="v" sid="MRK 1:7" />And he also announced, “There's a greater man coming soon—in fact I'm not even good enough to bend down and untie his sandals. <verse eid="MRK 1:7" /><verse number="8" style="v" sid="MRK 1:8" />I immersed you in water, but he will immerse you all in God's pure spirit.”<verse eid="MRK 1:8" /></para>
+  <para style="s1">Jesus gets immersed and then tempted</para>
+  <para style="r">(Mat. 3:13–4:11; Luk. 3:21-22; 4:1-13)</para>
+  <para style="p">
+    <verse number="9" style="v" sid="MRK 1:9" />Then one day Jesus came from Nazareth in the Galilee region, and he was immersed in the Jordan river by John. <verse eid="MRK 1:9" /><verse number="10" style="v" sid="MRK 1:10" />As Jesus came up out of the water, he saw the sky being opened up, and God's spirit coming down on him like a dove. <verse eid="MRK 1:10" /><verse number="11" style="v" sid="MRK 1:11" /><note caller="+" style="x"><char style="xo" closed="false">1:11: </char><char style="xt" closed="false">Gen 22:2; Psa 2:7; Isa 42:1; Mat 3:17; 12:18; Mrk 9:7; Luk 3:22.</char></note>And a voice came from the sky saying, “You are my son who I love and am pleased with.”<verse eid="MRK 1:11" /></para>
+  <para style="p">
+    <verse number="12" style="v" sid="MRK 1:12" />And then the spirit sent him into the wilderness <verse eid="MRK 1:12" /><verse number="13" style="v" sid="MRK 1:13" />where he was tested by Satan for forty days. He was out there with the wild animals, but angels waited on him there.<verse eid="MRK 1:13" /></para>
+  <para style="s1">The selection of the first followers / apprentices</para>
+  <para style="r">(Mat. 4:12-22; Luk. 4:14-15; 5:1-11)</para>
+  <para style="p">
+    <verse number="14" style="v" sid="MRK 1:14" />After John had been arrested, Jesus went back up to Galilee, announcing the good news from God <verse eid="MRK 1:14" /><verse number="15" style="v" sid="MRK 1:15" /><note caller="+" style="x"><char style="xo" closed="false">1:15: </char><char style="xt" closed="false">Mat 3:2.</char></note>saying, “The promised time is here, and God's kingdom is now near, so turn from your sins and believe this good news.”<verse eid="MRK 1:15" /></para>
+  <para style="p">
+    <verse number="16" style="v" sid="MRK 1:16" />And as he went around the lake of Galilee, Jesus saw Simon and his brother Andrew throwing a net into the lake because they were fishermen. <verse eid="MRK 1:16" /><verse number="17" style="v" sid="MRK 1:17" />And he said to them, “Come with me and I will be making you fishermen of people.” <verse eid="MRK 1:17" /><verse number="18" style="v" sid="MRK 1:18" />And so they left their fishing and went off with Jesus.<verse eid="MRK 1:18" /></para>
+  <para style="p">
+    <verse number="19" style="v" sid="MRK 1:19" />Then a bit further on he saw James Zebedee and his brother John with him in a boat getting their nets ready. <verse eid="MRK 1:19" /><verse number="20" style="v" sid="MRK 1:20" />Jesus called them and they too went off with him, leaving their father Zebedee in the boat with the hired workers.<verse eid="MRK 1:20" /></para>
+  <para style="s1">Jesus drives out a demon</para>
+  <para style="r">(Luk. 4:31-37)</para>
+  <para style="p">
+    <verse number="21" style="v" sid="MRK 1:21" />They went on into Capernaum where he went into the meeting hall and began teaching as soon as the Sabbath started. <verse eid="MRK 1:21" /><verse number="22" style="v" sid="MRK 1:22" /><note caller="+" style="x"><char style="xo" closed="false">1:22: </char><char style="xt" closed="false">Mat 7:28-29.</char></note>The congregation was amazed at his teaching, because he taught with authority, not like the regular teachers there.<verse eid="MRK 1:22" /></para>
+  <para style="p">
+    <verse number="23" style="v" sid="MRK 1:23" />Then a demon-possessed man in the meeting hall suddenly yelled out, <verse eid="MRK 1:23" /><verse number="24" style="v" sid="MRK 1:24" />“What are we to you, Jesus of Nazareth? You've come to destroy us. I know that you're God's holy one.”<verse eid="MRK 1:24" /></para>
+  <para style="p">
+    <verse number="25" style="v" sid="MRK 1:25" />But Jesus scolded it, “Keep quiet!”, and, “Come out of him!”<verse eid="MRK 1:25" /></para>
+  <para style="p">
+    <verse number="26" style="v" sid="MRK 1:26" />Then the demon threw the man into a convulsion, cried out loudly, and left him. <verse eid="MRK 1:26" /><verse number="27" style="v" sid="MRK 1:27" />Everyone was astounded and asked each other, “What just happened? We haven't heard this before—he has authority to command demons, and they obey him!”<verse eid="MRK 1:27" /></para>
+  <para style="p">
+    <verse number="28" style="v" sid="MRK 1:28" />And the news about Jesus spread all over the entire region of Galilee.<verse eid="MRK 1:28" /></para>
+  <para style="s1">Jesus heals many others</para>
+  <para style="r">(Mat. 8:14-17; Luk. 4:38-41)</para>
+  <para style="p">
+    <verse number="29" style="v" sid="MRK 1:29" />After leaving the meeting hall, Jesus went into the home of Simon and Andrew, along with James and John. <verse eid="MRK 1:29" /><verse number="30" style="v" sid="MRK 1:30" />Inside, Simon's mother-in-law was lying down with a fever, and the others spoke to Jesus about her. <verse eid="MRK 1:30" /><verse number="31" style="v" sid="MRK 1:31" />He went up to her, took hold of her hand, and helped her up. Then the fever subsided and she prepared something for them to eat.<verse eid="MRK 1:31" /></para>
+  <para style="p">
+    <verse number="32" style="v" sid="MRK 1:32" />That evening when the sun set, the people brought all those who were sick or demon-possessed to Jesus. <verse eid="MRK 1:32" /><verse number="33" style="v" sid="MRK 1:33" />It seemed like the entire town had gathered there outside the front door. <verse eid="MRK 1:33" /><verse number="34" style="v" sid="MRK 1:34" />Jesus healed many who were sick from a range of diseases, and he commanded many demons to leave—not allowing them to speak because they knew that he was the messiah.<verse eid="MRK 1:34" /></para>
+  <para style="s1">Jesus prays before going preaching</para>
+  <para style="r">(Luk. 4:42-44)</para>
+  <para style="p">
+    <verse number="35" style="v" sid="MRK 1:35" />In the small hours of the morning, Jesus got up and went out to a quiet place and prayed there. <verse eid="MRK 1:35" /><verse number="36" style="v" sid="MRK 1:36" />But Simon and the others came looking for him, <verse eid="MRK 1:36" /><verse number="37" style="v" sid="MRK 1:37" />and when they found him they said, “Everyone's looking for you!”<verse eid="MRK 1:37" /></para>
+  <para style="p">
+    <verse number="38" style="v" sid="MRK 1:38" />And Jesus answered, “Well, we'll be going into the other villages around here, so that I can also tell them. That's what I came here for.” <verse eid="MRK 1:38" /><verse number="39" style="v" sid="MRK 1:39" /><note caller="+" style="x"><char style="xo" closed="false">1:39: </char><char style="xt" closed="false">Mat 4:23; 9:35.</char></note>Then he went preaching in all their meeting halls in Galilee and driving out demons.<verse eid="MRK 1:39" /></para>
+  <para style="s1">Jesus heals a man with leprosy</para>
+  <para style="r">(Mat. 8:1-4; Luk. 5:12-16)</para>
+  <para style="p">
+    <verse number="40" style="v" sid="MRK 1:40" />A man with leprosy came to Jesus asking him, “I know that you could heal me if you wanted to.”<verse eid="MRK 1:40" /></para>
+  <para style="p">
+    <verse number="41" style="v" sid="MRK 1:41" />Jesus felt compassion for him, reached out his hand and touched him, and said, “Yes, I will. Get well.” <verse eid="MRK 1:41" /><verse number="42" style="v" sid="MRK 1:42" />Then immediately the leprosy disappeared and he was well again. <verse eid="MRK 1:42" /><verse number="43" style="v" sid="MRK 1:43" />So Jesus sent him away, but warned him: <verse eid="MRK 1:43" /><verse number="44" style="v" sid="MRK 1:44" /><note caller="+" style="x"><char style="xo" closed="false">1:44: </char><char style="xt" closed="false">Lev 14:1-32.</char></note>“Don't talk to anyone—just go to the priest and show him that you're well, and as a testimony of that, make the offering that Moses commanded.”<verse eid="MRK 1:44" /></para>
+  <para style="p">
+    <verse number="45" style="v" sid="MRK 1:45" />But after the man left, he started telling lots of people and spreading the news—so much so that Jesus could no longer come into the town but had to stay out in quieter places, and people kept coming to him.<verse eid="MRK 1:45" /></para>
+  <chapter eid="MRK 1" />
+  <chapter number="2" style="c" sid="MRK 2" />
+  <para style="s1">Jesus heals a paralysed man</para>
+  <para style="r">(Mat. 9:1-8; Luk. 5:17-26)</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 2:1" />When Jesus came back to Capernaum after a few days, people soon heard that he was back in the house. <verse eid="MRK 2:1" /><verse number="2" style="v" sid="MRK 2:2" />And so many people turned up there that there wasn't any room left—not even in the doorway. Inside, Jesus was explaining the Scriptures to them. <verse eid="MRK 2:2" /><verse number="3" style="v" sid="MRK 2:3" />Four men arrived, carrying a paralysed man to Jesus, <verse eid="MRK 2:3" /><verse number="4" style="v" sid="MRK 2:4" />but because of the crowd, they were unable to get close. So they climbed up onto the flat roof, made a hole through it, and lowered the paralysed man lying on a pallet. <verse eid="MRK 2:4" /><verse number="5" style="v" sid="MRK 2:5" />Jesus, observing their faith, said to the man, “Son, your sins are forgiven!”<verse eid="MRK 2:5" /></para>
+  <para style="p">
+    <verse number="6" style="v" sid="MRK 2:6" />But some of the religious teachers were sitting there, thinking to themselves, <verse eid="MRK 2:6" /><verse number="7" style="v" sid="MRK 2:7" />“Why's he talking like that? He's seriously insulting God. There's only one who can forgive sins, and that's God himself.”<verse eid="MRK 2:7" /></para>
+  <para style="p">
+    <verse number="8" style="v" sid="MRK 2:8" />Then Jesus, knowing in his spirit that they are thinking like that, said to them, “Why are you thinking that to yourselves? <verse eid="MRK 2:8" /><verse number="9" style="v" sid="MRK 2:9" />Which is easier: to tell the paralysed man that his sins have been forgiven, or to tell him to pick up his bedding and walk?” <verse eid="MRK 2:9" /><verse number="10" style="v" sid="MRK 2:10" />But so you all can see that mankind's child <char style="em">does</char> have authority here on the earth to forgive sins, he turned and said to the paralysed man, <verse eid="MRK 2:10" /><verse number="11" style="v" sid="MRK 2:11" />“Listen. Get up, take your bedding, and go home!”<verse eid="MRK 2:11" /></para>
+  <para style="p">
+    <verse number="12" style="v" sid="MRK 2:12" />So the man stood up, and picked up his bedding, and went out of the house where everyone saw him and marvelled and praised God saying, “We've never seen anything happen like this before!”<verse eid="MRK 2:12" /></para>
+  <para style="s1">The calling of Levi (Matthew)</para>
+  <para style="r">(Mat. 9:9-13; Luk. 5:27-32)</para>
+  <para style="p">
+    <verse number="13" style="v" sid="MRK 2:13" />Jesus went out beside the lake where crowds of people kept coming to him and he taught them. <verse eid="MRK 2:13" /><verse number="14" style="v" sid="MRK 2:14" />And as he was passing by the tax office, he saw Levi Alphaeus sitting there and said to him, “Come along with me.” So Levi stood up and followed Jesus.<verse eid="MRK 2:14" /></para>
+  <para style="p">
+    <verse number="15" style="v" sid="MRK 2:15" />Jesus ended up having a meal at Levi's place, and many other tax collectors and undesirables were sitting there also, along with Jesus' followers, because by then many were following him around. <verse eid="MRK 2:15" /><verse number="16" style="v" sid="MRK 2:16" />And the teachers from the Pharisee party noticed that Jesus was eating beside undesirables and tax collectors. So they asked his followers, “How come he eats with tax collectors and other low-life?”<verse eid="MRK 2:16" /></para>
+  <para style="p">
+    <verse number="17" style="v" sid="MRK 2:17" />And overhearing them, Jesus said, “Healthy people don't need a doctor—it's the sick ones that do. I didn't come here to help those who think they have no needs, but to call sinners.”<verse eid="MRK 2:17" /></para>
+  <para style="s1">The question of fasting</para>
+  <para style="r">(Mat. 9:14-17; Luk. 5:33-39)</para>
+  <para style="p">
+    <verse number="18" style="v" sid="MRK 2:18" />Now the followers of John-the-Immerser and members of the Pharisees regularly fasted. So a small group came to Jesus and asked, “How come John's followers and the Pharisee party fast regularly, yet your followers don't?”<verse eid="MRK 2:18" /></para>
+  <para style="p">
+    <verse number="19" style="v" sid="MRK 2:19" />And Jesus answered, “Can the friends of the groom fast when they're celebrating along with him? No, as long as he's still there, they won't be fasting. <verse eid="MRK 2:19" /><verse number="20" style="v" sid="MRK 2:20" />But in the future, the groom will be taken away from them, and <char style="em">then</char> they'll be fasting.<verse eid="MRK 2:20" /></para>
+  <para style="p">
+    <verse number="21" style="v" sid="MRK 2:21" />“No one sews a patch of new, unshrunken cloth onto an old garment, because the new patch will tear away from that old fabric and it will end up as a worse tear. <verse eid="MRK 2:21" /><verse number="22" style="v" sid="MRK 2:22" />And no one puts new wine into old wineskins, because the wine will burst the <char style="add">already stretched</char> wineskins, and then both the wine and the wineskins will be destroyed. New wine must be put into <char style="em">new</char> wineskins.”<verse eid="MRK 2:22" /></para>
+  <para style="s1">Working on the Rest Day</para>
+  <para style="r">(Mat. 12:1-8; Luk. 6:1-5)</para>
+  <para style="p">
+    <verse number="23" style="v" sid="MRK 2:23" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">2:23: </char>
+      <char style="xt" closed="false">Deu 23:25.</char>
+    </note>And it so happened that Jesus and his followers passed through some fields of grain on some days of rest. As they went through, they plucked off some heads of grain. <verse eid="MRK 2:23" /><verse number="24" style="v" sid="MRK 2:24" />And some members of the Pharisee party said, “It's breaking the law to harvest grain on a rest day!”<verse eid="MRK 2:24" /></para>
+  <para style="p">
+    <verse number="25" style="v" sid="MRK 2:25" />And Jesus replied, “You've read yourselves what David did when him and his men were hungry. <verse eid="MRK 2:25" /><verse number="26" style="v" sid="MRK 2:26" /><note caller="+" style="x"><char style="xo" closed="false">2:26: </char><char style="xt" closed="false">Lev 24:9.</char></note>They went into God's tent and ate the holy bread representing the presence of God. Only the priests were allowed to eat that, and yet David even gave some to his men!” <verse eid="MRK 2:26" /><verse number="27" style="v" sid="MRK 2:27" />And he told the Pharisees, “The days of rest were created for people, not people for the rest days. <verse eid="MRK 2:27" /><verse number="28" style="v" sid="MRK 2:28" />So I, mankind's child, have authority also over the day of rest.”<verse eid="MRK 2:28" /></para>
+  <chapter eid="MRK 2" />
+  <chapter number="3" style="c" sid="MRK 3" />
+  <para style="s1">The man with the curled-up hand</para>
+  <para style="r">(Mat. 12:9-14; Luk. 6:6-11)</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 3:1" />And again another time, Jesus went to the meeting hall and there was a man there with a curled-up hand. <verse eid="MRK 3:1" /><verse number="2" style="v" sid="MRK 3:2" />The religious leaders there were watching him closely to see if he would heal the man on the rest day, and then if he did, they would have a case against him. <verse eid="MRK 3:2" /><verse number="3" style="v" sid="MRK 3:3" />Then Jesus said to the man with the flawed hand, “Stand up there in the middle.” <verse eid="MRK 3:3" /><verse number="4" style="v" sid="MRK 3:4" />And he asked the leaders, “Is it allowable to do good on the rest day, or only to do evil? To save life, or to kill?” But they didn't reply.<verse eid="MRK 3:4" /></para>
+  <para style="p">
+    <verse number="5" style="v" sid="MRK 3:5" />After angrily looking around at them, grieving at their complete lack of compassion, he said to the man, “Open up your hand!” <verse eid="MRK 3:5" /><verse number="6" style="v" sid="MRK 3:6" />The man stretched out his fingers, and his hand became totally normal. But the Pharisees quickly left, and meeting with King Herod's supporters, they conspired to kill Jesus.<verse eid="MRK 3:6" /></para>
+  <para style="s1">Big crowds press on Jesus</para>
+  <para style="p">
+    <verse number="7" style="v" sid="MRK 3:7" />After that, Jesus withdrew towards the lake with his followers, and a huge crowd of people from the regions of both Galilee and down in Judea, <verse eid="MRK 3:7" /><verse number="8" style="v" sid="MRK 3:8" />along with others from Jerusalem, Idumea, from across the Jordan River, and from up near Tyre and Sidon. They came because they had heard about the amazing things he had done. <verse eid="MRK 3:8" /><verse number="9" style="v" sid="MRK 3:9" /><note caller="+" style="x"><char style="xo" closed="false">3:9-10: </char><char style="xt" closed="false">Mrk 4:1; Luk 5:1-3.</char></note>So Jesus asked his apprentices to organise a small boat to be there for him so he wouldn't be cramped by the press of the crowd. <verse eid="MRK 3:9" /><verse number="10" style="v" sid="MRK 3:10" />Virtually anyone who had any physical issues was pressing towards him to touch him, because he had already healed so many. <verse eid="MRK 3:10" /><verse number="11" style="v" sid="MRK 3:11" />And the demons, whenever they saw Jesus, they fell down to the ground in front of him and yelled out, “You are God's son!” <verse eid="MRK 3:11" /><verse number="12" style="v" sid="MRK 3:12" />But he regularly warned them not to reveal who he was.<verse eid="MRK 3:12" /></para>
+  <para style="s1">Jesus appoints his twelve representatives</para>
+  <para style="r">(Mat. 10:1-4; Luk. 6:12-16)</para>
+  <para style="p">
+    <verse number="13" style="v" sid="MRK 3:13" />As Jesus started climbing up a hill, he called the followers that he had selected, and they went off with him. <verse eid="MRK 3:13" /><verse number="14" style="v" sid="MRK 3:14" />He appointed twelve of them as his representatives so that they could stick with him and be sent off to be proclaiming his message <verse eid="MRK 3:14" /><verse number="15" style="v" sid="MRK 3:15" />and to also have authority to exorcise demons.<verse eid="MRK 3:15" /></para>
+  <para style="p">
+    <verse number="16" style="v" sid="MRK 3:16" />These are the twelve that he appointed: Simon (but he appended the name “Peter”), <verse eid="MRK 3:16" /><verse number="17" style="v" sid="MRK 3:17" />Jacob and his brother John who were Zebedee's sons (and he nicknamed them the “sons of thunder”), <verse eid="MRK 3:17" /><verse number="18" style="v" sid="MRK 3:18" />Andrew, Philip, Bartholomew, Matthew, Thomas, Jacob Alphaeus, Thaddeus, Simon from Canaan, <verse eid="MRK 3:18" /><verse number="19" style="v" sid="MRK 3:19" />and Judas Iscariot who later betrayed him.<verse eid="MRK 3:19" /></para>
+  <para style="s1">The two opposing spiritual powers</para>
+  <para style="r">(Mat. 12:22-32; Luk. 11:14-23; 12:10)</para>
+  <para style="p">
+    <verse number="20" style="v" sid="MRK 3:20" />Then Jesus was approaching a house, but the crowd swarmed them again so they had no opportunity to eat. <verse eid="MRK 3:20" /><verse number="21" style="v" sid="MRK 3:21" />The ones with him heard all the noise and came to get him, because they were wondering if he was crazy.<verse eid="MRK 3:21" /></para>
+  <para style="p">
+    <verse number="22" style="v" sid="MRK 3:22" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">3:22: </char>
+      <char style="xt" closed="false">Mat 9:34; 10:25.</char>
+    </note>The religious teachers had come up from Jerusalem and were complaining, “He's possessed by the prince of demons. He can command them because he rules them!”<verse eid="MRK 3:22" /></para>
+  <para style="p">
+    <verse number="23" style="v" sid="MRK 3:23" />But Jesus addressed them: “How could Satan command himself? <verse eid="MRK 3:23" /><verse number="24" style="v" sid="MRK 3:24" />If a kingdom is divided against itself, that kingdom could never prosper. <verse eid="MRK 3:24" /><verse number="25" style="v" sid="MRK 3:25" />If a household is divided against itself, that family will never prosper. <verse eid="MRK 3:25" /><verse number="26" style="v" sid="MRK 3:26" />So if Satan attacked himself and was split, he couldn't possibly be powerful, but his time would be over.<verse eid="MRK 3:26" /></para>
+  <para style="p">
+    <verse number="27" style="v" sid="MRK 3:27" />On the contrary, no one can enter the house of a strong man to clean out his possessions unless he first ties up that strong man—after that he can work on the goods.<verse eid="MRK 3:27" /></para>
+  <para style="p">
+    <verse number="28" style="v" sid="MRK 3:28" />Honestly, I assure you that any sin of a person can be forgiven, no matter how much they curse God. <verse eid="MRK 3:28" /><verse number="29" style="v" sid="MRK 3:29" /><note caller="+" style="x"><char style="xo" closed="false">3:29: </char><char style="xt" closed="false">Luk 12:10.</char></note>But whoever speaks against the Holy Spirit can never be forgiven, but is eternally responsible for their sin.” <verse eid="MRK 3:29" /><verse number="30" style="v" sid="MRK 3:30" />(He said this because they were saying that he was demon-possessed.)<verse eid="MRK 3:30" /></para>
+  <para style="s1">Jesus' mother and brothers arrive</para>
+  <para style="r">(Mat. 12:46-50; Luk. 8:19-21)</para>
+  <para style="p">
+    <verse number="31" style="v" sid="MRK 3:31" />Now Jesus' mother and brothers came and were standing outside and asked someone to tell him that they were there. <verse eid="MRK 3:31" /><verse number="32" style="v" sid="MRK 3:32" />Some in the crowd sitting around him told Jesus that his mother and brothers were waiting outside for him.<verse eid="MRK 3:32" /></para>
+  <para style="p">
+    <verse number="33" style="v" sid="MRK 3:33" />But Jesus answered, “Who is my mother and who are my brothers?” <verse eid="MRK 3:33" /><verse number="34" style="v" sid="MRK 3:34" />And having looked around at the people sitting here, he said, “Actually, you all are my mother and my brothers. <verse eid="MRK 3:34" /><verse number="35" style="v" sid="MRK 3:35" />For whoever obeys God, that person is my brother and my sister and my mother.”<verse eid="MRK 3:35" /></para>
+  <chapter eid="MRK 3" />
+  <chapter number="4" style="c" sid="MRK 4" />
+  <para style="s1">The parable about planting seed</para>
+  <para style="r">(Mat. 13:1-9; Luk. 8:4-8)</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 4:1" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">4:1: </char>
+      <char style="xt" closed="false">Luk 5:1-3.</char>
+    </note>Again Jesus started teaching by the edge of the lake. A huge crowd gathered around him, but he had boarded the boat floating in the water, and all the people were there on the land. <verse eid="MRK 4:1" /><verse number="2" style="v" sid="MRK 4:2" />And he taught them many different things in parables, including this one: <verse eid="MRK 4:2" /><verse number="3" style="v" sid="MRK 4:3" />“Listen. Once there was a farmer who went to spread some seed. <verse eid="MRK 4:3" /><verse number="4" style="v" sid="MRK 4:4" />As he spread it, some landed on the path, and the birds came and feed on it. <verse eid="MRK 4:4" /><verse number="5" style="v" sid="MRK 4:5" />Some landed on a rocky part without a lot of soil, and it quickly sprouted in the warm, shallow soil, <verse eid="MRK 4:5" /><verse number="6" style="v" sid="MRK 4:6" />but when the sun came up, it dried out because the roots weren't deep, and so it just withered up. <verse eid="MRK 4:6" /><verse number="7" style="v" sid="MRK 4:7" />Some of the seed landed in a thistle patch, and the thistles grew and choked it out, so the plants never bore a crop. <verse eid="MRK 4:7" /><verse number="8" style="v" sid="MRK 4:8" />But some seed landing in fertile soil and it bore a harvest—some of it multiplying thirty times, some sixty, and some a hundred times.”<verse eid="MRK 4:8" /></para>
+  <para style="p">
+    <verse number="9" style="v" sid="MRK 4:9" />Then Jesus added, “Whoever wants to understand, let them consider it.”<verse eid="MRK 4:9" /></para>
+  <para style="s1">Why Jesus speaks in parables</para>
+  <para style="r">(Mat. 13:10-17; Luk. 8:9-10)</para>
+  <para style="p">
+    <verse number="10" style="v" sid="MRK 4:10" />And when the crowd had left, the twelve apprentices asked him about the parables. <verse eid="MRK 4:10" /><verse number="11" style="v" sid="MRK 4:11" />And he told them, “You've been given understanding about God's kingdom, but for others, they'll get it in parables<verse eid="MRK 4:11" /></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="MRK 4:12" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">4:12: </char>
+      <char style="xt" closed="false">Isa 6:9-10 (LXX).</char>
+    </note>so that when they look they might see but not perceive,</para>
+  <para style="q1" vid="MRK 4:12">and when they listen, they might hear but not understand,</para>
+  <para style="q1" vid="MRK 4:12">otherwise they might turn <char style="add">from their sins</char> and be forgiven.”<verse eid="MRK 4:12" /></para>
+  <para style="s1">Explaining about the ground where the seed fell</para>
+  <para style="r">(Mat. 13:18-23; Luk. 8:11-15)</para>
+  <para style="p">
+    <verse number="13" style="v" sid="MRK 4:13" />Then Jesus said to them, “If you didn't understand this parable, how will you understand any others? <verse eid="MRK 4:13" /><verse number="14" style="v" sid="MRK 4:14" />The one spreading seed is spreading the Good News. <verse eid="MRK 4:14" /><verse number="15" style="v" sid="MRK 4:15" />And there are some along the path where the Good News is being spread, who hear, but Satan turns up immediately and snatches the message from them. <verse eid="MRK 4:15" /><verse number="16" style="v" sid="MRK 4:16" />And similarly, there's some the falls onto rocky places where the people who hear the Good News happily accept it, <verse eid="MRK 4:16" /><verse number="17" style="v" sid="MRK 4:17" />but don't make strong roots, just temporary <char style="add">changes</char>. So when they get mocked or attacked about accepting the Good News, they quickly stumble. <verse eid="MRK 4:17" /><verse number="18" style="v" sid="MRK 4:18" />Others are the ones where the seed was spread among the thistles. They heard the Good News, <verse eid="MRK 4:18" /><verse number="19" style="v" sid="MRK 4:19" />but contemporary topics, or the lure of money, or the appetite for other things choke their good intentions and the message becomes unfruitful in them. <verse eid="MRK 4:19" /><verse number="20" style="v" sid="MRK 4:20" />But lastly, the seed that landed on the good soil represents the people who hear the Good News, accept it and are fruitful thirty, sixty, or even a hundred times over.”<verse eid="MRK 4:20" /></para>
+  <para style="s1">The light will shine on everything</para>
+  <para style="r">(Luk. 8:16-18)</para>
+  <para style="p">
+    <verse number="21" style="v" sid="MRK 4:21" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">4:21: </char>
+      <char style="xt" closed="false">Mat 5:15; Luk 11:33.</char>
+    </note>And Jesus told them, “Obviously no one goes and gets a lamp, and then puts it under a basket or under the bed, but rather places it somewhere higher on a stand. <verse eid="MRK 4:21" /><verse number="22" style="v" sid="MRK 4:22" /><note caller="+" style="x"><char style="xo" closed="false">4:22: </char><char style="xt" closed="false">Mat 10:26; Luk 12:2.</char></note>You see, nothing is hidden that won't eventually be disclosed, and there's no secret that won't eventually be revealed. <verse eid="MRK 4:22" /><verse number="23" style="v" sid="MRK 4:23" />Anyone who wants to understand, let them listen carefully.”<verse eid="MRK 4:23" /></para>
+  <para style="p">
+    <verse number="24" style="v" sid="MRK 4:24" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">4:24: </char>
+      <char style="xt" closed="false">Mat 7:2; Luk 6:38.</char>
+    </note>And he continued, “Take care what you listen to. Because how much you judge others, so too will judgement be handed out to you, and even more. <verse eid="MRK 4:24" /><verse number="25" style="v" sid="MRK 4:25" /><note caller="+" style="x"><char style="xo" closed="false">4:25: </char><char style="xt" closed="false">Mat 13:12; 25:29; Luk 19:26.</char></note>Whoever has <char style="add">faith</char> will be given <char style="add">a reward</char>, but if you have none, even the little you have will be taken away.”<verse eid="MRK 4:25" /></para>
+  <para style="s1">The parable concerning the seed</para>
+  <para style="p">
+    <verse number="26" style="v" sid="MRK 4:26" />And then, “God's kingdom is like a person throwing some seed onto the ground. <verse eid="MRK 4:26" /><verse number="27" style="v" sid="MRK 4:27" />Whether the person sleeps at night or stays up night and day, the seed will sprout and grow either way, and they don't know how it does it. <verse eid="MRK 4:27" /><verse number="28" style="v" sid="MRK 4:28" />The earth is <char style="add">designed</char> to multiply the seed: first a sprout appears, then a bigger plant, and then the full head of grain. <verse eid="MRK 4:28" /><verse number="29" style="v" sid="MRK 4:29" /><note caller="+" style="x"><char style="xo" closed="false">4:29: </char><char style="xt" closed="false">Joel 3:13.</char></note>And when it's ripe, then the harvester is sent in because it's ready for harvest.”<verse eid="MRK 4:29" /></para>
+  <para style="s1">The small seed produces a large result</para>
+  <para style="r">(Mat. 13:31-32,34; Luk. 13:18-19)</para>
+  <para style="p">
+    <verse number="30" style="v" sid="MRK 4:30" />Again he said, “What could we like God's kingdom to? Or what parable could we explain it with? <verse eid="MRK 4:30" /><verse number="31" style="v" sid="MRK 4:31" />It's like planting a mustard seed in the ground—a very small seed. <verse eid="MRK 4:31" /><verse number="32" style="v" sid="MRK 4:32" />But when it's planted and grows up, it forms a large bush with many branches so that birds can rest in its shade.”<verse eid="MRK 4:32" /></para>
+  <para style="p">
+    <verse number="33" style="v" sid="MRK 4:33" />And so as much as they could handle it, Jesus shared the Good News with them via many similar word pictures. <verse eid="MRK 4:33" /><verse number="34" style="v" sid="MRK 4:34" />He never spoke without these illustrations, but he explained all of them to his close followers.<verse eid="MRK 4:34" /></para>
+  <para style="s1">Jesus halts the storm on the lake</para>
+  <para style="r">(Mat. 8:23-27; Luk. 8:22-25)</para>
+  <para style="p">
+    <verse number="35" style="v" sid="MRK 4:35" />It was already becoming evening on that day, so Jesus said <char style="add">to his apprentices</char>, “Let's all go across to the other shore.” <verse eid="MRK 4:35" /><verse number="36" style="v" sid="MRK 4:36" />So they left the crowd behind and got into the boat with him. <verse eid="MRK 4:36" /><verse number="37" style="v" sid="MRK 4:37" /><char style="add">Out in the lake</char> a big storm came up with strong winds, and the waves started breaking across the boat and filling it. <verse eid="MRK 4:37" /><verse number="38" style="v" sid="MRK 4:38" />But Jesus slept on in the back, sleeping on a cushion. They woke him and cried, “Teacher, don't you care that we're all about to drown?”<verse eid="MRK 4:38" /></para>
+  <para style="p">
+    <verse number="39" style="v" sid="MRK 4:39" />Now awake, Jesus scolded the wind and waves, “Quieten down! Stop that!” Then the wind died down and the water became very calm. <verse eid="MRK 4:39" /><verse number="40" style="v" sid="MRK 4:40" />And <char style="add">turning back to them</char> he asked, “Why were you all so afraid? Don't you have any faith yet?”<verse eid="MRK 4:40" /></para>
+  <para style="p">
+    <verse number="41" style="v" sid="MRK 4:41" />But now they were very afraid <char style="add">again</char> and asked each other, “Who could this man be that both the wind and waves obey him?”<verse eid="MRK 4:41" /></para>
+  <chapter eid="MRK 4" />
+  <chapter number="5" style="c" sid="MRK 5" />
+  <para style="s1">Jesus send the demons into the pigs</para>
+  <para style="r">(Mat. 8:28-34; Luk. 8:26-39)</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 5:1" />So they got <char style="add">safely</char> to the region of Gerasenes on the other side of the lake. <verse eid="MRK 5:1" /><verse number="2" style="v" sid="MRK 5:2" />As Jesus climbed out of the boat, a demon-possessed man came out of the tombs to meet him. <verse eid="MRK 5:2" /><verse number="3" style="v" sid="MRK 5:3" />He lived in those tombs, and no one could tie him up, not even with chains, <verse eid="MRK 5:3" /><verse number="4" style="v" sid="MRK 5:4" />because he had often been tied up in the past with shackles and chains but had always pulled the chains apart and smashed the shackles, and no one was able to subdue him. <verse eid="MRK 5:4" /><verse number="5" style="v" sid="MRK 5:5" />All through the day and night, whether in the tombs or up in the hills, he was yelling out and hurting himself with stones.<verse eid="MRK 5:5" /></para>
+  <para style="p">
+    <verse number="6" style="v" sid="MRK 5:6" />So when he had seen Jesus in the distance, he ran and <char style="add">as a sign of honour</char> fell to the ground in front of him. <verse eid="MRK 5:6" /><verse number="7" style="v" sid="MRK 5:7" />Then he called out very loudly, “What will happen between us, Jesus, the son of the highest God? I beg you in God's name not to torment me.” <verse eid="MRK 5:7" /><verse number="8" style="v" sid="MRK 5:8" />Because Jesus had already started saying, “Come out of the man you ungodly spirit!”<verse eid="MRK 5:8" /></para>
+  <para style="p">
+    <verse number="9" style="v" sid="MRK 5:9" />Jesus asked, “What's your name?”</para>
+  <para style="p" vid="MRK 5:9">The man answered, “My name is ‘Thousands’ because there's many of us,” <verse eid="MRK 5:9" /><verse number="10" style="v" sid="MRK 5:10" />and he begged Jesus not to send them out of the country.<verse eid="MRK 5:10" /></para>
+  <para style="p">
+    <verse number="11" style="v" sid="MRK 5:11" />It just so happened that there was a large herd of pigs being fed on the hill nearby <verse eid="MRK 5:11" /><verse number="12" style="v" sid="MRK 5:12" />and they begged Jesus again saying, “Send us to the pigs so that we can enter them.” <verse eid="MRK 5:12" /><verse number="13" style="v" sid="MRK 5:13" />Jesus agreed to that, so the ungodly spirits came out of the man, went into the pigs, and the entire herd of some two thousand pigs rushed down the steep bank into the sea and were drowned.<verse eid="MRK 5:13" /></para>
+  <para style="p">
+    <verse number="14" style="v" sid="MRK 5:14" />The ones who had been feeding them rushed off and spread the news around in the city and the surrounding area. So the people hurried out to see what had happened. <verse eid="MRK 5:14" /><verse number="15" style="v" sid="MRK 5:15" />When they arrived where Jesus was, they saw the man who had been demon-possessed fully-clothed and sitting there in full control of his senses. They knew it was the man called ‘Thousands’ and they became frightened. <verse eid="MRK 5:15" /><verse number="16" style="v" sid="MRK 5:16" />Those who had seen it all happen described it all to the people—what had happened both to the demon-possessed man and to the pigs.<verse eid="MRK 5:16" /></para>
+  <para style="p">
+    <verse number="17" style="v" sid="MRK 5:17" />So then the people began asking Jesus to go away from their region.<verse eid="MRK 5:17" /></para>
+  <para style="p">
+    <verse number="18" style="v" sid="MRK 5:18" />As Jesus was climbing back into the boat, the man who had been demon-possessed wanted to go with him.<verse eid="MRK 5:18" /></para>
+  <para style="p">
+    <verse number="19" style="v" sid="MRK 5:19" />But Jesus wouldn't let him and told him to head back home to his own people, and explain to them what the Master had done for him and how he had been merciful to him.<verse eid="MRK 5:19" /></para>
+  <para style="p">
+    <verse number="20" style="v" sid="MRK 5:20" />So he went away and shared with the people of the Ten Cities region what Jesus had done for him, and they were all amazed.<verse eid="MRK 5:20" /></para>
+  <para style="s1">A woman is healed as Jesus goes to help a dying girl</para>
+  <para style="r">(Mat. 9:18-26; Luk. 8:40-56)</para>
+  <para style="p">
+    <verse number="21" style="v" sid="MRK 5:21" />When Jesus had crossed in the boat to the other side of the lake, a large crowd of people came out to the lake edge to see him. <verse eid="MRK 5:21" /><verse number="22" style="v" sid="MRK 5:22" />A religious leader named Jairus came out, and when he found Jesus he fell down at his feet <verse eid="MRK 5:22" /><verse number="23" style="v" sid="MRK 5:23" />and pleaded, “My young daughter is critical and just hanging on for you to come and touch her so that she can be healed and live.”<verse eid="MRK 5:23" /></para>
+  <para style="p">
+    <verse number="24" style="v" sid="MRK 5:24" />So Jesus went off with Jairus. The large crowd followed also and many were getting pressed against Jesus.<verse eid="MRK 5:24" /></para>
+  <para style="p">
+    <verse number="25" style="v" sid="MRK 5:25" />Then a woman came who had been losing blood for twelve years <verse eid="MRK 5:25" /><verse number="26" style="v" sid="MRK 5:26" />and who had endured much under various doctors despite spending everything she had. After all that, she'd ended up even worse, <verse eid="MRK 5:26" /><verse number="27" style="v" sid="MRK 5:27" />but when she heard about what Jesus had been doing, she worked her way through the crowd to the back of Jesus and touched his clothes, <verse eid="MRK 5:27" /><verse number="28" style="v" sid="MRK 5:28" />because she had told herself, “If I could even just touch his clothes, I would be healed.”<verse eid="MRK 5:28" /></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MRK 5:29" />And immediately the bleeding stopped and she knew that she had been healed. <verse eid="MRK 5:29" /><verse number="30" style="v" sid="MRK 5:30" />Immediately also, Jesus knew that power had gone out of him, and he turned back towards the crowd and said, “Who touched my clothes?”<verse eid="MRK 5:30" /></para>
+  <para style="p">
+    <verse number="31" style="v" sid="MRK 5:31" />But his followers said, “You can see all the people that were pressing on you so why would you ask who touched you?”<verse eid="MRK 5:31" /></para>
+  <para style="p">
+    <verse number="32" style="v" sid="MRK 5:32" />But Jesus was still looking around to see who had done it. <verse eid="MRK 5:32" /><verse number="33" style="v" sid="MRK 5:33" />And the woman, scared and shaking because of what was happening, came and fell down in front of Jesus and told him the whole story. <verse eid="MRK 5:33" /><verse number="34" style="v" sid="MRK 5:34" />Jesus said, “Daughter, your faith has healed you. Go in peace and full health.”<verse eid="MRK 5:34" /></para>
+  <para style="p">
+    <verse number="35" style="v" sid="MRK 5:35" />While he was still speaking, messengers came from Jairus' house to tell him, “Your daughter has died. Why bother the teacher any more?”<verse eid="MRK 5:35" /></para>
+  <para style="p">
+    <verse number="36" style="v" sid="MRK 5:36" />But Jesus overheard them telling this to the leader and told him, “Don't be afraid—keep believing.” <verse eid="MRK 5:36" /><verse number="37" style="v" sid="MRK 5:37" />And Jesus didn't allow anyone to accompany him other than Peter, and James and his brother, John. <verse eid="MRK 5:37" /><verse number="38" style="v" sid="MRK 5:38" />As they approached Jairus' house, Jesus saw a big commotion with lots of crying and yelling going on. <verse eid="MRK 5:38" /><verse number="39" style="v" sid="MRK 5:39" />As he entered, he said, “Why are you all crying in distress? The child hasn't died—she's just sleeping!”<verse eid="MRK 5:39" /></para>
+  <para style="p">
+    <verse number="40" style="v" sid="MRK 5:40" />But they just ridiculed Jesus. So he sent them all outside, just taking the father and mother of the child, along with three with him. He went in where the girl was <verse eid="MRK 5:40" /><verse number="41" style="v" sid="MRK 5:41" />and taking her hand, he said, “Young woman, I tell you: get up!” <verse eid="MRK 5:41" /><verse number="42" style="v" sid="MRK 5:42" />Immediately she got up and walked around. And everyone marvelled at the amazing thing that had happened. (She was twelve years old.) <verse eid="MRK 5:42" /><verse number="43" style="v" sid="MRK 5:43" />Jesus repeatedly told them to keep this to themselves, and added that they should give her something to eat.<verse eid="MRK 5:43" /></para>
+  <chapter eid="MRK 5" />
+  <chapter number="6" style="c" sid="MRK 6" />
+  <para style="s1">Jesus' community can't believe he's from God</para>
+  <para style="r">(Mat. 13:53-58; Luk. 4:16-30)</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 6:1" />So Jesus left there and went back with his followers to his hometown. <verse eid="MRK 6:1" /><verse number="2" style="v" sid="MRK 6:2" />It was now the Rest Day and when he started teaching in the meeting hall, many who heard him were astonished, saying, “Where did he learn all this? How could he have such wisdom and be able to do these miracles? <verse eid="MRK 6:2" /><verse number="3" style="v" sid="MRK 6:3" />Isn't this the carpenter, the son of Mary, and the brother of James and Joseph and Judas and Simon? Don't his sisters live around here?” And they were offended by his teaching.<verse eid="MRK 6:3" /></para>
+  <para style="p">
+    <verse number="4" style="v" sid="MRK 6:4" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">6:4: </char>
+      <char style="xt" closed="false">Jn 4:44.</char>
+    </note>Jesus told them, “A prophet is only dishonouring in his own home town, and among his own relatives, and in his own home.”<verse eid="MRK 6:4" /></para>
+  <para style="p">
+    <verse number="5" style="v" sid="MRK 6:5" />And he wasn't able to do even one miracle there, except for placing his hands on a few sick people and healing them. <verse eid="MRK 6:5" /><verse number="6" style="v" sid="MRK 6:6" />He was amazed at how they wouldn't believe him as he went around the villages teaching.<verse eid="MRK 6:6" /></para>
+  <para style="s1">Jesus sends his apprentices out in pairs</para>
+  <para style="r">(Mat. 10:5-15; Luk. 9:1-6)</para>
+  <para style="p">
+    <verse number="7" style="v" sid="MRK 6:7" />Then he called his twelve apprentices and started sending them out in pairs and giving them authority over demons. <verse eid="MRK 6:7" /><verse number="8" style="v" sid="MRK 6:8" />He insisted that they can carry a walking stick but not to take food, a backpack, or money. <verse eid="MRK 6:8" /><verse number="9" style="v" sid="MRK 6:9" />They could wear one pair of sandals, but not take changes of clothes. <verse eid="MRK 6:9" /><verse number="10" style="v" sid="MRK 6:10" />And he told them, “Whenever you are invited into a home, stay at that one place until you leave that town. <verse eid="MRK 6:10" /><verse number="11" style="v" sid="MRK 6:11" /><note caller="+" style="x"><char style="xo" closed="false">6:11: </char><char style="xt" closed="false">Acts 13:51.</char></note>But if any places don't want you or don't want to hear what you have to say, just leave that place. As you go, shake the dust off your sandals so they can see <char style="add">that you pass the responsibility of what happened to them</char>.<verse eid="MRK 6:11" /></para>
+  <para style="p">
+    <verse number="12" style="v" sid="MRK 6:12" />So the apprentices went off and started telling people to repent. <verse eid="MRK 6:12" /><verse number="13" style="v" sid="MRK 6:13" /><note caller="+" style="x"><char style="xo" closed="false">6:13: </char><char style="xt" closed="false">Jam 5:14.</char></note>And they drove out many demons, and anointed many sick people with olive oil and healed them.<verse eid="MRK 6:13" /></para>
+  <para style="s1">The execution of John-the-Immerser</para>
+  <para style="r">(Mat. 14:1-12; Luk. 9:7-9)</para>
+  <para style="p">
+    <verse number="14" style="v" sid="MRK 6:14" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">6:14-15: </char>
+      <char style="xt" closed="false">Mat 16:14; Mrk 8:28; Luk 9:19.</char>
+    </note>Jesus was now becoming well known and King Herod <char style="add">Antipas</char> heard about him. He thought that maybe John-the-Immerser had come back to life and that's why he was able to do miracles.<verse eid="MRK 6:14" /></para>
+  <para style="p">
+    <verse number="15" style="v" sid="MRK 6:15" />But others thought it was <char style="add">the promised return of</char> Elijah, and yet others thought he must be another prophet like the ones <char style="add">in the Scriptures</char>.<verse eid="MRK 6:15" /></para>
+  <para style="p">
+    <verse number="16" style="v" sid="MRK 6:16" />But hearing about Jesus, Herod was telling people, “That John who I had beheaded, he must have come back to life!” <verse eid="MRK 6:16" /><verse number="17" style="v" sid="MRK 6:17" /><note caller="+" style="x"><char style="xo" closed="false">6:17-18: </char><char style="xt" closed="false">Luk 3:19-20.</char></note>Because Herod himself had had John arrested and put in prison because he had married Herodias, his brother Philip's wife. <verse eid="MRK 6:17" /><verse number="18" style="v" sid="MRK 6:18" />John had been telling him that it was wrong for him to marry his brother's wife, <verse eid="MRK 6:18" /><verse number="19" style="v" sid="MRK 6:19" />and so Herodias resented him enough to want to kill him, but Herod hadn't be able to <verse eid="MRK 6:19" /><verse number="20" style="v" sid="MRK 6:20" />because he respected John as a righteous and holy teacher and so he kept him alive. He often enjoyed hearing from John and thought a lot about what he said.<verse eid="MRK 6:20" /></para>
+  <para style="p">
+    <verse number="21" style="v" sid="MRK 6:21" />However, an opportunity came at Herod's birthday celebration, when he threw a feast for his top officials and generals and for the leaders in Galilee. <verse eid="MRK 6:21" /><verse number="22" style="v" sid="MRK 6:22" />The daughter of Herodias came in and danced for them, and the king and his party guests all enjoyed it. So the king said to the young woman, “Just ask me for anything and I'll give it to you.” <verse eid="MRK 6:22" /><verse number="23" style="v" sid="MRK 6:23" />And he made an oath, “Even if you asked for half of my kingdom, I'd give it to you!”<verse eid="MRK 6:23" /></para>
+  <para style="p">
+    <verse number="24" style="v" sid="MRK 6:24" />So she went out and asked her mother what she should ask for. Her mother told her that she should ask for John's head.<verse eid="MRK 6:24" /></para>
+  <para style="p">
+    <verse number="25" style="v" sid="MRK 6:25" />So going back into the party, she said seriously to the king, “I would like the head of John-the-Immerser on a plate!”<verse eid="MRK 6:25" /></para>
+  <para style="p">
+    <verse number="26" style="v" sid="MRK 6:26" />The king was really upset with that, but because he had made loud oaths in front of all his guests, he couldn't say no. <verse eid="MRK 6:26" /><verse number="27" style="v" sid="MRK 6:27" />So he ordered an executioner to go out and return with John's head. He went off and beheaded him in the prison <verse eid="MRK 6:27" /><verse number="28" style="v" sid="MRK 6:28" />and brought the head into the party on a plate and gave it to the girl, and she gave it to her mother. <verse eid="MRK 6:28" /><verse number="29" style="v" sid="MRK 6:29" />When John's followers heard about this, they came and fetched his body and put it into a tomb.<verse eid="MRK 6:29" /></para>
+  <para style="s1">Jesus feeds 5,000 people</para>
+  <para style="r">(Mat. 14:13-21; Luk. 9:10-17; Jn 6:1-14)</para>
+  <para style="p">
+    <verse number="30" style="v" sid="MRK 6:30" />Now the apprentices who had been sent out returned back to Jesus and they reported back everything they had done and what they had been teaching <char style="add">people</char>. <verse eid="MRK 6:30" /><verse number="31" style="v" sid="MRK 6:31" />Then he told them, “Let's just all of us head for a quiet place and take a break.” This was because there were so many people always coming and going, and sometimes they didn't even have a chance to eat. <verse eid="MRK 6:31" /><verse number="32" style="v" sid="MRK 6:32" />So they went by boat away to a quiet place by themselves.<verse eid="MRK 6:32" /></para>
+  <para style="p">
+    <verse number="33" style="v" sid="MRK 6:33" />But people from towns all around had seen them going and recognised who they were, so they ran around the lake on foot and got there ahead of them. <verse eid="MRK 6:33" /><verse number="34" style="v" sid="MRK 6:34" /><note caller="+" style="x"><char style="xo" closed="false">6:34: </char><char style="xt" closed="false">Num 27:17; 1Ki 22:17; 2Ch 18:16; Eze 34:5; Mat 9:36.</char></note>So when Jesus got out of the boat, he saw a big crowd and felt sorry for them because they seemed like sheep without a shepherd, so he started teaching them many things. <verse eid="MRK 6:34" /><verse number="35" style="v" sid="MRK 6:35" />Then, when it was already getting late, his apprentices came up and said, “This place is pretty isolated and it's already late. <verse eid="MRK 6:35" /><verse number="36" style="v" sid="MRK 6:36" />Send these people off now so they can go to the nearby settlements and villages and buy themselves something to eat.”<verse eid="MRK 6:36" /></para>
+  <para style="p">
+    <verse number="37" style="v" sid="MRK 6:37" />But Jesus answered them, “You give them something to eat.”</para>
+  <para style="p" vid="MRK 6:37">They complained, “If we go, should we buy several months wages worth of bread so we can give all of them something to eat?”<verse eid="MRK 6:37" /></para>
+  <para style="p">
+    <verse number="38" style="v" sid="MRK 6:38" />But he asked, “Go and find out how much bread you have.”</para>
+  <para style="p" vid="MRK 6:38">When they'd found out they said, “Five buns and two fish.”<verse eid="MRK 6:38" /></para>
+  <para style="p">
+    <verse number="39" style="v" sid="MRK 6:39" />Jesus told all the people to line up in rows and sit down on the green grass. <verse eid="MRK 6:39" /><verse number="40" style="v" sid="MRK 6:40" />So they sat down in rows of fifty to a hundred. <verse eid="MRK 6:40" /><verse number="41" style="v" sid="MRK 6:41" />Then holding the five buns and two fish, he looking up to the sky and blessed <char style="add">God</char>, and then broke up the buns and gave pieces to his apprentices so they could do likewise to the people, and he also divided up the two fish, <verse eid="MRK 6:41" /><verse number="42" style="v" sid="MRK 6:42" />and all the people ate and were satisfied. <verse eid="MRK 6:42" /><verse number="43" style="v" sid="MRK 6:43" />Then they collected the left-over pieces of bread, filling twelve baskets, as well as the left-over pieces of fish. <verse eid="MRK 6:43" /><verse number="44" style="v" sid="MRK 6:44" />And the headcount of men who ate that evening was five thousand.<verse eid="MRK 6:44" /></para>
+  <para style="s1">Jesus walks on the lake surface</para>
+  <para style="r">(Mat. 14:22-33; Jn 6:15-21)</para>
+  <para style="p">
+    <verse number="45" style="v" sid="MRK 6:45" />Straight after that, Jesus sent his apprentices off in the boat to go across to Bethsaida while he sent the crowd home. <verse eid="MRK 6:45" /><verse number="46" style="v" sid="MRK 6:46" />Then he said goodbye to everyone, and climbed the hill to pray. <verse eid="MRK 6:46" /><verse number="47" style="v" sid="MRK 6:47" />Later in the night, the boat was out in the middle of the lake, and only Jesus remained back there on the land. <verse eid="MRK 6:47" /><verse number="48" style="v" sid="MRK 6:48" />He saw them struggling to row against the wind, and sometime after 3am he came out to them, walking on the lake surface as if to walk past them. <verse eid="MRK 6:48" /><verse number="49" style="v" sid="MRK 6:49" />But they had seen someone walking on the lake and thought it was a ghost, and they yelled out <verse eid="MRK 6:49" /><verse number="50" style="v" sid="MRK 6:50" />because they had all seen it and were terrified.</para>
+  <para style="p" vid="MRK 6:50">But Jesus immediately spoke to them and said, “Hey, take heart, it's me, don't be afraid!” <verse eid="MRK 6:50" /><verse number="51" style="v" sid="MRK 6:51" />Then he climbed up into the boat and the wind died down. And they were all totally astounded <verse eid="MRK 6:51" /><verse number="52" style="v" sid="MRK 6:52" />because they hadn't understood the implications of him feeding all the people because their minds were closed.<verse eid="MRK 6:52" /></para>
+  <para style="s1">Jesus heals many people around Gennesaret</para>
+  <para style="r">(Mat. 14:34-36)</para>
+  <para style="p">
+    <verse number="53" style="v" sid="MRK 6:53" />After completing their crossing, they anchored at Gennesaret. <verse eid="MRK 6:53" /><verse number="54" style="v" sid="MRK 6:54" />And when they got out of the boat, again people recognised Jesus <verse eid="MRK 6:54" /><verse number="55" style="v" sid="MRK 6:55" />and ran around that region, so next minute people began bringing all of those who were sick, carrying them on pallets to wherever they heard that Jesus was. <verse eid="MRK 6:55" /><verse number="56" style="v" sid="MRK 6:56" />And whenever Jesus entered villages or cities or fields or marketplaces, they laid the sick down there and were imploring him that they might even just touch the edge of his robe, and anyone who did so was healed.<verse eid="MRK 6:56" /></para>
+  <chapter eid="MRK 6" />
+  <chapter number="7" style="c" sid="MRK 7" />
+  <para style="s1">Jesus suggests obeying God, not tradition</para>
+  <para style="r">(Mat. 15:1-9)</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 7:1" />Some from the Pharisee party and some of the law teachers had come from Jerusalem to observe Jesus <verse eid="MRK 7:1" /><verse number="2" style="v" sid="MRK 7:2" />and noticed that some of his followers were eating their food without following their religious customs, i.e., without washing their hands. <verse eid="MRK 7:2" /><verse number="3" style="v" sid="MRK 7:3" />(The Pharisees and, in fact, all the Jewish religious leaders do not eat without first ceremonially washing their hands as taught by their elders over the generations. <verse eid="MRK 7:3" /><verse number="4" style="v" sid="MRK 7:4" />They won't eat at the market if they can't do this first, and have many other regulations about ceremonial washing of cups and jugs and copper kettles.)<verse eid="MRK 7:4" /></para>
+  <para style="p">
+    <verse number="5" style="v" sid="MRK 7:5" />And the Pharisees and religious teachers asked Jesus, “How come your followers don't follow our Jewish traditions, but eat without the ceremonial washing of hands?”<verse eid="MRK 7:5" /></para>
+  <para style="p">
+    <verse number="6" style="v" sid="MRK 7:6" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">7:6-7: </char>
+      <char style="xt" closed="false">Isa 29:13 (LXX).</char>
+    </note>And he answered, “Isaiah got it exactly right when he expressed God's thoughts about you hypocrites and wrote:</para>
+  <para style="q1" vid="MRK 7:6">‘These people honour me with their lips,</para>
+  <para style="q2" vid="MRK 7:6">but their real desires are far away from mine.<verse eid="MRK 7:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="MRK 7:7" />Their worship of me is worthless,</para>
+  <para style="q2" vid="MRK 7:7">teaching man-made rules as if they are from God.’<verse eid="MRK 7:7" /></para>
+  <para style="p">
+    <verse number="8" style="v" sid="MRK 7:8" />You've ignored God's commands instead accepting human traditions.<verse eid="MRK 7:8" /></para>
+  <para style="p">
+    <verse number="9" style="v" sid="MRK 7:9" />And Jesus continued, “You all simply dismiss God's commands in favour of your own customs. <verse eid="MRK 7:9" /><verse number="10" style="v" sid="MRK 7:10" /><note caller="+" style="x"><char style="xo" closed="false">7:10: a </char><char style="xt" closed="false">Exo 20:12; Deu 5:16; </char><char style="xo" closed="false">b </char><char style="xt" closed="false">Exo 21:17; Lev 20:9.</char></note>Moses teaches us,</para>
+  <para style="q1" vid="MRK 7:10">‘Honour your parents,’</para>
+  <para style="p" vid="MRK 7:10">and</para>
+  <para style="q1" vid="MRK 7:10">‘Anyone dishonestly slandering their parents deserves the death penalty.’<verse eid="MRK 7:10" /></para>
+  <para style="m">
+    <verse number="11" style="v" sid="MRK 7:11" />But when you all encourage people to say, ‘Whatever I had that may have helped you guys has been given to God’, <verse eid="MRK 7:11" /><verse number="12" style="v" sid="MRK 7:12" />you are actively discouraging them from helping their parents— <verse eid="MRK 7:12" /><verse number="13" style="v" sid="MRK 7:13" />overriding God's voice for your very convenient teaching that you disseminate instead. And that's not the only example!”<verse eid="MRK 7:13" /></para>
+  <para style="s1">Evil comes from inside a person</para>
+  <para style="r">(Mat. 15:10-20)</para>
+  <para style="p">
+    <verse number="14" style="v" sid="MRK 7:14" />Jesus called out to the crowd, “Everyone listen to me carefully: <verse eid="MRK 7:14" /><verse number="15" style="v" sid="MRK 7:15" />Nothing that enters your mouth makes you guilty in God's eyes. It's what comes <char style="em">out</char> of you that demonstrates your culpability.”<verse eid="MRK 7:15" /></para>
+  <para style="p">
+    <verse number="16" style="v" sid="MRK 7:16" />≈ <verse eid="MRK 7:16" /><verse number="17" style="v" sid="MRK 7:17" />When Jesus came back inside, his apprentices asked him what he meant. <verse eid="MRK 7:17" /><verse number="18" style="v" sid="MRK 7:18" />But he scolded them, “Can't you understand something so simple! Can't you see that anything from the outside that enters your body doesn't make you guilty in God's sight, <verse eid="MRK 7:18" /><verse number="19" style="v" sid="MRK 7:19" />because it doesn't enter your mind but merely goes into your stomach and ends up in the toilet.” (By saying this he clearly showed that is was ok for Jews to eat any food.)<verse eid="MRK 7:19" /></para>
+  <para style="p">
+    <verse number="20" style="v" sid="MRK 7:20" />He continued, “It's what comes out of you that makes you guilty in God's eyes. <verse eid="MRK 7:20" /><verse number="21-22" style="v" sid="MRK 7:21-22" />That's because evil thoughts, sexual immorality, theft, murder, adultery, greed, wickedness, deceit, arrogance, lust, slander, pride, and foolishness all come from <char style="em">inside</char> people's hearts <char style="add">and minds</char>. <verse eid="MRK 7:21-22" /><verse number="23" style="v" sid="MRK 7:23" />So it's the evil that's inside a person and comes out that makes them guilty in God's eyes.”<verse eid="MRK 7:23" /></para>
+  <para style="s1">The bold faith of a non-Jewish woman</para>
+  <para style="r">(Mat. 15:21-28)</para>
+  <para style="p">
+    <verse number="24" style="v" sid="MRK 7:24" />Jesus left that place and went <char style="add">up north</char> into the regions of Tyre and Sidon. He tried to enter a house without being noticed but didn't succeed, <verse eid="MRK 7:24" /><verse number="25" style="v" sid="MRK 7:25" />and straight away a woman who had heard about him turned up. She knelt in front of him because she had a little daughter who was demon-possessed. <verse eid="MRK 7:25" /><verse number="26" style="v" sid="MRK 7:26" />The woman was Greek from Phoenicia in Syria and she begged Jesus to command the demon to leave her daughter. <verse eid="MRK 7:26" /><verse number="27" style="v" sid="MRK 7:27" />But he replied, “Let the <char style="add">Jewish</char> children be treated first, because it's not good to take the children's food and throw it to the dogs.”<verse eid="MRK 7:27" /></para>
+  <para style="p">
+    <verse number="28" style="v" sid="MRK 7:28" />And she responded, “Yes, master, but the puppies under the table <char style="em">do</char> get to eat the little crumbs that the children drop.”<verse eid="MRK 7:28" /></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MRK 7:29" />And he answered, “Go home now. As a result of how you just spoke, the demon has already left your daughter.”<verse eid="MRK 7:29" /></para>
+  <para style="p">
+    <verse number="30" style="v" sid="MRK 7:30" />And when she got home, the demon had indeed gone and her little girl was lying quietly on her bed.<verse eid="MRK 7:30" /></para>
+  <para style="s1">Jesus heals a deaf man who couldn't speak</para>
+  <para style="p">
+    <verse number="31" style="v" sid="MRK 7:31" />Jesus left the Tyre region, passed through Sidon, and came down the <char style="add">eastern</char> side of the Lake of Galilee to the Decapolis region. <verse eid="MRK 7:31" /><verse number="32" style="v" sid="MRK 7:32" />The people there brought a man to him who couldn't hear or speak, and asked Jesus to heal him. <verse eid="MRK 7:32" /><verse number="33" style="v" sid="MRK 7:33" />So Jesus took the man back away from the crowd, put his fingers in the man's ears, then he spat and touched the man's mouth. <verse eid="MRK 7:33" /><verse number="34" style="v" sid="MRK 7:34" />Looking up to the sky, he sighed and said, “Open up!”<verse eid="MRK 7:34" /></para>
+  <para style="p">
+    <verse number="35" style="v" sid="MRK 7:35" />Then the man could hear, and his tongue was released and he began to speak properly. <verse eid="MRK 7:35" /><verse number="36" style="v" sid="MRK 7:36" />The Jesus advised that they shouldn't tell anyone, but the more he said that, the more they seemed to spread it around. <verse eid="MRK 7:36" /><verse number="37" style="v" sid="MRK 7:37" />The crowds were totally amazed, saying, “He can do anything—he makes the deaf able to hear, and enables the ones who couldn't speak.”<verse eid="MRK 7:37" /></para>
+  <chapter eid="MRK 7" />
+  <chapter number="8" style="c" sid="MRK 8" />
+  <para style="s1">Jesus feeds 4,000 people</para>
+  <para style="r">(Mat. 15:32-39)</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 8:1" />Another time there was a large crowd again with nothing to eat. Jesus called his apprentices and said, <verse eid="MRK 8:1" /><verse number="2" style="v" sid="MRK 8:2" />“I feel sorry for all these people because they've already been with us for three days and don't have anything to eat. <verse eid="MRK 8:2" /><verse number="3" style="v" sid="MRK 8:3" />I can't send them home because they're too weak to walk, and some have a long way to go.”<verse eid="MRK 8:3" /></para>
+  <para style="p">
+    <verse number="4" style="v" sid="MRK 8:4" />His apprentices queried, “Where could anyone find enough food out here in the wilderness?”<verse eid="MRK 8:4" /></para>
+  <para style="p">
+    <verse number="5" style="v" sid="MRK 8:5" />He asked, “How much bread have you all got?”</para>
+  <para style="p" vid="MRK 8:5">“Seven buns,” they answered.<verse eid="MRK 8:5" /></para>
+  <para style="p">
+    <verse number="6" style="v" sid="MRK 8:6" />So Jesus instructed the crowd to sit down on the ground. Then he took the seven buns, gave thanks and broke them and gave pieces to his apprentices to then distribute to the crowd. <verse eid="MRK 8:6" /><verse number="7" style="v" sid="MRK 8:7" />They also had a few small cooked fish, so he blessed them too and got them to distribute them as well. <verse eid="MRK 8:7" /><verse number="8" style="v" sid="MRK 8:8" />After all the people had eaten and were full, they collected seven basketfulls of leftovers. <verse eid="MRK 8:8" /><verse number="9" style="v" sid="MRK 8:9" />There were some four thousand people there that day, and Jesus sent them home after they'd eaten. <verse eid="MRK 8:9" /><verse number="10" style="v" sid="MRK 8:10" />And he and his apprentices climbed into the boat and headed for the Dalmanutha region.<verse eid="MRK 8:10" /></para>
+  <para style="s1">The religious leaders want to see a miracle</para>
+  <para style="r">(Mat. 16:1-4)</para>
+  <para style="p">
+    <verse number="11" style="v" sid="MRK 8:11" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">8:11: </char>
+      <char style="xt" closed="false">Mat 12:38; Luk 11:16.</char>
+    </note>Some men from the Pharisee party came out to Jesus amd started arguing with him. They were checking him out and wanted to see a miracle. <verse eid="MRK 8:11" /><verse number="12" style="v" sid="MRK 8:12" /><note caller="+" style="x"><char style="xo" closed="false">8:12: </char><char style="xt" closed="false">Mat 12:39; Luk 11:29.</char></note>Jesus grieved inside and asked, “Why do you people need to see a miracle before you'll believe me? Actually, no miracle will be done for this generation.”<verse eid="MRK 8:12" /></para>
+  <para style="p">
+    <verse number="13" style="v" sid="MRK 8:13" />So Jesus left in the boat again and crossed to the other side of the lake.<verse eid="MRK 8:13" /></para>
+  <para style="s1">The apprentices miss the significance of what's happening</para>
+  <para style="r">(Mat. 16:5-12)</para>
+  <para style="p">
+    <verse number="14" style="v" sid="MRK 8:14" />But Jesus' apprentices forgot to take any food other than one bun that someone in the boat had. <verse eid="MRK 8:14" /><verse number="15" style="v" sid="MRK 8:15" /><note caller="+" style="x"><char style="xo" closed="false">8:15: </char><char style="xt" closed="false">Luk 12:1.</char></note>He told them, “Watch out for the yeast of the Pharisees and of King Herod.”<verse eid="MRK 8:15" /></para>
+  <para style="p">
+    <verse number="16" style="v" sid="MRK 8:16" />They asked each other what it meant—was it because they forgot food?<verse eid="MRK 8:16" /></para>
+  <para style="p">
+    <verse number="17" style="v" sid="MRK 8:17" />But Jesus knew what they were saying and asked, “Why are you all discussing about not having food? Can't you figure it out? Or are your minds completely closed? <verse eid="MRK 8:17" /><verse number="18" style="v" sid="MRK 8:18" /><note caller="+" style="x"><char style="xo" closed="false">8:18: </char><char style="xt" closed="false">Jer 5:21; Eze 12:2; Mrk 4:12.</char></note>You all have eyes but can't seem to see and have ears but can't seem to listen. Have you already forgotten what just happened? <verse eid="MRK 8:18" /><verse number="19" style="v" sid="MRK 8:19" />When I broke up the five buns to feed five thousand people, how many basketfulls of leftovers did you collect?”</para>
+  <para style="p" vid="MRK 8:19">“Twelve,” they answered.<verse eid="MRK 8:19" /></para>
+  <para style="p">
+    <verse number="20" style="v" sid="MRK 8:20" />“And when we fed four thousand with seven buns, how many full baskets of leftovers then?”</para>
+  <para style="p" vid="MRK 8:20">“Seven,” they answered.<verse eid="MRK 8:20" /></para>
+  <para style="p">
+    <verse number="21" style="v" sid="MRK 8:21" />Jesus asked, “How can you all not understand what's going on right in front of you!”<verse eid="MRK 8:21" /></para>
+  <para style="s1">Jesus heals a blind man near Bethsaida</para>
+  <para style="p">
+    <verse number="22" style="v" sid="MRK 8:22" />As they entered Bethsaida, the people brought a blind man to Jesus and asked him to touch him. <verse eid="MRK 8:22" /><verse number="23" style="v" sid="MRK 8:23" />So Jesus took the man's hand and led him out of the village. Then he spat in his eyes, placed his hands on him, and asked him, “What can you see?”<verse eid="MRK 8:23" /></para>
+  <para style="p">
+    <verse number="24" style="v" sid="MRK 8:24" />The man looked around and answered, “I can see the people, but they just look like trees.” <verse eid="MRK 8:24" /><verse number="25" style="v" sid="MRK 8:25" />Jesus touched the man's eyes again and then he could see clearly—he was now completely better. <verse eid="MRK 8:25" /><verse number="26" style="v" sid="MRK 8:26" />Then Jesus told him not to go back into the village but to go straight home.<verse eid="MRK 8:26" /></para>
+  <para style="s1">Jesus asks who they think he is</para>
+  <para style="r">(Mat. 16:13-20; Luk. 9:18-21)</para>
+  <para style="p">
+    <verse number="27" style="v" sid="MRK 8:27" />Then Jesus and his followers moved around the various villages of Caesaria Philippi. On the way, he asked them, “Who does everyone think I am?”<verse eid="MRK 8:27" /></para>
+  <para style="p">
+    <verse number="28" style="v" sid="MRK 8:28" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">8:28: </char>
+      <char style="xt" closed="false">Mrk 6:14-15; Luk 9:7-8.</char>
+    </note>They said, “Some say John-the-Immerser, some say Elijah, and some say one of the prophets.”<verse eid="MRK 8:28" /></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MRK 8:29" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">8:29: </char>
+      <char style="xt" closed="false">Jn 6:68-69.</char>
+    </note>Then he asked, “And what do you all think?”</para>
+  <para style="p" vid="MRK 8:29">Peter said, “You are the promised one sent by God.”<verse eid="MRK 8:29" /></para>
+  <para style="p">
+    <verse number="30" style="v" sid="MRK 8:30" />Then Jesus warned them not to tell others about him.<verse eid="MRK 8:30" /></para>
+  <para style="s1">Jesus' radical challenge to his would-be followers</para>
+  <para style="r">(Mat. 16:21-28; Luk. 9:22-27)</para>
+  <para style="p">
+    <verse number="31" style="v" sid="MRK 8:31" />Then Jesus began teaching his followers that mankind's child would need to suffer a lot, to be rejected by the religious leaders, and so to be put to death but to come back to life after three days. <verse eid="MRK 8:31" /><verse number="32" style="v" sid="MRK 8:32" />He taught this very clearly, but Peter took him aside and told him off. <verse eid="MRK 8:32" /><verse number="33" style="v" sid="MRK 8:33" />Jesus turned back and looked at the others, then reprimanded Peter, “Stand back, Satan! you're applying human values instead of considering God's plan.”<verse eid="MRK 8:33" /></para>
+  <para style="p">
+    <verse number="34" style="v" sid="MRK 8:34" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">8:34: </char>
+      <char style="xt" closed="false">Mat 10:38; Luk 14:27.</char>
+    </note>Calling out to them and to the crowd, he said, “Anyone who wants to follow me must first put aside their own desires and then follow me—even through very difficult times. <verse eid="MRK 8:34" /><verse number="35" style="v" sid="MRK 8:35" /><note caller="+" style="x"><char style="xo" closed="false">8:35: </char><char style="xt" closed="false">Mat 10:39; Luk 17:33; Jn 12:25.</char></note>Anyone who worries about saving their own life will lose it, but whoever gives their life due to following me and my teaching will save their life. <verse eid="MRK 8:35" /><verse number="36" style="v" sid="MRK 8:36" />Because it doesn't benefit a person if they gain everything in the world but lose their soul. <verse eid="MRK 8:36" /><verse number="37" style="v" sid="MRK 8:37" />What can someone offer in order to buy a home for their soul? <verse eid="MRK 8:37" /><verse number="38" style="v" sid="MRK 8:38" />Yes, whoever is ashamed of me and my message in front of this adulterous and sinful generation, mankind's child will likewise be ashamed of them when he comes clearly displaying God's greatness and bringing the holy angels.”<verse eid="MRK 8:38" /></para>
+  <chapter eid="MRK 8" />
+  <chapter number="9" style="c" sid="MRK 9" />
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 9:1" />And he continued, “I can assure you that some of the ones standing here won't die until they have seen God's powerful kingdom arrive.”<verse eid="MRK 9:1" /></para>
+  <para style="s1">Moses and Elijah speak with Jesus</para>
+  <para style="r">(Mat. 17:1-13; Luk. 9:28-36)</para>
+  <para style="p">
+    <verse number="2" style="v" sid="MRK 9:2" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">9:2-7: </char>
+      <char style="xt" closed="false">2Pe 1:17-18.</char>
+    </note>Six days later Jesus took Peter and James and John, and just the four of them went up onto a high hill. Then he was changed right in front of their eyes <verse eid="MRK 9:2" /><verse number="3" style="v" sid="MRK 9:3" />and his clothes turned incredibly shining white—whiter than any bleach could make them. <verse eid="MRK 9:3" /><verse number="4" style="v" sid="MRK 9:4" />And Elijah and Moses appeared beside Jesus and started talking with him. <verse eid="MRK 9:4" /><verse number="5" style="v" sid="MRK 9:5" />Peter said to Jesus, “Teacher, it's good that we're here. Maybe we could make three shelters up here: one for you and one for Moses and one for Elijah?” <verse eid="MRK 9:5" /><verse number="6" style="v" sid="MRK 9:6" />He said that because they were terrified and didn't know what to say.<verse eid="MRK 9:6" /></para>
+  <para style="p">
+    <verse number="7" style="v" sid="MRK 9:7" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">9:7: </char>
+      <char style="xt" closed="false">Mat 3:17; Mrk 1:11; Luk 3:22.</char>
+    </note>Then a cloud came over the sun and a voice came out of the cloud saying, “This is my dear son. Listen to him.” <verse eid="MRK 9:7" /><verse number="8" style="v" sid="MRK 9:8" />When they looked around, they couldn't see anyone else there any more, except for Jesus himself.<verse eid="MRK 9:8" /></para>
+  <para style="p">
+    <verse number="9" style="v" sid="MRK 9:9" />As they descended again, Jesus told them to tell no one what had happened up there until after mankind's child came back to life.<verse eid="MRK 9:9" /></para>
+  <para style="p">
+    <verse number="10" style="v" sid="MRK 9:10" />They remembered that, although between all three of them they couldn't understand the bit about coming back to life. <verse eid="MRK 9:10" /><verse number="11" style="v" sid="MRK 9:11" /><note caller="+" style="x"><char style="xo" closed="false">9:11: </char><char style="xt" closed="false">Mal 4:5; Mat 11:14.</char></note>They asked Jesus, “Isn't it written that Elijah will be the first to return?”<verse eid="MRK 9:11" /></para>
+  <para style="p">
+    <verse number="12" style="v" sid="MRK 9:12" />He answered, “Yes, Elijah is indeed the one to come first to start the restoration. But isn't it also written that mankind's child will suffer a lot and be scorned? <verse eid="MRK 9:12" /><verse number="13" style="v" sid="MRK 9:13" />You see, Elijah has come already, and they treated him just however they liked, just like it was written that it would happen.”<verse eid="MRK 9:13" /></para>
+  <para style="s1">Jesus drives out a stubborn demon</para>
+  <para style="r">(Mat. 17:14-21; Luk. 9:37-43a)</para>
+  <para style="p">
+    <verse number="14" style="v" sid="MRK 9:14" />When they got back to <char style="add">his other</char> followers, Jesus saw that they were surrounded by a large crowd and the religious teachers were debating with them. <verse eid="MRK 9:14" /><verse number="15" style="v" sid="MRK 9:15" />The crowd were very surprised when they noticed Jesus and came running to greet him. <verse eid="MRK 9:15" /><verse number="16" style="v" sid="MRK 9:16" />He asked them, “What were you all talking about?”<verse eid="MRK 9:16" /></para>
+  <para style="p">
+    <verse number="17" style="v" sid="MRK 9:17" />One of the people answered, “Teacher, I brought my son here—he has a demon that prevents him from speaking. <verse eid="MRK 9:17" /><verse number="18" style="v" sid="MRK 9:18" />Whenever it takes hold of him, it attacks him and he starts foaming at the mouth and grating his teeth and his joints lock up. I tried to get your followers to command it to leave but they couldn't.”<verse eid="MRK 9:18" /></para>
+  <para style="p">
+    <verse number="19" style="v" sid="MRK 9:19" />Jesus replied, “You are a faithless generation. How much longer will I have to be here? How much longer can I tolerate you all? Bring him here.” <verse eid="MRK 9:19" /><verse number="20" style="v" sid="MRK 9:20" />So they brought the boy to him. When he saw Jesus, the demon immediately caused him to have convulsions and fall on the ground—rolling over and foaming at the mouth.<verse eid="MRK 9:20" /></para>
+  <para style="p">
+    <verse number="21" style="v" sid="MRK 9:21" />Jesus asked his father, “How long has this been happening?”</para>
+  <para style="p" vid="MRK 9:21">“Since he was small,” he replied, <verse eid="MRK 9:21" /><verse number="22" style="v" sid="MRK 9:22" />“and often it throws him into the fire or into water to try to destroy him. But if you feel sorry for us and can do it, please help us.”<verse eid="MRK 9:22" /></para>
+  <para style="p">
+    <verse number="23" style="v" sid="MRK 9:23" />Jesus asked him, “If I can? A person who believes can do anything.”<verse eid="MRK 9:23" /></para>
+  <para style="p">
+    <verse number="24" style="v" sid="MRK 9:24" />The boys father cried out, “I do believe—help me to fight unbelief.”<verse eid="MRK 9:24" /></para>
+  <para style="p">
+    <verse number="25" style="v" sid="MRK 9:25" />Then Jesus noticing that a big crowd was quickly forming, scolded the evil spirit, “You spirit who causes muteness and deafness. Leave this boy now and never return to him.”<verse eid="MRK 9:25" /></para>
+  <para style="p">
+    <verse number="26" style="v" sid="MRK 9:26" />There was yelling and strong convulsions, and then the demon left him and the boy lay still as if dead, and many people thought he was. <verse eid="MRK 9:26" /><verse number="27" style="v" sid="MRK 9:27" />But Jesus took his hand and lifted it, and the boy got up.<verse eid="MRK 9:27" /></para>
+  <para style="p">
+    <verse number="28" style="v" sid="MRK 9:28" />When Jesus and his apprentices had gone into the house by themselves, they asked him, “How come we couldn't drive it out?”<verse eid="MRK 9:28" /></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MRK 9:29" />He replied, “This kind will only leave after prayer and fasting.”<verse eid="MRK 9:29" /></para>
+  <para style="s1">Jesus talks again about being executed</para>
+  <para style="r">(Mat. 17:22-23; Luk. 9:43b-45)</para>
+  <para style="p">
+    <verse number="30" style="v" sid="MRK 9:30" />Then they left that place and were moving around Galilee, because Jesus didn't want people to know where he was <verse eid="MRK 9:30" /><verse number="31" style="v" sid="MRK 9:31" />while he was teaching his apprentices. He told them, “mankind's child will be arrested and executed, but after three days he'll come back to life.”<verse eid="MRK 9:31" /></para>
+  <para style="p">
+    <verse number="32" style="v" sid="MRK 9:32" />But they didn't know what that meant, and they were too scared to ask him.<verse eid="MRK 9:32" /></para>
+  <para style="s1">How to be the best</para>
+  <para style="r">(Mat. 18:1-5; Luk. 9:46-48)</para>
+  <para style="p">
+    <verse number="33" style="v" sid="MRK 9:33" />Then they went Capernaum and when they arrived at the house, Jesus asked them what they were discussing on the way.<verse eid="MRK 9:33" /></para>
+  <para style="p">
+    <verse number="34" style="v" sid="MRK 9:34" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">9:34: </char>
+      <char style="xt" closed="false">Luk 22:24.</char>
+    </note>But they didn't reply because while they were walking, they had been talking about which of them is the best. <verse eid="MRK 9:34" /><verse number="35" style="v" sid="MRK 9:35" /><note caller="+" style="x"><char style="xo" closed="false">9:35: </char><char style="xt" closed="false">Mat 20:26-27; 23:11; Mrk 10:43-44; Luk 22:26.</char></note>So Jesus sat down and called the twelve of them and explained, “Whoever wants to be at the top, has to be at the bottom and help all the others.” <verse eid="MRK 9:35" /><verse number="36" style="v" sid="MRK 9:36" />Then Jesus called a young boy and stood him in the middle of them, and giving him a hug said, <verse eid="MRK 9:36" /><verse number="37" style="v" sid="MRK 9:37" /><note caller="+" style="x"><char style="xo" closed="false">9:37: </char><char style="xt" closed="false">Mat 10:40; Luk 10:16; Jn 13:20.</char></note>“Whoever welcomes young children on my behalf, welcomes me, and whoever welcomes me is not actually welcoming me, but welcoming the one who sent me here.”<verse eid="MRK 9:37" /></para>
+  <para style="s1">Others are also serving Jesus</para>
+  <para style="r">(Luk. 9:49-50)</para>
+  <para style="p">
+    <verse number="38" style="v" sid="MRK 9:38" />John checked with Jesus, “Teacher, we saw someone using your authority to command demons to leave, but we told him off because he wasn't one of us.”<verse eid="MRK 9:38" /></para>
+  <para style="p">
+    <verse number="39" style="v" sid="MRK 9:39" />Jesus responded, “No, don't stop him because anyone who does a miracle using my name won't just quickly turn around and slander me. <verse eid="MRK 9:39" /><verse number="40" style="v" sid="MRK 9:40" /><note caller="+" style="x"><char style="xo" closed="false">9:40: </char><char style="xt" closed="false">Mat 12:30; Luk 11:23.</char></note>Anyone who's not against us is for us. <verse eid="MRK 9:40" /><verse number="41" style="v" sid="MRK 9:41" /><note caller="+" style="x"><char style="xo" closed="false">9:41: </char><char style="xt" closed="false">Mat 10:42.</char></note> Anyone who gives you water to drink because you are followers of God's chosen one and who does it because they are working for me, I can assure you that they'll receive their reward.<verse eid="MRK 9:41" /></para>
+  <para style="s1">Difficult teachings about disobedience</para>
+  <para style="r">(Mat. 18:6-9; Luk. 17:1-2)</para>
+  <para style="p">
+    <verse number="42" style="v" sid="MRK 9:42" />But anyone who causes a young person to falter from their trust in me, it would be better if they were thrown into the sea with a heavy weight tied around their neck. <verse eid="MRK 9:42" /><verse number="43" style="v" sid="MRK 9:43" /><note caller="+" style="x"><char style="xo" closed="false">9:43: </char><char style="xt" closed="false">Mat 5:30.</char></note>If your hand causes you to disobey God, cut it off—it's better to enter <char style="add">eternal</char> life being maimed, than to have two hands but to be thrown into the fire that never goes out. <verse eid="MRK 9:43" /><verse number="44" style="v" sid="MRK 9:44" />≈ <verse eid="MRK 9:44" /><verse number="45" style="v" sid="MRK 9:45" />And if your foot causes you to disobey God, cut it off—it's better to enter <char style="add">eternal</char> life being maimed, than to have two feet but to be thrown into hell. <verse eid="MRK 9:45" /><verse number="46" style="v" sid="MRK 9:46" />≈ <verse eid="MRK 9:46" /><verse number="47" style="v" sid="MRK 9:47" /><note caller="+" style="x"><char style="xo" closed="false">9:47: </char><char style="xt" closed="false">Mat 5:29.</char></note>And if your eye causes you to disobey God, gouge it out—it's better to enter God's kingdom one-eyed, than to have two eyes and be thrown into hell <verse eid="MRK 9:47" /><verse number="48" style="v" sid="MRK 9:48" />where the worms never die and the fire never goes out.<verse eid="MRK 9:48" /></para>
+  <para style="p">
+    <verse number="49" style="v" sid="MRK 9:49" />Everyone will be salted with fire.<verse eid="MRK 9:49" /></para>
+  <para style="p">
+    <verse number="50" style="v" sid="MRK 9:50" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">9:50: </char>
+      <char style="xt" closed="false">Mat 5:13; Luk 14:34-35.</char>
+    </note>Now salt is good, but if it were to go bad, what would you season <char style="add">your food</char> with then? So keep yourselves like salt, and strive to get on well with each other.<verse eid="MRK 9:50" /></para>
+  <chapter eid="MRK 9" />
+  <chapter number="10" style="c" sid="MRK 10" />
+  <para style="s1">It's God that joins husband and wife</para>
+  <para style="r">(Mat. 19:1-12; Luk. 16:18)</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 10:1" />Then Jesus left there and went down to the Judean area and across the Jordan river. Again the crowds followed him, and he taught them just like he usually did.<verse eid="MRK 10:1" /></para>
+  <para style="p">
+    <verse number="2" style="v" sid="MRK 10:2" />Some from the Pharisee party approached Jesus to check him out and asked, “Does the law allow a husband to dismiss his wife?”<verse eid="MRK 10:2" /></para>
+  <para style="p">
+    <verse number="3" style="v" sid="MRK 10:3" />“Well, what law did Moses give to you all?” he asked.<verse eid="MRK 10:3" /></para>
+  <para style="p">
+    <verse number="4" style="v" sid="MRK 10:4" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">10:4: </char>
+      <char style="xt" closed="false">Deu 24:1-4; Mat 5:31.</char>
+    </note>They answered, “Moses said that a husband is allowed to write a statement of divorce and dismiss his wife with it.”<verse eid="MRK 10:4" /></para>
+  <para style="p">
+    <verse number="5" style="v" sid="MRK 10:5" />Jesus responded, “Yes, he wrote that law because he saw your stubborn desires, <verse eid="MRK 10:5" /><verse number="6" style="v" sid="MRK 10:6" /><note caller="+" style="x"><char style="xo" closed="false">10:6: </char><char style="xt" closed="false">Gen 1:27; 5:2.</char></note>but God made both men and women right at the beginning. <verse eid="MRK 10:6" /><verse number="7" style="v" sid="MRK 10:7" /><note caller="+" style="x"><char style="xo" closed="false">10:7-8: </char><char style="xt" closed="false">Gen 2:24.</char></note>As a result, a man leaves his parents and joins together with his wife <verse eid="MRK 10:7" /><verse number="8" style="v" sid="MRK 10:8" />and the couple become a single unit. So there's no longer two of them, but only one. <verse eid="MRK 10:8" /><verse number="9" style="v" sid="MRK 10:9" />So if it's God who joins them together like that, no person <char style="add">has the authority</char> to separate them.”<verse eid="MRK 10:9" /></para>
+  <para style="p">
+    <verse number="10" style="v" sid="MRK 10:10" />Back in the house again, his apprentices asked about this. <verse eid="MRK 10:10" /><verse number="11" style="v" sid="MRK 10:11" /><note caller="+" style="x"><char style="xo" closed="false">10:11-12: </char><char style="xt" closed="false">Mat 5:32; 1Cor 7:10-11.</char></note>And Jesus told them, “Whoever divorces his wife and marries another person, commits adultery towards his wife.” <verse eid="MRK 10:11" /><verse number="12" style="v" sid="MRK 10:12" />And likewise if the wife divorces her husband and marries another person, she is committing adultery towards her husband.”<verse eid="MRK 10:12" /></para>
+  <para style="s1">Jesus encourages childlike faith</para>
+  <para style="r">(Mat. 19:13-15; Luk. 18:15-17)</para>
+  <para style="p">
+    <verse number="13" style="v" sid="MRK 10:13" />The people were bringing small children for Jesus to touch, but his apprentices scolded them. <verse eid="MRK 10:13" /><verse number="14" style="v" sid="MRK 10:14" />However, Jesus noticed it and was upset, “Just let those kids come. Don't prevent them because God's kingdom consists of people like them. <verse eid="MRK 10:14" /><verse number="15" style="v" sid="MRK 10:15" /><note caller="+" style="x"><char style="xo" closed="false">10:15: </char><char style="xt" closed="false">Mat 18:3.</char></note>Actually, you can't even enter God's kingdom unless you accept it just like a small child does.” <verse eid="MRK 10:15" /><verse number="16" style="v" sid="MRK 10:16" />So he continued hugging the children and <char style="add">commanding</char> a good life for them as he placed his hands on each one.<verse eid="MRK 10:16" /></para>
+  <para style="s1">Leaving behind everything to be saved</para>
+  <para style="r">(Mat. 19:16-30; Luk. 18:18-30)</para>
+  <para style="p">
+    <verse number="17" style="v" sid="MRK 10:17" />One time when Jesus was starting out on a trip, a man caught up to him and kneeling down in front of him asked, “Good teacher, what do I have to do to inherit eternal life?”<verse eid="MRK 10:17" /></para>
+  <para style="p">
+    <verse number="18" style="v" sid="MRK 10:18" />He answered, “Why do you call me <char style="em">good</char>? No person is good—only God is. <verse eid="MRK 10:18" /><verse number="19" style="v" sid="MRK 10:19" /><note caller="+" style="x"><char style="xo" closed="false">10:19: a </char><char style="xt" closed="false">Exo 20:13; Deu 5:17; </char><char style="xo" closed="false">b </char><char style="xt" closed="false">Exo 20:14; Deu 5:18; </char><char style="xo" closed="false">c </char><char style="xt" closed="false">Exo 20:15; Deu 5:19; </char><char style="xo" closed="false">d </char><char style="xt" closed="false">Exo 20:16; Deu 5:20; </char><char style="xo" closed="false">e </char><char style="xt" closed="false">Exo 20:12; Deu 5:16.</char></note>You know the commandments: don't murder, don't commit adultery, don't steal, don't lie about others, don't defraud others, and honour your parents.”<verse eid="MRK 10:19" /></para>
+  <para style="p">
+    <verse number="20" style="v" sid="MRK 10:20" />The man responded, “I've kept all of those since I was young.”<verse eid="MRK 10:20" /></para>
+  <para style="p">
+    <verse number="21" style="v" sid="MRK 10:21" />Jesus looked up at him with genuine love and said, “There's one thing still to be done: sell everything you have and give the money to the poor—then you'll have wealth in heaven. After that, come and follow me.” <verse eid="MRK 10:21" /><verse number="22" style="v" sid="MRK 10:22" />But the man grew very sad when he heard this, because he owned many properties.<verse eid="MRK 10:22" /></para>
+  <para style="p">
+    <verse number="23" style="v" sid="MRK 10:23" />Jesus looked around at his followers, “It's so difficult for wealthy people to enter God's kingdom.”<verse eid="MRK 10:23" /></para>
+  <para style="p">
+    <verse number="24" style="v" sid="MRK 10:24" />His followers were a bit stunned at his teaching.) Jesus continued, “Yes, it's certainly difficult to enter into God's kingdom. <verse eid="MRK 10:24" /><verse number="25" style="v" sid="MRK 10:25" />It's easier for a camel to go through the eye of a needle than for a rich person to enter God's kingdom.”<verse eid="MRK 10:25" /></para>
+  <para style="p">
+    <verse number="26" style="v" sid="MRK 10:26" />Now they were totally stunned, asking, “How can anyone possibly be saved then?”<verse eid="MRK 10:26" /></para>
+  <para style="p">
+    <verse number="27" style="v" sid="MRK 10:27" />Jesus looked intently at them, “Yes, humanly it's quite impossible. But with God it's different—God can do anything!”<verse eid="MRK 10:27" /></para>
+  <para style="p">
+    <verse number="28" style="v" sid="MRK 10:28" />Peter said, “We left everything and came and followed you.”<verse eid="MRK 10:28" /></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MRK 10:29" />He answered, “Yes I can assure you all that whoever left their home or farm, and left their siblings or parents or children because of me and my teaching, <verse eid="MRK 10:29" /><verse number="30" style="v" sid="MRK 10:30" />they'll be rewarded one hundred times over with homes and farms and siblings and parents and children along with persecution, but gaining eternal life in the next era. <verse eid="MRK 10:30" /><verse number="31" style="v" sid="MRK 10:31" /><note caller="+" style="x"><char style="xo" closed="false">10:31: </char><char style="xt" closed="false">Mat 20:16; Luk 13:30.</char></note>But many at the top now will be at the bottom then, and many at the bottom now will be blessed then.”<verse eid="MRK 10:31" /></para>
+  <para style="s1">Jesus predicts his execution a third time</para>
+  <para style="r">(Mat. 20:17-19; Luk. 18:31-34)</para>
+  <para style="p">
+    <verse number="32" style="v" sid="MRK 10:32" />They were heading south to Jerusalem with Jesus in front, and his followers were a bit surprised and a bit scared. Jesus took the twelve aside and started telling them what was going to happen to him, <verse eid="MRK 10:32" /><verse number="33" style="v" sid="MRK 10:33" />“We're on our way down to Jerusalem and mankind's child will be turned over to the chief priests and the religious teachers, and they'll sentence him to die and pass him over to the non-Jews. <verse eid="MRK 10:33" /><verse number="34" style="v" sid="MRK 10:34" />Then they'll ridicule him and spit on him before they beat him and execute him, but he'll come back to life again in three days time.”<verse eid="MRK 10:34" /></para>
+  <para style="s1">How to become respected in God's kingdom</para>
+  <para style="r">(Mat. 20:20-28)</para>
+  <para style="p">
+    <verse number="35" style="v" sid="MRK 10:35" />Then James and John, the two sons of Zebedee approached Jesus and asked, “Teacher, we'd like to ask a favour from you—please don't disappoint us.”<verse eid="MRK 10:35" /></para>
+  <para style="p">
+    <verse number="36" style="v" sid="MRK 10:36" />“What do you want from me?” Jesus asked.<verse eid="MRK 10:36" /></para>
+  <para style="p">
+    <verse number="37" style="v" sid="MRK 10:37" />They answered, “Allow us two to sit beside you in heaven—one of us on each side of you.”<verse eid="MRK 10:37" /></para>
+  <para style="p">
+    <verse number="38" style="v" sid="MRK 10:38" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">10:38: </char>
+      <char style="xt" closed="false">Luk 12:50.</char>
+    </note>But Jesus replied, “You don't even understand what you're asking for. Do you think you could endure the suffering that I have to go through? Or to be enveloped in the darkness that I have to go down into?”<verse eid="MRK 10:38" /></para>
+  <para style="p">
+    <verse number="39" style="v" sid="MRK 10:39" />And they replied, “Sure we can.”</para>
+  <para style="p" vid="MRK 10:39">“And indeed you all will suffer like me and be enveloped in darkness like I will be,” responded Jesus, <verse eid="MRK 10:39" /><verse number="40" style="v" sid="MRK 10:40" />but as for deciding who will sit next to me, that's not my decision to make because it's already been decided.”<verse eid="MRK 10:40" /></para>
+  <para style="p">
+    <verse number="41" style="v" sid="MRK 10:41" />When the ten other apprentices heard what these two had asked for, they were upset at James and John. <verse eid="MRK 10:41" /><verse number="42" style="v" sid="MRK 10:42" /><note caller="+" style="x"><char style="xo" closed="false">10:42-43: </char><char style="xt" closed="false">Luk 22:25-26.</char></note>But Jesus called them over, “Listen, in most countries their rulers boss the people around and their leaders exert their authority over them. <verse eid="MRK 10:42" /><verse number="43" style="v" sid="MRK 10:43" /><note caller="+" style="x"><char style="xo" closed="false">10:43-44: </char><char style="xt" closed="false">Mat 23:11; Mrk 9:35; Luk 22:26.</char></note>But it doesn't work like that with you—anyone of you who wanted to be honoured must serve the others, <verse eid="MRK 10:43" /><verse number="44" style="v" sid="MRK 10:44" />and whoever wants to become the most respected has to <char style="add">work</char> like a slave does. <verse eid="MRK 10:44" /><verse number="45" style="v" sid="MRK 10:45" />Even mankind's child didn't come to be served, but to serve others and to give his life as a ransom to set many people free.<verse eid="MRK 10:45" /></para>
+  <para style="s1">Blind Bartimeus gets his miracle</para>
+  <para style="r">(Mat. 20:29-34; Luk. 18:35-43)</para>
+  <para style="p">
+    <verse number="46" style="v" sid="MRK 10:46" />They arrived at Jericho, and then when Jesus and his followers were leaving again with a large crowd following, they came across blind Bartimeus sitting beside the path begging. <verse eid="MRK 10:46" /><verse number="47" style="v" sid="MRK 10:47" />When he heard that it was Jesus from Nazareth going past, he yelled out, “Jesus, <char style="add">promised</char> descendant of David, help me please.”<verse eid="MRK 10:47" /></para>
+  <para style="p">
+    <verse number="48" style="v" sid="MRK 10:48" />When several people told him to stop, he just yelled out even louder, “Jesus, <char style="add">promised</char> descendant of David, help me please.”<verse eid="MRK 10:48" /></para>
+  <para style="p">
+    <verse number="49" style="v" sid="MRK 10:49" />Then Jesus stopped and got the people to call the blind man. So they called him, “Hey, be confident! Get up and come because he's called for you.”<verse eid="MRK 10:49" /></para>
+  <para style="p">
+    <verse number="50" style="v" sid="MRK 10:50" />So Bartimeus threw off his jacket, jumped up, and was led to Jesus.<verse eid="MRK 10:50" /></para>
+  <para style="p">
+    <verse number="51" style="v" sid="MRK 10:51" />“Now, what can I do for you?” Jesus asked.</para>
+  <para style="p" vid="MRK 10:51">“My teacher, I'd like to be able to see,” Bartimeus replied.<verse eid="MRK 10:51" /></para>
+  <para style="p">
+    <verse number="52" style="v" sid="MRK 10:52" />Then Jesus responded, “Ok, off you go then—your faith has saved you.”</para>
+  <para style="p" vid="MRK 10:52">And immediately Bartimeus was able to see, and followed along the path after Jesus.<verse eid="MRK 10:52" /></para>
+  <chapter eid="MRK 10" />
+  <chapter number="11" style="c" sid="MRK 11" />
+  <para style="s1">Jesus is treated like a king as he enters Jerusalem</para>
+  <para style="r">(Mat. 21:1-11; Luk. 19:28-40; Jn 12:12-19)</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 11:1" />As they got close to Jerusalem and were passing Bethphage and Bethany on the Mount of Olives, Jesus sent two of his apprentices ahead, telling them, <verse eid="MRK 11:1" /><verse number="2" style="v" sid="MRK 11:2" />“Go on to the next village and as you enter it, you'll see a young donkey that hasn't ever been ridden yet. Untie it and bring it back here. <verse eid="MRK 11:2" /><verse number="3" style="v" sid="MRK 11:3" />If anyone asks what you're doing, tell them that the master needs it and he'll return it later.”<verse eid="MRK 11:3" /></para>
+  <para style="p">
+    <verse number="4" style="v" sid="MRK 11:4" />So they went ahead and found a donkey tied up on the path just outside the door of a house, and so they went to untie it. <verse eid="MRK 11:4" /><verse number="5" style="v" sid="MRK 11:5" />But some of the people standing around there said, “Hoy! What do you think you're doing untying that donkey?”<verse eid="MRK 11:5" /></para>
+  <para style="p">
+    <verse number="6" style="v" sid="MRK 11:6" />So they responded just as Jesus had told them, and the people allowed them to proceed. <verse eid="MRK 11:6" /><verse number="7" style="v" sid="MRK 11:7" />They brought the young donkey to Jesus, placing their coats over it before Jesus mounted it. <verse eid="MRK 11:7" /><verse number="8" style="v" sid="MRK 11:8" /><char style="add">As Jesus rode it into Jerusalem,</char> many people laid their coats on the road, while others lay down leafy branches cut from trees in nearby fields. <verse eid="MRK 11:8" /><verse number="9" style="v" sid="MRK 11:9" /><note caller="+" style="x"><char style="xo" closed="false">11:9: </char><char style="xt" closed="false">Psa 118:25-26.</char></note>Some went ahead and others came along behind, shouting, “This is the saviour who comes with the authority and blessing from God— <verse eid="MRK 11:9" /><verse number="10" style="v" sid="MRK 11:10" />the promised ancestor of King David who is blessed as he ushers in his kingdom—the blessed saviour from heaven.”<verse eid="MRK 11:10" /></para>
+  <para style="p">
+    <verse number="11" style="v" sid="MRK 11:11" />And so Jesus arrived in Jerusalem and went into the temple and looked all around, but because it was now evening, he went back out to Bethania village with his twelve apprentices.<verse eid="MRK 11:11" /></para>
+  <para style="s1">Jesus curses a fig tree</para>
+  <para style="r">(Mat. 21:18-19)</para>
+  <para style="p">
+    <verse number="12" style="v" sid="MRK 11:12" />The next day after they'd left Bethania, Jesus was hungry. <verse eid="MRK 11:12" /><verse number="13" style="v" sid="MRK 11:13" />From a distance he noticed a fig tree that was in leaf so he went over to see if there was any fruit on it, but when he reached it there was only leaves because it wasn't the right season for figs. <verse eid="MRK 11:13" /><verse number="14" style="v" sid="MRK 11:14" />So he spoke to the tree, “No one in this age will ever eat fruit from you again.” (His followers heard him say that.)<verse eid="MRK 11:14" /></para>
+  <para style="s1">Jesus upsets the traders inside the temple</para>
+  <para style="r">(Mat. 21:12-17; Luk. 19:45-48; Jn 2:13-22)</para>
+  <para style="p">
+    <verse number="15" style="v" sid="MRK 11:15" />Then they came back into Jerusalem and on into the temple where Jesus started driving out the sellers and the buyers that were trading in there. Then he tipped over the tables of the money-changers and the chairs of the ones selling doves, <verse eid="MRK 11:15" /><verse number="16" style="v" sid="MRK 11:16" />and stopped others from carrying goods through the temple. <verse eid="MRK 11:16" /><verse number="17" style="v" sid="MRK 11:17" /><note caller="+" style="x"><char style="xo" closed="false">11:17: a </char><char style="xt" closed="false">Isa 56:7; </char><char style="xo" closed="false">b </char><char style="xt" closed="false">Jer 7:11.</char></note>He said, “Isn't it written in the Scriptures,</para>
+  <para style="q1" vid="MRK 11:17">‘My house will be known as a house of prayer for all the nations’?</para>
+  <para style="m" vid="MRK 11:17">But all of you have turned it into a sanctuary for swindlers.”<verse eid="MRK 11:17" /></para>
+  <para style="p">
+    <verse number="18" style="v" sid="MRK 11:18" />When the chief priests and the religious teachers heard this, they started looking for a way that they could destroy him, because they were afraid of him and the way that the crowd marvelled at this teaching.<verse eid="MRK 11:18" /></para>
+  <para style="p">
+    <verse number="19" style="v" sid="MRK 11:19" />Every evening, Jesus and his apprentices would go out of the city to stay overnight.<verse eid="MRK 11:19" /></para>
+  <para style="s1">Jesus gives a lesson on moving mountains</para>
+  <para style="r">(Mat. 21:20-22)</para>
+  <para style="p">
+    <verse number="20" style="v" sid="MRK 11:20" />As they entered the city again in the morning, Jesus' apprentices noticed that the fig tree was totally dead. <verse eid="MRK 11:20" /><verse number="21" style="v" sid="MRK 11:21" />Peter remembered what he had said to the tree, and commented, “Teacher, that fig tree that you cursed has withered up.”<verse eid="MRK 11:21" /></para>
+  <para style="p">
+    <verse number="22" style="v" sid="MRK 11:22" />Jesus responded, “Use your faith in God. <verse eid="MRK 11:22" /><verse number="23" style="v" sid="MRK 11:23" /><note caller="+" style="x"><char style="xo" closed="false">11:23: </char><char style="xt" closed="false">Mat 17:20; 1Cor 13:2.</char></note>I can assure you that if anyone tells a mountain to go into the sea and doesn't doubt in their mind but believes that what they're saying will happen, then it will. <verse eid="MRK 11:23" /><verse number="24" style="v" sid="MRK 11:24" />So I tell you all that anything you ask God for in your prayers, if you believe that you have received it, then you will. <verse eid="MRK 11:24" /><verse number="25" style="v" sid="MRK 11:25" /><note caller="+" style="x"><char style="xo" closed="false">11:25-26: </char><char style="xt" closed="false">Mat 6:14-15.</char></note>Whenever you are standing praying, if you have something against someone, be sure to forgive them so that your father in heaven can also forgive your shortcomings.”<verse eid="MRK 11:25" /></para>
+  <para style="s1">The leaders question Jesus' authority</para>
+  <para style="r">(Mat. 21:23-27; Luk. 20:1-8)</para>
+  <para style="p">
+    <verse number="26" style="v" sid="MRK 11:26" />≈ <verse eid="MRK 11:26" /><verse number="27" style="v" sid="MRK 11:27" />They continued on into Jerusalem and on to the temple where they were met by the chief priests and the religious teachers and the elders. <verse eid="MRK 11:27" /><verse number="28" style="v" sid="MRK 11:28" />They asked Jesus, “Do you have any authority to do what you did? If so, who gave it to you?”<verse eid="MRK 11:28" /></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MRK 11:29" />Jesus answered, “Ok, I'll also ask you something and when you answer me I'll tell you about my authority to do that: <verse eid="MRK 11:29" /><verse number="30" style="v" sid="MRK 11:30" />When John <char style="add">preached and</char> immersed people, did the authority for that come from heaven or from people here?”<verse eid="MRK 11:30" /></para>
+  <para style="p">
+    <verse number="31" style="v" sid="MRK 11:31" />They discussed this among themselves, reasoning, “If we say it was from heaven, he'll ask us why we didn't believe him. <verse eid="MRK 11:31" /><verse number="32" style="v" sid="MRK 11:32" />But we can't say that it was just from people.” (They said that because they were scared of the crowds, knowing that they believed that John was a prophet.) <verse eid="MRK 11:32" /><verse number="33" style="v" sid="MRK 11:33" />So they answered, “We don't know.”</para>
+  <para style="p" vid="MRK 11:33">And Jesus also responded, “Well then, I won't tell you about my authority to do those things either.”<verse eid="MRK 11:33" /></para>
+  <chapter eid="MRK 11" />
+  <chapter number="12" style="c" sid="MRK 12" />
+  <para style="s1">The parable about the tenants killing the owner's son</para>
+  <para style="r">(Mat. 21:33-46; Luk. 20:9-19)</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 12:1" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">12:1: </char>
+      <char style="xt" closed="false">Isa 5:1-2.</char>
+    </note>Then he started telling them some parables: “A man planted a vineyard and put a fence and a moat around it and built a <char style="add">security</char> tower. Then he rented it out and went off travelling. <verse eid="MRK 12:1" /><verse number="2" style="v" sid="MRK 12:2" />At harvest time, he sent a slave to go to the tenant farmers and get his <char style="add">percentage</char> of the harvest. <verse eid="MRK 12:2" /><verse number="3" style="v" sid="MRK 12:3" />But the tenants grabbed the slave and beat him up, then sent him back empty-handed. <verse eid="MRK 12:3" /><verse number="4" style="v" sid="MRK 12:4" />The owner sent a second slave, but they insulted this one and struck him on the head. <verse eid="MRK 12:4" /><verse number="5" style="v" sid="MRK 12:5" />So the owner sent a third slave and they murdered him. He sent many other slaves—some they just beat up and others they murdered. <verse eid="MRK 12:5" /><verse number="6" style="v" sid="MRK 12:6" />But the owner still had his one, dearly loved son, so finally he sent him to go, thinking that they would now be convinced because it was his son. <verse eid="MRK 12:6" /><verse number="7" style="v" sid="MRK 12:7" />But the tenant farmers said to each others, ‘Ah ha. This is the one who will inherit this land. If we kill <char style="em">him</char>, we'll be the ones to control the estate.’ <verse eid="MRK 12:7" /><verse number="8" style="v" sid="MRK 12:8" />So they took him and killed him, and threw the body outside the vineyard fence.<verse eid="MRK 12:8" /></para>
+  <para style="p">
+    <verse number="9" style="v" sid="MRK 12:9" />“Now, what do you think the owner of the vineyard will do? Yes, he'll come and eliminate those <char style="add">evil</char> tenants, and give the contract to others. <verse eid="MRK 12:9" /><verse number="10" style="v" sid="MRK 12:10" /><note caller="+" style="x"><char style="xo" closed="false">12:10-11: </char><char style="xt" closed="false">Psa 118:22-23.</char></note>Haven't you all read this in the scriptures:</para>
+  <para style="q1" vid="MRK 12:10">‘the stone that the builders rejected</para>
+  <para style="q1" vid="MRK 12:10">became the <char style="add">important</char> cornerstone<verse eid="MRK 12:10" /></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="MRK 12:11" />that was given by the master,</para>
+  <para style="q1" vid="MRK 12:11">and we think it's incredible.’?”<verse eid="MRK 12:11" /></para>
+  <para style="p">
+    <verse number="12" style="v" sid="MRK 12:12" />And those leaders tried to arrest him because they knew that it was them that the parable was addressed to, but they couldn't do it because <char style="add">Jesus had the favour</char> of the crowd, so they just left the area.<verse eid="MRK 12:12" /></para>
+  <para style="s1">Jesus answers about payment of taxes</para>
+  <para style="r">(Mat. 22:15-22; Luk. 20:20-26)</para>
+  <para style="p">
+    <verse number="13" style="v" sid="MRK 12:13" />Then the religious leaders sent some members of the Pharisee party and some of the <char style="add">political</char> supporters of King Herod to try to catch Jesus out. <verse eid="MRK 12:13" /><verse number="14" style="v" sid="MRK 12:14" />So they <char style="add">flattered</char> him, “Teacher, we know that you are honest even if it upsets others, and that you teach the truth about God without caring about people's opinions. Is it legal <char style="add">for us Jews</char> to pay the poll tax to the Roman emperor or not? How should we handle this?”<verse eid="MRK 12:14" /></para>
+  <para style="p">
+    <verse number="15" style="v" sid="MRK 12:15" />But knowing their hypocrisy, Jesus responded to them, “Why are you trying to test me? Bring me a coin so we can determine the proper answer.”<verse eid="MRK 12:15" /></para>
+  <para style="p">
+    <verse number="16" style="v" sid="MRK 12:16" />When they brought him a coin, he asked, “Whose image and inscription are on this coin?”</para>
+  <para style="p" vid="MRK 12:16">And they said, “The emperor's.”<verse eid="MRK 12:16" /></para>
+  <para style="p">
+    <verse number="17" style="v" sid="MRK 12:17" />“Well then,” said Jesus, “give to the emperor whatever is due him, but give God what is owed to God.”</para>
+  <para style="p" vid="MRK 12:17">And they had to admit that that was an outstanding answer.<verse eid="MRK 12:17" /></para>
+  <para style="s1">Jesus explains that those who've died are alive</para>
+  <para style="r">(Mat. 22:23-33; Luk. 20:27-40)</para>
+  <para style="p">
+    <verse number="18" style="v" sid="MRK 12:18" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">12:18: </char>
+      <char style="xt" closed="false">Acts 23:8.</char>
+    </note>Another time, members of the Sadducee sect came to Jesus and asked, <verse eid="MRK 12:18" /><verse number="19" style="v" sid="MRK 12:19" /><note caller="+" style="x"><char style="xo" closed="false">12:19: </char><char style="xt" closed="false">Deu 25:5.</char></note>“Teacher, Moses wrote that if a man's married brother should die before his wife without having any children, then his brother should marry her to produce descendants in his brother's name. <verse eid="MRK 12:19" /><verse number="20" style="v" sid="MRK 12:20" />Now what if there were seven brothers and the first one got married and died childless. <verse eid="MRK 12:20" /><verse number="21" style="v" sid="MRK 12:21" />So then the second brother took her in, but again died childless, and then the third. <verse eid="MRK 12:21" /><verse number="22" style="v" sid="MRK 12:22" />Eventually all seven brothers died childless, and finally the woman also died. <verse eid="MRK 12:22" /><verse number="23" style="v" sid="MRK 12:23" />Now, at the resurrection of the dead, which brother will she be the wife of, because at some point, she was married to each of the seven of them?”<verse eid="MRK 12:23" /></para>
+  <para style="p">
+    <verse number="24" style="v" sid="MRK 12:24" />So Jesus answered, “Actually you're all quite wrong, because you ignore the scriptures and also because you haven't experienced God's power. <verse eid="MRK 12:24" /><verse number="25" style="v" sid="MRK 12:25" />When the dead do come back to life, they won't be getting engaged or married, but will be like the angels in heaven. <verse eid="MRK 12:25" /><verse number="26" style="v" sid="MRK 12:26" /><note caller="+" style="x"><char style="xo" closed="false">12:26: </char><char style="xt" closed="false">Exo 3:6.</char></note>And as for the state of those who've died, didn't you read in the scriptures about Moses when God spoke to him in front of the <char style="add">burning</char> thorn bush and said, ‘I am the God of Abraham and the God of Isaac and the God of Jacob’? <verse eid="MRK 12:26" /><verse number="27" style="v" sid="MRK 12:27" />So God is not the God of the dead, but of the living. You Sadducees are very wrong!”<verse eid="MRK 12:27" /></para>
+  <para style="s1">Jesus answers about genuine obedience to God</para>
+  <para style="r">(Mat. 22:34-40; Luk. 10:25-28)</para>
+  <para style="p">
+    <verse number="28" style="v" sid="MRK 12:28" />Then one of the religious teachers who had heard their question and Jesus' excellent answer, came closer and asked, “Which of the commandments is the most important?”<verse eid="MRK 12:28" /></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MRK 12:29" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">12:29-30: </char>
+      <char style="xt" closed="false">Deu 6:4-5.</char>
+    </note>Jesus answered, “Well, the most important is this: ‘Listen, Israel. There's only one God who is our master. <verse eid="MRK 12:29" /><verse number="30" style="v" sid="MRK 12:30" />You must love God your master with all your heart and with all your soul and with all your mind and with all your strength.’ <verse eid="MRK 12:30" /><verse number="31" style="v" sid="MRK 12:31" /><note caller="+" style="x"><char style="xo" closed="false">12:31: </char><char style="xt" closed="false">Lev 19:18.</char></note>And the second is: ‘Love your neighbour like <char style="add">you look after</char> yourself.’ There's no other commandments more important than these.”<verse eid="MRK 12:31" /></para>
+  <para style="p">
+    <verse number="32" style="v" sid="MRK 12:32" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">12:32: </char>
+      <char style="xt" closed="false">Deu 4:35.</char>
+    </note>The teacher replied to Jesus, “Yes, teacher, you're quite right saying there's only one God and no other, <verse eid="MRK 12:32" /><verse number="33" style="v" sid="MRK 12:33" /><note caller="+" style="x"><char style="xo" closed="false">12:33: </char><char style="xt" closed="false">Hos 6:6.</char></note> and saying that we should love him with all our heart and all our intelligence and all our strength, and to be loving our neighbours like we <char style="add">look after</char> ourselves, and all this is more important than all the required temple offerings and sacrifices.”<verse eid="MRK 12:33" /></para>
+  <para style="p">
+    <verse number="34" style="v" sid="MRK 12:34" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">12:28-34: </char>
+      <char style="xt" closed="false">Luk 10:25-28.</char>
+    </note>When Jesus saw that he had given such a thoughtful answer, he said, “You are very close to the kingdom of God!”</para>
+  <para style="p" vid="MRK 12:34">After that, no one else dared to ask Jesus any more questions.<verse eid="MRK 12:34" /></para>
+  <para style="s1">Jesus asks about the messiah being a descendant of David</para>
+  <para style="r">(Mat. 22:41-46; Luk. 20:41-44)</para>
+  <para style="p">
+    <verse number="35" style="v" sid="MRK 12:35" />Later when Jesus was teaching in the temple, he asked the people, “How is it that the teachers here say that the messiah is a descendant of King David? <verse eid="MRK 12:35" /><verse number="36" style="v" sid="MRK 12:36" /><note caller="+" style="x"><char style="xo" closed="false">12:36: </char><char style="xt" closed="false">Psa 110:1.</char></note> Because David himself said under the inspiration of the holy spirit,</para>
+  <para style="q1" vid="MRK 12:36">‘The master told my master,</para>
+  <para style="q2" vid="MRK 12:36">“Sit there in the position of honour</para>
+  <para style="q2" vid="MRK 12:36">until I can conquer your enemies.” ’<verse eid="MRK 12:36" /></para>
+  <para style="m">
+    <verse number="37" style="v" sid="MRK 12:37" />If David calls him his master, how can he possibly be his descendant?”</para>
+  <para style="p" vid="MRK 12:37">The large crowd was very interested to hear everything that Jesus had to say.<verse eid="MRK 12:37" /></para>
+  <para style="s1">Jesus warns about smartly-dressed teachers</para>
+  <para style="r">(Mat. 23:1-36; Luk. 20:45-47)</para>
+  <para style="p">
+    <verse number="38" style="v" sid="MRK 12:38" />As Jesus continued teaching, he said, “Watch out for these religious teachers who like to wear <char style="add">fancy</char> robes and be greeted in the square, <verse eid="MRK 12:38" /><verse number="39" style="v" sid="MRK 12:39" />and have the best seats at meetings and the best places at dinners. <verse eid="MRK 12:39" /><verse number="40" style="v" sid="MRK 12:40" />These people trick widows out of their properties, but offer long prayers to cover it up. They will be getting a stricter judgement than others.”<verse eid="MRK 12:40" /></para>
+  <para style="s1">The sacrificial donation of a widow</para>
+  <para style="r">(Luk. 21:1-4)</para>
+  <para style="p">
+    <verse number="41" style="v" sid="MRK 12:41" />As he sat down in front of the <char style="add">temple</char> treasury, Jesus watched the crowd as they threw coins into <char style="add">the dish</char>, and some rich people were donating quite valuable <char style="add">silver</char> coins. <verse eid="MRK 12:41" /><verse number="42" style="v" sid="MRK 12:42" />Then an impoverished widow came and threw in two small <char style="add">copper</char> coins. <verse eid="MRK 12:42" /><verse number="43" style="v" sid="MRK 12:43" />Jesus called his followers and told them, “Honestly, that poor widow gave more than all the others. <verse eid="MRK 12:43" /><verse number="44" style="v" sid="MRK 12:44" />You see, most people donate from their excess wealth, but this woman even gave <char style="add">some of</char> the small amount that she needed to live on.”<verse eid="MRK 12:44" /></para>
+  <chapter eid="MRK 12" />
+  <chapter number="13" style="c" sid="MRK 13" />
+  <para style="s1">Jesus predicts total destruction of the temple</para>
+  <para style="r">(Mat. 24:1-2; Luk. 21:5-6)</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 13:1" />As they were leaving the temple area, one of Jesus' followers noted, “Teacher, look at these <char style="add">large</char> stones and the <char style="add">beautiful</char> buildings that they've been made into.”<verse eid="MRK 13:1" /></para>
+  <para style="p">
+    <verse number="2" style="v" sid="MRK 13:2" />But Jesus responded, “Yes, incredible buildings, but <char style="add">the time will come</char> when they're torn down—not a single stone will be left sitting in its place.”<verse eid="MRK 13:2" /></para>
+  <para style="s1">Jesus talks about coming hardships</para>
+  <para style="r">(Mat. 24:3-14; Luk. 21:7-19)</para>
+  <para style="p">
+    <verse number="3" style="v" sid="MRK 13:3" />Later when they were over on the Mount of Olives overlooking the temple, Peter and James and John and Andrew were with Jesus and asked <verse eid="MRK 13:3" /><verse number="4" style="v" sid="MRK 13:4" />when all this destruction would happen, and what indications there would be that it's about to happen.<verse eid="MRK 13:4" /></para>
+  <para style="p">
+    <verse number="5" style="v" sid="MRK 13:5" />So Jesus told them, “Be careful so that you aren't mislead by others. <verse eid="MRK 13:5" /><verse number="6" style="v" sid="MRK 13:6" />Plenty of people will say that they're coming under my authority, or that they're me, and they'll mislead many others. <verse eid="MRK 13:6" /><verse number="7" style="v" sid="MRK 13:7" />And whenever you hear about wars or about battles about to begin, don't be worried—these things will certainly happen, but there's more to follow. <verse eid="MRK 13:7" /><verse number="8" style="v" sid="MRK 13:8" />Countries will take up arms against other countries, and kingdoms against other kingdom. There'll be earthquakes in <char style="add">many</char> places and there'll be famines, but these will be just like the beginning of birth pains.<verse eid="MRK 13:8" /></para>
+  <para style="p">
+    <verse number="9" style="v" sid="MRK 13:9" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">13:9-11: </char>
+      <char style="xt" closed="false">Mat 10:17-20; Luk 12:11-12.</char>
+    </note>“So be careful. You'll be turned over to <char style="add">local</char> councils <char style="add">for questioning</char>, will be whipped in the religious meeting halls, and will be stood in front of governors and kings because of following me. But you'll be able to present your life stories to them <verse eid="MRK 13:9" /><verse number="10" style="v" sid="MRK 13:10" />and it's right that the good news first<note caller="+" style="f"><char style="fr" closed="false">13:10 </char><char style="ft" closed="false">TD: It's not clear here what was meant by ‘first’—‘first’ before what?</char></note> be proclaimed to every country. <verse eid="MRK 13:10" /><verse number="11" style="v" sid="MRK 13:11" />But whenever they bring you along to hand you over, don't worry in advance about what you're going to say to defend yourselves, but wait until the hearing proceeds and speak what you are given then, because then it won't be you speaking, but God's spirit. <verse eid="MRK 13:11" /><verse number="12" style="v" sid="MRK 13:12" />In those times, a brother will report on his brother to have him executed, and a father report on his child, and children will be encouraged to report on their own parents and then they'll be executed as a result. <verse eid="MRK 13:12" /><verse number="13" style="v" sid="MRK 13:13" /><note caller="+" style="x"><char style="xo" closed="false">13:13: </char><char style="xt" closed="false">Mat 10:22.</char></note>And every one will hate you all because they hate my name, but whoever endures to the end will be saved.<verse eid="MRK 13:13" /></para>
+  <para style="s1">Jesus warns about coming horror and deceptions</para>
+  <para style="r">(Mat. 24:15-28; Luk. 21:20-24)</para>
+  <para style="p">
+    <verse number="14" style="v" sid="MRK 13:14" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">13:14: </char>
+      <char style="xt" closed="false">Dan 9:27; 11:31; 12:11.</char>
+    </note>“But whenever you see the most horrible thing that drives people from God, standing where it shouldn't be (and you readers should understand this), then anyone in Judea should flee into the hills <verse eid="MRK 13:14" /><verse number="15" style="v" sid="MRK 13:15" /><note caller="+" style="x"><char style="xo" closed="false">13:15-16: </char><char style="xt" closed="false">Luk 17:31.</char></note>and anyone upstairs looking outside shouldn't come down into the bedrooms to get anything, <verse eid="MRK 13:15" /><verse number="16" style="v" sid="MRK 13:16" />and anyone working outside shouldn't go back inside to get a change of clothes. <verse eid="MRK 13:16" /><verse number="17" style="v" sid="MRK 13:17" />It will be extremely difficult for pregnant women and for mothers who are breast-feeding their children in those days. <verse eid="MRK 13:17" /><verse number="18" style="v" sid="MRK 13:18" />Just pray that it won't happen in the winter <verse eid="MRK 13:18" /><verse number="19" style="v" sid="MRK 13:19" /><note caller="+" style="x"><char style="xo" closed="false">13:19: </char><char style="xt" closed="false">Dan 12:1; Rev 7:14.</char></note>because those days will be terrible like nothing that's ever happened before, all the way back to when God created the world right until the present time, and won't ever happen again. <verse eid="MRK 13:19" /><verse number="20" style="v" sid="MRK 13:20" />And if the master hadn't shortened that time, no humans would even survive, but he shortened that time so that the chosen ones could be saved.<verse eid="MRK 13:20" /></para>
+  <para style="p">
+    <verse number="21" style="v" sid="MRK 13:21" />So don't believe it if you hear someone say, ‘Look, the messiah has arrived here.’ or ‘There's the one that God has sent.’ <verse eid="MRK 13:21" /><verse number="22" style="v" sid="MRK 13:22" />Plenty of fake messiahs and deceiving prophets will certainly come and even do things that humans can't normally do, so much so that even the chosen ones would defect if that were possible. <verse eid="MRK 13:22" /><verse number="23" style="v" sid="MRK 13:23" />So watch out, but I've warned you in advance about all of this.<verse eid="MRK 13:23" /></para>
+  <para style="s1">The universe collapses as the son arrives</para>
+  <para style="r">(Mat. 24:29-31; Luk. 21:25-28)</para>
+  <para style="p">
+    <verse number="24" style="v" sid="MRK 13:24" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">13:24: a </char>
+      <char style="xt" closed="false">Isa 13:10; Joel 2:10,31; 3:15; Rev 6:12; </char>
+      <char style="xo" closed="false">b </char>
+      <char style="xt" closed="false">Isa 13:10; Eze 32:7.</char>
+    </note>“After those very difficult times, the sun will go dark and the moon won't shine at night. <verse eid="MRK 13:24" /><verse number="25" style="v" sid="MRK 13:25" /><note caller="+" style="x"><char style="xo" closed="false">13:25: a </char><char style="xt" closed="false">Isa 34:4; Rev 6:13; </char><char style="xo" closed="false">b </char><char style="xt" closed="false">Joel 2:10.</char></note>The stars will fall down out of the sky and the powers in the heavens will be shaken up. <verse eid="MRK 13:25" /><verse number="26" style="v" sid="MRK 13:26" /><note caller="+" style="x"><char style="xo" closed="false">13:26: </char><char style="xt" closed="false">Dan 7:13; Rev 1:7.</char></note>Then the people will see mankind's child in the clouds coming with incredible power and brightness. <verse eid="MRK 13:26" /><verse number="27" style="v" sid="MRK 13:27" />He'll send the angels out to collect all the chosen people from the four corners of the world, from everywhere between the earth and the sky.<verse eid="MRK 13:27" /></para>
+  <para style="s1">Watch out for the change in season</para>
+  <para style="r">(Mat. 24:32-35; Luk. 21:29-33)</para>
+  <para style="p">
+    <verse number="28" style="v" sid="MRK 13:28" />So learn a lesson from fig trees—whenever the branches green up and start sprouting leaves and then everyone knows that summer is close. <verse eid="MRK 13:28" /><verse number="29" style="v" sid="MRK 13:29" />So too whenever you see all these things happening, you know that the end <char style="add">of this current world</char> is close. <verse eid="MRK 13:29" /><verse number="30" style="v" sid="MRK 13:30" />I can assure you that the generation of people who see these things won't die off before these latter things happen. <verse eid="MRK 13:30" /><verse number="31" style="v" sid="MRK 13:31" />The sky and the planet might collapse, but my teachings will never become irrelevant.<verse eid="MRK 13:31" /></para>
+  <para style="s1">Stay alert for the coming of the master</para>
+  <para style="r">(Mat. 24:36-44)</para>
+  <para style="p">
+    <verse number="32" style="v" sid="MRK 13:32" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">13:32: </char>
+      <char style="xt" closed="false">Mat 24:36.</char>
+    </note> But as for the date or time when all this will happen, only the father knows that—even the son and angels don't know. <verse eid="MRK 13:32" /><verse number="33" style="v" sid="MRK 13:33" />So watch out, observe current events, and be praying, because you won't know exactly when all this will happen. <verse eid="MRK 13:33" /><verse number="34" style="v" sid="MRK 13:34" /><note caller="+" style="x"><char style="xo" closed="false">13:34: </char><char style="xt" closed="false">Luk 12:36-38.</char></note>It can all be compared to a man who was about to leave his house and go on a trip. Before he leaves, he gives certain jobs and responsibilities to his various slaves, and instructs his security guard to stay alert. <verse eid="MRK 13:34" /><verse number="35" style="v" sid="MRK 13:35" />So you all watch and stay alert, because you don't know when the master of the house might return—perhaps one evening or at midnight, or at dawn or maybe mid-morning. <verse eid="MRK 13:35" /><verse number="36" style="v" sid="MRK 13:36" />You certainly don't want to be caught napping when he comes. <verse eid="MRK 13:36" /><verse number="37" style="v" sid="MRK 13:37" />And what I'm telling you now, I tell everyone: stay alert and watch.”<verse eid="MRK 13:37" /></para>
+  <chapter eid="MRK 13" />
+  <chapter number="14" style="c" sid="MRK 14" />
+  <para style="s1">The leaders plan to eliminate Jesus</para>
+  <para style="r">(Mat. 26:1-5; Luk. 22:1-2; Jn 11:45-53)</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 14:1" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">14:1: </char>
+      <char style="xt" closed="false">Exo 12:1-27.</char>
+    </note>Now it was two days before the Passover Feast and the Feast of Flat Bread, and the chief priests and the religious teachers were trying to figure out how they could have Jesus set up so they could arrest him and have him executed, <verse eid="MRK 14:1" /><verse number="2" style="v" sid="MRK 14:2" />but they knew that the Feast wouldn't be a good time because the people would protest in Jesus' favour.<verse eid="MRK 14:2" /></para>
+  <para style="s1">The woman anoints Jesus for his burial</para>
+  <para style="r">(Mat. 26:6-13; Jn 12:1-8)</para>
+  <para style="p">
+    <verse number="3" style="v" sid="MRK 14:3" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">14:3: </char>
+      <char style="xt" closed="false">Luk 7:37-38.</char>
+    </note>Meanwhile, Jesus was in Bethany at the home who Simon who had previously had leprosy. Jesus was sitting there when a woman came in with a hand-crafted container of very expensive fragrant oil. Breaking open the sealed flask, she poured the fragrant oil over Jesus' head. <verse eid="MRK 14:3" /><verse number="4" style="v" sid="MRK 14:4" />Immediately some started quietly grumbling about the extravagant waste, <verse eid="MRK 14:4" /><verse number="5" style="v" sid="MRK 14:5" />then they scolded the woman because a flask of genuine lotion like this could easily fetch almost a year's wages if it was sold.<verse eid="MRK 14:5" /></para>
+  <para style="p">
+    <verse number="6" style="v" sid="MRK 14:6" />But Jesus spoke up, “What do you think you're doing abusing her—leave her alone! She's done something very good for me. <verse eid="MRK 14:6" /><verse number="7" style="v" sid="MRK 14:7" /><note caller="+" style="x"><char style="xo" closed="false">14:7: </char><char style="xt" closed="false">Deu 15:11.</char></note>You'll always have poor people around, and you can help them whenever you want to, but I won't be around forever. <verse eid="MRK 14:7" /><verse number="8" style="v" sid="MRK 14:8" />She has performed the traditional anointing of my body in advance of my burial. <verse eid="MRK 14:8" /><verse number="9" style="v" sid="MRK 14:9" />And I can assure you that wherever the good news is proclaimed around the world, what she has done today will be part of the story and she'll be remembered.<verse eid="MRK 14:9" /></para>
+  <para style="s1">Judas offers to hand Jesus over</para>
+  <para style="r">(Mat. 26:14-16; Luk. 22:3-6)</para>
+  <para style="p">
+    <verse number="10" style="v" sid="MRK 14:10" />Then Judas Iscariot, one of the Jesus' twelve <char style="add">trainees</char>, visited the chief priests to offer to hand Jesus over to them. <verse eid="MRK 14:10" /><verse number="11" style="v" sid="MRK 14:11" />When they heard this, they were very pleased and promised to pay him well, and Judas asked them about the most convenient way for them to get hold of Jesus.<verse eid="MRK 14:11" /></para>
+  <para style="s1">Jesus' trainees prepare the Passover meal</para>
+  <para style="r">(Mat. 26:17-25; Luk. 22:7-14, 21-23)</para>
+  <para style="p">
+    <verse number="12" style="v" sid="MRK 14:12" />On the first day of the Feast of Flat Bread when the lambs would be slaughtered ready for the special Passover meal, Jesus' trainees asked him, “Where do you want us to get everything ready for our Passover meal?”<verse eid="MRK 14:12" /></para>
+  <para style="p">
+    <verse number="13" style="v" sid="MRK 14:13" />So Jesus sent off two of them with these instructions, “Go into town and a man carrying a pitcher of water will meet you there. Just follow him <verse eid="MRK 14:13" /><verse number="14" style="v" sid="MRK 14:14" />until he goes into a house. Then find the owner of the house and tell him that the teacher wants to know the location of the guestroom where he and his trainees can celebrate the Passover meal. <verse eid="MRK 14:14" /><verse number="15" style="v" sid="MRK 14:15" />He'll show you a large, furnished room upstairs—that's where you can get everything ready.<verse eid="MRK 14:15" /></para>
+  <para style="p">
+    <verse number="16" style="v" sid="MRK 14:16" />So the two of them went off into the town, and everything happened there exactly as Jesus had told them, and so they prepared the special meal there.<verse eid="MRK 14:16" /></para>
+  <para style="s1">Jesus shocks his trainees at the Passover meal</para>
+  <para style="r">(Mat. 26:20-30; Luk. 22:14-23; Jn 13:21-30; 1 Kur. 11:23-25)</para>
+  <para style="p">
+    <verse number="17" style="v" sid="MRK 14:17" />As the evening approached, Jesus went in for dinner with his twelve trainees. <verse eid="MRK 14:17" /><verse number="18" style="v" sid="MRK 14:18" /><note caller="+" style="x"><char style="xo" closed="false">14:18: </char><char style="xt" closed="false">Psa 41:9.</char></note>As they were sitting around eating, he told them, “I will tell you frankly that one of you eating with me here will hand me over <char style="add">to be arrested</char>.” <verse eid="MRK 14:18" /><verse number="19" style="v" sid="MRK 14:19" />That upset them, and several of them individually asked, “Surely it couldn't be me?”<verse eid="MRK 14:19" /></para>
+  <para style="p">
+    <verse number="20" style="v" sid="MRK 14:20" />Then he continued, “It's one of the twelve—the one who dips his bread in the sauce at the same time as me. <verse eid="MRK 14:20" /><verse number="21" style="v" sid="MRK 14:21" />Indeed it's written <char style="add">in the scriptures</char> that mankind's child will be arrested, but on the other hand, what a tragedy it will be for the one who hands him over—in fact it would be better for that man if he was never born.”<verse eid="MRK 14:21" /></para>
+  <para style="p">
+    <verse number="22" style="v" sid="MRK 14:22" />As the carried on eating, he took a bread roll, blessed <char style="add">God</char>, broke the roll apart and gave a piece to them, saying, “Take this bread—it's my body.”<verse eid="MRK 14:22" /></para>
+  <para style="p">
+    <verse number="23" style="v" sid="MRK 14:23" />Then he picked up a cup, gave thanks <char style="add">to God</char>, and passed it around so they could each drink from it, <verse eid="MRK 14:23" /><verse number="24" style="v" sid="MRK 14:24" /><note caller="+" style="x"><char style="xo" closed="false">14:24: a </char><char style="xt" closed="false">Exo 24:8; </char><char style="xo" closed="false">b </char><char style="xt" closed="false">Jer 31:31-34.</char></note>saying, “This is the blood of my contract that will be poured out for many <char style="add">people</char>. <verse eid="MRK 14:24" /><verse number="25" style="v" sid="MRK 14:25" />I can assure you that I won't drink anything made from grapes until I drink new juice in God's kingdom.”<verse eid="MRK 14:25" /></para>
+  <para style="p">
+    <verse number="26" style="v" sid="MRK 14:26" />And after they'd sung some songs, they left the town and went across to the Mount of Olives.<verse eid="MRK 14:26" /></para>
+  <para style="s1">Jesus predicts Peters denials</para>
+  <para style="r">(Mat. 26:31-35; Luk. 22:31-34; Jn 13:36-38)</para>
+  <para style="p">
+    <verse number="27" style="v" sid="MRK 14:27" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">14:27: </char>
+      <char style="xt" closed="false">Zech 13:7.</char>
+    </note>Then Jesus continued his teaching, “All of you will stumble because it's written in the scriptures: ‘I will strike down the shepherd and the sheep will be scattered.’ <verse eid="MRK 14:27" /><verse number="28" style="v" sid="MRK 14:28" /><note caller="+" style="x"><char style="xo" closed="false">14:28: </char><char style="xt" closed="false">Mat 28:16.</char></note>But after I come back to life, I'll go on ahead of you back to Galilee.”<verse eid="MRK 14:28" /></para>
+  <para style="p">
+    <verse number="29" style="v" sid="MRK 14:29" />But Peter contradicted him, “Even if everyone else stumbles, I won't!”<verse eid="MRK 14:29" /></para>
+  <para style="p">
+    <verse number="30" style="v" sid="MRK 14:30" />And Jesus responded, “I can assure you that you'll renounce me three times this very night, before the rooster crows early tomorrow morning.”<verse eid="MRK 14:30" /></para>
+  <para style="p">
+    <verse number="31" style="v" sid="MRK 14:31" />But Peter argued forcibly, “Even if I had to die with you, I would never disown you!”</para>
+  <para style="p" vid="MRK 14:31">And all the others said similar things.<verse eid="MRK 14:31" /></para>
+  <para style="s1">Jesus, in distress, prays at Gethsemane</para>
+  <para style="r">(Mat. 26:36-46; Luk. 22:39-46)</para>
+  <para style="p">
+    <verse number="32" style="v" sid="MRK 14:32" />They walked along until they came to a piece of land called Gethsemane where Jesus told his trainees to sit down while he prayed. <verse eid="MRK 14:32" /><verse number="33" style="v" sid="MRK 14:33" />He took Peter and James and John further in with him where he stared off in a daze but was obviously very distressed. <verse eid="MRK 14:33" /><verse number="34" style="v" sid="MRK 14:34" />He told the three of them, “My soul is deathly sad! You guys just stay here and keep alert.”<verse eid="MRK 14:34" /></para>
+  <para style="p">
+    <verse number="35" style="v" sid="MRK 14:35" />He went ahead a little way where he knelt on the ground with his head down and prayed—asking if it was possible to avoid what was ahead of him. <verse eid="MRK 14:35" /><verse number="36" style="v" sid="MRK 14:36" />But he said, “Father, I know that you can do anything. Let me avoid this suffering, but yes I know, it doesn't matter what I want but what you've <char style="add">planned</char>.”<verse eid="MRK 14:36" /></para>
+  <para style="p">
+    <verse number="37" style="v" sid="MRK 14:37" />Then he went back and found the others sleeping. He asked Peter, “Simon, are you asleep? Couldn't you stay awake even for a single hour? <verse eid="MRK 14:37" /><verse number="38" style="v" sid="MRK 14:38" />You all need to stay alert and be careful not to give into temptation. I know your spirits are enthusiastic on one hand, but it's still easy to give in to the moment.”<verse eid="MRK 14:38" /></para>
+  <para style="p">
+    <verse number="39" style="v" sid="MRK 14:39" />Then he went further in again and prayed as before, <verse eid="MRK 14:39" /><verse number="40" style="v" sid="MRK 14:40" />but when he returned again, he found them all asleep because they were tired, but they couldn't really find any excuse to give.<verse eid="MRK 14:40" /></para>
+  <para style="p">
+    <verse number="41" style="v" sid="MRK 14:41" />The third time that Jesus returned, he said to them, “Ah, you're all sleeping again and having a good rest. It's well earned but the time has come for mankind's child to be handed over to evil men. <verse eid="MRK 14:41" /><verse number="42" style="v" sid="MRK 14:42" />Come on—get up—we need to go! Look, the one who'll hand me over is on his way.<verse eid="MRK 14:42" /></para>
+  <para style="s1">Jesus is arrested in the night</para>
+  <para style="r">(Mat. 26:47-56; Luk. 22:47-53; Jn 18:3-12)</para>
+  <para style="p">
+    <verse number="43" style="v" sid="MRK 14:43" />Even while Jesus was still speaking, Judas reached him, followed by a crowd from the the chief priests, and the religious teachers, and the elders—many armed with swords and clubs. <verse eid="MRK 14:43" /><verse number="44" style="v" sid="MRK 14:44" />Judas had prearranged a signal with them that whoever he greeted with a kiss, they should grab that person and lead him away under guard.<verse eid="MRK 14:44" /></para>
+  <para style="p">
+    <verse number="45" style="v" sid="MRK 14:45" />So he walked right up to Jesus and said, “My honoured teacher,” and greeted him with a kiss. <verse eid="MRK 14:45" /><verse number="46" style="v" sid="MRK 14:46" />Then the others with him grabbed Jesus and secured him. <verse eid="MRK 14:46" /><verse number="47" style="v" sid="MRK 14:47" />But one of the ones with Jesus that was beside him, drew his sword and struck a slave of the chief priest, cutting off the man's ear. <verse eid="MRK 14:47" /><verse number="48" style="v" sid="MRK 14:48" />Jesus spoke to the crowd, “Did you all bring swords and clubs to try to capture me like you'd chase down a thief? <verse eid="MRK 14:48" /><verse number="49" style="v" sid="MRK 14:49" /><note caller="+" style="x"><char style="xo" closed="false">14:49: </char><char style="xt" closed="false">Luk 19:47; 21:37.</char></note>I was standing there teaching in the temple every day and you could have arrested me, but it's happened this way to ensure that the what's written in scriptures will be fulfilled.<verse eid="MRK 14:49" /></para>
+  <para style="p">
+    <verse number="50" style="v" sid="MRK 14:50" />Meanwhile, the ones with Jesus had taken off. <verse eid="MRK 14:50" /><verse number="51" style="v" sid="MRK 14:51" />One young fellow was wearing a single linen robe, and when the crowd tried to grab him, <verse eid="MRK 14:51" /><verse number="52" style="v" sid="MRK 14:52" />it came off <char style="add">in the struggle</char> and he ran away stark naked.<verse eid="MRK 14:52" /></para>
+  <para style="s1">The mock trial where Jesus is sentenced to death</para>
+  <para style="r">(Mat. 26:57-68; Luk. 22:54-55,63-71; Jn 18:13-14,19-24)</para>
+  <para style="p">
+    <verse number="53" style="v" sid="MRK 14:53" />The guards led Jesus away to the chief priest's residence, and all the chief priests and the elders and the religious teachers gathered there also. <verse eid="MRK 14:53" /><verse number="54" style="v" sid="MRK 14:54" />Peter followed along from a distance and went in as far as the courtyard of the residence where he joined the servants who were sitting around the fire keeping warm. <verse eid="MRK 14:54" /><verse number="55" style="v" sid="MRK 14:55" />Inside, the chief priests and all the council were trying to establish a case against Jesus so he could be sentenced to death, but they weren't coming up with anything. <verse eid="MRK 14:55" /><verse number="56" style="v" sid="MRK 14:56" />Several were making up charges against him, but none of the accusers' stories agreed with each other.<verse eid="MRK 14:56" /></para>
+  <para style="p">
+    <verse number="57" style="v" sid="MRK 14:57" />Eventually some of them stood up and offered this false charge: <verse eid="MRK 14:57" /><verse number="58" style="v" sid="MRK 14:58" /><note caller="+" style="x"><char style="xo" closed="false">14:58: </char><char style="xt" closed="false">Jn 2:19.</char></note>“We heard him say that he would demolish this temple made by many labourers, and within three days he'd build another one without any helpers.” <verse eid="MRK 14:58" /><verse number="59" style="v" sid="MRK 14:59" />But even then, they couldn't get their accusations to align with each other.<verse eid="MRK 14:59" /></para>
+  <para style="p">
+    <verse number="60" style="v" sid="MRK 14:60" />Nevertheless the chief priest in the middle of the council stood up and asked Jesus, “Aren't you going to defend yourself? These men are accusing you of these things.”<verse eid="MRK 14:60" /></para>
+  <para style="p">
+    <verse number="61" style="v" sid="MRK 14:61" />But Jesus didn't say anything. So the chief priest asked again, “Is it true that you're the chosen one that God promised to send—the son of the blessed <char style="add">God</char>?”<verse eid="MRK 14:61" /></para>
+  <para style="p">
+    <verse number="62" style="v" sid="MRK 14:62" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">14:62: </char>
+      <char style="xt" closed="false">Dan 7:13.</char>
+    </note>Jesus replied, “I am. And you will all see mankind's child sitting in the honoured postion by the powerful God and coming through the clouds in the sky.”<verse eid="MRK 14:62" /></para>
+  <para style="p">
+    <verse number="63" style="v" sid="MRK 14:63" />Then the chief priest tore his own robe <char style="add">to show his disgust</char> and shouted, “We certainly don't need any more witnesses now! <verse eid="MRK 14:63" /><verse number="64" style="v" sid="MRK 14:64" /><note caller="+" style="x"><char style="xo" closed="false">14:64: </char><char style="xt" closed="false">Lev 24:16.</char></note>You yourselves all heard him insult God. What sentence does that deserve?”</para>
+  <para style="p" vid="MRK 14:64">So the leaders there agreed that Jesus needed to be sentenced to death.<verse eid="MRK 14:64" /></para>
+  <para style="p">
+    <verse number="65" style="v" sid="MRK 14:65" />Then various people started spitting on him, and blindfolding him and beating him saying, “Ha, tell us who that was!” Even the servants joined in to slap him.<verse eid="MRK 14:65" /></para>
+  <para style="s1">The pegpahunware of Pidru concerning of Jesus</para>
+  <para style="r">(Mat. 26:69-75; Luk. 22:56-62; Jn 18:15-18,25-27)</para>
+  <para style="p">
+    <verse number="66" style="v" sid="MRK 14:66" />Meanwhile, Peter was down in the courtyard when one of the chief priest's servant girl came out, <verse eid="MRK 14:66" /><verse number="67" style="v" sid="MRK 14:67" />and seeing Peter warming himself, she looked more closely and said, “Hey, you were with that Jesus from Nazareth!”<verse eid="MRK 14:67" /></para>
+  <para style="p">
+    <verse number="68" style="v" sid="MRK 14:68" />But he denied it, “I don't know him and I don't know why you think I would!” And he moved away from the fire.<verse eid="MRK 14:68" /></para>
+  <para style="p">
+    <verse number="69" style="v" sid="MRK 14:69" />But the girl that had seen him said to some of the others standing around, “That guy's one of them.”<verse eid="MRK 14:69" /></para>
+  <para style="p">
+    <verse number="70" style="v" sid="MRK 14:70" />But again Peter denied it.</para>
+  <para style="p" vid="MRK 14:70">A little while later, some of those standing there said, “You must be one of them because you're from Galilee.”<verse eid="MRK 14:70" /></para>
+  <para style="p">
+    <verse number="71" style="v" sid="MRK 14:71" />Now Peter started swearing and cursing and said, “I've never even met that fellow that you're all talking about!”<verse eid="MRK 14:71" /></para>
+  <para style="p">
+    <verse number="72" style="v" sid="MRK 14:72" />And right then the rooster crowed for the second time. Peter remembered now what Jesus had told him—how he would renounce Jesus three times before the rooster crows—and he broke down and cried.<verse eid="MRK 14:72" /></para>
+  <chapter eid="MRK 14" />
+  <chapter number="15" style="c" sid="MRK 15" />
+  <para style="s1">Pilate tries to interrogate Jesus</para>
+  <para style="r">(Mat. 27:1-2,11-14; Luk. 23:1-5; Jn 18:28-38)</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 15:1" />First thing in the morning, the chief priests called a meeting with the elders and the religious teachers and all the council, and they ordered that Jesus be tied up and taken over to Governor Pilate. <verse eid="MRK 15:1" /><verse number="2" style="v" sid="MRK 15:2" />There Pilate asked him, “Are you the king of the Jews?”</para>
+  <para style="p" vid="MRK 15:2">“You said it,” replied Jesus.<verse eid="MRK 15:2" /></para>
+  <para style="p">
+    <verse number="3" style="v" sid="MRK 15:3" />Then the chief priests started hurling accusations against Jesus. <verse eid="MRK 15:3" /><verse number="4" style="v" sid="MRK 15:4" />So Pilate asked him again, “Don't you have anything to say? Listen to all these accusations they're making against you.”<verse eid="MRK 15:4" /></para>
+  <para style="p">
+    <verse number="5" style="v" sid="MRK 15:5" />But Pilate was astounded that Jesus didn't answer any further.<verse eid="MRK 15:5" /></para>
+  <para style="s1">Pilate agrees to execute an innocent man</para>
+  <para style="r">(Mat. 27:15-26; Luk. 23:13-25; Jn 18:39–19:16)</para>
+  <para style="p">
+    <verse number="6" style="v" sid="MRK 15:6" />Now at time of the Jewish Passover, Pilate would normally pardon one prisoner for them and release him. <verse eid="MRK 15:6" /><verse number="7" style="v" sid="MRK 15:7" />There was another prisoner at the time named Barabbas who was an activist accused of murder. <verse eid="MRK 15:7" /><verse number="8" style="v" sid="MRK 15:8" />By now, the crowd had arrived and asked Pilate to release a prisoner as usual at Passover. <verse eid="MRK 15:8" /><verse number="9" style="v" sid="MRK 15:9" />So he asked them, “Do you want me to release the King of the Jews for you?” <verse eid="MRK 15:9" /><verse number="10" style="v" sid="MRK 15:10" />This was because Pilate was well aware that the chief priests had brought Jesus because they were jealous of his <char style="add">popularity</char>. <verse eid="MRK 15:10" /><verse number="11" style="v" sid="MRK 15:11" />But the chief priests stirred up the crowd to start saying that it was Barabbas that they wanted released. <verse eid="MRK 15:11" /><verse number="12" style="v" sid="MRK 15:12" />So Pilate asked again, “Then what should I do with this man that you call the King of the Jews?”<verse eid="MRK 15:12" /></para>
+  <para style="p">
+    <verse number="13" style="v" sid="MRK 15:13" />The crowd yelled back, “Execute him on a pole.”<verse eid="MRK 15:13" /></para>
+  <para style="p">
+    <verse number="14" style="v" sid="MRK 15:14" />Pilate demanded, “What has he even done wrong?”</para>
+  <para style="p" vid="MRK 15:14">But they just yelled louder, “Execute him on a pole!”<verse eid="MRK 15:14" /></para>
+  <para style="p">
+    <verse number="15" style="v" sid="MRK 15:15" />Now Pilate wanted to placate the crowd, so he had Barabbas released while he had Jesus flogged and then handed over to the execution squad.<verse eid="MRK 15:15" /></para>
+  <para style="s1">The battalion plays with their mock “king”</para>
+  <para style="r">(Mat. 27:27-31; Jn 19:2-3)</para>
+  <para style="p">
+    <verse number="16" style="v" sid="MRK 15:16" />So the soldiers led Jesus inside the palace that was the governor's residence, and called in the rest of the battalion. <verse eid="MRK 15:16" /><verse number="17" style="v" sid="MRK 15:17" />They <char style="add">mocked Jesus</char> by dressing him in a kingly robe, and after someone twisted some thorns together into a mock crown, they pressed it onto his head, <verse eid="MRK 15:17" /><verse number="18" style="v" sid="MRK 15:18" />and began saluting him, “Greetings, King of the Jews.” <verse eid="MRK 15:18" /><verse number="19" style="v" sid="MRK 15:19" />They took turns whacking his head with a stick and spitting on him, while others knelt down in front of him and pretended to be bowing to him. <verse eid="MRK 15:19" /><verse number="20" style="v" sid="MRK 15:20" />After they'd finished having fun mocked him, they took the purple robe off him, and put his own robe back on him. Then they led him outside towards the execution spot.<verse eid="MRK 15:20" /></para>
+  <para style="s1">Jesus is publicly executed along with thieves</para>
+  <para style="r">(Mat. 27:32-44; Luk. 23:26-43; Jn 19:17-27)</para>
+  <para style="p">
+    <verse number="21" style="v" sid="MRK 15:21" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">15:21: </char>
+      <char style="xt" closed="false">Rom 16:13.</char>
+    </note>As they walked out of the city, they came across a man coming in from the country. He was Simon from Cyrene, the father of Alexander and Rufus, and the soldiers forced him to carry the execution pole, <verse eid="MRK 15:21" /><verse number="22" style="v" sid="MRK 15:22" />and so they all arrived at Golgotha (which means “Place of the skull”). <verse eid="MRK 15:22" /><verse number="23" style="v" sid="MRK 15:23" />There the soliders went to give some spiced wine to Jesus, but he declined it. <verse eid="MRK 15:23" /><verse number="24" style="v" sid="MRK 15:24" /><note caller="+" style="x"><char style="xo" closed="false">15:24: </char><char style="xt" closed="false">Psa 22:18.</char></note>So they carried out the execution, taking Jesus' clothes and drawing straws to see who would get what. <verse eid="MRK 15:24" /><verse number="25" style="v" sid="MRK 15:25" />By now it was 9am, and they affixed Jesus to the pole. <verse eid="MRK 15:25" /><verse number="26" style="v" sid="MRK 15:26" />The charge had been written out and attached <char style="add">at the top</char>: “The King of the Jews.” <verse eid="MRK 15:26" /><verse number="27" style="v" sid="MRK 15:27" />That morning, two thieves were also executed there—one on each side of Jesus.<verse eid="MRK 15:27" /></para>
+  <para style="p">
+    <verse number="28" style="v" sid="MRK 15:28" />≈ <verse eid="MRK 15:28" /><verse number="29" style="v" sid="MRK 15:29" /><note caller="+" style="x"><char style="xo" closed="false">15:29: a </char><char style="xt" closed="false">Psa 22:7; 109:25; </char><char style="xo" closed="false">b </char><char style="xt" closed="false">Mrk 14:58; Jn 2:19.</char></note>As people passed by on the path, they insulted Jesus, shaking their heads and shouting, “Hoy there! You who reckoned you could demolish the temple and rebuild it in three days. <verse eid="MRK 15:29" /><verse number="30" style="v" sid="MRK 15:30" />Come down from that pole and save yourself.”<verse eid="MRK 15:30" /></para>
+  <para style="p">
+    <verse number="31" style="v" sid="MRK 15:31" />Similarly the chief priests and the religious teachers laughed together and mocked, “He did miracles for others, but he can't even save himself. <verse eid="MRK 15:31" /><verse number="32" style="v" sid="MRK 15:32" />The so-called ‘chosen one’ or ‘King of Israel’. Now, if he'd just come down from there, then we'd be able to believe him.”</para>
+  <para style="p" vid="MRK 15:32">Even the other two being executed with him were deriding him.<verse eid="MRK 15:32" /></para>
+  <para style="s1">Jesus breathes his last</para>
+  <para style="r">(Mat. 27:45-56; Luk. 23:44-49; Jn 19:28-30)</para>
+  <para style="p">
+    <verse number="33" style="v" sid="MRK 15:33" />At noon, it got dark everywhere, until 3pm, <verse eid="MRK 15:33" /><verse number="34" style="v" sid="MRK 15:34" /><note caller="+" style="x"><char style="xo" closed="false">15:34: </char><char style="xt" closed="false">Psa 22:1.</char></note>when Jesus shouted loudly, “My God, my God, why have you abandoned me?”<verse eid="MRK 15:34" /></para>
+  <para style="p">
+    <verse number="35" style="v" sid="MRK 15:35" />Some of the people standing nearby thought he was calling the prophet Elijah. <verse eid="MRK 15:35" /><verse number="36" style="v" sid="MRK 15:36" /><note caller="+" style="x"><char style="xo" closed="false">15:36: </char><char style="xt" closed="false">Psa 69:21.</char></note>One of them ran, and soaked a sponge in some sour wine, then put it on a stick and held it up for Jesus to drink, saying, “Hang on. Let's see if Elijah does come to get him down.”<verse eid="MRK 15:36" /></para>
+  <para style="p">
+    <verse number="37" style="v" sid="MRK 15:37" />But just then Jesus uttered a loud cry and exhaled his last breath.<verse eid="MRK 15:37" /></para>
+  <para style="p">
+    <verse number="38" style="v" sid="MRK 15:38" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">15:38: </char>
+      <char style="xt" closed="false">Exo 26:31-33.</char>
+    </note>(Back in the temple, the curtain tore down the middle from the top to the bottom.) <verse eid="MRK 15:38" /><verse number="39" style="v" sid="MRK 15:39" />The Roman centurion who had been standing back watching everything, said when Jesus died, “This man was definitely God's son.”<verse eid="MRK 15:39" /></para>
+  <para style="p">
+    <verse number="40" style="v" sid="MRK 15:40" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">15:40-41: </char>
+      <char style="xt" closed="false">Luk 8:2-3.</char>
+    </note>Further back, there was also a group of women observing everything. These included Mary from Magdala, Mary the mother of young James and Joses, and Salome, <verse eid="MRK 15:40" /><verse number="41" style="v" sid="MRK 15:41" />and others who had followed Jesus around Galilee and helped look after him, along with many others who had come down with him to Jerusalem.<verse eid="MRK 15:41" /></para>
+  <para style="s1">Joseph boldly lays the body in a burial chamber</para>
+  <para style="r">(Mat. 27:57-61; Luk. 23:50-56; Jn 19:38-42)</para>
+  <para style="p">
+    <verse number="42" style="v" sid="MRK 15:42" />As evening came, it was now the Preparation Day, i.e., the day before the Rest Day. <verse eid="MRK 15:42" /><verse number="43" style="v" sid="MRK 15:43" />Joseph (who'd come from the city of Arimathea and one who was waiting for the coming of God's kingdom), a prominent council member, steeled himself up and went in to see the governor to get permission to transfer Jesus' body. <verse eid="MRK 15:43" /><verse number="44" style="v" sid="MRK 15:44" />Governor Pilate didn't think he'd be dead yet, so he called an army commander to find out if Jesus had indeed died. <verse eid="MRK 15:44" /><verse number="45" style="v" sid="MRK 15:45" />As soon as he found out, he gave Joseph permission. <verse eid="MRK 15:45" /><verse number="46" style="v" sid="MRK 15:46" />So Joseph <char style="add">and his companions</char> went and bought some linen burial cloth and then, removing Jesus' body from the pole, wrapped it in the cloth and placed it in a burial chamber that had been chiseled into a rockface. Then they rolled a rock across the opening. <verse eid="MRK 15:46" /><verse number="47" style="v" sid="MRK 15:47" />Others were watching and noted where the body had been laid, including Mary from Magdala and Mary the mother of Joses.<verse eid="MRK 15:47" /></para>
+  <chapter eid="MRK 15" />
+  <chapter number="16" style="c" sid="MRK 16" />
+  <para style="s1">The massive shock at the burial chamber</para>
+  <para style="r">(Mat. 28:1-8; Luk. 24:1-12; Jn 20:1-10)</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MRK 16:1" />After the Rest Day was over, Mary from Magdala and Mary the mother of James and Salome, went and bought some traditional burial spices that evening to take to the burial chamber and place with the body. <verse eid="MRK 16:1" /><verse number="2" style="v" sid="MRK 16:2" />Then very early on Sunday morning they went to the chamber, arriving just as the sun was rising. <verse eid="MRK 16:2" /><verse number="3" style="v" sid="MRK 16:3" />But they realised that they didn't have anyone with them to roll the rock away that was covering the entrance. <verse eid="MRK 16:3" /><verse number="4" style="v" sid="MRK 16:4" />However, when they looked they saw that the very large rock had already been rolled away. <verse eid="MRK 16:4" /><verse number="5" style="v" sid="MRK 16:5" />So they went on into the burial chamber and were toally stunned to find a young man dressed in white, sitting in there on the side.<verse eid="MRK 16:5" /></para>
+  <para style="p">
+    <verse number="6" style="v" sid="MRK 16:6" />He assured them, “Don't be surprised. I know you're looking for Jesus from Nazareth, the one who was executed on a pole. But see there where his body was—he's not there because he came back to life. <verse eid="MRK 16:6" /><verse number="7" style="v" sid="MRK 16:7" /><note caller="+" style="x"><char style="xo" closed="false">16:7: </char><char style="xt" closed="false">Mat 26:32; Mrk 14:28.</char></note>So you three should go and tell his trainees, and Peter in particular, that he's going to go up ahead of them to Galilee and you'll all see him up there, just as he already told you.”<verse eid="MRK 16:7" /></para>
+  <para style="p">
+    <verse number="8" style="v" sid="MRK 16:8" />So they left the chamber and took off running, still stunned and shaking and too scared to stop and to talk to anyone.<verse eid="MRK 16:8" /></para>
+  <para style="rem">It's not certain whether or not the following longer ending of this document was actually penned by Mark, or whether it was appended slightly later. Expert scholars are divided on this, and hence it's included here for your consideration:</para>
+  <para style="s1">
+    <char style="add">The others don't believe that Mary saw Jesus</char></para>
+  <para style="r">(Mat. 28:9-10; Jn 20:11-18) <verse number="9" style="v" sid="MRK 16:9" /><char style="add">After coming back to life early on Sunday morning, Jesus appeared first to Mary from Magdala. (She was the one that he had once commanded seven demons to leave.)</char> <verse eid="MRK 16:9" /><verse number="10" style="v" sid="MRK 16:10" /><char style="add">After leaving him, she went and told his followers who were mourning and weeping at his loss.</char> <verse eid="MRK 16:10" /><verse number="11" style="v" sid="MRK 16:11" /><char style="add">But when she told them that he is alive again and that she'd seen him, they simply didn't believe her.</char><verse eid="MRK 16:11" /></para>
+  <para style="s1">
+    <char style="add">Jesus appears to two of his followers</char></para>
+  <para style="r">(Luk. 24:13-35)</para>
+  <para style="p">
+    <verse number="12" style="v" sid="MRK 16:12" />
+    <char style="add">Later on, Jesus appeared in a differnt form to two of his followers on the path as they left Jerusalem and headed out to the countryside,</char> <verse eid="MRK 16:12" /><verse number="13" style="v" sid="MRK 16:13" /><char style="add">but when they hurried back and told the others, no one believed them.</char><verse eid="MRK 16:13" /></para>
+  <para style="s1">
+    <char style="add">Jesus appears to his trainees and instructs them</char></para>
+  <para style="r">(Mat. 28:16-20; Luk. 24:36-49; Jn 20:19-23; Acts 1:6-8)</para>
+  <para style="p">
+    <verse number="14" style="v" sid="MRK 16:14" />
+    <char style="add">Later again when the eleven trainees were sitting around eating, Jesus appeared in the room and scolded them for not believing and for being so stubborn when they hadn't believed others who had told them that he'd come back from the dead.</char> <verse eid="MRK 16:14" /><verse number="15" style="v" sid="MRK 16:15" /><note caller="+" style="x"><char style="xo" closed="false">16:15: </char><char style="xt" closed="false">Acts 1:8.</char></note><char style="add">Then he instructed them, “Travel around all the world and tell the good news to everyone.</char> <verse eid="MRK 16:15" /><verse number="16" style="v" sid="MRK 16:16" /><char style="add">Anyone who believes and gets immersed in water will be saved, however, those who refuse to believe will be condemned to death.</char> <verse eid="MRK 16:16" /><verse number="17" style="v" sid="MRK 16:17" /><char style="add">Those who believe will be able to do miracles: they'll be able to use my authority to command demons to leave and to speak new languages,</char> <verse eid="MRK 16:17" /><verse number="18" style="v" sid="MRK 16:18" /><char style="add">and they'll be able to pick up snakes. If they drink anything poisonous, it won't hurt them, and they will place their hands on people and make them better.</char><verse eid="MRK 16:18" /></para>
+  <para style="s1">
+    <char style="add">Jesus is lifted up to heaven</char></para>
+  <para style="r">(Luk. 24:50-53; Acts 1:9-11)</para>
+  <para style="p">
+    <verse number="19" style="v" sid="MRK 16:19" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">16:19: </char>
+      <char style="xt" closed="false">Acts 1:9-11.</char>
+    </note>
+    <char style="add">When Jesus had finished speaking, he was lifted up into heaven and seated in the honoured place next to God.</char> <verse eid="MRK 16:19" /><verse number="20" style="v" sid="MRK 16:20" /><char style="add">Then his followers went around preaching everywhere, and God worked through them and so they were able to confirm the truth of their preaching by doing miracles.</char><verse eid="MRK 16:20" /></para>
+  <chapter eid="MRK 16" />
+</usx>

@@ -1,0 +1,1246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<usx version="3.0">
+  <book code="HOS" style="id" />
+  <para style="h">Osée</para>
+  <para style="toc1">Le livre d’Osée</para>
+  <para style="toc2">Osée</para>
+  <para style="toc3">Os</para>
+  <para style="mt2">Le livre</para>
+  <para style="mt1">d’Osée</para>
+  <chapter number="1" style="c" sid="HOS 1" />
+  <para style="p">
+    <verse number="1" style="v" sid="HOS 1:1" />
+    <note caller="+" style="f">
+      <char style="fr" closed="false">1.1 </char>
+      <char style="ft" closed="false">« Yahvé » est le nom propre de Dieu, parfois rendu par « Seigneur » ou « l'Éternel » dans d'autres traductions.</char>
+    </note>
+    <char style="w" strong="H1697">Parole</char> <char style="w" strong="H1121">de</char> Yahvé <char style="w" strong="H1697">adressée</char> <char style="w" strong="H3068">à</char> <char style="w" strong="H1954">Osée</char>, <char style="w" strong="H1121">fils</char> <char style="w" strong="H1121">de</char> Beéri, <char style="w" strong="H1697">aux</char> <char style="w" strong="H3117">jours</char> d'Ozias, <char style="w" strong="H1121">de</char> <char style="w" strong="H3147">Jotham</char>, d'Achaz <char style="w" strong="H3063">et</char> d'Ézéchias, <char style="w" strong="H4428">rois</char> <char style="w" strong="H1121">de</char> <char style="w" strong="H3063">Juda</char>, <char style="w" strong="H3063">et</char> <char style="w" strong="H1697">aux</char> <char style="w" strong="H3117">jours</char> <char style="w" strong="H1121">de</char> <char style="w" strong="H3379">Jéroboam</char>, <char style="w" strong="H1121">fils</char> <char style="w" strong="H1121">de</char> <char style="w" strong="H3101">Joas</char>, <char style="w" strong="H4428">roi</char> d'Israël.<verse eid="HOS 1:1" /></para>
+  <para style="p">
+    <verse number="2" style="v" sid="HOS 1:2" />
+    <char style="w" strong="H3588">Lorsque</char> Yahvé <char style="w" strong="H1696">parla</char> d'abord <char style="w" strong="H3068">par</char> <char style="w" strong="H1954">Osée</char>, <char style="w" strong="H3068">il</char> <char style="w" strong="H1696">dit</char> <char style="w" strong="H3068">à</char> <char style="w" strong="H1954">Osée</char> : « <char style="w" strong="H3212">Va</char>, <char style="w" strong="H3947">prends</char> <char style="w" strong="H3947">pour</char> <char style="w" strong="H3068">toi</char> <char style="w" strong="H3947">une</char> femme <char style="w" strong="H1696">de</char> <char style="w" strong="H2181">prostitution</char> <char style="w" strong="H3212">et</char> <char style="w" strong="H3068">des</char> <char style="w" strong="H3206">enfants</char> d'infidélité ; <char style="w" strong="H3588">car</char> <char style="w" strong="H3947">le</char> pays commet <char style="w" strong="H3947">un</char> grand <char style="w" strong="H2181">adultère</char>, <char style="w" strong="H3212">en</char> abandonnant Yahvé. »<verse eid="HOS 1:2" /></para>
+  <para style="p">
+    <verse number="3" style="v" sid="HOS 1:3" />
+    <char style="w" strong="H1121">Et</char> il <char style="w" strong="H3212">alla</char> <char style="w" strong="H3947">prendre</char> <char style="w" strong="H1586">Gomer</char>, <char style="w" strong="H1323">fille</char> <char style="w" strong="H1121">de</char> <char style="w" strong="H1691">Diblaïm</char> ; <char style="w" strong="H1121">et</char> elle <char style="w" strong="H2029">conçut</char>, <char style="w" strong="H1121">et</char> <char style="w" strong="H3205">lui</char> <char style="w" strong="H3205">donna</char> <char style="w" strong="H1121">un</char> <char style="w" strong="H1121">fils</char>.<verse eid="HOS 1:3" /></para>
+  <para style="p">
+    <verse number="4" style="v" sid="HOS 1:4" />Yahvé <char style="w" strong="H3068">lui</char> dit : « Appelle-le <char style="w" strong="H1004">du</char> <char style="w" strong="H8034">nom</char> <char style="w" strong="H1004">de</char> <char style="w" strong="H3157">Jizreel</char>, <char style="w" strong="H1004">pour</char> <char style="w" strong="H3068">un</char> <char style="w" strong="H4592">peu</char> <char style="w" strong="H1004">de</char> <char style="w" strong="H4592">temps</char> <char style="w" strong="H5750">encore</char>, <char style="w" strong="H3478">et</char> <char style="w" strong="H3588">je</char> vengerai <char style="w" strong="H7121">le</char> <char style="w" strong="H1818">sang</char> <char style="w" strong="H1004">de</char> <char style="w" strong="H3157">Jizreel</char> <char style="w" strong="H5921">sur</char> <char style="w" strong="H7121">la</char> <char style="w" strong="H1004">maison</char> <char style="w" strong="H1004">de</char> <char style="w" strong="H3058">Jéhu</char>, <char style="w" strong="H3478">et</char> <char style="w" strong="H3588">je</char> ferai <char style="w" strong="H7673">cesser</char> <char style="w" strong="H7121">le</char> <char style="w" strong="H4468">règne</char> <char style="w" strong="H1004">de</char> <char style="w" strong="H7121">la</char> <char style="w" strong="H1004">maison</char> d'Israël. <verse eid="HOS 1:4" /><verse number="5" style="v" sid="HOS 1:5" /><char style="w" strong="H3117">Il</char> arrivera <char style="w" strong="H3117">en</char> <char style="w" strong="H1931">ce</char> jour-là <char style="w" strong="H3117">que</char> <char style="w" strong="H3117">je</char> <char style="w" strong="H7665">briserai</char> l'arc d'Israël <char style="w" strong="H3117">dans</char> <char style="w" strong="H3117">la</char> <char style="w" strong="H6010">vallée</char> <char style="w" strong="H3117">de</char> <char style="w" strong="H3157">Jizreel</char>. »<verse eid="HOS 1:5" /></para>
+  <para style="p">
+    <verse number="6" style="v" sid="HOS 1:6" />
+    <char style="w" strong="H3588">Elle</char> <char style="w" strong="H2029">conçut</char> <char style="w" strong="H1004">de</char> <char style="w" strong="H3254">nouveau</char>, <char style="w" strong="H3478">et</char> <char style="w" strong="H3205">enfanta</char> <char style="w" strong="H5375">une</char> <char style="w" strong="H1323">fille</char>.</para>
+  <para style="p" vid="HOS 1:6">
+    <char style="w" strong="H3478">Et</char> <char style="w" strong="H3478">il</char> <char style="w" strong="H1004">lui</char> dit : « Appelle-la <char style="w" strong="H1004">du</char> <char style="w" strong="H8034">nom</char> <char style="w" strong="H1004">de</char> Lo-Ruhamah, <note caller="+" style="f"><char style="fr" closed="false">1.6 </char><char style="ft" closed="false">Lo-Ruhamah signifie « pas aimé ».</char></note><char style="w" strong="H3588">car</char> <char style="w" strong="H3588">je</char> n'aurai <char style="w" strong="H3254">plus</char> <char style="w" strong="H7355">pitié</char> <char style="w" strong="H1004">de</char> <char style="w" strong="H5375">la</char> <char style="w" strong="H1004">maison</char> d'Israël, <char style="w" strong="H3478">et</char> <char style="w" strong="H3588">je</char> <char style="w" strong="H3205">ne</char> <char style="w" strong="H5375">leur</char> <char style="w" strong="H5375">pardonnerai</char> <char style="w" strong="H3254">plus</char> d'aucune manière. <verse eid="HOS 1:6" /><verse number="7" style="v" sid="HOS 1:7" />Mais j'aurai <char style="w" strong="H7355">pitié</char> <char style="w" strong="H1004">de</char> <char style="w" strong="H3068">la</char> <char style="w" strong="H1004">maison</char> <char style="w" strong="H1004">de</char> <char style="w" strong="H3063">Juda</char>, <char style="w" strong="H3063">et</char> je <char style="w" strong="H3068">les</char> <char style="w" strong="H3467">sauverai</char> <char style="w" strong="H3068">par</char> Yahvé, <char style="w" strong="H3068">leur</char> <char style="w" strong="H3068">Dieu</char>, <note caller="+" style="f"><char style="fr" closed="false">1.7 </char><char style="ft" closed="false">Le mot hébreu rendu par « Dieu » est « אֱלֹהִ֑ים » (Elohim).</char></note><char style="w" strong="H3063">et</char> je <char style="w" strong="H3068">ne</char> <char style="w" strong="H3068">les</char> <char style="w" strong="H3467">sauverai</char> <char style="w" strong="H2719">ni</char> <char style="w" strong="H3068">par</char> l'arc, <char style="w" strong="H2719">ni</char> <char style="w" strong="H3068">par</char> l'épée, <char style="w" strong="H2719">ni</char> <char style="w" strong="H3068">par</char> <char style="w" strong="H3068">la</char> <char style="w" strong="H4421">bataille</char>, <char style="w" strong="H2719">ni</char> <char style="w" strong="H3068">par</char> <char style="w" strong="H3068">les</char> <char style="w" strong="H5483">chevaux</char>, <char style="w" strong="H2719">ni</char> <char style="w" strong="H3068">par</char> <char style="w" strong="H3068">les</char> <char style="w" strong="H6571">cavaliers</char>. »<verse eid="HOS 1:7" /></para>
+  <para style="p">
+    <verse number="8" style="v" sid="HOS 1:8" />Or, lorsqu'elle <char style="w" strong="H3205">eut</char> <char style="w" strong="H1580">sevré</char> Lo-Ruhamah, elle <char style="w" strong="H2029">conçut</char> <char style="w" strong="H1121">et</char> <char style="w" strong="H3205">enfanta</char> <char style="w" strong="H1121">un</char> <char style="w" strong="H1121">fils</char>.<verse eid="HOS 1:8" /></para>
+  <para style="p">
+    <verse number="9" style="v" sid="HOS 1:9" />
+    <char style="w" strong="H5971">Il</char> dit : « Appelle-le Lo-Ammi, <note caller="+" style="f"><char style="fr" closed="false">1.9 </char><char style="ft" closed="false">Lo-Ammi signifie « pas mon peuple ».</char></note><char style="w" strong="H3588">car</char> vous n'êtes <char style="w" strong="H3808">pas</char> <char style="w" strong="H7121">mon</char> <char style="w" strong="H5971">peuple</char>, <char style="w" strong="H5971">et</char> <char style="w" strong="H3588">je</char> <char style="w" strong="H5971">ne</char> <char style="w" strong="H1961">serai</char> <char style="w" strong="H3808">pas</char> <char style="w" strong="H7121">le</char> <char style="w" strong="H1961">vôtre</char>. <verse eid="HOS 1:9" /><verse number="10" style="v" sid="HOS 1:10" />Mais le nombre des enfants d'Israël sera comme le sable de la mer, qui ne peut être ni mesuré ni compté ; et là où on leur a dit : « Vous n'êtes pas mon peuple », on les appellera « fils du Dieu vivant ». <verse eid="HOS 1:10" /><verse number="11" style="v" sid="HOS 1:11" />Les enfants de Juda et les enfants d'Israël s'assembleront, ils se donneront une tête, et ils monteront du pays ; car grand sera le jour de Jizreel.<verse eid="HOS 1:11" /></para>
+  <chapter eid="HOS 1" />
+  <chapter number="2" style="c" sid="HOS 2" />
+  <para style="p">
+    <verse number="1" style="v" sid="HOS 2:1" />« Dis <char style="w" strong="H3478">à</char> <char style="w" strong="H5608">tes</char> <char style="w" strong="H1121">frères</char> : « <char style="w" strong="H5608">Mon</char> <char style="w" strong="H5971">peuple</char> » ! <note caller="+" style="f"><char style="fr" closed="false">2.1 </char><char style="ft" closed="false">« Ammi » en hébreu</char></note></para>
+  <para style="q2" vid="HOS 2:1">
+    <char style="w" strong="H1121">et</char> <char style="w" strong="H3478">à</char> <char style="w" strong="H5608">tes</char> soeurs : « <char style="w" strong="H5608">Mon</char> bien-aimé ». <note caller="+" style="f"><char style="fr" closed="false">2.1 </char><char style="ft" closed="false">« Ruhamah » en hébreu</char></note><verse eid="HOS 2:1" /></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 2:2" />Contestez <char style="w" strong="H3162">avec</char> votre mère !</para>
+  <para style="q2" vid="HOS 2:2">Contestez, <char style="w" strong="H3588">car</char> <char style="w" strong="H3588">elle</char> n'est <char style="w" strong="H7760">pas</char> <char style="w" strong="H7760">ma</char> femme,</para>
+  <para style="q2" vid="HOS 2:2">
+    <char style="w" strong="H3117">je</char> <char style="w" strong="H3478">ne</char> suis <char style="w" strong="H7760">pas</char> non <char style="w" strong="H4480">plus</char> <char style="w" strong="H7760">son</char> mari ;</para>
+  <para style="q1" vid="HOS 2:2">
+    <char style="w" strong="H1419">et</char> qu'elle <char style="w" strong="H7760">fasse</char> disparaître <char style="w" strong="H7760">sa</char> prostitution <char style="w" strong="H1121">de</char> <char style="w" strong="H7760">son</char> visage,</para>
+  <para style="q2" vid="HOS 2:2">
+    <char style="w" strong="H1419">et</char> <char style="w" strong="H7760">ses</char> adultères <char style="w" strong="H6908">d'entre</char> <char style="w" strong="H7760">ses</char> seins ;<verse eid="HOS 2:2" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="HOS 2:3" />
+    <char style="w" strong="H5971">de</char> peur <char style="w" strong="H5971">que</char> je <char style="w" strong="H5971">ne</char> <char style="w" strong="H5971">la</char> déshabille,</para>
+  <para style="q2" vid="HOS 2:3">
+    <char style="w" strong="H5971">et</char> <char style="w" strong="H5971">la</char> rendre nue comme <char style="w" strong="H5971">au</char> jour <char style="w" strong="H5971">de</char> sa naissance,</para>
+  <para style="q1" vid="HOS 2:3">
+    <char style="w" strong="H5971">et</char> <char style="w" strong="H5971">la</char> rendre comme <char style="w" strong="H5971">une</char> nature sauvage,</para>
+  <para style="q2" vid="HOS 2:3">
+    <char style="w" strong="H5971">et</char> l'a placée comme <char style="w" strong="H5971">une</char> terre sèche,</para>
+  <para style="q2" vid="HOS 2:3">
+    <char style="w" strong="H5971">et</char> <char style="w" strong="H5971">la</char> tuer <char style="w" strong="H5971">par</char> <char style="w" strong="H5971">la</char> soif.<verse eid="HOS 2:3" /></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="HOS 2:4" />
+    <char style="w" strong="H6440">En</char> <char style="w" strong="H6440">effet</char>, <char style="w" strong="H3588">je</char> n'aurai <char style="w" strong="H6440">aucune</char> pitié <char style="w" strong="H6440">pour</char> <char style="w" strong="H6440">ses</char> enfants,</para>
+  <para style="q2" vid="HOS 2:4">
+    <char style="w" strong="H3588">car</char> <char style="w" strong="H6440">ils</char> <char style="w" strong="H6440">sont</char> <char style="w" strong="H6440">les</char> enfants <char style="w" strong="H6440">de</char> l'infidélité.<verse eid="HOS 2:4" /></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="HOS 2:5" />Car <char style="w" strong="H3117">leur</char> mère s'est prostituée.</para>
+  <para style="q2" vid="HOS 2:5">Celle <char style="w" strong="H3205">qui</char> <char style="w" strong="H7760">les</char> <char style="w" strong="H3205">a</char> conçus <char style="w" strong="H3205">a</char> commis <char style="w" strong="H7760">une</char> faute ;</para>
+  <para style="q1" vid="HOS 2:5">car elle <char style="w" strong="H3205">a</char> dit : « <char style="w" strong="H3117">Je</char> vais suivre <char style="w" strong="H7760">mes</char> amants »,</para>
+  <para style="q2" vid="HOS 2:5">
+    <char style="w" strong="H3205">qui</char> me donnent <char style="w" strong="H7760">mon</char> pain <char style="w" strong="H3117">et</char> <char style="w" strong="H7760">mon</char> eau,</para>
+  <para style="q2" vid="HOS 2:5">
+    <char style="w" strong="H7760">ma</char> laine <char style="w" strong="H3117">et</char> <char style="w" strong="H7760">mon</char> lin,</para>
+  <para style="q2" vid="HOS 2:5">
+    <char style="w" strong="H7760">mon</char> huile <char style="w" strong="H3117">et</char> <char style="w" strong="H7760">ma</char> boisson.<verse eid="HOS 2:5" /></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 2:6" />C'est <char style="w" strong="H3588">pourquoi</char> <char style="w" strong="H3588">voici</char>, <note caller="+" style="f"><char style="fr" closed="false">2.6 </char><char style="ft" closed="false">« Voici », de « הִנֵּה », signifie regarder, prendre note, observer, voir ou fixer. Il est souvent utilisé comme une interjection.</char></note><char style="w" strong="H3588">je</char> vais couvrir d'épines ton chemin,</para>
+  <para style="q2" vid="HOS 2:6">
+    <char style="w" strong="H1121">et</char> <char style="w" strong="H3588">je</char> construirai <char style="w" strong="H1121">un</char> mur contre <char style="w" strong="H3588">elle</char>,</para>
+  <para style="q2" vid="HOS 2:6">qu'elle <char style="w" strong="H1121">ne</char> peut <char style="w" strong="H3808">pas</char> trouver <char style="w" strong="H3588">son</char> chemin.<verse eid="HOS 2:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 2:7" />
+    <char style="w" strong="H3588">Elle</char> suivra <char style="w" strong="H5414">ses</char> amants,</para>
+  <para style="q2" vid="HOS 2:7">
+    <char style="w" strong="H3588">mais</char> <char style="w" strong="H3588">elle</char> <char style="w" strong="H4325">ne</char> <char style="w" strong="H5414">les</char> dépassera <char style="w" strong="H3212">pas</char> ;</para>
+  <para style="q1" vid="HOS 2:7">
+    <char style="w" strong="H3212">et</char> <char style="w" strong="H3588">elle</char> <char style="w" strong="H5414">les</char> cherchera,</para>
+  <para style="q2" vid="HOS 2:7">
+    <char style="w" strong="H3588">mais</char> <char style="w" strong="H4325">ne</char> <char style="w" strong="H5414">les</char> trouvera <char style="w" strong="H3212">pas</char>.</para>
+  <para style="q1" vid="HOS 2:7">
+    <char style="w" strong="H3588">Elle</char> dira alors : « <char style="w" strong="H3588">Je</char> m'en <char style="w" strong="H3212">vais</char> <char style="w" strong="H3212">et</char> <char style="w" strong="H3588">je</char> retourne <char style="w" strong="H3212">chez</char> <char style="w" strong="H5414">mon</char> premier mari,</para>
+  <para style="q2" vid="HOS 2:7">
+    <char style="w" strong="H3588">car</char> j'étais alors mieux <char style="w" strong="H3212">avec</char> <char style="w" strong="H5414">moi</char> <char style="w" strong="H3588">que</char> <char style="w" strong="H3588">maintenant</char>.<verse eid="HOS 2:7" /></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 2:8" />
+    <char style="w" strong="H3651">Car</char> elle <char style="w" strong="H3808">ne</char> savait <char style="w" strong="H3808">pas</char> <char style="w" strong="H3651">que</char> <char style="w" strong="H2005">je</char> lui avais donné <char style="w" strong="H4672">le</char> grain, <char style="w" strong="H4672">le</char> vin nouveau <char style="w" strong="H1870">et</char> l'huile,</para>
+  <para style="q2" vid="HOS 2:8">
+    <char style="w" strong="H1870">et</char> lui ont multiplié l'argent <char style="w" strong="H1870">et</char> l'or, <char style="w" strong="H5410">qu'ils</char> utilisaient <char style="w" strong="H1870">pour</char> Baal.<verse eid="HOS 2:8" /></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 2:9" />C'est <char style="w" strong="H3588">pourquoi</char> <char style="w" strong="H7725">je</char> <char style="w" strong="H7725">reprendrai</char> <char style="w" strong="H7725">mon</char> blé <char style="w" strong="H3212">en</char> <char style="w" strong="H7725">son</char> temps,</para>
+  <para style="q2" vid="HOS 2:9">
+    <char style="w" strong="H3212">et</char> <char style="w" strong="H7725">mon</char> vin <char style="w" strong="H7725">nouveau</char> <char style="w" strong="H3212">en</char> <char style="w" strong="H7725">sa</char> saison,</para>
+  <para style="q2" vid="HOS 2:9">
+    <char style="w" strong="H3212">et</char> <char style="w" strong="H7725">il</char> arrachera <char style="w" strong="H7725">ma</char> laine <char style="w" strong="H3212">et</char> <char style="w" strong="H7725">mon</char> lin qui auraient <char style="w" strong="H7725">dû</char> couvrir <char style="w" strong="H7725">sa</char> nudité.<verse eid="HOS 2:9" /></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="HOS 2:10" />
+    <char style="w" strong="H3588">Maintenant</char>, <char style="w" strong="H3588">je</char> découvrirai <char style="w" strong="H5414">son</char> impudicité <char style="w" strong="H5414">aux</char> yeux <char style="w" strong="H6213">de</char> <char style="w" strong="H6213">ses</char> amants,</para>
+  <para style="q2" vid="HOS 2:10">
+    <char style="w" strong="H3045">et</char> personne <char style="w" strong="H3808">ne</char> <char style="w" strong="H6213">la</char> délivrera <char style="w" strong="H6213">de</char> <char style="w" strong="H5414">ma</char> main.<verse eid="HOS 2:10" /></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="HOS 2:11" />
+    <char style="w" strong="H7725">Je</char> ferai <char style="w" strong="H3651">aussi</char> cesser toutes <char style="w" strong="H3947">ses</char> célébrations :</para>
+  <para style="q2" vid="HOS 2:11">
+    <char style="w" strong="H3947">ses</char> <char style="w" strong="H4150">fêtes</char>, <char style="w" strong="H3947">ses</char> nouvelles <char style="w" strong="H4150">lunes</char>, <char style="w" strong="H3947">ses</char> sabbats, <char style="w" strong="H7725">et</char> toutes <char style="w" strong="H3947">ses</char> assemblées <char style="w" strong="H4150">solennelles</char>.<verse eid="HOS 2:11" /></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="HOS 2:12" />
+    <char style="w" strong="H3027">Je</char> détruirai <char style="w" strong="H3027">ses</char> vignes <char style="w" strong="H3027">et</char> <char style="w" strong="H3027">ses</char> figuiers,</para>
+  <para style="q2" vid="HOS 2:12">dont <char style="w" strong="H3027">elle</char> <char style="w" strong="H5869">a</char> dit : « Voici <char style="w" strong="H3027">le</char> salaire <char style="w" strong="H3027">que</char> <char style="w" strong="H3027">m'ont</char> donné <char style="w" strong="H3027">mes</char> amants ».</para>
+  <para style="q2" vid="HOS 2:12">
+    <char style="w" strong="H3027">et</char> <char style="w" strong="H3027">je</char> <char style="w" strong="H5337">leur</char> ferai <char style="w" strong="H3027">une</char> forêt,</para>
+  <para style="q2" vid="HOS 2:12">
+    <char style="w" strong="H3027">et</char> <char style="w" strong="H3027">les</char> animaux <char style="w" strong="H3027">des</char> champs <char style="w" strong="H3027">les</char> mangeront.<verse eid="HOS 2:12" /></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="HOS 2:13" />
+    <char style="w" strong="H4150">Je</char> visiterai sur elle <char style="w" strong="H7673">les</char> jours <char style="w" strong="H2282">des</char> Baals,</para>
+  <para style="q2" vid="HOS 2:13">
+    <char style="w" strong="H2320">à</char> laquelle elle <char style="w" strong="H2320">a</char> brûlé <char style="w" strong="H2320">de</char> l'encens</para>
+  <para style="q1" vid="HOS 2:13">quand elle s'est parée <char style="w" strong="H2320">de</char> <char style="w" strong="H7673">ses</char> boucles d'oreilles <char style="w" strong="H2320">et</char> <char style="w" strong="H2320">de</char> <char style="w" strong="H7673">ses</char> bijoux,</para>
+  <para style="q2" vid="HOS 2:13">
+    <char style="w" strong="H2320">et</char> <char style="w" strong="H2320">est</char> allée chercher <char style="w" strong="H7673">ses</char> amants</para>
+  <para style="q2" vid="HOS 2:13">
+    <char style="w" strong="H2320">et</char> m'ont oublié », dit Yahvé.<verse eid="HOS 2:13" /></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="HOS 2:14" />« Voici <char style="w" strong="H7760">donc</char> <char style="w" strong="H2416">que</char> <char style="w" strong="H5414">je</char> vais <char style="w" strong="H5414">la</char> séduire,</para>
+  <para style="q2" vid="HOS 2:14">
+    <char style="w" strong="H8074">et</char> l'amener <char style="w" strong="H5414">dans</char> <char style="w" strong="H5414">le</char> désert,</para>
+  <para style="q2" vid="HOS 2:14">
+    <char style="w" strong="H8074">et</char> <char style="w" strong="H1992">lui</char> parler tendrement.<verse eid="HOS 2:14" /></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="HOS 2:15" />
+    <char style="w" strong="H3117">Je</char> <char style="w" strong="H3068">lui</char> donnerai <char style="w" strong="H3068">des</char> vignes <char style="w" strong="H3068">à</char> <char style="w" strong="H3212">partir</char> <char style="w" strong="H3117">de</char> <char style="w" strong="H3117">là</char>,</para>
+  <para style="q2" vid="HOS 2:15">
+    <char style="w" strong="H3117">et</char> <char style="w" strong="H3117">la</char> vallée d'Achor <char style="w" strong="H3212">pour</char> <char style="w" strong="H3068">une</char> porte d'espoir ;</para>
+  <para style="q1" vid="HOS 2:15">
+    <char style="w" strong="H3117">et</char> elle <char style="w" strong="H3068">y</char> répondra</para>
+  <para style="q2" vid="HOS 2:15">
+    <char style="w" strong="H3068">comme</char> <char style="w" strong="H3212">au</char> <char style="w" strong="H3117">temps</char> <char style="w" strong="H3117">de</char> <char style="w" strong="H3117">sa</char> jeunesse,</para>
+  <para style="q2" vid="HOS 2:15">
+    <char style="w" strong="H3117">et</char> <char style="w" strong="H3068">comme</char> <char style="w" strong="H3212">au</char> <char style="w" strong="H3117">jour</char> <char style="w" strong="H3117">où</char> elle <char style="w" strong="H3068">est</char> sortie <char style="w" strong="H3117">du</char> pays d'Égypte.<verse eid="HOS 2:15" /></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="HOS 2:16" />
+    <char style="w" strong="H3651">Il</char> <char style="w" strong="H3212">en</char> <char style="w" strong="H3651">sera</char> <char style="w" strong="H3651">ainsi</char> <char style="w" strong="H3212">en</char> <char style="w" strong="H3820">ce</char> jour-là, <char style="w" strong="H1696">dit</char> Yahvé,</para>
+  <para style="q2" vid="HOS 2:16">« <char style="w" strong="H3651">que</char> <char style="w" strong="H3212">tu</char> m'appelles 'mon mari',</para>
+  <para style="q2" vid="HOS 2:16">
+    <char style="w" strong="H3212">et</char> <char style="w" strong="H3820">ne</char> m'appelle <char style="w" strong="H1696">plus</char> « <char style="w" strong="H1696">mon</char> maître ».<verse eid="HOS 2:16" /></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="HOS 2:17" />Car j'ôterai <char style="w" strong="H3117">de</char> <char style="w" strong="H5414">sa</char> bouche <char style="w" strong="H5414">les</char> noms <char style="w" strong="H3117">des</char> Baals,</para>
+  <para style="q2" vid="HOS 2:17">
+    <char style="w" strong="H6030">et</char> ils <char style="w" strong="H4714">ne</char> <char style="w" strong="H3117">seront</char> <char style="w" strong="H5927">plus</char> mentionnés <char style="w" strong="H3117">par</char> <char style="w" strong="H5414">leur</char> nom.<verse eid="HOS 2:17" /></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="HOS 2:18" />
+    <char style="w" strong="H3117">En</char> <char style="w" strong="H7121">ce</char> jour-là, <char style="w" strong="H3117">je</char> conclurai <char style="w" strong="H3068">pour</char> eux <char style="w" strong="H3068">une</char> alliance <char style="w" strong="H3117">avec</char> <char style="w" strong="H3068">les</char> animaux <char style="w" strong="H3068">des</char> champs,</para>
+  <para style="q2" vid="HOS 2:18">
+    <char style="w" strong="H3117">et</char> <char style="w" strong="H3117">avec</char> <char style="w" strong="H3068">les</char> oiseaux <char style="w" strong="H3117">du</char> ciel,</para>
+  <para style="q2" vid="HOS 2:18">
+    <char style="w" strong="H3117">et</char> <char style="w" strong="H3117">avec</char> <char style="w" strong="H3068">les</char> reptiles <char style="w" strong="H3117">du</char> sol.</para>
+  <para style="q1" vid="HOS 2:18">
+    <char style="w" strong="H3117">Je</char> briserai l'arc, l'épée <char style="w" strong="H3117">et</char> <char style="w" strong="H3117">la</char> bataille <char style="w" strong="H3808">hors</char> <char style="w" strong="H3117">du</char> pays,</para>
+  <para style="q2" vid="HOS 2:18">
+    <char style="w" strong="H3117">et</char> <char style="w" strong="H3068">les</char> <char style="w" strong="H3068">fera</char> <char style="w" strong="H3068">se</char> coucher <char style="w" strong="H3117">en</char> <char style="w" strong="H3117">toute</char> sécurité.<verse eid="HOS 2:18" /></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="HOS 2:19" />Je <char style="w" strong="H3808">te</char> fiancerai <char style="w" strong="H6310">à</char> <char style="w" strong="H5493">moi</char> <char style="w" strong="H8034">pour</char> toujours.</para>
+  <para style="q2" vid="HOS 2:19">Oui, je <char style="w" strong="H3808">te</char> fiancerai <char style="w" strong="H6310">à</char> <char style="w" strong="H5493">moi</char> <char style="w" strong="H8034">dans</char> <char style="w" strong="H5493">la</char> droiture, <char style="w" strong="H5493">la</char> justice, <char style="w" strong="H5493">la</char> bonté <char style="w" strong="H8034">et</char> <char style="w" strong="H5493">la</char> compassion.<verse eid="HOS 2:19" /></para>
+  <para style="q1">
+    <verse number="20" style="v" sid="HOS 2:20" />
+    <char style="w" strong="H3117">Je</char> te fiancerai <char style="w" strong="H1931">même</char> <char style="w" strong="H3117">à</char> moi <char style="w" strong="H3117">dans</char> <char style="w" strong="H3117">la</char> fidélité ;</para>
+  <para style="q2" vid="HOS 2:20">
+    <char style="w" strong="H3117">et</char> <char style="w" strong="H3117">vous</char> connaîtrez Yahvé.<verse eid="HOS 2:20" /></para>
+  <para style="q1">
+    <verse number="21" style="v" sid="HOS 2:21" />Il arrivera <char style="w" strong="H5769">en</char> ce jour-là <char style="w" strong="H4941">que</char> je répondrai, dit Yahvé.</para>
+  <para style="q2" vid="HOS 2:21">« Je vais répondre <char style="w" strong="H4941">aux</char> cieux,</para>
+  <para style="q2" vid="HOS 2:21">
+    <char style="w" strong="H4941">et</char> ils répondront <char style="w" strong="H2617">à</char> <char style="w" strong="H5769">la</char> terre ;<verse eid="HOS 2:21" /></para>
+  <para style="q2">
+    <verse number="22" style="v" sid="HOS 2:22" />
+    <char style="w" strong="H3068">et</char> <char style="w" strong="H3045">la</char> terre répondra <char style="w" strong="H3068">au</char> grain, <char style="w" strong="H3068">au</char> vin nouveau <char style="w" strong="H3068">et</char> <char style="w" strong="H3068">à</char> l'huile ;</para>
+  <para style="q2" vid="HOS 2:22">
+    <char style="w" strong="H3068">et</char> ils répondront <char style="w" strong="H3068">à</char> Jezreel.<verse eid="HOS 2:22" /></para>
+  <para style="q1">
+    <verse number="23" style="v" sid="HOS 2:23" />
+    <char style="w" strong="H3117">Je</char> <char style="w" strong="H3117">la</char> sèmerai <char style="w" strong="H3068">pour</char> <char style="w" strong="H6030">moi</char> <char style="w" strong="H3117">dans</char> <char style="w" strong="H3117">la</char> terre ;</para>
+  <para style="q2" vid="HOS 2:23">
+    <char style="w" strong="H6030">et</char> j'aurai pitié <char style="w" strong="H3117">de</char> celle <char style="w" strong="H3068">qui</char> <char style="w" strong="H3068">n'avait</char> <char style="w" strong="H1931">pas</char> obtenu <char style="w" strong="H3117">de</char> pitié ;</para>
+  <para style="q2" vid="HOS 2:23">
+    <char style="w" strong="H6030">et</char> <char style="w" strong="H3117">je</char> dirai <char style="w" strong="H3068">à</char> <char style="w" strong="H1992">ceux</char> <char style="w" strong="H3068">qui</char> n'étaient <char style="w" strong="H1931">pas</char> <char style="w" strong="H3068">mon</char> peuple : « <char style="w" strong="H3068">Vous</char> êtes <char style="w" strong="H3068">mon</char> peuple ».</para>
+  <para style="q2" vid="HOS 2:23">
+    <char style="w" strong="H6030">et</char> <char style="w" strong="H1992">ils</char> diront : « <char style="w" strong="H3117">Tu</char> es <char style="w" strong="H3068">mon</char> <char style="w" strong="H3068">Dieu</char> ».<verse eid="HOS 2:23" /></para>
+  <chapter eid="HOS 2" />
+  <chapter number="3" style="c" sid="HOS 3" />
+  <para style="p">
+    <verse number="1" style="v" sid="HOS 3:1" />Yahvé <char style="w" strong="H3068">m'a</char> dit : « <char style="w" strong="H3212">Va</char> <char style="w" strong="H5750">encore</char>, aime <char style="w" strong="H3068">une</char> <char style="w" strong="H5003">femme</char> aimée <char style="w" strong="H3068">par</char> <char style="w" strong="H1121">un</char> <char style="w" strong="H7453">autre</char>, <char style="w" strong="H3068">une</char> <char style="w" strong="H5003">adultère</char>, <char style="w" strong="H3068">comme</char> Yahvé aime <char style="w" strong="H3068">les</char> <char style="w" strong="H1121">enfants</char> d'Israël, bien qu'ils <char style="w" strong="H3068">se</char> <char style="w" strong="H6437">tournent</char> <char style="w" strong="H3212">vers</char> d'autres dieux <char style="w" strong="H1121">et</char> qu'ils aiment <char style="w" strong="H3068">les</char> gâteaux <char style="w" strong="H1121">de</char> <char style="w" strong="H6025">raisins</char> secs. »<verse eid="HOS 3:1" /></para>
+  <para style="p">
+    <verse number="2" style="v" sid="HOS 3:2" />Je l'achetai <char style="w" strong="H6240">pour</char> moi, <char style="w" strong="H6240">pour</char> <char style="w" strong="H2568">quinze</char> pièces d'argent <char style="w" strong="H3701">et</char> <char style="w" strong="H3739">un</char> <char style="w" strong="H2563">homer</char><note caller="+" style="f"><char style="fr" closed="false">3.2 </char><char style="ft" closed="false">1 homer représente environ 220 litres ou 6 boisseaux.</char></note> <char style="w" strong="H3701">et</char> demi d'orge. <verse eid="HOS 3:2" /><verse number="3" style="v" sid="HOS 3:3" /><char style="w" strong="H3117">Je</char> lui dis : « <char style="w" strong="H3117">Tu</char> <char style="w" strong="H3427">resteras</char> <char style="w" strong="H3427">avec</char> moi <char style="w" strong="H3117">de</char> <char style="w" strong="H7227">nombreux</char> <char style="w" strong="H3117">jours</char>. <char style="w" strong="H3117">Tu</char> <char style="w" strong="H3808">ne</char> <char style="w" strong="H3808">te</char> prostitueras <char style="w" strong="H3808">pas</char>, <char style="w" strong="H3117">et</char> <char style="w" strong="H3117">tu</char> <char style="w" strong="H3808">ne</char> <char style="w" strong="H3427">seras</char> <char style="w" strong="H3808">pas</char> <char style="w" strong="H3427">avec</char> <char style="w" strong="H3117">un</char> autre homme. J'agirai <char style="w" strong="H3117">de</char> <char style="w" strong="H1571">même</char> envers toi. »<verse eid="HOS 3:3" /></para>
+  <para style="p">
+    <verse number="4" style="v" sid="HOS 3:4" />
+    <char style="w" strong="H3588">Car</char> <char style="w" strong="H3427">les</char> <char style="w" strong="H1121">enfants</char> d'Israël vivront <char style="w" strong="H7227">longtemps</char> <char style="w" strong="H3117">sans</char> <char style="w" strong="H4428">roi</char>, <char style="w" strong="H3117">sans</char> <char style="w" strong="H8269">prince</char>, <char style="w" strong="H3117">sans</char> <char style="w" strong="H2077">sacrifice</char>, <char style="w" strong="H3117">sans</char> pierre sacrée, <char style="w" strong="H3117">sans</char> éphod <char style="w" strong="H3117">et</char> <char style="w" strong="H3117">sans</char> idoles. <verse eid="HOS 3:4" /><verse number="5" style="v" sid="HOS 3:5" /><char style="w" strong="H7725">Ensuite</char>, <char style="w" strong="H7725">les</char> <char style="w" strong="H1121">enfants</char> d'Israël <char style="w" strong="H7725">reviendront</char> <char style="w" strong="H3117">et</char> <char style="w" strong="H1245">chercheront</char> Yahvé, <char style="w" strong="H3068">leur</char> <char style="w" strong="H3068">Dieu</char>, <char style="w" strong="H3117">et</char> <char style="w" strong="H1732">David</char>, <char style="w" strong="H3068">leur</char> <char style="w" strong="H4428">roi</char>, <char style="w" strong="H3117">et</char> <char style="w" strong="H1121">ils</char> viendront <char style="w" strong="H7725">avec</char> tremblement <char style="w" strong="H3068">à</char> Yahvé <char style="w" strong="H3117">et</char> <char style="w" strong="H3068">à</char> <char style="w" strong="H3117">ses</char> bénédictions, <char style="w" strong="H3117">dans</char> <char style="w" strong="H7725">les</char> derniers <char style="w" strong="H3117">jours</char>.<verse eid="HOS 3:5" /></para>
+  <chapter eid="HOS 3" />
+  <chapter number="4" style="c" sid="HOS 4" />
+  <para style="p">
+    <verse number="1" style="v" sid="HOS 4:1" />
+    <char style="w" strong="H8085">Écoutez</char> <char style="w" strong="H8085">la</char> <char style="w" strong="H1697">parole</char> <char style="w" strong="H1121">de</char> Yahvé, <char style="w" strong="H1121">enfants</char> d'Israël,</para>
+  <para style="q2" vid="HOS 4:1">
+    <char style="w" strong="H3588">car</char> Yahvé <char style="w" strong="H3068">a</char> <char style="w" strong="H3068">une</char> <char style="w" strong="H1697">charge</char> <char style="w" strong="H3068">contre</char> <char style="w" strong="H8085">les</char> <char style="w" strong="H3427">habitants</char> <char style="w" strong="H1121">du</char> pays  :</para>
+  <para style="q1" vid="HOS 4:1">« <char style="w" strong="H3427">En</char> effet, <char style="w" strong="H3068">il</char> n'y <char style="w" strong="H3068">a</char> <char style="w" strong="H8085">pas</char> <char style="w" strong="H1121">de</char> <char style="w" strong="H1847">vérité</char>, <char style="w" strong="H1121">ni</char> <char style="w" strong="H1121">de</char> <char style="w" strong="H2617">bonté</char>,</para>
+  <para style="q2" vid="HOS 4:1">
+    <char style="w" strong="H1121">ni</char> <char style="w" strong="H8085">la</char> <char style="w" strong="H1847">connaissance</char> <char style="w" strong="H1121">de</char> <char style="w" strong="H3068">Dieu</char> <char style="w" strong="H3427">dans</char> <char style="w" strong="H8085">le</char> pays.<verse eid="HOS 4:1" /></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 4:2" />Il y <char style="w" strong="H5060">a</char> <char style="w" strong="H5060">la</char> malédiction, <char style="w" strong="H5060">le</char> mensonge, <char style="w" strong="H5060">le</char> <char style="w" strong="H1818">meurtre</char>, <char style="w" strong="H5060">le</char> <char style="w" strong="H1589">vol</char> <char style="w" strong="H1818">et</char> l'adultère  ;</para>
+  <para style="q2" vid="HOS 4:2">ils brisent <char style="w" strong="H5060">les</char> frontières, <char style="w" strong="H1818">et</char> <char style="w" strong="H5060">les</char> effusions <char style="w" strong="H1818">de</char> <char style="w" strong="H1818">sang</char> provoquent <char style="w" strong="H1818">des</char> effusions <char style="w" strong="H1818">de</char> <char style="w" strong="H1818">sang</char>.<verse eid="HOS 4:2" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="HOS 4:3" />C'est <char style="w" strong="H3651">pourquoi</char> <char style="w" strong="H3427">le</char> <char style="w" strong="H7704">pays</char> <char style="w" strong="H7704">sera</char> <char style="w" strong="H3427">dans</char> <char style="w" strong="H3427">le</char> deuil,</para>
+  <para style="q2" vid="HOS 4:3">
+    <char style="w" strong="H3427">et</char> <char style="w" strong="H3605">tous</char> <char style="w" strong="H3605">ceux</char> <char style="w" strong="H7704">qui</char> l'habitent dépériront,</para>
+  <para style="q1" vid="HOS 4:3">
+    <char style="w" strong="H3427">avec</char> <char style="w" strong="H3605">tous</char> <char style="w" strong="H3427">les</char> êtres <char style="w" strong="H2416">vivants</char> <char style="w" strong="H3427">en</char> elle,</para>
+  <para style="q2" vid="HOS 4:3">
+    <char style="w" strong="H1571">même</char> <char style="w" strong="H3427">les</char> <char style="w" strong="H2416">animaux</char> <char style="w" strong="H2416">des</char> <char style="w" strong="H7704">champs</char> <char style="w" strong="H3427">et</char> <char style="w" strong="H3427">les</char> <char style="w" strong="H5775">oiseaux</char> <char style="w" strong="H3427">du</char> <char style="w" strong="H8064">ciel</char>  ;</para>
+  <para style="q2" vid="HOS 4:3">oui, <char style="w" strong="H3427">les</char> <char style="w" strong="H1709">poissons</char> <char style="w" strong="H3427">de</char> <char style="w" strong="H3427">la</char> <char style="w" strong="H3220">mer</char> <char style="w" strong="H2416">meurent</char> <char style="w" strong="H1571">aussi</char>.<verse eid="HOS 4:3" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="4" style="v" sid="HOS 4:4" />« <char style="w" strong="H5971">Que</char> <char style="w" strong="H5971">personne</char> <char style="w" strong="H5971">ne</char> porte plainte, <char style="w" strong="H5971">que</char> <char style="w" strong="H5971">personne</char> n'accuse  ;</para>
+  <para style="q2" vid="HOS 4:4">car <char style="w" strong="H3198">ton</char> <char style="w" strong="H5971">peuple</char> <char style="w" strong="H5971">est</char> comme <char style="w" strong="H5971">ceux</char> <char style="w" strong="H5971">qui</char> portent plainte <char style="w" strong="H5971">contre</char> <char style="w" strong="H5971">un</char> <char style="w" strong="H3548">prêtre</char>.<verse eid="HOS 4:4" /></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="HOS 4:5" />
+    <char style="w" strong="H3117">Vous</char> trébucherez <char style="w" strong="H3117">le</char> <char style="w" strong="H3117">jour</char>,</para>
+  <para style="q2" vid="HOS 4:5">
+    <char style="w" strong="H3117">et</char> <char style="w" strong="H3117">le</char> <char style="w" strong="H5030">prophète</char> <char style="w" strong="H1571">aussi</char> trébuchera <char style="w" strong="H5973">avec</char> <char style="w" strong="H3117">vous</char> <char style="w" strong="H3117">dans</char> <char style="w" strong="H3117">la</char> <char style="w" strong="H3915">nuit</char>  ;</para>
+  <para style="q2" vid="HOS 4:5">
+    <char style="w" strong="H3117">et</char> <char style="w" strong="H3117">je</char> <char style="w" strong="H1820">détruirai</char> <char style="w" strong="H3117">ta</char> mère.<verse eid="HOS 4:5" /></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 4:6" />
+    <char style="w" strong="H7911">Mon</char> <char style="w" strong="H5971">peuple</char> <char style="w" strong="H5971">est</char> <char style="w" strong="H1820">détruit</char> <char style="w" strong="H5971">par</char> manque <char style="w" strong="H1121">de</char> <char style="w" strong="H1847">connaissance</char>.</para>
+  <para style="q2" vid="HOS 4:6">Parce <char style="w" strong="H3588">que</char> <char style="w" strong="H1121">vous</char> avez <char style="w" strong="H3988">rejeté</char> <char style="w" strong="H3988">la</char> <char style="w" strong="H1847">connaissance</char>, <char style="w" strong="H1571">je</char> <char style="w" strong="H1121">vous</char> <char style="w" strong="H3988">rejetterai</char> <char style="w" strong="H1571">aussi</char>,</para>
+  <para style="q2" vid="HOS 4:6">
+    <char style="w" strong="H5971">pour</char> <char style="w" strong="H3588">que</char> <char style="w" strong="H1121">vous</char> <char style="w" strong="H5971">ne</char> soyez <char style="w" strong="H1097">pas</char> <char style="w" strong="H1121">un</char> prêtre <char style="w" strong="H5971">pour</char> moi.</para>
+  <para style="q1" vid="HOS 4:6">Parce <char style="w" strong="H3588">que</char> <char style="w" strong="H1121">vous</char> avez <char style="w" strong="H7911">oublié</char> <char style="w" strong="H3988">la</char> <char style="w" strong="H8451">loi</char> <char style="w" strong="H1121">de</char> <char style="w" strong="H3988">votre</char> Dieu,</para>
+  <para style="q2" vid="HOS 4:6">J'oublierai <char style="w" strong="H1571">aussi</char> <char style="w" strong="H3988">vos</char> <char style="w" strong="H1121">enfants</char>.<verse eid="HOS 4:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 4:7" />Comme ils <char style="w" strong="H3651">se</char> <char style="w" strong="H2398">sont</char> <char style="w" strong="H7235">multipliés</char>, ils ont <char style="w" strong="H2398">péché</char> <char style="w" strong="H2398">contre</char> moi.</para>
+  <para style="q2" vid="HOS 4:7">Je <char style="w" strong="H4171">changerai</char> <char style="w" strong="H2398">leur</char> <char style="w" strong="H3519">gloire</char> <char style="w" strong="H2398">en</char> <char style="w" strong="H7036">honte</char>.<verse eid="HOS 4:7" /></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 4:8" />
+    <char style="w" strong="H5971">Ils</char> <char style="w" strong="H5971">se</char> nourrissent <char style="w" strong="H5971">du</char> <char style="w" strong="H2403">péché</char> <char style="w" strong="H5971">de</char> <char style="w" strong="H5375">mon</char> <char style="w" strong="H5971">peuple</char>,</para>
+  <para style="q2" vid="HOS 4:8">
+    <char style="w" strong="H5971">et</char> <char style="w" strong="H5971">ont</char> <char style="w" strong="H5375">mis</char> <char style="w" strong="H5375">leur</char> <char style="w" strong="H5315">cœur</char> dans <char style="w" strong="H5375">leur</char> <char style="w" strong="H5771">iniquité</char>.<verse eid="HOS 4:8" /></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 4:9" />
+    <char style="w" strong="H3548">Il</char> <char style="w" strong="H1961">sera</char> <char style="w" strong="H1870">comme</char> <char style="w" strong="H7725">un</char> <char style="w" strong="H5971">peuple</char>, <char style="w" strong="H1870">comme</char> <char style="w" strong="H7725">un</char> <char style="w" strong="H3548">prêtre</char>  ;</para>
+  <para style="q2" vid="HOS 4:9">
+    <char style="w" strong="H7725">et</char> <char style="w" strong="H7725">je</char> <char style="w" strong="H7725">les</char> <char style="w" strong="H6485">punirai</char> <char style="w" strong="H5971">pour</char> <char style="w" strong="H7725">leur</char> <char style="w" strong="H1870">conduite</char>,</para>
+  <para style="q2" vid="HOS 4:9">
+    <char style="w" strong="H7725">et</char> <char style="w" strong="H7725">leur</char> <char style="w" strong="H7725">rendra</char> <char style="w" strong="H7725">la</char> monnaie <char style="w" strong="H1870">de</char> <char style="w" strong="H7725">leur</char> pièce.<verse eid="HOS 4:9" /></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="HOS 4:10" />Ils mangeront, <char style="w" strong="H3068">et</char> n'auront <char style="w" strong="H3808">pas</char> assez.</para>
+  <para style="q2" vid="HOS 4:10">Ils joueront <char style="w" strong="H3068">les</char> <char style="w" strong="H2181">prostituées</char>, <char style="w" strong="H3068">et</char> n'augmenteront <char style="w" strong="H3808">pas</char>  ;</para>
+  <para style="q2" vid="HOS 4:10">parce qu'ils ont <char style="w" strong="H5800">abandonné</char> l'écoute <char style="w" strong="H7646">de</char> Yahvé.<verse eid="HOS 4:10" /></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="HOS 4:11" />
+    <char style="w" strong="H3947">La</char> <char style="w" strong="H2184">prostitution</char>, <char style="w" strong="H3947">le</char> <char style="w" strong="H3196">vin</char> <char style="w" strong="H3947">et</char> <char style="w" strong="H3947">le</char> <char style="w" strong="H3196">vin</char> nouveau enlèvent l'intelligence.<verse eid="HOS 4:11" /></para>
+  <para style="q2">
+    <verse number="12" style="v" sid="HOS 4:12" />
+    <char style="w" strong="H8582">Mon</char> <char style="w" strong="H5971">peuple</char> <char style="w" strong="H7592">consulte</char> <char style="w" strong="H5046">son</char> idole <char style="w" strong="H7307">de</char> <char style="w" strong="H6086">bois</char>,</para>
+  <para style="q2" vid="HOS 4:12">
+    <char style="w" strong="H5971">et</char> répondre <char style="w" strong="H5046">à</char> <char style="w" strong="H5971">un</char> <char style="w" strong="H4731">bâton</char> <char style="w" strong="H7307">de</char> <char style="w" strong="H6086">bois</char>.</para>
+  <para style="q1" vid="HOS 4:12">
+    <char style="w" strong="H5971">En</char> effet, l'esprit <char style="w" strong="H7307">de</char> <char style="w" strong="H2181">prostitution</char> <char style="w" strong="H7592">les</char> <char style="w" strong="H5046">a</char> <char style="w" strong="H8582">égarés</char>,</para>
+  <para style="q2" vid="HOS 4:12">
+    <char style="w" strong="H5971">et</char> <char style="w" strong="H5971">ils</char> <char style="w" strong="H5971">ont</char> été <char style="w" strong="H2181">infidèles</char> <char style="w" strong="H5046">à</char> <char style="w" strong="H5046">leur</char> Dieu.<verse eid="HOS 4:12" /></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="HOS 4:13" />Ils <char style="w" strong="H2076">sacrifient</char> <char style="w" strong="H5921">sur</char> <char style="w" strong="H8478">les</char> <char style="w" strong="H7218">sommets</char> <char style="w" strong="H7218">des</char> <char style="w" strong="H2022">montagnes</char>,</para>
+  <para style="q2" vid="HOS 4:13">
+    <char style="w" strong="H2896">et</char> brûlent <char style="w" strong="H1323">de</char> l'encens <char style="w" strong="H5921">sur</char> <char style="w" strong="H8478">les</char> <char style="w" strong="H1389">collines</char>, <char style="w" strong="H8478">sous</char> <char style="w" strong="H8478">les</char> chênes, <char style="w" strong="H8478">les</char> <char style="w" strong="H3839">peupliers</char> <char style="w" strong="H2896">et</char> <char style="w" strong="H8478">les</char> térébinthes,</para>
+  <para style="q2" vid="HOS 4:13">parce <char style="w" strong="H3588">que</char> <char style="w" strong="H3618">sa</char> teinte <char style="w" strong="H7218">est</char> <char style="w" strong="H2896">bonne</char>.</para>
+  <para style="q1" vid="HOS 4:13">C'est <char style="w" strong="H3651">pourquoi</char> vos <char style="w" strong="H1323">filles</char> jouent <char style="w" strong="H8478">les</char> <char style="w" strong="H2181">prostituées</char>,</para>
+  <para style="q2" vid="HOS 4:13">
+    <char style="w" strong="H2896">et</char> vos épouses commettent l'adultère.<verse eid="HOS 4:13" /></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="HOS 4:14" />
+    <char style="w" strong="H3588">Je</char> <char style="w" strong="H5971">ne</char> <char style="w" strong="H6485">punirai</char> <char style="w" strong="H3808">pas</char> <char style="w" strong="H5971">vos</char> <char style="w" strong="H1323">filles</char> lorsqu'elles <char style="w" strong="H5971">se</char> <char style="w" strong="H2181">prostituent</char>,</para>
+  <para style="q2" vid="HOS 4:14">
+    <char style="w" strong="H3808">ni</char> <char style="w" strong="H5971">vos</char> épouses <char style="w" strong="H3808">quand</char> elles commettent l'adultère  ;</para>
+  <para style="q1" vid="HOS 4:14">parce <char style="w" strong="H3588">que</char> <char style="w" strong="H6485">les</char> <char style="w" strong="H5971">hommes</char> fréquentent <char style="w" strong="H2076">des</char> <char style="w" strong="H2181">prostituées</char>,</para>
+  <para style="q2" vid="HOS 4:14">
+    <char style="w" strong="H5971">et</char> <char style="w" strong="H1992">ils</char> <char style="w" strong="H2076">sacrifient</char> <char style="w" strong="H5971">avec</char> <char style="w" strong="H6485">les</char> <char style="w" strong="H2181">prostituées</char> <char style="w" strong="H5971">du</char> sanctuaire  ;</para>
+  <para style="q2" vid="HOS 4:14">ainsi <char style="w" strong="H6485">les</char> <char style="w" strong="H5971">gens</char> <char style="w" strong="H3808">sans</char> compréhension viendront <char style="w" strong="H5971">à</char> <char style="w" strong="H5921">la</char> ruine.<verse eid="HOS 4:14" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="15" style="v" sid="HOS 4:15" />« Bien <char style="w" strong="H2416">que</char> <char style="w" strong="H3068">toi</char>, <char style="w" strong="H3478">Israël</char>, <char style="w" strong="H3478">tu</char> joues <char style="w" strong="H3068">les</char> <char style="w" strong="H2181">prostituées</char>,</para>
+  <para style="q2" vid="HOS 4:15">mais <char style="w" strong="H3068">ne</char> laissez <char style="w" strong="H5927">pas</char> Judah s'offenser  ;</para>
+  <para style="q2" vid="HOS 4:15">
+    <char style="w" strong="H3063">et</char> <char style="w" strong="H3068">ne</char> venez <char style="w" strong="H5927">pas</char> <char style="w" strong="H3068">à</char> Gilgal,</para>
+  <para style="q2" vid="HOS 4:15">
+    <char style="w" strong="H3478">ni</char> <char style="w" strong="H5927">aller</char> <char style="w" strong="H5927">jusqu'à</char> Beth <char style="w" strong="H1007">Aven</char>,</para>
+  <para style="q2" vid="HOS 4:15">
+    <char style="w" strong="H3478">ni</char> <char style="w" strong="H5927">de</char> <char style="w" strong="H7650">jurer</char>  : « <char style="w" strong="H3068">Comme</char> Yahvé <char style="w" strong="H2416">vit</char> ».<verse eid="HOS 4:15" /></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="HOS 4:16" />
+    <char style="w" strong="H3588">Car</char> <char style="w" strong="H3478">Israël</char> <char style="w" strong="H3068">s'est</char> montré extrêmement têtu, <char style="w" strong="H3068">comme</char> <char style="w" strong="H3068">une</char> <char style="w" strong="H6510">génisse</char> obstinée.</para>
+  <para style="q2" vid="HOS 4:16">Alors comment Yahvé <char style="w" strong="H3068">les</char> nourrira-t-il <char style="w" strong="H3068">comme</char> <char style="w" strong="H3068">un</char> <char style="w" strong="H3532">agneau</char> dans <char style="w" strong="H3068">une</char> prairie  ?<verse eid="HOS 4:16" /></para>
+  <para style="q1">
+    <verse number="17" style="v" sid="HOS 4:17" />Ephraïm est <char style="w" strong="H2266">attaché</char> <char style="w" strong="H2266">aux</char> <char style="w" strong="H6091">idoles</char>.</para>
+  <para style="q2" vid="HOS 4:17">Laissez-le tranquille  !<verse eid="HOS 4:17" /></para>
+  <para style="q1">
+    <verse number="18" style="v" sid="HOS 4:18" />Leur boisson est devenue aigre.</para>
+  <para style="q2" vid="HOS 4:18">Ils jouent continuellement <char style="w" strong="H5493">la</char> <char style="w" strong="H2181">prostituée</char>.</para>
+  <para style="q2" vid="HOS 4:18">
+    <char style="w" strong="H5493">Ses</char> gouvernants aiment beaucoup leur manière honteuse.<verse eid="HOS 4:18" /></para>
+  <para style="q1">
+    <verse number="19" style="v" sid="HOS 4:19" />
+    <char style="w" strong="H3671">Le</char> <char style="w" strong="H7307">vent</char> l'a enveloppée dans <char style="w" strong="H7307">ses</char> <char style="w" strong="H3671">ailes</char>  ;</para>
+  <para style="q2" vid="HOS 4:19">
+    <char style="w" strong="H7307">et</char> ils <char style="w" strong="H2077">seront</char> déçus <char style="w" strong="H2077">à</char> cause <char style="w" strong="H7307">de</char> leurs <char style="w" strong="H2077">sacrifices</char>.<verse eid="HOS 4:19" /></para>
+  <para style="b" />
+  <chapter eid="HOS 4" />
+  <chapter number="5" style="c" sid="HOS 5" />
+  <para style="p">
+    <verse number="1" style="v" sid="HOS 5:1" />« <char style="w" strong="H8085">Écoutez</char> ceci, <char style="w" strong="H1004">vous</char>, <char style="w" strong="H8085">les</char> <char style="w" strong="H3548">prêtres</char>  !</para>
+  <para style="q2" vid="HOS 5:1">
+    <char style="w" strong="H8085">Écoutez</char>, <char style="w" strong="H1004">maison</char> d'Israël,</para>
+  <para style="q2" vid="HOS 5:1">
+    <char style="w" strong="H3478">et</char> <char style="w" strong="H8085">écoutez</char>, <char style="w" strong="H1004">maison</char> <char style="w" strong="H1004">du</char> <char style="w" strong="H4428">roi</char>  !</para>
+  <para style="q1" vid="HOS 5:1">
+    <char style="w" strong="H3588">Car</char> <char style="w" strong="H8085">le</char> <char style="w" strong="H4941">jugement</char> <char style="w" strong="H4428">est</char> <char style="w" strong="H4428">contre</char> <char style="w" strong="H1004">vous</char>  ;</para>
+  <para style="q2" vid="HOS 5:1">
+    <char style="w" strong="H3588">car</char> <char style="w" strong="H3588">tu</char> as <char style="w" strong="H1961">été</char> <char style="w" strong="H3478">un</char> <char style="w" strong="H6341">piège</char> <char style="w" strong="H3478">à</char> <char style="w" strong="H4709">Mitspa</char>,</para>
+  <para style="q2" vid="HOS 5:1">
+    <char style="w" strong="H3478">et</char> <char style="w" strong="H3478">un</char> écart net <char style="w" strong="H4428">sur</char> Tabor.<verse eid="HOS 5:1" /></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 5:2" />
+    <char style="w" strong="H7819">Les</char> rebelles sont en plein massacre,</para>
+  <para style="q2" vid="HOS 5:2">mais je <char style="w" strong="H7819">les</char> discipline <char style="w" strong="H3605">tous</char>.<verse eid="HOS 5:2" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="HOS 5:3" />
+    <char style="w" strong="H3588">Je</char> <char style="w" strong="H3045">connais</char> Ephraïm,</para>
+  <para style="q2" vid="HOS 5:3">
+    <char style="w" strong="H3478">et</char> <char style="w" strong="H3478">Israël</char> <char style="w" strong="H3478">ne</char> m'est <char style="w" strong="H3808">pas</char> <char style="w" strong="H3582">caché</char>  ;</para>
+  <para style="q1" vid="HOS 5:3">
+    <char style="w" strong="H3478">pour</char> l'instant, Ephraim, <char style="w" strong="H3588">tu</char> <char style="w" strong="H3045">as</char> joué <char style="w" strong="H3045">la</char> <char style="w" strong="H2181">prostituée</char>.</para>
+  <para style="q2" vid="HOS 5:3">
+    <char style="w" strong="H3478">Israël</char> <char style="w" strong="H3478">est</char> <char style="w" strong="H2930">souillé</char>.<verse eid="HOS 5:3" /></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="HOS 5:4" />
+    <char style="w" strong="H5414">Leurs</char> actes <char style="w" strong="H3068">ne</char> <char style="w" strong="H5414">leur</char> <char style="w" strong="H5414">permettent</char> <char style="w" strong="H3808">pas</char> <char style="w" strong="H7307">de</char> <char style="w" strong="H3068">se</char> <char style="w" strong="H5414">tourner</char> <char style="w" strong="H7725">vers</char> <char style="w" strong="H5414">leur</char> <char style="w" strong="H3068">Dieu</char>,</para>
+  <para style="q2" vid="HOS 5:4">
+    <char style="w" strong="H3588">car</char> l'esprit <char style="w" strong="H7307">de</char> <char style="w" strong="H2183">prostitution</char> <char style="w" strong="H3068">est</char> <char style="w" strong="H5414">en</char> eux,</para>
+  <para style="q2" vid="HOS 5:4">
+    <char style="w" strong="H7725">et</char> <char style="w" strong="H7725">ils</char> <char style="w" strong="H3068">ne</char> <char style="w" strong="H3045">connaissent</char> <char style="w" strong="H3808">pas</char> Yahvé.<verse eid="HOS 5:4" /></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="HOS 5:5" />L'orgueil d'Israël <char style="w" strong="H6030">témoigne</char> <char style="w" strong="H6440">de</char> <char style="w" strong="H6440">sa</char> <char style="w" strong="H6440">face</char>.</para>
+  <para style="q2" vid="HOS 5:5">C'est <char style="w" strong="H6440">pourquoi</char> <char style="w" strong="H3478">Israël</char> <char style="w" strong="H6030">et</char> Ephraïm <char style="w" strong="H3782">trébucheront</char> <char style="w" strong="H6440">dans</char> <char style="w" strong="H6440">leur</char> <char style="w" strong="H5771">iniquité</char>.</para>
+  <para style="q2" vid="HOS 5:5">
+    <char style="w" strong="H3063">Juda</char> <char style="w" strong="H1571">aussi</char> trébuchera <char style="w" strong="H5973">avec</char> <char style="w" strong="H6440">eux</char>.<verse eid="HOS 5:5" /></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 5:6" />
+    <char style="w" strong="H1992">Ils</char> <char style="w" strong="H3212">iront</char> <char style="w" strong="H3212">avec</char> <char style="w" strong="H1245">leurs</char> <char style="w" strong="H6629">troupeaux</char> <char style="w" strong="H3212">et</char> <char style="w" strong="H1245">leurs</char> bêtes <char style="w" strong="H3212">pour</char> <char style="w" strong="H1245">chercher</char> Yahvé,</para>
+  <para style="q2" vid="HOS 5:6">mais <char style="w" strong="H1992">ils</char> <char style="w" strong="H3068">ne</char> <char style="w" strong="H3068">le</char> <char style="w" strong="H4672">trouveront</char> <char style="w" strong="H3808">pas</char>.</para>
+  <para style="q2" vid="HOS 5:6">
+    <char style="w" strong="H3068">Il</char> <char style="w" strong="H3068">s'est</char> <char style="w" strong="H2502">retiré</char> d'eux.<verse eid="HOS 5:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 5:7" />
+    <char style="w" strong="H1121">Ils</char> <char style="w" strong="H3068">sont</char> infidèles <char style="w" strong="H3068">à</char> Yahvé  ;</para>
+  <para style="q2" vid="HOS 5:7">
+    <char style="w" strong="H3588">car</char> elles <char style="w" strong="H1121">ont</char> porté <char style="w" strong="H3068">des</char> <char style="w" strong="H1121">enfants</char> <char style="w" strong="H2114">illégitimes</char>.</para>
+  <para style="q2" vid="HOS 5:7">
+    <char style="w" strong="H6258">Maintenant</char>, <char style="w" strong="H3068">la</char> nouvelle <char style="w" strong="H2320">lune</char> <char style="w" strong="H3068">va</char> <char style="w" strong="H3068">les</char> dévorer <char style="w" strong="H1121">avec</char> <char style="w" strong="H1121">leurs</char> champs.<verse eid="HOS 5:7" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 5:8" />« <char style="w" strong="H8628">Sonnez</char> <char style="w" strong="H1390">de</char> la <char style="w" strong="H7782">trompette</char> <char style="w" strong="H7782">à</char> Gibéa,</para>
+  <para style="q2" vid="HOS 5:8">
+    <char style="w" strong="H1144">et</char> la <char style="w" strong="H7782">trompette</char> <char style="w" strong="H7782">à</char> <char style="w" strong="H7414">Rama</char>  !</para>
+  <para style="q2" vid="HOS 5:8">
+    <char style="w" strong="H8628">Sonnez</char> un <char style="w" strong="H7321">cri</char> <char style="w" strong="H1390">de</char> <char style="w" strong="H7321">guerre</char> <char style="w" strong="H7782">à</char> Beth <char style="w" strong="H1007">Aven</char>, derrière vous, <char style="w" strong="H1144">Benjamin</char>  !<verse eid="HOS 5:8" /></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 5:9" />Ephraïm deviendra <char style="w" strong="H3117">une</char> <char style="w" strong="H8047">désolation</char> <char style="w" strong="H3117">au</char> <char style="w" strong="H3117">jour</char> <char style="w" strong="H3117">du</char> <char style="w" strong="H8433">châtiment</char>.</para>
+  <para style="q2" vid="HOS 5:9">Parmi <char style="w" strong="H3045">les</char> <char style="w" strong="H7626">tribus</char> d'Israël, <char style="w" strong="H3478">j'ai</char> fait <char style="w" strong="H3045">connaître</char> <char style="w" strong="H3045">ce</char> <char style="w" strong="H3478">qui</char> <char style="w" strong="H1961">sera</char> sûrement.<verse eid="HOS 5:9" /></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="HOS 5:10" />
+    <char style="w" strong="H4325">Les</char> <char style="w" strong="H8269">princes</char> <char style="w" strong="H8269">de</char> <char style="w" strong="H3063">Juda</char> <char style="w" strong="H4325">sont</char> <char style="w" strong="H1961">comme</char> ceux <char style="w" strong="H4325">qui</char> enlèvent <char style="w" strong="H3063">un</char> repère.</para>
+  <para style="q2" vid="HOS 5:10">Je déverserai <char style="w" strong="H8210">ma</char> <char style="w" strong="H5678">colère</char> <char style="w" strong="H5921">sur</char> eux <char style="w" strong="H1961">comme</char> <char style="w" strong="H8269">de</char> l'eau.<verse eid="HOS 5:10" /></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="HOS 5:11" />Ephraïm <char style="w" strong="H4941">est</char> <char style="w" strong="H6231">opprimé</char>,</para>
+  <para style="q2" vid="HOS 5:11">il <char style="w" strong="H4941">est</char> <char style="w" strong="H7533">écrasé</char> par <char style="w" strong="H1980">le</char> <char style="w" strong="H4941">jugement</char>,</para>
+  <para style="q2" vid="HOS 5:11">parce qu'il <char style="w" strong="H4941">est</char> déterminé dans <char style="w" strong="H1980">sa</char> poursuite <char style="w" strong="H4941">des</char> idoles.<verse eid="HOS 5:11" /></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="HOS 5:12" />C'est pourquoi je suis <char style="w" strong="H1004">pour</char> Éphraïm <char style="w" strong="H1004">comme</char> <char style="w" strong="H1004">un</char> papillon <char style="w" strong="H1004">de</char> nuit,</para>
+  <para style="q2" vid="HOS 5:12">
+    <char style="w" strong="H3063">et</char> <char style="w" strong="H1004">à</char> <char style="w" strong="H3063">la</char> <char style="w" strong="H1004">maison</char> <char style="w" strong="H1004">de</char> <char style="w" strong="H3063">Juda</char> <char style="w" strong="H1004">comme</char> <char style="w" strong="H1004">une</char> <char style="w" strong="H7538">pourriture</char>.<verse eid="HOS 5:12" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="13" style="v" sid="HOS 5:13" />« <char style="w" strong="H3808">Quand</char> Ephraïm <char style="w" strong="H7200">vit</char> <char style="w" strong="H7971">sa</char> <char style="w" strong="H2483">maladie</char>,</para>
+  <para style="q2" vid="HOS 5:13">
+    <char style="w" strong="H3063">et</char> <char style="w" strong="H3063">Juda</char> <char style="w" strong="H7971">sa</char> blessure,</para>
+  <para style="q2" vid="HOS 5:13">
+    <char style="w" strong="H3201">puis</char> Ephraïm <char style="w" strong="H4428">est</char> <char style="w" strong="H3212">allé</char> <char style="w" strong="H3212">en</char> Assyrie,</para>
+  <para style="q2" vid="HOS 5:13">
+    <char style="w" strong="H3063">et</char> <char style="w" strong="H7971">envoyé</char> <char style="w" strong="H3212">au</char> <char style="w" strong="H4428">roi</char> <char style="w" strong="H3377">Jareb</char>  :</para>
+  <para style="q1" vid="HOS 5:13">mais <char style="w" strong="H4428">il</char> n'est <char style="w" strong="H3201">pas</char> capable <char style="w" strong="H4428">de</char> <char style="w" strong="H3201">vous</char> <char style="w" strong="H7495">guérir</char>,</para>
+  <para style="q2" vid="HOS 5:13">
+    <char style="w" strong="H4428">il</char> <char style="w" strong="H4428">ne</char> <char style="w" strong="H3201">vous</char> <char style="w" strong="H7495">guérira</char> <char style="w" strong="H3201">pas</char> <char style="w" strong="H3808">non</char> <char style="w" strong="H3201">plus</char> <char style="w" strong="H4428">de</char> <char style="w" strong="H7971">votre</char> blessure.<verse eid="HOS 5:13" /></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="HOS 5:14" />
+    <char style="w" strong="H3588">Car</char> <char style="w" strong="H3588">je</char> serai <char style="w" strong="H3212">pour</char> Ephraïm <char style="w" strong="H1004">comme</char> <char style="w" strong="H5375">un</char> <char style="w" strong="H3715">lion</char>,</para>
+  <para style="q2" vid="HOS 5:14">
+    <char style="w" strong="H3063">et</char> <char style="w" strong="H1004">comme</char> <char style="w" strong="H5375">un</char> <char style="w" strong="H3715">jeune</char> <char style="w" strong="H3715">lion</char> <char style="w" strong="H3212">à</char> <char style="w" strong="H5375">la</char> <char style="w" strong="H1004">maison</char> <char style="w" strong="H1004">de</char> <char style="w" strong="H3063">Juda</char>.</para>
+  <para style="q1" vid="HOS 5:14">
+    <char style="w" strong="H3588">Je</char> <char style="w" strong="H3212">vais</char> moi-même <char style="w" strong="H3212">me</char> <char style="w" strong="H2963">déchirer</char> <char style="w" strong="H3212">en</char> morceaux <char style="w" strong="H3063">et</char> m'en <char style="w" strong="H3212">aller</char>.</para>
+  <para style="q2" vid="HOS 5:14">J'emporterai, <char style="w" strong="H3063">et</char> il n'y <char style="w" strong="H3212">aura</char> personne <char style="w" strong="H3212">pour</char> <char style="w" strong="H5337">délivrer</char>.<verse eid="HOS 5:14" /></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="HOS 5:15" />
+    <char style="w" strong="H7725">Je</char> <char style="w" strong="H3212">vais</char> m'en <char style="w" strong="H3212">aller</char> <char style="w" strong="H3212">et</char> <char style="w" strong="H7725">retourner</char> <char style="w" strong="H3212">à</char> <char style="w" strong="H7725">ma</char> <char style="w" strong="H4725">place</char>,</para>
+  <para style="q2" vid="HOS 5:15">
+    <char style="w" strong="H3212">jusqu'à</char> <char style="w" strong="H1992">ce</char> qu'ils reconnaissent <char style="w" strong="H6440">leur</char> offense,</para>
+  <para style="q2" vid="HOS 5:15">
+    <char style="w" strong="H3212">et</char> <char style="w" strong="H1245">cherchez</char> <char style="w" strong="H7725">ma</char> <char style="w" strong="H6440">face</char>.</para>
+  <para style="q2" vid="HOS 5:15">
+    <char style="w" strong="H6440">Dans</char> <char style="w" strong="H6440">leur</char> <char style="w" strong="H6862">détresse</char>, <char style="w" strong="H1992">ils</char> <char style="w" strong="H6440">me</char> <char style="w" strong="H1245">chercheront</char> <char style="w" strong="H3212">avec</char> ardeur. »<verse eid="HOS 5:15" /></para>
+  <para style="b" />
+  <chapter eid="HOS 5" />
+  <chapter number="6" style="c" sid="HOS 6" />
+  <para style="p">
+    <verse number="1" style="v" sid="HOS 6:1" />« <char style="w" strong="H3212">Venez</char>  ! <char style="w" strong="H7725">Revenons</char> <char style="w" strong="H3068">à</char> Yahvé  ;</para>
+  <para style="q2" vid="HOS 6:1">
+    <char style="w" strong="H3588">car</char> <char style="w" strong="H3068">il</char> <char style="w" strong="H3068">nous</char> <char style="w" strong="H3068">a</char> <char style="w" strong="H7725">mis</char> <char style="w" strong="H3212">en</char> <char style="w" strong="H2963">pièces</char>,</para>
+  <para style="q2" vid="HOS 6:1">
+    <char style="w" strong="H3212">et</char> <char style="w" strong="H3068">il</char> <char style="w" strong="H3068">nous</char> <char style="w" strong="H7495">guérira</char>  ;</para>
+  <para style="q1" vid="HOS 6:1">
+    <char style="w" strong="H3068">il</char> <char style="w" strong="H3068">nous</char> <char style="w" strong="H3068">a</char> blessés,</para>
+  <para style="q2" vid="HOS 6:1">
+    <char style="w" strong="H3212">et</char> <char style="w" strong="H3068">il</char> pansera <char style="w" strong="H7725">nos</char> plaies.<verse eid="HOS 6:1" /></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 6:2" />Après <char style="w" strong="H3117">deux</char> <char style="w" strong="H3117">jours</char>, <char style="w" strong="H3117">il</char> <char style="w" strong="H6440">nous</char> <char style="w" strong="H6440">fera</char> <char style="w" strong="H2421">revivre</char>.</para>
+  <para style="q2" vid="HOS 6:2">
+    <char style="w" strong="H6440">Le</char> <char style="w" strong="H7992">troisième</char> <char style="w" strong="H3117">jour</char>, <char style="w" strong="H3117">il</char> <char style="w" strong="H6440">nous</char> ressuscitera,</para>
+  <para style="q2" vid="HOS 6:2">
+    <char style="w" strong="H6965">et</char> <char style="w" strong="H6440">nous</char> <char style="w" strong="H2421">vivrons</char> <char style="w" strong="H6440">devant</char> <char style="w" strong="H6440">lui</char>.<verse eid="HOS 6:2" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="HOS 6:3" />
+    <char style="w" strong="H3045">Reconnaissons</char> Yahvé.</para>
+  <para style="q2" vid="HOS 6:3">Continuons <char style="w" strong="H3068">à</char> <char style="w" strong="H3068">nous</char> efforcer <char style="w" strong="H3068">de</char> <char style="w" strong="H3045">connaître</char> Yahvé.</para>
+  <para style="q1" vid="HOS 6:3">
+    <char style="w" strong="H3068">Aussi</char> sûrement <char style="w" strong="H3045">que</char> <char style="w" strong="H3045">le</char> soleil <char style="w" strong="H3068">se</char> <char style="w" strong="H4161">lève</char>,</para>
+  <para style="q2" vid="HOS 6:3">Yahvé apparaîtra.</para>
+  <para style="q1" vid="HOS 6:3">
+    <char style="w" strong="H3068">Il</char> viendra <char style="w" strong="H3068">à</char> <char style="w" strong="H3068">nous</char> <char style="w" strong="H3068">comme</char> <char style="w" strong="H3045">la</char> <char style="w" strong="H1653">pluie</char>,</para>
+  <para style="q2" vid="HOS 6:3">
+    <char style="w" strong="H3068">comme</char> <char style="w" strong="H3045">la</char> <char style="w" strong="H1653">pluie</char> <char style="w" strong="H3068">de</char> <char style="w" strong="H4456">printemps</char> <char style="w" strong="H3068">qui</char> <char style="w" strong="H3384">arrose</char> <char style="w" strong="H3045">la</char> terre. »<verse eid="HOS 6:3" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="4" style="v" sid="HOS 6:4" />« Ephraïm, que <char style="w" strong="H4100">te</char> ferai-je  ?</para>
+  <para style="q2" vid="HOS 6:4">Judah, que vais-je <char style="w" strong="H4100">te</char> <char style="w" strong="H6213">faire</char>  ?</para>
+  <para style="q2" vid="HOS 6:4">
+    <char style="w" strong="H4100">Car</char> <char style="w" strong="H6213">ton</char> <char style="w" strong="H2617">amour</char> <char style="w" strong="H2617">est</char> <char style="w" strong="H6213">comme</char> <char style="w" strong="H6213">un</char> <char style="w" strong="H6051">nuage</char> <char style="w" strong="H6213">du</char> <char style="w" strong="H1242">matin</char>,</para>
+  <para style="q2" vid="HOS 6:4">
+    <char style="w" strong="H3063">et</char> <char style="w" strong="H6213">comme</char> <char style="w" strong="H6213">la</char> <char style="w" strong="H2919">rosée</char> <char style="w" strong="H3063">qui</char> disparaît tôt.<verse eid="HOS 6:4" /></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="HOS 6:5" />C'est <char style="w" strong="H3651">pourquoi</char> je <char style="w" strong="H3318">les</char> ai <char style="w" strong="H2672">taillés</char> <char style="w" strong="H3318">en</char> pièces <char style="w" strong="H3318">avec</char> <char style="w" strong="H3318">les</char> <char style="w" strong="H5030">prophètes</char> ;</para>
+  <para style="q2" vid="HOS 6:5">Je <char style="w" strong="H3318">les</char> ai <char style="w" strong="H2026">tués</char> <char style="w" strong="H3318">avec</char> <char style="w" strong="H3318">les</char> mots <char style="w" strong="H3318">de</char> <char style="w" strong="H3318">ma</char> <char style="w" strong="H6310">bouche</char>.</para>
+  <para style="q2" vid="HOS 6:5">
+    <char style="w" strong="H3318">Vos</char> <char style="w" strong="H4941">jugements</char> <char style="w" strong="H6310">sont</char> <char style="w" strong="H4941">comme</char> <char style="w" strong="H3318">un</char> éclair.<verse eid="HOS 6:5" /></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 6:6" />
+    <char style="w" strong="H3588">Car</char> <char style="w" strong="H3588">je</char> <char style="w" strong="H2654">désire</char> <char style="w" strong="H3588">la</char> <char style="w" strong="H2617">miséricorde</char>, <char style="w" strong="H2617">et</char> <char style="w" strong="H3808">non</char> <char style="w" strong="H2617">les</char> <char style="w" strong="H2077">sacrifices</char>  ;</para>
+  <para style="q2" vid="HOS 6:6">
+    <char style="w" strong="H2617">et</char> <char style="w" strong="H3588">la</char> <char style="w" strong="H1847">connaissance</char> <char style="w" strong="H2077">de</char> Dieu <char style="w" strong="H3808">plus</char> <char style="w" strong="H3588">que</char> <char style="w" strong="H2617">les</char> <char style="w" strong="H5930">holocaustes</char>.<verse eid="HOS 6:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 6:7" />Mais <char style="w" strong="H1992">eux</char>, comme Adam, ont rompu l'alliance.</para>
+  <para style="q2" vid="HOS 6:7">
+    <char style="w" strong="H1992">Ils</char> m'ont été infidèles là-bas.<verse eid="HOS 6:7" /></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 6:8" />
+    <char style="w" strong="H1568">Galaad</char> <char style="w" strong="H1818">est</char> <char style="w" strong="H7151">une</char> <char style="w" strong="H7151">ville</char> <char style="w" strong="H1818">de</char> ceux qui <char style="w" strong="H6466">commettent</char> l'iniquité  ;</para>
+  <para style="q2" vid="HOS 6:8">elle <char style="w" strong="H1818">est</char> tachée <char style="w" strong="H1818">de</char> <char style="w" strong="H1818">sang</char>.<verse eid="HOS 6:8" /></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 6:9" />
+    <char style="w" strong="H6213">Comme</char> <char style="w" strong="H6213">des</char> <char style="w" strong="H1416">bandes</char> <char style="w" strong="H1870">de</char> voleurs attendent <char style="w" strong="H6213">pour</char> tendre <char style="w" strong="H6213">une</char> <char style="w" strong="H2442">embuscade</char> <char style="w" strong="H6213">à</char> <char style="w" strong="H6213">un</char> homme,</para>
+  <para style="q2" vid="HOS 6:9">
+    <char style="w" strong="H6213">Ainsi</char>, <char style="w" strong="H6213">la</char> <char style="w" strong="H1416">troupe</char> <char style="w" strong="H1870">de</char> <char style="w" strong="H3548">prêtres</char> assassine <char style="w" strong="H3588">sur</char> <char style="w" strong="H6213">le</char> <char style="w" strong="H1870">chemin</char> <char style="w" strong="H1870">de</char> <char style="w" strong="H7927">Sichem</char>,</para>
+  <para style="q2" vid="HOS 6:9">
+    <char style="w" strong="H6213">commettre</char> <char style="w" strong="H6213">des</char> <char style="w" strong="H2154">crimes</char> honteux.<verse eid="HOS 6:9" /></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="HOS 6:10" />
+    <char style="w" strong="H7200">Dans</char> <char style="w" strong="H7200">la</char> <char style="w" strong="H1004">maison</char> d'Israël, <char style="w" strong="H3478">j'ai</char> <char style="w" strong="H7200">vu</char> <char style="w" strong="H7200">une</char> chose horrible.</para>
+  <para style="q2" vid="HOS 6:10">
+    <char style="w" strong="H3478">Il</char> <char style="w" strong="H8033">y</char> <char style="w" strong="H3478">a</char> <char style="w" strong="H1004">de</char> <char style="w" strong="H7200">la</char> <char style="w" strong="H2184">prostitution</char> <char style="w" strong="H3478">en</char> Ephraïm.</para>
+  <para style="q2" vid="HOS 6:10">
+    <char style="w" strong="H3478">Israël</char> <char style="w" strong="H3478">est</char> <char style="w" strong="H2930">souillé</char>.<verse eid="HOS 6:10" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="11" style="v" sid="HOS 6:11" />« <char style="w" strong="H3063">Et</char> toi, <char style="w" strong="H3063">Juda</char>, <char style="w" strong="H1571">une</char> <char style="w" strong="H7105">moisson</char> t'est réservée,</para>
+  <para style="q2" vid="HOS 6:11">quand <char style="w" strong="H7725">je</char> restaurerai <char style="w" strong="H7725">la</char> fortune <char style="w" strong="H5971">de</char> <char style="w" strong="H7725">mon</char> <char style="w" strong="H5971">peuple</char>.<verse eid="HOS 6:11" /></para>
+  <chapter eid="HOS 6" />
+  <chapter number="7" style="c" sid="HOS 7" />
+  <para style="p">
+    <verse number="1" style="v" sid="HOS 7:1" />
+    <char style="w" strong="H3588">Quand</char> <char style="w" strong="H3588">je</char> guérirais <char style="w" strong="H3478">Israël</char>,</para>
+  <para style="q2" vid="HOS 7:1">alors l'iniquité d'Ephraïm <char style="w" strong="H7451">est</char> <char style="w" strong="H1540">découverte</char>,</para>
+  <para style="q2" vid="HOS 7:1">
+    <char style="w" strong="H3478">aussi</char> <char style="w" strong="H3478">la</char> méchanceté <char style="w" strong="H2351">de</char> <char style="w" strong="H8111">Samarie</char>  ;</para>
+  <para style="q2" vid="HOS 7:1">
+    <char style="w" strong="H3588">car</char> ils <char style="w" strong="H6466">commettent</char> <char style="w" strong="H5771">des</char> <char style="w" strong="H8267">mensonges</char>,</para>
+  <para style="q2" vid="HOS 7:1">
+    <char style="w" strong="H3478">et</char> <char style="w" strong="H3478">le</char> <char style="w" strong="H1590">voleur</char> entre,</para>
+  <para style="q2" vid="HOS 7:1">
+    <char style="w" strong="H3478">et</char> <char style="w" strong="H3478">la</char> <char style="w" strong="H1416">bande</char> <char style="w" strong="H2351">de</char> <char style="w" strong="H1590">voleurs</char> <char style="w" strong="H6466">fait</char> <char style="w" strong="H5771">des</char> ravages <char style="w" strong="H3478">à</char> l'extérieur.<verse eid="HOS 7:1" /></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 7:2" />
+    <char style="w" strong="H6440">Ils</char> <char style="w" strong="H7451">ne</char> considèrent <char style="w" strong="H1077">pas</char> <char style="w" strong="H6440">dans</char> <char style="w" strong="H6440">leur</char> <char style="w" strong="H3824">cœur</char> <char style="w" strong="H6440">que</char> <char style="w" strong="H5437">je</char> <char style="w" strong="H6440">me</char> <char style="w" strong="H2142">souviens</char> <char style="w" strong="H6440">de</char> <char style="w" strong="H3605">toute</char> <char style="w" strong="H6440">leur</char> méchanceté.</para>
+  <para style="q2" vid="HOS 7:2">
+    <char style="w" strong="H6258">Maintenant</char>, <char style="w" strong="H6440">leurs</char> propres actes <char style="w" strong="H6440">les</char> <char style="w" strong="H6440">ont</char> engloutis.</para>
+  <para style="q2" vid="HOS 7:2">
+    <char style="w" strong="H6440">Ils</char> <char style="w" strong="H7451">sont</char> <char style="w" strong="H6440">devant</char> <char style="w" strong="H6440">mon</char> <char style="w" strong="H6440">visage</char>.<verse eid="HOS 7:2" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="HOS 7:3" />Ils <char style="w" strong="H8055">réjouissent</char> <char style="w" strong="H4428">le</char> <char style="w" strong="H4428">roi</char> par <char style="w" strong="H4428">leur</char> méchanceté,</para>
+  <para style="q2" vid="HOS 7:3">
+    <char style="w" strong="H4428">et</char> <char style="w" strong="H4428">les</char> <char style="w" strong="H8269">princes</char> <char style="w" strong="H7451">avec</char> leurs <char style="w" strong="H3585">mensonges</char>.<verse eid="HOS 7:3" /></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="HOS 7:4" />Ils sont <char style="w" strong="H3605">tous</char> <char style="w" strong="H5003">adultères</char>.</para>
+  <para style="q2" vid="HOS 7:4">Ils brûlent <char style="w" strong="H3644">comme</char> <char style="w" strong="H5704">un</char> <char style="w" strong="H8574">four</char> <char style="w" strong="H5704">que</char> <char style="w" strong="H7673">le</char> boulanger <char style="w" strong="H7673">cesse</char> <char style="w" strong="H7673">de</char> remuer,</para>
+  <para style="q2" vid="HOS 7:4">
+    <char style="w" strong="H1197">du</char> pétrissage <char style="w" strong="H7673">de</char> <char style="w" strong="H5704">la</char> <char style="w" strong="H1217">pâte</char>, jusqu'à <char style="w" strong="H3605">ce</char> qu'elle soit <char style="w" strong="H2556">levée</char>.<verse eid="HOS 7:4" /></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="HOS 7:5" />
+    <char style="w" strong="H3027">Le</char> <char style="w" strong="H3117">jour</char> <char style="w" strong="H4428">de</char> <char style="w" strong="H3027">notre</char> <char style="w" strong="H4428">roi</char>, <char style="w" strong="H3027">les</char> <char style="w" strong="H8269">princes</char> <char style="w" strong="H4428">se</char> <char style="w" strong="H3027">sont</char> rendus <char style="w" strong="H2470">malades</char> <char style="w" strong="H3027">par</char> <char style="w" strong="H3117">la</char> chaleur <char style="w" strong="H3117">du</char> <char style="w" strong="H3196">vin</char>.</para>
+  <para style="q2" vid="HOS 7:5">
+    <char style="w" strong="H4428">Il</char> <char style="w" strong="H3117">a</char> joint <char style="w" strong="H4428">sa</char> <char style="w" strong="H3027">main</char> <char style="w" strong="H3117">à</char> celle <char style="w" strong="H3027">des</char> <char style="w" strong="H3945">moqueurs</char>.<verse eid="HOS 7:5" /></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 7:6" />
+    <char style="w" strong="H3588">Car</char> ils ont préparé <char style="w" strong="H7126">leur</char> <char style="w" strong="H3820">cœur</char> <char style="w" strong="H7126">comme</char> <char style="w" strong="H7126">un</char> <char style="w" strong="H8574">four</char>,</para>
+  <para style="q2" vid="HOS 7:6">pendant <char style="w" strong="H3820">qu'ils</char> <char style="w" strong="H3820">sont</char> <char style="w" strong="H3820">à</char> l'affût.</para>
+  <para style="q2" vid="HOS 7:6">
+    <char style="w" strong="H7126">Leur</char> colère couve <char style="w" strong="H3605">toute</char> <char style="w" strong="H7126">la</char> <char style="w" strong="H3915">nuit</char>.</para>
+  <para style="q2" vid="HOS 7:6">
+    <char style="w" strong="H7126">Au</char> <char style="w" strong="H1242">matin</char>, <char style="w" strong="H1931">il</char> <char style="w" strong="H1197">brûle</char> <char style="w" strong="H7126">comme</char> <char style="w" strong="H7126">un</char> <char style="w" strong="H1197">feu</char> <char style="w" strong="H1197">ardent</char>.<verse eid="HOS 7:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 7:7" />Ils <char style="w" strong="H4428">sont</char> <char style="w" strong="H3605">tous</char> <char style="w" strong="H7121">aussi</char> chauds qu'un <char style="w" strong="H8574">four</char>,</para>
+  <para style="q2" vid="HOS 7:7">
+    <char style="w" strong="H4428">et</char> dévoreront <char style="w" strong="H7121">leurs</char> <char style="w" strong="H8199">juges</char>.</para>
+  <para style="q1" vid="HOS 7:7">
+    <char style="w" strong="H3605">Tous</char> <char style="w" strong="H7121">leurs</char> <char style="w" strong="H4428">rois</char> <char style="w" strong="H4428">sont</char> <char style="w" strong="H5307">tombés</char>.</para>
+  <para style="q2" vid="HOS 7:7">
+    <char style="w" strong="H4428">Il</char> n'y <char style="w" strong="H7121">a</char> personne parmi eux <char style="w" strong="H4428">qui</char> m'appelle.<verse eid="HOS 7:7" /></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 7:8" />Ephraïm <char style="w" strong="H5971">se</char> <char style="w" strong="H1101">mêle</char> <char style="w" strong="H5971">aux</char> nations.</para>
+  <para style="q2" vid="HOS 7:8">Ephraïm <char style="w" strong="H5971">est</char> <char style="w" strong="H2015">une</char> crêpe non retournée.<verse eid="HOS 7:8" /></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 7:9" />
+    <char style="w" strong="H3045">Des</char> <char style="w" strong="H2114">étrangers</char> <char style="w" strong="H3045">ont</char> dévoré <char style="w" strong="H3045">sa</char> <char style="w" strong="H3581">force</char>,</para>
+  <para style="q2" vid="HOS 7:9">
+    <char style="w" strong="H3045">et</char> <char style="w" strong="H1931">il</char> <char style="w" strong="H3808">ne</char> <char style="w" strong="H3045">le</char> réalise <char style="w" strong="H3808">pas</char>.</para>
+  <para style="q1" vid="HOS 7:9">
+    <char style="w" strong="H1571">En</char> effet, <char style="w" strong="H3045">les</char> cheveux gris <char style="w" strong="H2114">sont</char> ici <char style="w" strong="H3045">et</char> <char style="w" strong="H3045">là</char> <char style="w" strong="H3045">sur</char> <char style="w" strong="H1931">lui</char>,</para>
+  <para style="q2" vid="HOS 7:9">
+    <char style="w" strong="H3045">et</char> <char style="w" strong="H1931">il</char> <char style="w" strong="H3808">ne</char> <char style="w" strong="H3045">le</char> réalise <char style="w" strong="H3808">pas</char>.<verse eid="HOS 7:9" /></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="HOS 7:10" />L'orgueil d'Israël <char style="w" strong="H6030">témoigne</char> <char style="w" strong="H6440">de</char> <char style="w" strong="H7725">sa</char> <char style="w" strong="H6440">face</char>  ;</para>
+  <para style="q2" vid="HOS 7:10">mais <char style="w" strong="H6440">ils</char> <char style="w" strong="H3068">ne</char> <char style="w" strong="H3068">sont</char> <char style="w" strong="H3808">pas</char> <char style="w" strong="H7725">retournés</char> <char style="w" strong="H3068">à</char> Yahvé, <char style="w" strong="H3068">leur</char> <char style="w" strong="H3068">Dieu</char>,</para>
+  <para style="q2" vid="HOS 7:10">
+    <char style="w" strong="H3478">ni</char> <char style="w" strong="H3068">ne</char> <char style="w" strong="H3068">l'a</char> <char style="w" strong="H1245">cherché</char>, <char style="w" strong="H6440">pour</char> <char style="w" strong="H3605">tout</char> <char style="w" strong="H2063">cela</char>.<verse eid="HOS 7:10" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="11" style="v" sid="HOS 7:11" />« Ephraïm <char style="w" strong="H3820">est</char> <char style="w" strong="H1980">comme</char> <char style="w" strong="H4714">une</char> <char style="w" strong="H3123">colombe</char> facile <char style="w" strong="H7121">à</char> <char style="w" strong="H6601">tromper</char>, <char style="w" strong="H1980">sans</char> <char style="w" strong="H3820">intelligence</char>.</para>
+  <para style="q2" vid="HOS 7:11">
+    <char style="w" strong="H1961">Ils</char> <char style="w" strong="H7121">appellent</char> l'Égypte.</para>
+  <para style="q2" vid="HOS 7:11">
+    <char style="w" strong="H1961">Ils</char> <char style="w" strong="H1980">vont</char> <char style="w" strong="H1980">en</char> Assyrie.<verse eid="HOS 7:11" /></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="HOS 7:12" />
+    <char style="w" strong="H5921">Quand</char> <char style="w" strong="H3212">ils</char> partiront, j'étendrai <char style="w" strong="H6566">mon</char> <char style="w" strong="H7568">filet</char> <char style="w" strong="H5921">sur</char> eux.</para>
+  <para style="q2" vid="HOS 7:12">Je <char style="w" strong="H3212">les</char> ferai tomber comme <char style="w" strong="H3212">les</char> <char style="w" strong="H5775">oiseaux</char> <char style="w" strong="H5775">du</char> <char style="w" strong="H8064">ciel</char>.</para>
+  <para style="q2" vid="HOS 7:12">Je <char style="w" strong="H3212">les</char> <char style="w" strong="H3256">châtierai</char>, comme l'a entendu <char style="w" strong="H3212">leur</char> <char style="w" strong="H5712">assemblée</char>.<verse eid="HOS 7:12" /></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="HOS 7:13" />Malheur <char style="w" strong="H1696">à</char> <char style="w" strong="H1992">eux</char>  !</para>
+  <para style="q2" vid="HOS 7:13">
+    <char style="w" strong="H3588">Car</char> <char style="w" strong="H1992">ils</char> <char style="w" strong="H3588">se</char> <char style="w" strong="H1992">sont</char> éloignés <char style="w" strong="H1696">de</char> moi.</para>
+  <para style="q1" vid="HOS 7:13">Destruction <char style="w" strong="H5921">pour</char> <char style="w" strong="H1992">eux</char>  !</para>
+  <para style="q2" vid="HOS 7:13">
+    <char style="w" strong="H3588">Car</char> <char style="w" strong="H1992">ils</char> m'ont offensé.</para>
+  <para style="q1" vid="HOS 7:13">
+    <char style="w" strong="H5074">Bien</char> <char style="w" strong="H3588">que</char> <char style="w" strong="H3588">je</char> <char style="w" strong="H1696">les</char> <char style="w" strong="H6299">rachète</char>,</para>
+  <para style="q2" vid="HOS 7:13">
+    <char style="w" strong="H3588">mais</char> <char style="w" strong="H1992">ils</char> ont <char style="w" strong="H1696">dit</char> <char style="w" strong="H1696">des</char> <char style="w" strong="H3577">mensonges</char> <char style="w" strong="H1696">contre</char> moi.<verse eid="HOS 7:13" /></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="HOS 7:14" />Ils n'ont <char style="w" strong="H3808">pas</char> <char style="w" strong="H2199">crié</char> vers <char style="w" strong="H5493">moi</char> <char style="w" strong="H4904">avec</char> <char style="w" strong="H3588">leur</char> <char style="w" strong="H3820">cœur</char>,</para>
+  <para style="q2" vid="HOS 7:14">
+    <char style="w" strong="H3588">mais</char> ils hurlent <char style="w" strong="H5921">sur</char> <char style="w" strong="H3588">leur</char> <char style="w" strong="H4904">lit</char>.</para>
+  <para style="q1" vid="HOS 7:14">Ils s'assemblent <char style="w" strong="H5493">pour</char> <char style="w" strong="H5493">le</char> grain <char style="w" strong="H5921">et</char> <char style="w" strong="H5493">le</char> <char style="w" strong="H8492">vin</char> nouveau.</para>
+  <para style="q2" vid="HOS 7:14">Ils <char style="w" strong="H3820">se</char> détournent <char style="w" strong="H3820">de</char> <char style="w" strong="H5493">moi</char>.<verse eid="HOS 7:14" /></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="HOS 7:15" />Bien <char style="w" strong="H7451">que</char> j'aie <char style="w" strong="H3256">enseigné</char> <char style="w" strong="H7451">et</char> <char style="w" strong="H2388">fortifié</char> <char style="w" strong="H2388">leurs</char> <char style="w" strong="H2220">bras</char>,</para>
+  <para style="q2" vid="HOS 7:15">mais ils complotent <char style="w" strong="H2388">le</char> <char style="w" strong="H7451">mal</char> <char style="w" strong="H2388">contre</char> moi.<verse eid="HOS 7:15" /></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="HOS 7:16" />
+    <char style="w" strong="H2719">Ils</char> <char style="w" strong="H7725">reviennent</char>, mais <char style="w" strong="H3808">pas</char> <char style="w" strong="H7725">vers</char> <char style="w" strong="H7725">le</char> Très-Haut.</para>
+  <para style="q2" vid="HOS 7:16">
+    <char style="w" strong="H2719">Ils</char> <char style="w" strong="H8269">sont</char> <char style="w" strong="H3956">comme</char> <char style="w" strong="H7725">un</char> <char style="w" strong="H7198">arc</char> défectueux.</para>
+  <para style="q2" vid="HOS 7:16">
+    <char style="w" strong="H7725">Leurs</char> <char style="w" strong="H8269">princes</char> <char style="w" strong="H5307">tomberont</char> <char style="w" strong="H5307">par</char> l'épée <char style="w" strong="H7725">à</char> cause <char style="w" strong="H8269">de</char> <char style="w" strong="H7725">la</char> <char style="w" strong="H2195">rage</char> <char style="w" strong="H8269">de</char> <char style="w" strong="H7725">leur</char> <char style="w" strong="H3956">langue</char>.</para>
+  <para style="q2" vid="HOS 7:16">
+    <char style="w" strong="H5307">Ce</char> <char style="w" strong="H1961">sera</char> <char style="w" strong="H7725">leur</char> dérision dans <char style="w" strong="H7725">le</char> pays d'Égypte.<verse eid="HOS 7:16" /></para>
+  <para style="b" />
+  <chapter eid="HOS 7" />
+  <chapter number="8" style="c" sid="HOS 8" />
+  <para style="p">
+    <verse number="1" style="v" sid="HOS 8:1" />« Mettez <char style="w" strong="H3068">la</char> <char style="w" strong="H7782">trompette</char> <char style="w" strong="H3068">à</char> <char style="w" strong="H5674">vos</char> lèvres  !</para>
+  <para style="q2" vid="HOS 8:1">Quelque chose <char style="w" strong="H3068">comme</char> <char style="w" strong="H3068">un</char> <char style="w" strong="H5404">aigle</char> <char style="w" strong="H3068">est</char> au-dessus <char style="w" strong="H1004">de</char> <char style="w" strong="H3068">la</char> <char style="w" strong="H1004">maison</char> <char style="w" strong="H1004">de</char> Yahvé,</para>
+  <para style="q2" vid="HOS 8:1">
+    <char style="w" strong="H3282">parce</char> qu'ils ont rompu <char style="w" strong="H5674">mon</char> <char style="w" strong="H1285">alliance</char></para>
+  <para style="q2" vid="HOS 8:1">
+    <char style="w" strong="H3068">et</char> <char style="w" strong="H3068">se</char> <char style="w" strong="H3068">sont</char> <char style="w" strong="H6586">rebellés</char> <char style="w" strong="H3068">contre</char> <char style="w" strong="H6586">ma</char> <char style="w" strong="H8451">loi</char>.<verse eid="HOS 8:1" /></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 8:2" />Ils s'écrient  : « <char style="w" strong="H3045">Mon</char> Dieu, nous, <char style="w" strong="H3478">Israël</char>, nous te <char style="w" strong="H3045">reconnaissons</char>.<verse eid="HOS 8:2" /></para>
+  <para style="q2">
+    <verse number="3" style="v" sid="HOS 8:3" />
+    <char style="w" strong="H3478">Israël</char> <char style="w" strong="H3478">a</char> <char style="w" strong="H2186">rejeté</char> <char style="w" strong="H3478">ce</char> <char style="w" strong="H3478">qui</char> <char style="w" strong="H3478">est</char> <char style="w" strong="H2896">bon</char>.</para>
+  <para style="q2" vid="HOS 8:3">L'ennemi <char style="w" strong="H3478">le</char> <char style="w" strong="H7291">poursuivra</char>.<verse eid="HOS 8:3" /></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="HOS 8:4" />
+    <char style="w" strong="H1992">Ils</char> <char style="w" strong="H3045">ont</char> <char style="w" strong="H4427">établi</char> <char style="w" strong="H6213">des</char> <char style="w" strong="H4427">rois</char>, mais <char style="w" strong="H3808">pas</char> <char style="w" strong="H6213">par</char> moi.</para>
+  <para style="q2" vid="HOS 8:4">
+    <char style="w" strong="H1992">Ils</char> <char style="w" strong="H3045">ont</char> <char style="w" strong="H6213">fait</char> <char style="w" strong="H6213">des</char> princes, <char style="w" strong="H3045">et</char> je n'ai <char style="w" strong="H3808">pas</char> approuvé.</para>
+  <para style="q2" vid="HOS 8:4">
+    <char style="w" strong="H6213">De</char> <char style="w" strong="H3045">leur</char> <char style="w" strong="H3701">argent</char> <char style="w" strong="H3045">et</char> <char style="w" strong="H6213">de</char> <char style="w" strong="H3045">leur</char> <char style="w" strong="H2091">or</char>, <char style="w" strong="H1992">ils</char> <char style="w" strong="H3045">se</char> <char style="w" strong="H1992">sont</char> <char style="w" strong="H6213">fait</char> <char style="w" strong="H6213">des</char> <char style="w" strong="H6091">idoles</char>,</para>
+  <para style="q2" vid="HOS 8:4">
+    <char style="w" strong="H6213">pour</char> <char style="w" strong="H3045">qu'ils</char> soient <char style="w" strong="H3772">exterminés</char>.<verse eid="HOS 8:4" /></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="HOS 8:5" />
+    <char style="w" strong="H5704">Que</char> <char style="w" strong="H8111">Samarie</char> jette <char style="w" strong="H2186">son</char> idole <char style="w" strong="H2734">de</char> <char style="w" strong="H5695">veau</char>  !</para>
+  <para style="q2" vid="HOS 8:5">
+    <char style="w" strong="H5704">Ma</char> <char style="w" strong="H2734">colère</char> brûle <char style="w" strong="H2734">contre</char> eux  !</para>
+  <para style="q2" vid="HOS 8:5">Combien <char style="w" strong="H2734">de</char> temps faudra-t-il <char style="w" strong="H3808">avant</char> qu'ils soient capables <char style="w" strong="H2734">de</char> pureté  ?<verse eid="HOS 8:5" /></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 8:6" />
+    <char style="w" strong="H3588">Car</char> <char style="w" strong="H1931">cela</char> vient <char style="w" strong="H3588">même</char> d'Israël  !</para>
+  <para style="q2" vid="HOS 8:6">L'ouvrier <char style="w" strong="H2796">l'a</char> <char style="w" strong="H6213">fait</char>, <char style="w" strong="H3478">et</char> <char style="w" strong="H6213">ce</char> n'est <char style="w" strong="H3808">pas</char> Dieu  ;</para>
+  <para style="q2" vid="HOS 8:6">
+    <char style="w" strong="H6213">en</char> effet, <char style="w" strong="H6213">le</char> <char style="w" strong="H5695">veau</char> <char style="w" strong="H6213">de</char> <char style="w" strong="H8111">Samarie</char> <char style="w" strong="H1961">sera</char> brisé <char style="w" strong="H6213">en</char> morceaux.<verse eid="HOS 8:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 8:7" />
+    <char style="w" strong="H3588">Car</char> ils <char style="w" strong="H2232">sèment</char> <char style="w" strong="H6213">le</char> <char style="w" strong="H7307">vent</char>,</para>
+  <para style="q2" vid="HOS 8:7">
+    <char style="w" strong="H6213">et</char> ils récolteront <char style="w" strong="H6213">la</char> <char style="w" strong="H5492">tempête</char>.</para>
+  <para style="q1" vid="HOS 8:7">Il n'a <char style="w" strong="H6213">pas</char> <char style="w" strong="H7307">de</char> grain <char style="w" strong="H3588">sur</char> <char style="w" strong="H7054">pied</char>.</para>
+  <para style="q2" vid="HOS 8:7">
+    <char style="w" strong="H6213">La</char> <char style="w" strong="H7054">tige</char> <char style="w" strong="H7307">ne</char> <char style="w" strong="H6213">donnera</char> <char style="w" strong="H6213">pas</char> <char style="w" strong="H7307">de</char> tête.</para>
+  <para style="q2" vid="HOS 8:7">S'il cède, <char style="w" strong="H6213">les</char> <char style="w" strong="H2114">étrangers</char> l'avaleront.<verse eid="HOS 8:7" /></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 8:8" />
+    <char style="w" strong="H3478">Israël</char> <char style="w" strong="H3478">est</char> <char style="w" strong="H1104">englouti</char>.</para>
+  <para style="q2" vid="HOS 8:8">
+    <char style="w" strong="H6258">Maintenant</char>, <char style="w" strong="H1961">ils</char> <char style="w" strong="H3478">sont</char> parmi <char style="w" strong="H3478">les</char> <char style="w" strong="H1471">nations</char> <char style="w" strong="H1961">comme</char> <char style="w" strong="H3478">une</char> <char style="w" strong="H2656">chose</char> <char style="w" strong="H1104">sans</char> <char style="w" strong="H2656">valeur</char>.<verse eid="HOS 8:8" /></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 8:9" />
+    <char style="w" strong="H3588">Car</char> <char style="w" strong="H1992">ils</char> <char style="w" strong="H1992">sont</char> <char style="w" strong="H5927">montés</char> <char style="w" strong="H5927">en</char> Assyrie,</para>
+  <para style="q2" vid="HOS 8:9">comme <char style="w" strong="H5927">un</char> <char style="w" strong="H6501">âne</char> <char style="w" strong="H6501">sauvage</char> errant seul.</para>
+  <para style="q2" vid="HOS 8:9">Ephraim <char style="w" strong="H5927">a</char> engagé <char style="w" strong="H5927">des</char> amants <char style="w" strong="H5927">pour</char> lui-même.<verse eid="HOS 8:9" /></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="HOS 8:10" />
+    <char style="w" strong="H3588">Mais</char> bien qu'ils <char style="w" strong="H4428">se</char> <char style="w" strong="H1471">soient</char> vendus parmi <char style="w" strong="H6908">les</char> <char style="w" strong="H1471">nations</char>,</para>
+  <para style="q2" vid="HOS 8:10">
+    <char style="w" strong="H1571">Je</char> vais <char style="w" strong="H6258">maintenant</char> <char style="w" strong="H6908">les</char> <char style="w" strong="H6908">rassembler</char>  ;</para>
+  <para style="q2" vid="HOS 8:10">
+    <char style="w" strong="H4428">et</char> <char style="w" strong="H4592">ils</char> commencent <char style="w" strong="H2490">à</char> dépérir <char style="w" strong="H2490">à</char> cause <char style="w" strong="H4428">de</char> l'oppression <char style="w" strong="H4428">du</char> <char style="w" strong="H4428">roi</char> <char style="w" strong="H8269">des</char> puissants.<verse eid="HOS 8:10" /></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="HOS 8:11" />
+    <char style="w" strong="H3588">Car</char> Ephraïm <char style="w" strong="H2398">a</char> <char style="w" strong="H7235">multiplié</char> <char style="w" strong="H7235">les</char> <char style="w" strong="H4196">autels</char> <char style="w" strong="H4196">pour</char> <char style="w" strong="H2398">pécher</char>,</para>
+  <para style="q2" vid="HOS 8:11">
+    <char style="w" strong="H1961">ils</char> <char style="w" strong="H2398">sont</char> devenus <char style="w" strong="H4196">pour</char> lui <char style="w" strong="H4196">des</char> <char style="w" strong="H4196">autels</char> <char style="w" strong="H4196">pour</char> <char style="w" strong="H2398">le</char> <char style="w" strong="H2398">péché</char>.<verse eid="HOS 8:11" /></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="HOS 8:12" />J'ai <char style="w" strong="H3789">écrit</char> <char style="w" strong="H2803">pour</char> <char style="w" strong="H2803">lui</char> <char style="w" strong="H3789">les</char> nombreuses choses <char style="w" strong="H8451">de</char> <char style="w" strong="H2803">ma</char> <char style="w" strong="H8451">loi</char>,</para>
+  <para style="q2" vid="HOS 8:12">mais ils étaient considérés <char style="w" strong="H3644">comme</char> <char style="w" strong="H3789">une</char> chose <char style="w" strong="H2114">étrange</char>.<verse eid="HOS 8:12" /></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="HOS 8:13" />Quant <char style="w" strong="H2076">aux</char> <char style="w" strong="H2077">sacrifices</char> <char style="w" strong="H7725">de</char> <char style="w" strong="H7725">mes</char> offrandes,</para>
+  <para style="q2" vid="HOS 8:13">
+    <char style="w" strong="H1992">ils</char> <char style="w" strong="H2076">sacrifient</char> <char style="w" strong="H7725">de</char> <char style="w" strong="H7725">la</char> <char style="w" strong="H1320">viande</char> <char style="w" strong="H7725">et</char> <char style="w" strong="H7725">la</char> mangent,</para>
+  <para style="q2" vid="HOS 8:13">mais Yahvé <char style="w" strong="H3068">ne</char> <char style="w" strong="H7725">les</char> accepte <char style="w" strong="H3808">pas</char>.</para>
+  <para style="q1" vid="HOS 8:13">
+    <char style="w" strong="H6258">Maintenant</char>, <char style="w" strong="H3068">il</char> <char style="w" strong="H3068">se</char> <char style="w" strong="H2142">souviendra</char> <char style="w" strong="H7725">de</char> <char style="w" strong="H3068">leur</char> <char style="w" strong="H5771">iniquité</char>,</para>
+  <para style="q2" vid="HOS 8:13">
+    <char style="w" strong="H7725">et</char> <char style="w" strong="H6485">punir</char> <char style="w" strong="H7725">leurs</char> <char style="w" strong="H2403">péchés</char>.</para>
+  <para style="q2" vid="HOS 8:13">
+    <char style="w" strong="H1992">Ils</char> <char style="w" strong="H7725">retourneront</char> <char style="w" strong="H7725">en</char> <char style="w" strong="H4714">Égypte</char>.<verse eid="HOS 8:13" /></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="HOS 8:14" />Car <char style="w" strong="H3478">Israël</char> <char style="w" strong="H3478">a</char> <char style="w" strong="H7911">oublié</char> <char style="w" strong="H6213">son</char> <char style="w" strong="H6213">créateur</char> <char style="w" strong="H3063">et</char> <char style="w" strong="H3478">a</char> <char style="w" strong="H6213">construit</char> <char style="w" strong="H6213">des</char> <char style="w" strong="H1964">palais</char>  ;</para>
+  <para style="q2" vid="HOS 8:14">
+    <char style="w" strong="H3063">et</char> <char style="w" strong="H3063">Juda</char> <char style="w" strong="H3478">a</char> <char style="w" strong="H7235">multiplié</char> <char style="w" strong="H6213">les</char> <char style="w" strong="H5892">villes</char> <char style="w" strong="H1219">fortifiées</char>  ;</para>
+  <para style="q2" vid="HOS 8:14">mais j'enverrai <char style="w" strong="H6213">un</char> feu <char style="w" strong="H3478">sur</char> <char style="w" strong="H7971">ses</char> <char style="w" strong="H5892">villes</char>,</para>
+  <para style="q2" vid="HOS 8:14">
+    <char style="w" strong="H3063">et</char> <char style="w" strong="H5892">il</char> dévorera <char style="w" strong="H7971">ses</char> forteresses. »<verse eid="HOS 8:14" /></para>
+  <para style="b" />
+  <chapter eid="HOS 8" />
+  <chapter number="9" style="c" sid="HOS 9" />
+  <para style="p">
+    <verse number="1" style="v" sid="HOS 9:1" />
+    <char style="w" strong="H3478">Ne</char> <char style="w" strong="H5971">te</char> <char style="w" strong="H8055">réjouis</char> pas, <char style="w" strong="H3478">Israël</char>, jusqu'à <char style="w" strong="H3478">la</char> jubilation comme <char style="w" strong="H3478">les</char> nations  ;</para>
+  <para style="q2" vid="HOS 9:1">
+    <char style="w" strong="H3588">car</char> vous avez été <char style="w" strong="H2181">infidèles</char> <char style="w" strong="H3478">à</char> votre Dieu.</para>
+  <para style="q2" vid="HOS 9:1">
+    <char style="w" strong="H3588">Tu</char> aimes <char style="w" strong="H3478">le</char> salaire <char style="w" strong="H5971">d'une</char> <char style="w" strong="H2181">prostituée</char> <char style="w" strong="H3478">à</char> <char style="w" strong="H3605">chaque</char> <char style="w" strong="H1637">aire</char> <char style="w" strong="H5971">de</char> battage <char style="w" strong="H5971">du</char> grain.<verse eid="HOS 9:1" /></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 9:2" />L'aire <char style="w" strong="H7462">de</char> battage <char style="w" strong="H3808">et</char> <char style="w" strong="H7462">le</char> <char style="w" strong="H3342">pressoir</char> <char style="w" strong="H3808">ne</char> <char style="w" strong="H7462">les</char> <char style="w" strong="H7462">nourriront</char> <char style="w" strong="H3808">pas</char>,</para>
+  <para style="q2" vid="HOS 9:2">
+    <char style="w" strong="H3808">et</char> <char style="w" strong="H7462">le</char> <char style="w" strong="H8492">vin</char> nouveau lui fera <char style="w" strong="H3584">défaut</char>.<verse eid="HOS 9:2" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="HOS 9:3" />
+    <char style="w" strong="H7725">Ils</char> n'habiteront <char style="w" strong="H3808">pas</char> <char style="w" strong="H3427">dans</char> <char style="w" strong="H7725">le</char> pays <char style="w" strong="H3427">de</char> l'Éternel  ;</para>
+  <para style="q2" vid="HOS 9:3">mais Ephraïm <char style="w" strong="H7725">retournera</char> <char style="w" strong="H3427">en</char> <char style="w" strong="H4714">Égypte</char>,</para>
+  <para style="q2" vid="HOS 9:3">
+    <char style="w" strong="H7725">et</char> <char style="w" strong="H7725">ils</char> mangeront <char style="w" strong="H3068">des</char> aliments <char style="w" strong="H2931">impurs</char> <char style="w" strong="H3427">en</char> Assyrie.<verse eid="HOS 9:3" /></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="HOS 9:4" />
+    <char style="w" strong="H5315">Ils</char> <char style="w" strong="H3068">ne</char> verseront <char style="w" strong="H3808">pas</char> d'offrandes <char style="w" strong="H1004">de</char> <char style="w" strong="H3196">vin</char> <char style="w" strong="H3068">à</char> Yahvé,</para>
+  <para style="q2" vid="HOS 9:4">
+    <char style="w" strong="H5315">ils</char> <char style="w" strong="H3068">ne</char> <char style="w" strong="H3068">lui</char> <char style="w" strong="H1004">seront</char> <char style="w" strong="H3808">pas</char> agréables <char style="w" strong="H3808">non</char> <char style="w" strong="H3808">plus</char>.</para>
+  <para style="q2" vid="HOS 9:4">
+    <char style="w" strong="H1004">Leurs</char> <char style="w" strong="H2077">sacrifices</char> <char style="w" strong="H1004">seront</char> <char style="w" strong="H1004">pour</char> <char style="w" strong="H1004">eux</char> <char style="w" strong="H3068">comme</char> <char style="w" strong="H3068">le</char> <char style="w" strong="H3899">pain</char> <char style="w" strong="H3068">des</char> pleureuses  ;</para>
+  <para style="q2" vid="HOS 9:4">
+    <char style="w" strong="H3605">tous</char> <char style="w" strong="H5315">ceux</char> <char style="w" strong="H5315">qui</char> <char style="w" strong="H3068">en</char> mangeront <char style="w" strong="H1004">seront</char> <char style="w" strong="H2930">souillés</char>  ;</para>
+  <para style="q2" vid="HOS 9:4">
+    <char style="w" strong="H3588">car</char> <char style="w" strong="H3068">leur</char> <char style="w" strong="H3899">pain</char> <char style="w" strong="H3068">sera</char> <char style="w" strong="H1004">pour</char> <char style="w" strong="H3068">leur</char> <char style="w" strong="H5315">appétit</char>.</para>
+  <para style="q2" vid="HOS 9:4">
+    <char style="w" strong="H3068">Il</char> n'entrera <char style="w" strong="H3808">pas</char> dans <char style="w" strong="H3068">la</char> <char style="w" strong="H1004">maison</char> <char style="w" strong="H1004">de</char> Yahvé.<verse eid="HOS 9:4" /></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="HOS 9:5" />
+    <char style="w" strong="H3117">Que</char> ferez-vous <char style="w" strong="H6213">le</char> <char style="w" strong="H3117">jour</char> <char style="w" strong="H3117">de</char> l'assemblée solennelle  ?</para>
+  <para style="q2" vid="HOS 9:5">
+    <char style="w" strong="H3117">et</char> <char style="w" strong="H6213">le</char> <char style="w" strong="H3117">jour</char> <char style="w" strong="H3117">de</char> <char style="w" strong="H6213">la</char> <char style="w" strong="H2282">fête</char> <char style="w" strong="H3117">de</char> Yahvé  ?<verse eid="HOS 9:5" /></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 9:6" />
+    <char style="w" strong="H3588">Car</char>, <char style="w" strong="H2009">voici</char>, <char style="w" strong="H3588">quand</char> ils fuient <char style="w" strong="H1980">la</char> destruction,</para>
+  <para style="q2" vid="HOS 9:6">L'Égypte <char style="w" strong="H6908">les</char> <char style="w" strong="H6908">rassemblera</char>.</para>
+  <para style="q2" vid="HOS 9:6">Memphis <char style="w" strong="H1980">va</char> <char style="w" strong="H6908">les</char> <char style="w" strong="H6912">enterrer</char>.</para>
+  <para style="q2" vid="HOS 9:6">
+    <char style="w" strong="H6908">Les</char> orties <char style="w" strong="H3423">posséderont</char> <char style="w" strong="H1980">leurs</char> agréments d'argent.</para>
+  <para style="q2" vid="HOS 9:6">
+    <char style="w" strong="H6908">Les</char> <char style="w" strong="H2336">épines</char> <char style="w" strong="H4714">seront</char> <char style="w" strong="H3701">dans</char> <char style="w" strong="H1980">leurs</char> tentes.<verse eid="HOS 9:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 9:7" />
+    <char style="w" strong="H3045">Les</char> <char style="w" strong="H3117">jours</char> <char style="w" strong="H3117">de</char> <char style="w" strong="H3045">la</char> visite <char style="w" strong="H3478">sont</char> arrivés.</para>
+  <para style="q2" vid="HOS 9:7">L'heure <char style="w" strong="H3117">des</char> comptes <char style="w" strong="H3478">a</char> sonné.</para>
+  <para style="q1" vid="HOS 9:7">
+    <char style="w" strong="H3478">Israël</char> considérera <char style="w" strong="H3045">le</char> <char style="w" strong="H5030">prophète</char> <char style="w" strong="H3045">comme</char> <char style="w" strong="H3117">un</char> <char style="w" strong="H7696">fou</char>,</para>
+  <para style="q2" vid="HOS 9:7">
+    <char style="w" strong="H3117">et</char> l'homme <char style="w" strong="H3478">qui</char> <char style="w" strong="H3117">est</char> <char style="w" strong="H7307">inspiré</char> <char style="w" strong="H3478">pour</char> être <char style="w" strong="H7696">fou</char>,</para>
+  <para style="q2" vid="HOS 9:7">
+    <char style="w" strong="H3478">à</char> <char style="w" strong="H5921">cause</char> <char style="w" strong="H3117">de</char> l'abondance <char style="w" strong="H3117">de</char> <char style="w" strong="H3117">vos</char> péchés,</para>
+  <para style="q2" vid="HOS 9:7">
+    <char style="w" strong="H3117">et</char> parce <char style="w" strong="H3117">que</char> votre hostilité <char style="w" strong="H3117">est</char> <char style="w" strong="H7227">grande</char>.<verse eid="HOS 9:7" /></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 9:8" />
+    <char style="w" strong="H1004">Un</char> <char style="w" strong="H5030">prophète</char> <char style="w" strong="H6822">veille</char> <char style="w" strong="H5921">sur</char> Éphraïm <char style="w" strong="H5921">auprès</char> <char style="w" strong="H1004">de</char> <char style="w" strong="H5973">mon</char> Dieu.</para>
+  <para style="q2" vid="HOS 9:8">
+    <char style="w" strong="H1004">Le</char> <char style="w" strong="H6341">piège</char> <char style="w" strong="H1004">de</char> l'oiseleur <char style="w" strong="H1870">est</char> <char style="w" strong="H5921">sur</char> <char style="w" strong="H3605">tous</char> <char style="w" strong="H5921">ses</char> <char style="w" strong="H1870">chemins</char>,</para>
+  <para style="q2" vid="HOS 9:8">
+    <char style="w" strong="H1004">et</char> l'hostilité <char style="w" strong="H5921">dans</char> <char style="w" strong="H5921">la</char> <char style="w" strong="H1004">maison</char> <char style="w" strong="H1004">de</char> <char style="w" strong="H1004">son</char> Dieu.<verse eid="HOS 9:8" /></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 9:9" />Ils <char style="w" strong="H3117">se</char> <char style="w" strong="H3117">sont</char> <char style="w" strong="H6009">profondément</char> <char style="w" strong="H7843">corrompus</char>,</para>
+  <para style="q2" vid="HOS 9:9">
+    <char style="w" strong="H3117">comme</char> <char style="w" strong="H3117">à</char> l'époque <char style="w" strong="H3117">de</char> Gibéa.</para>
+  <para style="q2" vid="HOS 9:9">
+    <char style="w" strong="H3117">Il</char> <char style="w" strong="H3117">se</char> <char style="w" strong="H2142">souviendra</char> <char style="w" strong="H3117">de</char> <char style="w" strong="H3117">leur</char> <char style="w" strong="H5771">iniquité</char>.</para>
+  <para style="q2" vid="HOS 9:9">
+    <char style="w" strong="H3117">Il</char> <char style="w" strong="H6485">les</char> <char style="w" strong="H6485">punira</char> <char style="w" strong="H5771">pour</char> <char style="w" strong="H3117">leurs</char> <char style="w" strong="H2403">péchés</char>.<verse eid="HOS 9:9" /></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="HOS 9:10" />
+    <char style="w" strong="H3478">J'ai</char> <char style="w" strong="H4672">trouvé</char> <char style="w" strong="H3478">Israël</char> <char style="w" strong="H7200">comme</char> <char style="w" strong="H7200">des</char> <char style="w" strong="H6025">raisins</char> <char style="w" strong="H4672">dans</char> <char style="w" strong="H7200">le</char> <char style="w" strong="H4057">désert</char>.</para>
+  <para style="q2" vid="HOS 9:10">
+    <char style="w" strong="H3478">J'ai</char> <char style="w" strong="H7200">vu</char> <char style="w" strong="H7200">vos</char> pères <char style="w" strong="H7200">comme</char> <char style="w" strong="H7200">les</char> <char style="w" strong="H7225">premières</char> mûres <char style="w" strong="H3478">du</char> <char style="w" strong="H8384">figuier</char> <char style="w" strong="H3478">à</char> <char style="w" strong="H7200">sa</char> <char style="w" strong="H7225">première</char> saison  ;</para>
+  <para style="q2" vid="HOS 9:10">mais <char style="w" strong="H1992">ils</char> <char style="w" strong="H3478">sont</char> venus <char style="w" strong="H3478">à</char> Baal <char style="w" strong="H1187">Peor</char>, <char style="w" strong="H3478">et</char> <char style="w" strong="H3478">se</char> <char style="w" strong="H3478">sont</char> <char style="w" strong="H5144">consacrés</char> <char style="w" strong="H3478">à</char> <char style="w" strong="H7200">la</char> chose honteuse,</para>
+  <para style="q2" vid="HOS 9:10">
+    <char style="w" strong="H3478">et</char> <char style="w" strong="H3478">sont</char> devenus <char style="w" strong="H8251">abominables</char> <char style="w" strong="H7200">comme</char> <char style="w" strong="H1992">ce</char> <char style="w" strong="H7200">qu'ils</char> aimaient.<verse eid="HOS 9:10" /></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="HOS 9:11" />Quant <char style="w" strong="H3205">à</char> Ephraïm, <char style="w" strong="H3205">sa</char> <char style="w" strong="H3519">gloire</char> s'envolera comme <char style="w" strong="H3205">un</char> <char style="w" strong="H5775">oiseau</char>.</para>
+  <para style="q2" vid="HOS 9:11">Il n'y aura pas <char style="w" strong="H3205">de</char> <char style="w" strong="H3205">naissance</char>, pas d'enfant <char style="w" strong="H3519">et</char> pas <char style="w" strong="H3205">de</char> <char style="w" strong="H2032">conception</char>.<verse eid="HOS 9:11" /></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="HOS 9:12" />Bien qu'ils <char style="w" strong="H1431">élèvent</char> <char style="w" strong="H1121">leurs</char> <char style="w" strong="H1121">enfants</char>,</para>
+  <para style="q2" vid="HOS 9:12">
+    <char style="w" strong="H3588">mais</char> <char style="w" strong="H1571">je</char> <char style="w" strong="H5493">les</char> <char style="w" strong="H7921">priverai</char> <char style="w" strong="H1121">de</char> <char style="w" strong="H3588">tout</char>, <char style="w" strong="H1121">et</char> <char style="w" strong="H1571">il</char> <char style="w" strong="H1121">ne</char> restera <char style="w" strong="H1571">pas</char> <char style="w" strong="H1121">un</char> seul <char style="w" strong="H1121">homme</char>.</para>
+  <para style="q2" vid="HOS 9:12">
+    <char style="w" strong="H1571">En</char> effet, malheur <char style="w" strong="H1121">à</char> <char style="w" strong="H1992">eux</char> <char style="w" strong="H1571">aussi</char> <char style="w" strong="H3588">quand</char> <char style="w" strong="H1571">je</char> m'éloigne d'eux  !<verse eid="HOS 9:12" /></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="HOS 9:13" />J'ai <char style="w" strong="H7200">vu</char> Ephraïm, <char style="w" strong="H7200">comme</char> <char style="w" strong="H6865">Tyr</char>, <char style="w" strong="H8362">planté</char> <char style="w" strong="H2026">dans</char> <char style="w" strong="H1121">un</char> lieu <char style="w" strong="H5116">agréable</char>  ;</para>
+  <para style="q2" vid="HOS 9:13">mais Ephraïm fera <char style="w" strong="H3318">sortir</char> <char style="w" strong="H7200">ses</char> <char style="w" strong="H1121">enfants</char> <char style="w" strong="H3318">vers</char> <char style="w" strong="H7200">le</char> <char style="w" strong="H2026">meurtrier</char>.<verse eid="HOS 9:13" /></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="HOS 9:14" />Donnez-leur <char style="w" strong="H5414">-</char> Yahvé, <char style="w" strong="H5414">que</char> donnerez-vous  ?</para>
+  <para style="q2" vid="HOS 9:14">Donnez-leur <char style="w" strong="H5414">un</char> utérus <char style="w" strong="H3068">qui</char> <char style="w" strong="H5414">fait</char> <char style="w" strong="H3068">des</char> fausses couches <char style="w" strong="H3068">et</char> <char style="w" strong="H3068">des</char> <char style="w" strong="H7699">seins</char> secs.<verse eid="HOS 9:14" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="15" style="v" sid="HOS 9:15" />« <char style="w" strong="H8130">Toute</char> <char style="w" strong="H3588">leur</char> méchanceté <char style="w" strong="H7451">est</char> <char style="w" strong="H1004">à</char> <char style="w" strong="H1537">Guilgal</char>  ;</para>
+  <para style="q2" vid="HOS 9:15">
+    <char style="w" strong="H3588">car</char> <char style="w" strong="H8130">là</char>, <char style="w" strong="H3588">je</char> <char style="w" strong="H1004">les</char> <char style="w" strong="H8033">ai</char> détestés.</para>
+  <para style="q2" vid="HOS 9:15">
+    <char style="w" strong="H1004">À</char> <char style="w" strong="H5921">cause</char> <char style="w" strong="H1004">de</char> <char style="w" strong="H8130">la</char> méchanceté <char style="w" strong="H1004">de</char> <char style="w" strong="H1004">leurs</char> actes, <char style="w" strong="H3588">je</char> <char style="w" strong="H1004">les</char> <char style="w" strong="H1644">chasserai</char> <char style="w" strong="H1004">de</char> ma <char style="w" strong="H1004">maison</char>  !</para>
+  <para style="q2" vid="HOS 9:15">
+    <char style="w" strong="H3588">Je</char> <char style="w" strong="H7451">ne</char> <char style="w" strong="H1004">les</char> aimerai <char style="w" strong="H3254">plus</char>.</para>
+  <para style="q2" vid="HOS 9:15">
+    <char style="w" strong="H3605">Tous</char> <char style="w" strong="H1004">leurs</char> <char style="w" strong="H8269">princes</char> <char style="w" strong="H7451">sont</char> <char style="w" strong="H8269">des</char> <char style="w" strong="H5637">rebelles</char>.<verse eid="HOS 9:15" /></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="HOS 9:16" />Ephraïm <char style="w" strong="H6529">est</char> <char style="w" strong="H5221">frappé</char>.</para>
+  <para style="q2" vid="HOS 9:16">
+    <char style="w" strong="H3588">Leur</char> <char style="w" strong="H8328">racine</char> s'est asséchée.</para>
+  <para style="q2" vid="HOS 9:16">Ils <char style="w" strong="H3205">ne</char> <char style="w" strong="H6213">porteront</char> <char style="w" strong="H6213">pas</char> <char style="w" strong="H6213">de</char> <char style="w" strong="H6529">fruits</char>.</para>
+  <para style="q2" vid="HOS 9:16">
+    <char style="w" strong="H1571">Même</char> <char style="w" strong="H3588">si</char> elles <char style="w" strong="H3205">accouchent</char>, <char style="w" strong="H1571">je</char> tuerai <char style="w" strong="H6213">les</char> bien-aimés <char style="w" strong="H6213">de</char> <char style="w" strong="H6213">leurs</char> entrailles. »<verse eid="HOS 9:16" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="17" style="v" sid="HOS 9:17" />
+    <char style="w" strong="H8085">Mon</char> Dieu <char style="w" strong="H8085">les</char> <char style="w" strong="H3988">rejettera</char>, parce <char style="w" strong="H8085">qu'ils</char> <char style="w" strong="H3808">ne</char> l'ont <char style="w" strong="H3808">pas</char> <char style="w" strong="H8085">écouté</char>  ;</para>
+  <para style="q2" vid="HOS 9:17">
+    <char style="w" strong="H8085">et</char> <char style="w" strong="H1961">ils</char> <char style="w" strong="H1471">seront</char> <char style="w" strong="H8085">des</char> vagabonds parmi <char style="w" strong="H8085">les</char> <char style="w" strong="H1471">nations</char>.<verse eid="HOS 9:17" /></para>
+  <chapter eid="HOS 9" />
+  <chapter number="10" style="c" sid="HOS 10" />
+  <para style="p">
+    <verse number="1" style="v" sid="HOS 10:1" />
+    <char style="w" strong="H3478">Israël</char> <char style="w" strong="H3478">est</char> <char style="w" strong="H3478">une</char> <char style="w" strong="H1612">vigne</char> luxuriante <char style="w" strong="H3478">qui</char> produit <char style="w" strong="H1612">son</char> <char style="w" strong="H6529">fruit</char>.</para>
+  <para style="q2" vid="HOS 10:1">Selon l'abondance <char style="w" strong="H7235">de</char> <char style="w" strong="H7235">ses</char> <char style="w" strong="H6529">fruits</char>, <char style="w" strong="H3478">il</char> <char style="w" strong="H3478">a</char> <char style="w" strong="H7235">multiplié</char> <char style="w" strong="H7235">ses</char> <char style="w" strong="H4196">autels</char>.</para>
+  <para style="q2" vid="HOS 10:1">
+    <char style="w" strong="H3478">Au</char> fur <char style="w" strong="H3478">et</char> <char style="w" strong="H3478">à</char> mesure <char style="w" strong="H2896">que</char> <char style="w" strong="H7235">leurs</char> terres <char style="w" strong="H3478">ont</char> <char style="w" strong="H2896">prospéré</char>, ils <char style="w" strong="H3478">ont</char> orné <char style="w" strong="H7235">leurs</char> <char style="w" strong="H4676">pierres</char> sacrées.<verse eid="HOS 10:1" /></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 10:2" />
+    <char style="w" strong="H2505">Leur</char> <char style="w" strong="H3820">cœur</char> <char style="w" strong="H3820">est</char> <char style="w" strong="H2505">divisé</char>.</para>
+  <para style="q2" vid="HOS 10:2">
+    <char style="w" strong="H6258">Maintenant</char>, ils <char style="w" strong="H4196">seront</char> reconnus coupables.</para>
+  <para style="q2" vid="HOS 10:2">
+    <char style="w" strong="H1931">Il</char> démolira <char style="w" strong="H6202">leurs</char> <char style="w" strong="H4196">autels</char>.</para>
+  <para style="q2" vid="HOS 10:2">
+    <char style="w" strong="H1931">Il</char> <char style="w" strong="H7703">détruira</char> <char style="w" strong="H6202">leurs</char> <char style="w" strong="H4676">pierres</char> sacrées.<verse eid="HOS 10:2" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="HOS 10:3" />
+    <char style="w" strong="H6258">Maintenant</char>, ils diront  : « <char style="w" strong="H3068">Nous</char> n'avons <char style="w" strong="H3808">pas</char> <char style="w" strong="H4428">de</char> <char style="w" strong="H4428">roi</char>, <char style="w" strong="H3588">car</char> <char style="w" strong="H3068">nous</char> <char style="w" strong="H3068">ne</char> <char style="w" strong="H3372">craignons</char> <char style="w" strong="H3808">pas</char> Yahvé  ;</para>
+  <para style="q2" vid="HOS 10:3">
+    <char style="w" strong="H4428">et</char> <char style="w" strong="H6213">le</char> <char style="w" strong="H4428">roi</char>, <char style="w" strong="H3588">que</char> peut-il <char style="w" strong="H6213">faire</char> <char style="w" strong="H6213">pour</char> <char style="w" strong="H3068">nous</char>  ? »<verse eid="HOS 10:3" /></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="HOS 10:4" />Ils <char style="w" strong="H3772">font</char> <char style="w" strong="H1697">des</char> <char style="w" strong="H1697">promesses</char>, jurent faussement <char style="w" strong="H1696">en</char> concluant <char style="w" strong="H1697">des</char> pactes.</para>
+  <para style="q2" vid="HOS 10:4">C'est pourquoi <char style="w" strong="H1696">le</char> <char style="w" strong="H4941">jugement</char> <char style="w" strong="H6524">pousse</char> <char style="w" strong="H4941">comme</char> <char style="w" strong="H1697">de</char> l'herbe empoisonnée <char style="w" strong="H5921">dans</char> <char style="w" strong="H3772">les</char> <char style="w" strong="H8525">sillons</char> <char style="w" strong="H1697">du</char> <char style="w" strong="H7704">champ</char>.<verse eid="HOS 10:4" /></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="HOS 10:5" />
+    <char style="w" strong="H1540">Les</char> <char style="w" strong="H5971">habitants</char> <char style="w" strong="H5971">de</char> <char style="w" strong="H8111">Samarie</char> <char style="w" strong="H8111">seront</char> <char style="w" strong="H5921">dans</char> <char style="w" strong="H1540">la</char> terreur <char style="w" strong="H1540">à</char> <char style="w" strong="H5921">cause</char> <char style="w" strong="H5971">des</char> <char style="w" strong="H5697">veaux</char> <char style="w" strong="H5971">de</char> Beth <char style="w" strong="H1007">Aven</char>,</para>
+  <para style="q2" vid="HOS 10:5">
+    <char style="w" strong="H3588">car</char> <char style="w" strong="H1540">son</char> <char style="w" strong="H5971">peuple</char> <char style="w" strong="H5971">se</char> lamentera <char style="w" strong="H5921">sur</char> <char style="w" strong="H3588">elle</char>,</para>
+  <para style="q2" vid="HOS 10:5">ainsi <char style="w" strong="H3588">que</char> <char style="w" strong="H5971">ses</char> <char style="w" strong="H3649">prêtres</char> <char style="w" strong="H5971">qui</char> <char style="w" strong="H5971">s'en</char> <char style="w" strong="H5971">sont</char> réjouis,</para>
+  <para style="q2" vid="HOS 10:5">
+    <char style="w" strong="H5971">pour</char> <char style="w" strong="H1540">sa</char> <char style="w" strong="H3519">gloire</char>, <char style="w" strong="H3588">car</char> <char style="w" strong="H5971">il</char> <char style="w" strong="H5971">s'en</char> <char style="w" strong="H5971">est</char> éloigné.<verse eid="HOS 10:5" /></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 10:6" />Elle <char style="w" strong="H3478">sera</char> <char style="w" strong="H1571">aussi</char> <char style="w" strong="H2986">transportée</char> <char style="w" strong="H4428">en</char> Assyrie <char style="w" strong="H3947">pour</char> être offerte <char style="w" strong="H3478">à</char> <char style="w" strong="H3947">un</char> grand <char style="w" strong="H4428">roi</char>.</para>
+  <para style="q2" vid="HOS 10:6">Ephraïm <char style="w" strong="H3947">recevra</char> <char style="w" strong="H3947">la</char> honte,</para>
+  <para style="q2" vid="HOS 10:6">
+    <char style="w" strong="H3478">et</char> <char style="w" strong="H3478">Israël</char> <char style="w" strong="H3478">aura</char> honte <char style="w" strong="H4428">de</char> <char style="w" strong="H3947">son</char> propre <char style="w" strong="H6098">conseil</char>.<verse eid="HOS 10:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 10:7" />
+    <char style="w" strong="H8111">Samarie</char> <char style="w" strong="H4428">et</char> <char style="w" strong="H6440">son</char> <char style="w" strong="H4428">roi</char> s'envolent</para>
+  <para style="q2" vid="HOS 10:7">comme <char style="w" strong="H6440">une</char> brindille <char style="w" strong="H6440">sur</char> l'eau.<verse eid="HOS 10:7" /></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 10:8" />
+    <char style="w" strong="H5927">Les</char> hauts <char style="w" strong="H1116">lieux</char> <char style="w" strong="H2022">de</char> l'Aven, <char style="w" strong="H5927">le</char> <char style="w" strong="H2403">péché</char> d'Israël, <char style="w" strong="H4196">seront</char> <char style="w" strong="H8045">détruits</char>.</para>
+  <para style="q2" vid="HOS 10:8">L'épine <char style="w" strong="H3478">et</char> <char style="w" strong="H5927">le</char> chardon <char style="w" strong="H5927">monteront</char> <char style="w" strong="H5921">sur</char> <char style="w" strong="H3680">leurs</char> <char style="w" strong="H4196">autels</char>.</para>
+  <para style="q2" vid="HOS 10:8">Ils diront <char style="w" strong="H5307">aux</char> <char style="w" strong="H2022">montagnes</char>  : « Couvrez-nous  ! » <char style="w" strong="H3478">et</char> <char style="w" strong="H5307">aux</char> <char style="w" strong="H1389">collines</char>  : « <char style="w" strong="H5307">Tombez</char> <char style="w" strong="H5921">sur</char> nous  ! »<verse eid="HOS 10:8" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 10:9" />« <char style="w" strong="H3478">Israël</char>, <char style="w" strong="H3478">tu</char> as <char style="w" strong="H2398">péché</char> <char style="w" strong="H3117">depuis</char> <char style="w" strong="H3478">le</char> <char style="w" strong="H3117">temps</char> <char style="w" strong="H1121">de</char> <char style="w" strong="H1390">Guibea</char>.</para>
+  <para style="q2" vid="HOS 10:9">
+    <char style="w" strong="H1121">Ils</char> <char style="w" strong="H3478">sont</char> restés <char style="w" strong="H3117">là</char>.</para>
+  <para style="q2" vid="HOS 10:9">
+    <char style="w" strong="H3117">La</char> <char style="w" strong="H4421">bataille</char> <char style="w" strong="H4421">contre</char> <char style="w" strong="H5975">les</char> <char style="w" strong="H1121">enfants</char> <char style="w" strong="H1121">de</char> l'iniquité <char style="w" strong="H3478">ne</char> <char style="w" strong="H5975">les</char> <char style="w" strong="H5381">atteint</char> <char style="w" strong="H3808">pas</char> <char style="w" strong="H3478">à</char> Gibéa.<verse eid="HOS 10:9" /></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="HOS 10:10" />
+    <char style="w" strong="H5921">Quand</char> je <char style="w" strong="H5971">le</char> voudrai, je <char style="w" strong="H5971">les</char> <char style="w" strong="H3256">châtierai</char>  ;</para>
+  <para style="q2" vid="HOS 10:10">
+    <char style="w" strong="H5869">et</char> <char style="w" strong="H5971">les</char> nations s'assembleront <char style="w" strong="H5921">contre</char> <char style="w" strong="H5971">eux</char></para>
+  <para style="q2" vid="HOS 10:10">
+    <char style="w" strong="H5921">quand</char> <char style="w" strong="H5971">ils</char> <char style="w" strong="H5869">sont</char> liés <char style="w" strong="H5869">à</char> <char style="w" strong="H5869">leurs</char> <char style="w" strong="H8147">deux</char> transgressions.<verse eid="HOS 10:10" /></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="HOS 10:11" />Ephraïm <char style="w" strong="H3063">est</char> <char style="w" strong="H3290">une</char> <char style="w" strong="H5697">génisse</char> <char style="w" strong="H3925">dressée</char> <char style="w" strong="H3063">qui</char> aime battre,</para>
+  <para style="q2" vid="HOS 10:11">alors je mettrai <char style="w" strong="H3063">un</char> joug <char style="w" strong="H5921">sur</char> <char style="w" strong="H5674">son</char> <char style="w" strong="H2898">beau</char> <char style="w" strong="H6676">cou</char>.</para>
+  <para style="q2" vid="HOS 10:11">Je mettrai <char style="w" strong="H3063">un</char> <char style="w" strong="H7392">cavalier</char> <char style="w" strong="H5921">sur</char> Ephraïm.</para>
+  <para style="q2" vid="HOS 10:11">
+    <char style="w" strong="H3063">Juda</char> va <char style="w" strong="H2790">labourer</char>.</para>
+  <para style="q2" vid="HOS 10:11">
+    <char style="w" strong="H3290">Jacob</char> va briser <char style="w" strong="H5921">ses</char> <char style="w" strong="H7702">mottes</char>.<verse eid="HOS 10:11" /></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="HOS 10:12" />
+    <char style="w" strong="H2232">Semez</char> <char style="w" strong="H6256">pour</char> vous-mêmes <char style="w" strong="H5704">dans</char> <char style="w" strong="H3068">la</char> <char style="w" strong="H6666">justice</char>,</para>
+  <para style="q2" vid="HOS 10:12">
+    <char style="w" strong="H7114">récolter</char> <char style="w" strong="H6310">selon</char> <char style="w" strong="H3068">la</char> <char style="w" strong="H2617">bonté</char>.</para>
+  <para style="q1" vid="HOS 10:12">
+    <char style="w" strong="H5214">Défrichez</char> <char style="w" strong="H1875">votre</char> terrain <char style="w" strong="H3068">en</char> friche,</para>
+  <para style="q2" vid="HOS 10:12">car <char style="w" strong="H3068">il</char> <char style="w" strong="H3068">est</char> <char style="w" strong="H6256">temps</char> <char style="w" strong="H6310">de</char> <char style="w" strong="H1875">chercher</char> Yahvé,</para>
+  <para style="q2" vid="HOS 10:12">
+    <char style="w" strong="H2617">jusqu'à</char> ce qu'il vienne <char style="w" strong="H3068">et</char> <char style="w" strong="H3068">fasse</char> pleuvoir <char style="w" strong="H3068">la</char> <char style="w" strong="H6666">justice</char> <char style="w" strong="H3068">sur</char> <char style="w" strong="H3068">vous</char>.<verse eid="HOS 10:12" /></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="HOS 10:13" />Vous avez <char style="w" strong="H2790">labouré</char> <char style="w" strong="H1870">la</char> méchanceté.</para>
+  <para style="q2" vid="HOS 10:13">Vous avez récolté l'iniquité.</para>
+  <para style="q2" vid="HOS 10:13">Vous avez mangé <char style="w" strong="H2790">le</char> <char style="w" strong="H6529">fruit</char> <char style="w" strong="H1870">du</char> <char style="w" strong="H3585">mensonge</char>,</para>
+  <para style="q2" vid="HOS 10:13">
+    <char style="w" strong="H3588">car</char> <char style="w" strong="H2790">tu</char> as eu confiance dans ta <char style="w" strong="H1870">voie</char>, dans <char style="w" strong="H1870">la</char> <char style="w" strong="H7230">multitude</char> <char style="w" strong="H1870">de</char> <char style="w" strong="H1870">tes</char> <char style="w" strong="H1368">guerriers</char>.<verse eid="HOS 10:13" /></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="HOS 10:14" />C'est pourquoi <char style="w" strong="H1121">un</char> cri <char style="w" strong="H1121">de</char> <char style="w" strong="H4421">guerre</char> s'élèvera parmi <char style="w" strong="H3117">ton</char> <char style="w" strong="H5971">peuple</char>,</para>
+  <para style="q2" vid="HOS 10:14">
+    <char style="w" strong="H6965">et</char> toutes <char style="w" strong="H3117">vos</char> <char style="w" strong="H4013">forteresses</char> <char style="w" strong="H3117">seront</char> <char style="w" strong="H7703">détruites</char>,</para>
+  <para style="q2" vid="HOS 10:14">
+    <char style="w" strong="H3117">comme</char> Shalman <char style="w" strong="H1121">a</char> <char style="w" strong="H7703">détruit</char> Beth <char style="w" strong="H1009">Arbel</char> <char style="w" strong="H5971">au</char> <char style="w" strong="H3117">jour</char> <char style="w" strong="H1121">de</char> <char style="w" strong="H3117">la</char> <char style="w" strong="H4421">bataille</char>.</para>
+  <para style="q2" vid="HOS 10:14">
+    <char style="w" strong="H3117">La</char> mère <char style="w" strong="H1121">a</char> été mise <char style="w" strong="H3117">en</char> pièces <char style="w" strong="H5971">avec</char> <char style="w" strong="H5971">ses</char> <char style="w" strong="H1121">enfants</char>.<verse eid="HOS 10:14" /></para>
+  <para style="q1">
+    <verse number="15" style="v" sid="HOS 10:15" />C'est <char style="w" strong="H3602">ainsi</char> <char style="w" strong="H6440">que</char> <char style="w" strong="H1008">Béthel</char> <char style="w" strong="H6440">te</char> <char style="w" strong="H6213">traitera</char>, <char style="w" strong="H3478">à</char> <char style="w" strong="H6440">cause</char> <char style="w" strong="H4428">de</char> <char style="w" strong="H6213">ta</char> grande méchanceté.</para>
+  <para style="q2" vid="HOS 10:15">
+    <char style="w" strong="H6213">Au</char> lever <char style="w" strong="H6440">du</char> jour, <char style="w" strong="H6440">le</char> <char style="w" strong="H4428">roi</char> d'Israël <char style="w" strong="H3478">sera</char> <char style="w" strong="H6213">détruit</char>.<verse eid="HOS 10:15" /></para>
+  <para style="b" />
+  <chapter eid="HOS 10" />
+  <chapter number="11" style="c" sid="HOS 11" />
+  <para style="p">
+    <verse number="1" style="v" sid="HOS 11:1" />« <char style="w" strong="H3588">Quand</char> <char style="w" strong="H3478">Israël</char> <char style="w" strong="H3478">était</char> <char style="w" strong="H1121">un</char> <char style="w" strong="H5288">enfant</char>, <char style="w" strong="H3588">je</char> l'ai aimé,</para>
+  <para style="q2" vid="HOS 11:1">
+    <char style="w" strong="H1121">et</char> <char style="w" strong="H3478">a</char> <char style="w" strong="H7121">appelé</char> <char style="w" strong="H7121">mon</char> <char style="w" strong="H1121">fils</char> hors d'Égypte.<verse eid="HOS 11:1" /></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 11:2" />
+    <char style="w" strong="H6440">Ils</char> <char style="w" strong="H6440">les</char> <char style="w" strong="H6440">ont</char> <char style="w" strong="H7121">appelés</char>, <char style="w" strong="H6440">et</char> <char style="w" strong="H6440">ils</char> <char style="w" strong="H6440">se</char> <char style="w" strong="H6440">sont</char> <char style="w" strong="H1980">éloignés</char> d'eux.</para>
+  <para style="q2" vid="HOS 11:2">
+    <char style="w" strong="H6440">Ils</char> sacrifiaient <char style="w" strong="H6440">aux</char> <char style="w" strong="H1168">Baals</char>,</para>
+  <para style="q2" vid="HOS 11:2">
+    <char style="w" strong="H6440">et</char> brûlaient <char style="w" strong="H6440">de</char> l'encens <char style="w" strong="H6440">à</char> <char style="w" strong="H6440">des</char> <char style="w" strong="H6456">images</char> gravées.<verse eid="HOS 11:2" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="HOS 11:3" />
+    <char style="w" strong="H3588">J'ai</char> pourtant <char style="w" strong="H3045">appris</char> <char style="w" strong="H3045">à</char> Ephraïm <char style="w" strong="H3045">à</char> marcher.</para>
+  <para style="q2" vid="HOS 11:3">
+    <char style="w" strong="H3588">Je</char> <char style="w" strong="H3947">les</char> ai <char style="w" strong="H3947">pris</char> <char style="w" strong="H3947">par</char> <char style="w" strong="H3947">les</char> <char style="w" strong="H2220">bras</char>,</para>
+  <para style="q2" vid="HOS 11:3">
+    <char style="w" strong="H3588">mais</char> ils <char style="w" strong="H3808">ne</char> <char style="w" strong="H3045">savaient</char> <char style="w" strong="H3808">pas</char> <char style="w" strong="H3588">que</char> <char style="w" strong="H3588">je</char> <char style="w" strong="H3947">les</char> avais <char style="w" strong="H7495">guéris</char>.<verse eid="HOS 11:3" /></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="HOS 11:4" />Je <char style="w" strong="H5186">les</char> ai tirés <char style="w" strong="H7311">avec</char> <char style="w" strong="H5921">des</char> <char style="w" strong="H2256">cordes</char> d'homme, <char style="w" strong="H7311">avec</char> <char style="w" strong="H5921">des</char> <char style="w" strong="H2256">liens</char> d'amour  ;</para>
+  <para style="q2" vid="HOS 11:4">
+    <char style="w" strong="H4900">et</char> j'étais <char style="w" strong="H5921">pour</char> eux <char style="w" strong="H1961">comme</char> ceux <char style="w" strong="H5923">qui</char> soulèvent <char style="w" strong="H5186">le</char> <char style="w" strong="H5923">joug</char> <char style="w" strong="H5921">sur</char> <char style="w" strong="H1961">leur</char> cou  ;</para>
+  <para style="q2" vid="HOS 11:4">Je me <char style="w" strong="H1961">suis</char> <char style="w" strong="H5186">penché</char> <char style="w" strong="H5186">vers</char> <char style="w" strong="H2256">lui</char> <char style="w" strong="H4900">et</char> je l'ai nourri.<verse eid="HOS 11:4" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="5" style="v" sid="HOS 11:5" />« <char style="w" strong="H7725">Ils</char> <char style="w" strong="H4428">ne</char> <char style="w" strong="H7725">retourneront</char> <char style="w" strong="H3808">pas</char> dans <char style="w" strong="H7725">le</char> pays d'Égypte  ;</para>
+  <para style="q2" vid="HOS 11:5">
+    <char style="w" strong="H3588">mais</char> l'Assyrien <char style="w" strong="H4428">sera</char> <char style="w" strong="H4428">leur</char> <char style="w" strong="H4428">roi</char>,</para>
+  <para style="q2" vid="HOS 11:5">parce qu'ils <char style="w" strong="H4428">ont</char> <char style="w" strong="H3985">refusé</char> <char style="w" strong="H4428">de</char> <char style="w" strong="H4428">se</char> repentir.<verse eid="HOS 11:5" /></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 11:6" />L'épée s'abattra <char style="w" strong="H2342">sur</char> <char style="w" strong="H3615">leurs</char> <char style="w" strong="H5892">villes</char>,</para>
+  <para style="q2" vid="HOS 11:6">
+    <char style="w" strong="H5892">et</char> détruira <char style="w" strong="H3615">les</char> barreaux <char style="w" strong="H5892">de</char> <char style="w" strong="H3615">leurs</char> portes,</para>
+  <para style="q2" vid="HOS 11:6">
+    <char style="w" strong="H5892">et</char> mettra <char style="w" strong="H3615">fin</char> <char style="w" strong="H2719">à</char> <char style="w" strong="H3615">leurs</char> plans.<verse eid="HOS 11:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 11:7" />
+    <char style="w" strong="H7121">Mon</char> <char style="w" strong="H5971">peuple</char> <char style="w" strong="H5971">est</char> décidé <char style="w" strong="H7121">à</char> <char style="w" strong="H5971">se</char> détourner <char style="w" strong="H5971">de</char> <char style="w" strong="H3162">moi</char>.</para>
+  <para style="q2" vid="HOS 11:7">Bien <char style="w" strong="H5920">qu'ils</char> <char style="w" strong="H7121">appellent</char> <char style="w" strong="H7121">le</char> Très-Haut,</para>
+  <para style="q2" vid="HOS 11:7">
+    <char style="w" strong="H5971">il</char> <char style="w" strong="H5971">ne</char> <char style="w" strong="H7121">les</char> exaltera <char style="w" strong="H3808">certainement</char> <char style="w" strong="H3808">pas</char>.<verse eid="HOS 11:7" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 11:8" />« Comment puis-je t'abandonner, Ephraïm  ?</para>
+  <para style="q2" vid="HOS 11:8">Comment puis-je te <char style="w" strong="H5414">livrer</char>, <char style="w" strong="H3478">Israël</char>  ?</para>
+  <para style="q2" vid="HOS 11:8">Comment puis-je <char style="w" strong="H7760">faire</char> <char style="w" strong="H5414">en</char> sorte <char style="w" strong="H5414">que</char> <char style="w" strong="H3478">tu</char> aimes Admah  ?</para>
+  <para style="q2" vid="HOS 11:8">Comment puis-je vous <char style="w" strong="H7760">faire</char> aimer Zeboiim  ?</para>
+  <para style="q1" vid="HOS 11:8">
+    <char style="w" strong="H5414">Mon</char> <char style="w" strong="H3820">cœur</char> <char style="w" strong="H3820">est</char> <char style="w" strong="H2015">retourné</char> <char style="w" strong="H5414">à</char> l'intérieur <char style="w" strong="H3820">de</char> <char style="w" strong="H5414">moi</char>,</para>
+  <para style="q2" vid="HOS 11:8">
+    <char style="w" strong="H5414">ma</char> compassion <char style="w" strong="H3820">est</char> éveillée.<verse eid="HOS 11:8" /></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 11:9" />
+    <char style="w" strong="H7725">Je</char> n'exécuterai <char style="w" strong="H3808">pas</char> l'ardeur <char style="w" strong="H5892">de</char> <char style="w" strong="H7725">ma</char> <char style="w" strong="H2740">colère</char>.</para>
+  <para style="q2" vid="HOS 11:9">
+    <char style="w" strong="H7725">Je</char> <char style="w" strong="H3808">ne</char> <char style="w" strong="H7725">reviendrai</char> <char style="w" strong="H3808">pas</char> <char style="w" strong="H6213">pour</char> <char style="w" strong="H7843">détruire</char> Ephraïm,</para>
+  <para style="q2" vid="HOS 11:9">
+    <char style="w" strong="H3588">car</char> <char style="w" strong="H7725">je</char> suis Dieu, <char style="w" strong="H7725">et</char> <char style="w" strong="H3808">non</char> <char style="w" strong="H6213">un</char> homme, <char style="w" strong="H6213">le</char> <char style="w" strong="H6918">Saint</char> parmi <char style="w" strong="H5892">vous</char>.</para>
+  <para style="q2" vid="HOS 11:9">
+    <char style="w" strong="H7725">Je</char> <char style="w" strong="H3808">ne</char> viendrai <char style="w" strong="H3808">pas</char> <char style="w" strong="H7725">en</char> <char style="w" strong="H2740">colère</char>.<verse eid="HOS 11:9" /></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="HOS 11:10" />
+    <char style="w" strong="H1121">Ils</char> <char style="w" strong="H3212">marcheront</char> après Yahvé,</para>
+  <para style="q2" vid="HOS 11:10">
+    <char style="w" strong="H3068">qui</char> <char style="w" strong="H7580">rugira</char> <char style="w" strong="H3068">comme</char> <char style="w" strong="H1121">un</char> lion  ;</para>
+  <para style="q2" vid="HOS 11:10">
+    <char style="w" strong="H3588">car</char> <char style="w" strong="H3068">il</char> <char style="w" strong="H7580">rugira</char>, <char style="w" strong="H1121">et</char> <char style="w" strong="H3068">les</char> <char style="w" strong="H1121">enfants</char> <char style="w" strong="H3212">viendront</char> <char style="w" strong="H3212">en</char> <char style="w" strong="H2729">tremblant</char> <char style="w" strong="H1121">de</char> l'ouest.<verse eid="HOS 11:10" /></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="HOS 11:11" />Ils sortiront d'Égypte <char style="w" strong="H3427">en</char> <char style="w" strong="H2729">tremblant</char> <char style="w" strong="H3068">comme</char> <char style="w" strong="H3068">un</char> <char style="w" strong="H6833">oiseau</char>,</para>
+  <para style="q2" vid="HOS 11:11">
+    <char style="w" strong="H3068">et</char> <char style="w" strong="H3068">comme</char> <char style="w" strong="H3068">une</char> <char style="w" strong="H3123">colombe</char> <char style="w" strong="H1004">du</char> pays d'Assyrie  ;</para>
+  <para style="q1" vid="HOS 11:11">
+    <char style="w" strong="H3068">et</char> je <char style="w" strong="H3068">les</char> installerai <char style="w" strong="H3427">dans</char> <char style="w" strong="H1004">leurs</char> <char style="w" strong="H1004">maisons</char>, <char style="w" strong="H5002">dit</char> Yahvé.<verse eid="HOS 11:11" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="12" style="v" sid="HOS 11:12" />Ephraïm m'entoure de mensonges,</para>
+  <para style="q2" vid="HOS 11:12">et la maison d'Israël par la tromperie.</para>
+  <para style="q2" vid="HOS 11:12">Juda s'éloigne toujours de Dieu,</para>
+  <para style="q2" vid="HOS 11:12">et est infidèle au Saint.<verse eid="HOS 11:12" /></para>
+  <chapter eid="HOS 11" />
+  <chapter number="12" style="c" sid="HOS 12" />
+  <para style="p">
+    <verse number="1" style="v" sid="HOS 12:1" />Ephraïm <char style="w" strong="H3478">se</char> nourrit <char style="w" strong="H1004">de</char> vent,</para>
+  <para style="q2" vid="HOS 12:1">
+    <char style="w" strong="H3063">et</char> chasse <char style="w" strong="H3478">le</char> vent d'est.</para>
+  <para style="q2" vid="HOS 12:1">
+    <char style="w" strong="H3478">Il</char> multiplie sans cesse <char style="w" strong="H1004">les</char> <char style="w" strong="H3585">mensonges</char> <char style="w" strong="H3063">et</char> <char style="w" strong="H5437">la</char> désolation.</para>
+  <para style="q2" vid="HOS 12:1">Ils font <char style="w" strong="H3478">une</char> alliance <char style="w" strong="H5973">avec</char> l'Assyrie,</para>
+  <para style="q2" vid="HOS 12:1">
+    <char style="w" strong="H3063">et</char> <char style="w" strong="H3478">le</char> pétrole <char style="w" strong="H3478">est</char> <char style="w" strong="H5437">transporté</char> <char style="w" strong="H3478">en</char> Égypte.<verse eid="HOS 12:1" /></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 12:2" />Yahvé <char style="w" strong="H3117">a</char> également <char style="w" strong="H3117">une</char> controverse <char style="w" strong="H1285">avec</char> Juda,</para>
+  <para style="q2" vid="HOS 12:2">
+    <char style="w" strong="H3117">et</char> punira Jacob selon <char style="w" strong="H7235">ses</char> voies  ;</para>
+  <para style="q2" vid="HOS 12:2">
+    <char style="w" strong="H3117">il</char> <char style="w" strong="H7307">lui</char> rendra selon <char style="w" strong="H7235">ses</char> actes.<verse eid="HOS 12:2" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="HOS 12:3" />
+    <char style="w" strong="H5921">Dans</char> <char style="w" strong="H7725">le</char> ventre <char style="w" strong="H1870">de</char> <char style="w" strong="H7725">sa</char> mère, <char style="w" strong="H3068">il</char> <char style="w" strong="H3068">a</char> pris <char style="w" strong="H7725">son</char> frère <char style="w" strong="H3068">par</char> <char style="w" strong="H7725">le</char> talon,</para>
+  <para style="q2" vid="HOS 12:3">
+    <char style="w" strong="H3063">et</char> <char style="w" strong="H5921">dans</char> <char style="w" strong="H7725">sa</char> vie d'homme, <char style="w" strong="H3068">il</char> <char style="w" strong="H3068">s'est</char> <char style="w" strong="H7379">disputé</char> <char style="w" strong="H5973">avec</char> <char style="w" strong="H3068">Dieu</char>.<verse eid="HOS 12:3" /></para>
+  <para style="q1">
+    <verse number="4" style="v" sid="HOS 12:4" />En effet, il a <char style="w" strong="H8280">lutté</char> <char style="w" strong="H8280">avec</char> l'ange et l'a emporté  ;</para>
+  <para style="q2" vid="HOS 12:4">il pleura, et lui fit des supplications.</para>
+  <para style="q2" vid="HOS 12:4">Il l'a trouvé à Bethel, et là il a parlé <char style="w" strong="H8280">avec</char> nous...<verse eid="HOS 12:4" /></para>
+  <para style="q2">
+    <verse number="5" style="v" sid="HOS 12:5" />même Yahvé, <char style="w" strong="H4672">le</char> Dieu <char style="w" strong="H1696">des</char> armées.</para>
+  <para style="q2" vid="HOS 12:5">Yahvé <char style="w" strong="H1696">est</char> <char style="w" strong="H1696">son</char> nom <char style="w" strong="H4397">de</char> renom  !<verse eid="HOS 12:5" /></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 12:6" />C'est pourquoi, tournez-vous vers votre <char style="w" strong="H3068">Dieu</char>.</para>
+  <para style="q2" vid="HOS 12:6">Gardez <char style="w" strong="H3068">la</char> bonté <char style="w" strong="H3068">et</char> <char style="w" strong="H3068">la</char> justice,</para>
+  <para style="q2" vid="HOS 12:6">
+    <char style="w" strong="H3068">et</char> attendez sans cesse votre <char style="w" strong="H3068">Dieu</char>.<verse eid="HOS 12:6" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 12:7" />
+    <char style="w" strong="H7725">Un</char> marchand <char style="w" strong="H7725">a</char> dans <char style="w" strong="H7725">sa</char> main <char style="w" strong="H8104">des</char> balances malhonnêtes.</para>
+  <para style="q2" vid="HOS 12:7">
+    <char style="w" strong="H7725">Il</char> aime frauder.<verse eid="HOS 12:7" /></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 12:8" />Ephraïm dit  : « <char style="w" strong="H3027">Certes</char>, <char style="w" strong="H3027">je</char> <char style="w" strong="H3027">me</char> suis enrichi.</para>
+  <para style="q2" vid="HOS 12:8">
+    <char style="w" strong="H3027">Je</char> <char style="w" strong="H3027">me</char> suis trouvé <char style="w" strong="H3027">de</char> <char style="w" strong="H3027">la</char> richesse.</para>
+  <para style="q2" vid="HOS 12:8">Dans toute ma richesse, <char style="w" strong="H3976">ils</char> <char style="w" strong="H3027">ne</char> trouveront <char style="w" strong="H3027">en</char> <char style="w" strong="H3027">moi</char> aucune iniquité <char style="w" strong="H3027">qui</char> soit <char style="w" strong="H3027">un</char> péché. »<verse eid="HOS 12:8" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 12:9" />« Mais moi, je suis Yahvé, <char style="w" strong="H4672">ton</char> Dieu, depuis <char style="w" strong="H4672">le</char> pays d'Égypte.</para>
+  <para style="q2" vid="HOS 12:9">Je vous ferai <char style="w" strong="H4672">à</char> nouveau habiter <char style="w" strong="H4672">dans</char> <char style="w" strong="H5771">des</char> tentes,</para>
+  <para style="q2" vid="HOS 12:9">comme <char style="w" strong="H3808">aux</char> jours <char style="w" strong="H5771">de</char> <char style="w" strong="H4672">la</char> fête solennelle.<verse eid="HOS 12:9" /></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="HOS 12:10" />
+    <char style="w" strong="H3117">J'ai</char> <char style="w" strong="H3117">aussi</char> parlé <char style="w" strong="H3117">aux</char> prophètes,</para>
+  <para style="q2" vid="HOS 12:10">
+    <char style="w" strong="H3117">et</char> <char style="w" strong="H3117">j'ai</char> multiplié <char style="w" strong="H3068">les</char> visions  ;</para>
+  <para style="q2" vid="HOS 12:10">
+    <char style="w" strong="H3117">et</char> <char style="w" strong="H3117">par</char> <char style="w" strong="H3068">le</char> ministère <char style="w" strong="H3068">des</char> prophètes, <char style="w" strong="H3117">j'ai</char> utilisé <char style="w" strong="H3068">des</char> paraboles.<verse eid="HOS 12:10" /></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="HOS 12:11" />Si Galaad <char style="w" strong="H3027">est</char> méchant,</para>
+  <para style="q2" vid="HOS 12:11">ils <char style="w" strong="H3027">sont</char> sûrement <char style="w" strong="H7235">sans</char> valeur.</para>
+  <para style="q1" vid="HOS 12:11">
+    <char style="w" strong="H1696">A</char> Gilgal, on sacrifie <char style="w" strong="H3027">des</char> taureaux.</para>
+  <para style="q2" vid="HOS 12:11">
+    <char style="w" strong="H1696">En</char> <char style="w" strong="H3027">effet</char>, <char style="w" strong="H3027">leurs</char> autels <char style="w" strong="H3027">sont</char> <char style="w" strong="H1696">comme</char> <char style="w" strong="H3027">des</char> tas <char style="w" strong="H5921">dans</char> <char style="w" strong="H3027">les</char> sillons <char style="w" strong="H3027">du</char> champ.<verse eid="HOS 12:11" /></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="HOS 12:12" />Jacob s'enfuit <char style="w" strong="H5921">dans</char> <char style="w" strong="H2076">le</char> <char style="w" strong="H7704">pays</char> d'Aram.</para>
+  <para style="q2" vid="HOS 12:12">Israël <char style="w" strong="H1961">a</char> servi <char style="w" strong="H7794">pour</char> avoir <char style="w" strong="H4196">une</char> femme.</para>
+  <para style="q2" vid="HOS 12:12">
+    <char style="w" strong="H4196">Comme</char> épouse, <char style="w" strong="H1571">il</char> s'occupait <char style="w" strong="H7704">de</char> troupeaux.<verse eid="HOS 12:12" /></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="HOS 12:13" />C'est par <char style="w" strong="H3478">un</char> prophète <char style="w" strong="H7704">que</char> Yahvé <char style="w" strong="H3478">a</char> <char style="w" strong="H8104">fait</char> <char style="w" strong="H8104">monter</char> <char style="w" strong="H3478">Israël</char> hors d'Égypte,</para>
+  <para style="q2" vid="HOS 12:13">
+    <char style="w" strong="H3478">et</char> par <char style="w" strong="H3478">un</char> prophète, <char style="w" strong="H3290">il</char> <char style="w" strong="H3478">a</char> été <char style="w" strong="H8104">préservé</char>.<verse eid="HOS 12:13" /></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="HOS 12:14" />Ephraïma provoqué <char style="w" strong="H8104">la</char> colère <char style="w" strong="H5927">avec</char> amertume.</para>
+  <para style="q2" vid="HOS 12:14">
+    <char style="w" strong="H8104">Son</char> sang restera donc <char style="w" strong="H3068">sur</char> <char style="w" strong="H3068">lui</char>,</para>
+  <para style="q2" vid="HOS 12:14">
+    <char style="w" strong="H3478">et</char> <char style="w" strong="H8104">son</char> Seigneur<note caller="+" style="f"><char style="fr" closed="false">12.14 </char><char style="ft" closed="false">Le mot traduit « Seigneur » est « Adonaï ».</char></note> <char style="w" strong="H3068">lui</char> rendra <char style="w" strong="H8104">son</char> mépris.<verse eid="HOS 12:14" /></para>
+  <chapter eid="HOS 12" />
+  <chapter number="13" style="c" sid="HOS 13" />
+  <para style="p">
+    <verse number="1" style="v" sid="HOS 13:1" />Quand Ephraïm <char style="w" strong="H1696">a</char> <char style="w" strong="H1696">parlé</char>, <char style="w" strong="H1931">il</char> <char style="w" strong="H3478">y</char> <char style="w" strong="H1696">a</char> eu <char style="w" strong="H5375">des</char> tremblements.</para>
+  <para style="q2" vid="HOS 13:1">
+    <char style="w" strong="H1931">Il</char> <char style="w" strong="H3478">s'est</char> exalté <char style="w" strong="H3478">en</char> <char style="w" strong="H3478">Israël</char>,</para>
+  <para style="q2" vid="HOS 13:1">mais quand <char style="w" strong="H1931">il</char> <char style="w" strong="H3478">s'est</char> rendu <char style="w" strong="H5375">coupable</char> <char style="w" strong="H1696">par</char> <char style="w" strong="H1168">Baal</char>, <char style="w" strong="H1931">il</char> <char style="w" strong="H1931">est</char> <char style="w" strong="H4191">mort</char>.<verse eid="HOS 13:1" /></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 13:2" />
+    <char style="w" strong="H6258">Maintenant</char>, <char style="w" strong="H1992">ils</char> <char style="w" strong="H2398">pèchent</char> <char style="w" strong="H6213">de</char> <char style="w" strong="H3254">plus</char> <char style="w" strong="H6213">en</char> <char style="w" strong="H3254">plus</char>,</para>
+  <para style="q2" vid="HOS 13:2">
+    <char style="w" strong="H3701">et</char> <char style="w" strong="H8394">se</char> <char style="w" strong="H4639">sont</char> <char style="w" strong="H6213">fait</char> <char style="w" strong="H6213">des</char> <char style="w" strong="H6091">images</char> <char style="w" strong="H6213">en</char> <char style="w" strong="H4541">fonte</char> <char style="w" strong="H6213">de</char> <char style="w" strong="H2398">leur</char> <char style="w" strong="H3701">argent</char>,</para>
+  <para style="q2" vid="HOS 13:2">
+    <char style="w" strong="H6213">même</char> <char style="w" strong="H6213">des</char> <char style="w" strong="H6091">idoles</char> selon <char style="w" strong="H2398">leur</char> propre compréhension,</para>
+  <para style="q2" vid="HOS 13:2">
+    <char style="w" strong="H3605">tous</char> <char style="w" strong="H4639">sont</char> <char style="w" strong="H6213">le</char> <char style="w" strong="H4639">fruit</char> <char style="w" strong="H6213">du</char> <char style="w" strong="H4639">travail</char> <char style="w" strong="H6213">des</char> <char style="w" strong="H2796">artisans</char>.</para>
+  <para style="q2" vid="HOS 13:2">On dit d'eux  : « <char style="w" strong="H1992">Ils</char> <char style="w" strong="H2076">offrent</char> <char style="w" strong="H6213">des</char> <char style="w" strong="H2076">sacrifices</char> humains <char style="w" strong="H3701">et</char> <char style="w" strong="H5401">embrassent</char> <char style="w" strong="H6213">les</char> <char style="w" strong="H5695">veaux</char>.<verse eid="HOS 13:2" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="HOS 13:3" />C'est <char style="w" strong="H3651">pourquoi</char> <char style="w" strong="H1961">ils</char> seront <char style="w" strong="H1980">comme</char> <char style="w" strong="H1980">la</char> brume <char style="w" strong="H6051">du</char> <char style="w" strong="H1242">matin</char>,</para>
+  <para style="q2" vid="HOS 13:3">
+    <char style="w" strong="H1980">comme</char> <char style="w" strong="H1980">la</char> <char style="w" strong="H2919">rosée</char> <char style="w" strong="H2919">qui</char> disparaît tôt,</para>
+  <para style="q2" vid="HOS 13:3">
+    <char style="w" strong="H1980">comme</char> l'ivraie qu'un tourbillon chasse <char style="w" strong="H1980">de</char> l'aire <char style="w" strong="H1980">de</char> battage,</para>
+  <para style="q2" vid="HOS 13:3">
+    <char style="w" strong="H1242">et</char> <char style="w" strong="H1980">comme</char> <char style="w" strong="H1980">la</char> <char style="w" strong="H6227">fumée</char> <char style="w" strong="H2919">qui</char> sort <char style="w" strong="H1980">de</char> <char style="w" strong="H1980">la</char> cheminée.<verse eid="HOS 13:3" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="4" style="v" sid="HOS 13:4" />« Pourtant, je suis Yahvé, <char style="w" strong="H3045">ton</char> <char style="w" strong="H3068">Dieu</char>, <char style="w" strong="H3068">depuis</char> <char style="w" strong="H3045">le</char> pays d'Égypte  ;</para>
+  <para style="q2" vid="HOS 13:4">
+    <char style="w" strong="H3068">et</char> <char style="w" strong="H3068">vous</char> <char style="w" strong="H3068">ne</char> <char style="w" strong="H3045">reconnaîtrez</char> <char style="w" strong="H3808">aucun</char> <char style="w" strong="H2108">autre</char> <char style="w" strong="H3068">dieu</char> <char style="w" strong="H3045">que</char> <char style="w" strong="H2108">moi</char>,</para>
+  <para style="q2" vid="HOS 13:4">
+    <char style="w" strong="H3068">et</char> <char style="w" strong="H3068">à</char> part <char style="w" strong="H2108">moi</char>, <char style="w" strong="H3068">il</char> n'y <char style="w" strong="H3068">a</char> <char style="w" strong="H3808">pas</char> <char style="w" strong="H1115">de</char> <char style="w" strong="H3467">sauveur</char>.<verse eid="HOS 13:4" /></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="HOS 13:5" />Je t'ai <char style="w" strong="H3045">connu</char> dans <char style="w" strong="H3045">le</char> <char style="w" strong="H4057">désert</char>,</para>
+  <para style="q2" vid="HOS 13:5">dans <char style="w" strong="H3045">le</char> pays <char style="w" strong="H4057">de</char> <char style="w" strong="H3045">la</char> grande sécheresse.<verse eid="HOS 13:5" /></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 13:6" />Ils ont été <char style="w" strong="H7646">rassasiés</char> <char style="w" strong="H5921">selon</char> leurs <char style="w" strong="H4830">pâturages</char>  ;</para>
+  <para style="q2" vid="HOS 13:6">ils ont été <char style="w" strong="H7646">rassasiés</char>, <char style="w" strong="H5921">et</char> <char style="w" strong="H7911">leur</char> <char style="w" strong="H3820">cœur</char> <char style="w" strong="H3820">a</char> été <char style="w" strong="H7311">exalté</char>.</para>
+  <para style="q2" vid="HOS 13:6">C'est <char style="w" strong="H3651">pourquoi</char> ils m'ont <char style="w" strong="H7911">oublié</char>.<verse eid="HOS 13:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 13:7" />C'est pourquoi je <char style="w" strong="H1961">suis</char> <char style="w" strong="H1870">pour</char> eux <char style="w" strong="H3644">comme</char> <char style="w" strong="H1870">un</char> <char style="w" strong="H7826">lion</char>.</para>
+  <para style="q2" vid="HOS 13:7">
+    <char style="w" strong="H3644">Comme</char> <char style="w" strong="H1870">un</char> <char style="w" strong="H5246">léopard</char>, je vais me cacher <char style="w" strong="H5921">sur</char> <char style="w" strong="H1961">le</char> <char style="w" strong="H1870">chemin</char>.<verse eid="HOS 13:7" /></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 13:8" />Je <char style="w" strong="H3820">les</char> rencontrerai comme <char style="w" strong="H7704">une</char> <char style="w" strong="H1677">ourse</char> <char style="w" strong="H7704">qui</char> <char style="w" strong="H3820">se</char> languit <char style="w" strong="H7704">de</char> <char style="w" strong="H7167">ses</char> petits,</para>
+  <para style="q2" vid="HOS 13:8">
+    <char style="w" strong="H2416">et</char> déchirera <char style="w" strong="H1234">la</char> couverture <char style="w" strong="H7704">de</char> leur <char style="w" strong="H3820">cœur</char>.</para>
+  <para style="q2" vid="HOS 13:8">
+    <char style="w" strong="H1234">Là</char>, je <char style="w" strong="H3820">les</char> dévorerai comme <char style="w" strong="H7704">une</char> <char style="w" strong="H3833">lionne</char>.</para>
+  <para style="q2" vid="HOS 13:8">L'animal <char style="w" strong="H7704">sauvage</char> va <char style="w" strong="H3820">les</char> <char style="w" strong="H7167">déchirer</char>.<verse eid="HOS 13:8" /></para>
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 13:9" />
+    <char style="w" strong="H3588">Tu</char> es <char style="w" strong="H7843">détruit</char>, <char style="w" strong="H3478">Israël</char>, parce <char style="w" strong="H3588">que</char> <char style="w" strong="H3588">tu</char> es contre moi,</para>
+  <para style="q2" vid="HOS 13:9">contre votre <char style="w" strong="H5828">aide</char>.<verse eid="HOS 13:9" /></para>
+  <para style="q1">
+    <verse number="10" style="v" sid="HOS 13:10" />
+    <char style="w" strong="H5892">Où</char> <char style="w" strong="H4428">est</char> maintenant <char style="w" strong="H5414">ton</char> <char style="w" strong="H4428">roi</char>, <char style="w" strong="H5414">pour</char> <char style="w" strong="H5892">qu'il</char> te <char style="w" strong="H3467">sauve</char> <char style="w" strong="H5414">dans</char> <char style="w" strong="H5414">toutes</char> <char style="w" strong="H5414">tes</char> <char style="w" strong="H5892">villes</char>  ?</para>
+  <para style="q2" vid="HOS 13:10">
+    <char style="w" strong="H4428">Et</char> <char style="w" strong="H5414">vos</char> <char style="w" strong="H8199">juges</char>, dont <char style="w" strong="H5892">vous</char> avez <char style="w" strong="H5414">dit</char>  : « Donnez-moi <char style="w" strong="H5414">un</char> <char style="w" strong="H4428">roi</char> <char style="w" strong="H4428">et</char> <char style="w" strong="H8269">des</char> <char style="w" strong="H8269">princes</char> »  ?<verse eid="HOS 13:10" /></para>
+  <para style="q1">
+    <verse number="11" style="v" sid="HOS 13:11" />
+    <char style="w" strong="H5414">Je</char> vous ai <char style="w" strong="H5414">donné</char> <char style="w" strong="H5414">un</char> <char style="w" strong="H4428">roi</char> <char style="w" strong="H5414">dans</char> <char style="w" strong="H5414">ma</char> <char style="w" strong="H5678">colère</char>,</para>
+  <para style="q2" vid="HOS 13:11">
+    <char style="w" strong="H4428">et</char> <char style="w" strong="H5414">je</char> l'ai <char style="w" strong="H3947">emmené</char> <char style="w" strong="H5414">dans</char> <char style="w" strong="H5414">ma</char> <char style="w" strong="H5678">colère</char>.<verse eid="HOS 13:11" /></para>
+  <para style="q1">
+    <verse number="12" style="v" sid="HOS 13:12" />
+    <char style="w" strong="H6845">La</char> <char style="w" strong="H2403">culpabilité</char> d'Ephraïm <char style="w" strong="H6887">a</char> été mise <char style="w" strong="H6887">en</char> <char style="w" strong="H6845">réserve</char>.</para>
+  <para style="q2" vid="HOS 13:12">Son <char style="w" strong="H2403">péché</char> <char style="w" strong="H2403">est</char> stocké.<verse eid="HOS 13:12" /></para>
+  <para style="q1">
+    <verse number="13" style="v" sid="HOS 13:13" />
+    <char style="w" strong="H5975">Les</char> <char style="w" strong="H2256">douleurs</char> <char style="w" strong="H1121">d'une</char> <char style="w" strong="H3205">femme</char> <char style="w" strong="H5975">en</char> <char style="w" strong="H3205">travail</char> l'atteindront.</para>
+  <para style="q2" vid="HOS 13:13">C'est <char style="w" strong="H1121">un</char> <char style="w" strong="H1121">fils</char> imprudent,</para>
+  <para style="q2" vid="HOS 13:13">
+    <char style="w" strong="H3588">car</char> <char style="w" strong="H6256">quand</char> <char style="w" strong="H5975">le</char> <char style="w" strong="H6256">moment</char> <char style="w" strong="H1931">est</char> venu, <char style="w" strong="H1931">il</char> <char style="w" strong="H3205">ne</char> vient <char style="w" strong="H3808">pas</char> <char style="w" strong="H3205">à</char> l'ouverture <char style="w" strong="H1121">des</char> entrailles.<verse eid="HOS 13:13" /></para>
+  <para style="q1">
+    <verse number="14" style="v" sid="HOS 13:14" />
+    <char style="w" strong="H3027">Je</char> <char style="w" strong="H3027">les</char> <char style="w" strong="H1350">rachèterai</char> <char style="w" strong="H3027">de</char> <char style="w" strong="H3027">la</char> <char style="w" strong="H3027">puissance</char> <char style="w" strong="H3027">du</char> séjour <char style="w" strong="H3027">des</char> <char style="w" strong="H7585">morts</char>. <note caller="+" style="f"><char style="fr" closed="false">13.14 </char><char style="ft" closed="false">Sheol est le lieu des morts.</char></note></para>
+  <para style="q2" vid="HOS 13:14">
+    <char style="w" strong="H3027">Je</char> <char style="w" strong="H3027">les</char> <char style="w" strong="H1350">rachèterai</char> <char style="w" strong="H3027">de</char> <char style="w" strong="H3027">la</char> <char style="w" strong="H4194">mort</char>  !</para>
+  <para style="q2" vid="HOS 13:14">
+    <char style="w" strong="H4194">Mort</char>, <char style="w" strong="H5869">où</char> <char style="w" strong="H3027">sont</char> <char style="w" strong="H3027">tes</char> fléaux  ?</para>
+  <para style="q2" vid="HOS 13:14">Sheol, <char style="w" strong="H5869">où</char> <char style="w" strong="H5869">est</char> <char style="w" strong="H5641">ta</char> <char style="w" strong="H6987">destruction</char>  ?</para>
+  <para style="b" vid="HOS 13:14" />
+  <para style="q1" vid="HOS 13:14">« <char style="w" strong="H3027">La</char> compassion <char style="w" strong="H4194">sera</char> <char style="w" strong="H5641">cachée</char> <char style="w" strong="H5869">à</char> <char style="w" strong="H3027">mes</char> <char style="w" strong="H5869">yeux</char>.<verse eid="HOS 13:14" /></para>
+  <para style="q2">
+    <verse number="15" style="v" sid="HOS 13:15" />
+    <char style="w" strong="H7307">Bien</char> <char style="w" strong="H3627">qu'il</char> <char style="w" strong="H3068">soit</char> fécond parmi <char style="w" strong="H5927">ses</char> frères, <char style="w" strong="H3068">un</char> <char style="w" strong="H7307">vent</char> d'est <char style="w" strong="H5927">viendra</char>,</para>
+  <para style="q2" vid="HOS 13:15">
+    <char style="w" strong="H3068">le</char> <char style="w" strong="H7307">souffle</char> <char style="w" strong="H3627">de</char> Yahvé <char style="w" strong="H3068">qui</char> <char style="w" strong="H5927">monte</char> <char style="w" strong="H5927">du</char> <char style="w" strong="H4057">désert</char>  ;</para>
+  <para style="q2" vid="HOS 13:15">
+    <char style="w" strong="H5927">et</char> <char style="w" strong="H3068">sa</char> <char style="w" strong="H4726">source</char> deviendra <char style="w" strong="H2717">sèche</char>,</para>
+  <para style="q2" vid="HOS 13:15">
+    <char style="w" strong="H5927">et</char> <char style="w" strong="H3068">sa</char> <char style="w" strong="H4599">fontaine</char> <char style="w" strong="H3068">sera</char> tarie.</para>
+  <para style="q2" vid="HOS 13:15">
+    <char style="w" strong="H3068">Il</char> <char style="w" strong="H8154">pillera</char> l'entrepôt <char style="w" strong="H5927">du</char> trésor.<verse eid="HOS 13:15" /></para>
+  <para style="q1">
+    <verse number="16" style="v" sid="HOS 13:16" />La Samarie portera sa culpabilité,</para>
+  <para style="q2" vid="HOS 13:16">car elle s'est rebellée contre son Dieu.</para>
+  <para style="q2" vid="HOS 13:16">Ils tomberont par l'épée.</para>
+  <para style="q2" vid="HOS 13:16">Leurs enfants seront mis en pièces,</para>
+  <para style="q2" vid="HOS 13:16">et leurs femmes enceintes seront éventrées. »<verse eid="HOS 13:16" /></para>
+  <para style="b" />
+  <chapter eid="HOS 13" />
+  <chapter number="14" style="c" sid="HOS 14" />
+  <para style="q1">
+    <verse number="1" style="v" sid="HOS 14:1" />Israël, reviens <char style="w" strong="H5307">à</char> Yahvé ton Dieu  ;</para>
+  <para style="q2" vid="HOS 14:1">
+    <char style="w" strong="H3588">car</char> vous êtes <char style="w" strong="H5307">tombés</char> <char style="w" strong="H5307">à</char> cause <char style="w" strong="H2719">de</char> <char style="w" strong="H5307">votre</char> péché.<verse eid="HOS 14:1" /></para>
+  <para style="q1">
+    <verse number="2" style="v" sid="HOS 14:2" />Prenez <char style="w" strong="H3068">des</char> paroles <char style="w" strong="H7725">avec</char> <char style="w" strong="H3068">vous</char>, <char style="w" strong="H3478">et</char> <char style="w" strong="H7725">retournez</char> <char style="w" strong="H3068">à</char> l'Éternel.</para>
+  <para style="q2" vid="HOS 14:2">Dites-lui : « Pardonnez tous <char style="w" strong="H7725">nos</char> péchés,</para>
+  <para style="q2" vid="HOS 14:2">
+    <char style="w" strong="H3478">et</char> accepter <char style="w" strong="H3588">ce</char> <char style="w" strong="H3478">qui</char> <char style="w" strong="H3068">est</char> bon  ;</para>
+  <para style="q2" vid="HOS 14:2">ainsi <char style="w" strong="H3068">nous</char> offrons <char style="w" strong="H3068">des</char> taureaux <char style="w" strong="H3068">comme</char> <char style="w" strong="H3068">nous</char> l'avons promis <char style="w" strong="H7725">de</char> <char style="w" strong="H7725">nos</char> lèvres.<verse eid="HOS 14:2" /></para>
+  <para style="q1">
+    <verse number="3" style="v" sid="HOS 14:3" />L'Assyrie <char style="w" strong="H3068">ne</char> peut <char style="w" strong="H7725">pas</char> <char style="w" strong="H3068">nous</char> sauver.</para>
+  <para style="q2" vid="HOS 14:3">
+    <char style="w" strong="H3068">Nous</char> <char style="w" strong="H3068">ne</char> monterons <char style="w" strong="H7725">pas</char> <char style="w" strong="H3068">à</char> cheval  ;</para>
+  <para style="q2" vid="HOS 14:3">
+    <char style="w" strong="H7725">et</char> <char style="w" strong="H3068">nous</char> <char style="w" strong="H3068">ne</char> dirons <char style="w" strong="H7725">plus</char> <char style="w" strong="H3068">à</char> l'oeuvre <char style="w" strong="H1697">de</char> <char style="w" strong="H5375">nos</char> mains  : « <char style="w" strong="H5375">Nos</char> dieux ».</para>
+  <para style="q2" vid="HOS 14:3">car <char style="w" strong="H7725">en</char> <char style="w" strong="H3068">toi</char> l'orphelin trouve <char style="w" strong="H3947">la</char> miséricorde. »<verse eid="HOS 14:3" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="4" style="v" sid="HOS 14:4" />« <char style="w" strong="H3027">Je</char> guérirai <char style="w" strong="H3027">leur</char> égarement.</para>
+  <para style="q2" vid="HOS 14:4">
+    <char style="w" strong="H3027">Je</char> <char style="w" strong="H3027">les</char> aimerai librement  ;</para>
+  <para style="q2" vid="HOS 14:4">car <char style="w" strong="H3467">ma</char> colère <char style="w" strong="H3027">s'est</char> détournée <char style="w" strong="H3027">d'eux</char>.<verse eid="HOS 14:4" /></para>
+  <para style="q1">
+    <verse number="5" style="v" sid="HOS 14:5" />
+    <char style="w" strong="H7725">Je</char> serai comme <char style="w" strong="H7725">la</char> rosée <char style="w" strong="H7725">pour</char> Israël.</para>
+  <para style="q2" vid="HOS 14:5">
+    <char style="w" strong="H7725">Il</char> s'épanouira comme <char style="w" strong="H7725">le</char> lys,</para>
+  <para style="q2" vid="HOS 14:5">
+    <char style="w" strong="H7725">et</char> envoyer <char style="w" strong="H7495">ses</char> racines comme <char style="w" strong="H7725">le</char> Liban.<verse eid="HOS 14:5" /></para>
+  <para style="q1">
+    <verse number="6" style="v" sid="HOS 14:6" />
+    <char style="w" strong="H5221">Ses</char> branches s'étendront,</para>
+  <para style="q2" vid="HOS 14:6">
+    <char style="w" strong="H3478">et</char> <char style="w" strong="H1961">sa</char> beauté <char style="w" strong="H1961">sera</char> <char style="w" strong="H1961">comme</char> l'olivier,</para>
+  <para style="q2" vid="HOS 14:6">
+    <char style="w" strong="H3478">et</char> <char style="w" strong="H5221">son</char> parfum <char style="w" strong="H1961">comme</char> <char style="w" strong="H5221">le</char> <char style="w" strong="H3844">Liban</char>.<verse eid="HOS 14:6" /></para>
+  <para style="q1">
+    <verse number="7" style="v" sid="HOS 14:7" />
+    <char style="w" strong="H3212">Les</char> hommes habiteront <char style="w" strong="H3212">à</char> <char style="w" strong="H3212">son</char> ombre.</para>
+  <para style="q2" vid="HOS 14:7">
+    <char style="w" strong="H1961">Ils</char> reviendront <char style="w" strong="H3212">à</char> <char style="w" strong="H3212">la</char> vie <char style="w" strong="H1961">comme</char> <char style="w" strong="H3212">le</char> grain,</para>
+  <para style="q2" vid="HOS 14:7">
+    <char style="w" strong="H3212">et</char> s'épanouir <char style="w" strong="H1961">comme</char> <char style="w" strong="H3212">la</char> vigne.</para>
+  <para style="q2" vid="HOS 14:7">
+    <char style="w" strong="H1961">Leur</char> <char style="w" strong="H7381">parfum</char> <char style="w" strong="H1961">sera</char> <char style="w" strong="H1961">comme</char> <char style="w" strong="H3212">le</char> vin <char style="w" strong="H3212">du</char> <char style="w" strong="H3844">Liban</char>.<verse eid="HOS 14:7" /></para>
+  <para style="q1">
+    <verse number="8" style="v" sid="HOS 14:8" />Ephraïm, qu'ai-je <char style="w" strong="H7725">encore</char> <char style="w" strong="H3427">à</char> faire <char style="w" strong="H3427">avec</char> <char style="w" strong="H7725">les</char> idoles  ?</para>
+  <para style="q2" vid="HOS 14:8">
+    <char style="w" strong="H7725">Je</char> <char style="w" strong="H7725">réponds</char>, <char style="w" strong="H7725">et</char> <char style="w" strong="H7725">je</char> m'occuperai <char style="w" strong="H3427">de</char> lui.</para>
+  <para style="q2" vid="HOS 14:8">
+    <char style="w" strong="H7725">Je</char> suis <char style="w" strong="H3427">comme</char> <char style="w" strong="H7725">un</char> cyprès vert  ;</para>
+  <para style="q2" vid="HOS 14:8">c'est auprès <char style="w" strong="H3427">de</char> moi que vous trouverez <char style="w" strong="H7725">votre</char> fruit. »<verse eid="HOS 14:8" /></para>
+  <para style="b" />
+  <para style="q1">
+    <verse number="9" style="v" sid="HOS 14:9" />Qui <char style="w" strong="H6529">est</char> sage, pour comprendre ces choses  ?</para>
+  <para style="q2" vid="HOS 14:9">Qui <char style="w" strong="H6529">est</char> prudent, pour <char style="w" strong="H4672">les</char> connaître  ?</para>
+  <para style="q2" vid="HOS 14:9">
+    <char style="w" strong="H4100">Car</char> <char style="w" strong="H4672">les</char> voies <char style="w" strong="H4480">de</char> Yahvé <char style="w" strong="H6091">sont</char> justes,</para>
+  <para style="q2" vid="HOS 14:9">
+    <char style="w" strong="H6030">et</char> <char style="w" strong="H4672">les</char> justes y marchent,</para>
+  <para style="q2" vid="HOS 14:9">mais <char style="w" strong="H4672">les</char> rebelles y trébuchent.<verse eid="HOS 14:9" /></para>
+  <chapter eid="HOS 14" />
+</usx>

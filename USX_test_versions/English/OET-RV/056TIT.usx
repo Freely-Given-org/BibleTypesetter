@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<usx version="3.0">
+  <book code="TIT" style="id">- Open English Translation—Readers' Version (OET-RV) v0.0.01</book>
+  <para style="usfm">3.0</para>
+  <para style="ide">UTF-8</para>
+  <para style="rem">ESFM v0.5 TIT</para>
+  <para style="h">Titus</para>
+  <para style="toc1">Titus</para>
+  <para style="toc2">Titus</para>
+  <para style="toc3">Tit.</para>
+  <para style="mt1">Titus</para>
+  <para style="is1">Introduction</para>
+  <para style="is2">The author</para>
+  <para style="ip">Paul</para>
+  <para style="is2">The recipient</para>
+  <para style="ip">Titus wasn't a Jew and didn't originally believe in God. However, in later times he became a believer and from there, he became a helper in Paul's work. This letter was sent by Paul there to Titus in Crete where he had been left to look after a group of believers. (Crete is an island that was a part of Greece.)</para>
+  <para style="is2">This letter</para>
+  <para style="ip">There are three main things contained in this letter: Firstly Titus is reminded about what is appropriate behaviour for teachers of believers. It was important that he understand this because those from Crete had many undesirable customs and there were many teachers of false doctrines that would confuse believers.</para>
+  <para style="ip">Secondly Titus was advised Titus how to teach the various groups of believers there, including young men and slaves, along with older men and women. (Then those older women were to teach the younger women.)</para>
+  <para style="ip">Finally Paul advised Titus about how believers should live, including avoiding attacking others, arguing, and splitting the believers into opposing groups. Paul reminded Titus again to follow the teachings of Jesus the messiah and obey what he commanded us.</para>
+  <para style="ip">Paul wanted it to be known that it's very important for believers to behave well (1:6; 2:7,14; 3:1,8-9,14) even though doing good things can't earn their salvation (3:5).</para>
+  <para style="iot">Main components of Paul's letter</para>
+  <para style="io1">Introduction <char style="ior">1:1-4</char></para>
+  <para style="io1">The correct behaviour of officials there to group of believers <char style="ior">1:5-16</char></para>
+  <para style="io1">The correct behaviour of various people there to group of believers <char style="ior">2:1-15</char></para>
+  <para style="io1">Defining good behaviour and the warning <char style="ior">3:1-11</char></para>
+  <para style="io1">Ending <char style="ior">3:12-15</char></para>
+  <para style="ie" />
+  <para style="rem">This is still a very early look into the unfinished text of the <char style="em">Open English Translation</char> of the Bible. Please double-check the text in advance before using in public.</para>
+  <chapter number="1" style="c" sid="TIT 1" />
+  <para style="p">
+    <verse number="1" style="v" sid="TIT 1:1" />
+    <char style="add">This letter is from</char> Paul, a slave of God and a missionary of Jesus the messiah and follower of the faith of the ones that God has chosen.</para>
+  <para style="p" vid="TIT 1:1">I share the knowledge of the truth which leads to godliness <verse eid="TIT 1:1" /><verse number="2" style="v" sid="TIT 1:2" />and the expectation of living forever which God promised before time began. And God can't lie <verse eid="TIT 1:2" /><verse number="3" style="v" sid="TIT 1:3" />but revealed his message in his own time, and I've been entrusted to proclaim this by the command of God our saviour.<verse eid="TIT 1:3" /></para>
+  <para style="p">
+    <verse number="4" style="v" sid="TIT 1:4" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">1:4: </char>
+      <char style="xt" closed="false">2Cor 8:23; Gal 2:3; 2Tim 4:10.</char>
+    </note>To Titus, my true son due to our common faith. May God the father and our saviour Jesus the messiah give you grace and peace.<verse eid="TIT 1:4" /></para>
+  <para style="s1">Qualifications for leaders</para>
+  <para style="p">
+    <verse number="5" style="v" sid="TIT 1:5" />The reason that I asked you to stay behind in Crete was so that you would find what needed to be reorganised and so that you would appoint elders in every city just as I had directed you. <verse eid="TIT 1:5" /><verse number="6" style="v" sid="TIT 1:6" /><note caller="+" style="x"><char style="xo" closed="false">1:6-9: </char><char style="xt" closed="false">1Tim 3:2-7.</char></note>Each elder must have a clean record, be the husband of one wife, and have believing children who are not wild or disobedient. <verse eid="TIT 1:6" /><verse number="7" style="v" sid="TIT 1:7" />Any overseer <char style="add">in the assembly</char> as a manager working for God must have a clean record, not be self-centred, not be quick to get angry, not addicted to wine, not a bully, and not greedy, <verse eid="TIT 1:7" /><verse number="8" style="v" sid="TIT 1:8" />but rather hospitable, someone who loves what is good, sensible, honest, loves God, and self-controlled. <verse eid="TIT 1:8" /><verse number="9" style="v" sid="TIT 1:9" />He must hold faithfully to the message that was taught, so that he will be effective in encouraging others with sound teaching and to be rebuking those who speak against the message.<verse eid="TIT 1:9" /></para>
+  <para style="s1">Handling those who go off the track</para>
+  <para style="p">
+    <verse number="10" style="v" sid="TIT 1:10" />There's plenty of people who don't want to be told what to do, empty talkers and outright deceivers, especially those that push the letter of the law. <verse eid="TIT 1:10" /><verse number="11" style="v" sid="TIT 1:11" />These people need to be silenced because they mess up whole families when they teach them things that they shouldn't—all for the sake of shameful game. <verse eid="TIT 1:11" /><verse number="12" style="v" sid="TIT 1:12" />One of their own prophets said that the people from Crete are liars, evil beasts, and lazy gluttons, <verse eid="TIT 1:12" /><verse number="13" style="v" sid="TIT 1:13" />and that's right. For those reasons, you need to sternly tell them they're wrong, so that they can become sound in their faith, <verse eid="TIT 1:13" /><verse number="14" style="v" sid="TIT 1:14" />and not pay attention to Jewish myths or human rules which turn people away from the truth. <verse eid="TIT 1:14" /><verse number="15" style="v" sid="TIT 1:15" />For someone who's pure in their thinking, everything is pure to them, but for unbelievers and those who've strayed from the truth, nothing is pure because their minds and consciences have already been damaged— <verse eid="TIT 1:15" /><verse number="16" style="v" sid="TIT 1:16" />they say that they know God, but their actions show that they don't, and so they're detestable. They can no longer accept teaching so they're unsuitable for any good work.<verse eid="TIT 1:16" /></para>
+  <chapter eid="TIT 1" />
+  <chapter number="2" style="c" sid="TIT 2" />
+  <para style="s1">Proper behaviour for believers</para>
+  <para style="p">
+    <verse number="1" style="v" sid="TIT 2:1" />But you, <char style="add">Titus</char> speak only what comes from sound teaching. <verse eid="TIT 2:1" /><verse number="2" style="v" sid="TIT 2:2" />Older men need to be sober, dignified, sensible, and sound in their faith, their love, and their endurance. <verse eid="TIT 2:2" /><verse number="3" style="v" sid="TIT 2:3" />Likewise older women need to honour God by their behaviour, not making false accusations, not addicted to a lot of wine. They should teaching what is good <verse eid="TIT 2:3" /><verse number="4" style="v" sid="TIT 2:4" />so that they can train the younger women to love their husbands and children, <verse eid="TIT 2:4" /><verse number="5" style="v" sid="TIT 2:5" />and to be sensible and pure, homemakers that do good for others, living under the authority of their husbands so that others don't speak evil of God's message because of them.<verse eid="TIT 2:5" /></para>
+  <para style="p">
+    <verse number="6" style="v" sid="TIT 2:6" />Also encourage younger men to be sensible. <verse eid="TIT 2:6" /><verse number="7" style="v" sid="TIT 2:7" />Be a good example in everything you do and in your teaching. Don't be led astray, maintain your dignity, <verse eid="TIT 2:7" /><verse number="8" style="v" sid="TIT 2:8" />watch every word that comes out of your lips, stay above reproach—all this so that those who oppose us can be reached because there's nothing bad they can say about us.<verse eid="TIT 2:8" /></para>
+  <para style="p">
+    <verse number="9" style="v" sid="TIT 2:9" />Slaves need to conform to their master's commands, aiming to please. They shouldn't speak against their masters <verse eid="TIT 2:9" /><verse number="10" style="v" sid="TIT 2:10" />or be pilfering from them, rather they should display their good faith so that their actions add to the teachings of God our saviour.<verse eid="TIT 2:10" /></para>
+  <para style="p">
+    <verse number="11" style="v" sid="TIT 2:11" />This is because God's grace which offers salvation to all people has appeared <verse eid="TIT 2:11" /><verse number="12" style="v" sid="TIT 2:12" />and teaches us that when we distance ourselves from ungodliness and worldly lusts, we can live sensibly and justly and devoutly in the present age. <verse eid="TIT 2:12" /><verse number="13" style="v" sid="TIT 2:13" />Then we can look forward to the blessing of the majestic appearance of our great God and saviour, Jesus the messiah <verse eid="TIT 2:13" /><verse number="14" style="v" sid="TIT 2:14" /><note caller="+" style="x"><char style="xo" closed="false">2:14: a </char><char style="xt" closed="false">Psa 130:8; </char><char style="xo" closed="false">b </char><char style="xt" closed="false">Exo 19:5; Deu 4:20; 7:6; 14:2; 1Pe 2:9.</char></note>who gave himself for us in order to redeem us from all lawlessness and to purify us into his chosen people, eager to do good things.<verse eid="TIT 2:14" /></para>
+  <para style="p">
+    <verse number="15" style="v" sid="TIT 2:15" />Teach these things as you encourage some and scold others, but don't let anyone disrepect you.<verse eid="TIT 2:15" /></para>
+  <chapter eid="TIT 2" />
+  <chapter number="3" style="c" sid="TIT 3" />
+  <para style="s1">Expected behaviour</para>
+  <para style="p">
+    <verse number="1" style="v" sid="TIT 3:1" />Remind people to conform to their rulers and authorities, being obedient and ready to do anything that's good. <verse eid="TIT 3:1" /><verse number="2" style="v" sid="TIT 3:2" />Don't slander others, be peaceable. Don't be strong-willed, but rather show gentleness to all people. <verse eid="TIT 3:2" /><verse number="3" style="v" sid="TIT 3:3" />We were also foolish and stubborn at one time, straying from the good and giving in to various lusts and pleasures, being mean and envious, even full of hate and hating one another. <verse eid="TIT 3:3" /><verse number="4" style="v" sid="TIT 3:4" />But when God our saviour revealed his kindness and love for mankind, <verse eid="TIT 3:4" /><verse number="5" style="v" sid="TIT 3:5" />he saved us, not because of the ‘good deeds’ that we did, but out of his mercy. He regenerated us through washing and renewed us by <char style="add">his</char> pure spirit <verse eid="TIT 3:5" /><verse number="6" style="v" sid="TIT 3:6" />which he lavishly poured on us through Jesus the messiah <verse eid="TIT 3:6" /><verse number="7" style="v" sid="TIT 3:7" />so that we might become heirs with the expectation of living forever, having been declared that we have no outstanding legal charges thanks to his grace. <verse eid="TIT 3:7" /><verse number="8" style="v" sid="TIT 3:8" />That statement can be trusted. I want you to confirm those things so that those who have believed in God will be leading in wanting to do good things. These things are good and benefit everyone.<verse eid="TIT 3:8" /></para>
+  <para style="p">
+    <verse number="9" style="v" sid="TIT 3:9" />But avoid foolish debates, arguments about ancestry, other strife, and quarrels about the commandments because they all achieve nothing and waste time. <verse eid="TIT 3:9" /><verse number="10" style="v" sid="TIT 3:10" />Refuse to listen to a divisive person after you've given them two warnings <verse eid="TIT 3:10" /><verse number="11" style="v" sid="TIT 3:11" />knowing that such people condemn themselves by their corruption and sinful attitude.<verse eid="TIT 3:11" /></para>
+  <para style="s1">Closing</para>
+  <para style="p">
+    <verse number="12" style="v" sid="TIT 3:12" />
+    <note caller="+" style="x">
+      <char style="xo" closed="false">3:12: </char>
+      <char style="xt" closed="false">Acts 20:4; Eph 6:21-22; Col 4:7-8; 2Tim 4:12.</char>
+    </note>Whenever I send Artemas or Tychicus to you, you should try to meet me at Nicopolis, because I've decided to spend the winter there. <verse eid="TIT 3:12" /><verse number="13" style="v" sid="TIT 3:13" /><note caller="+" style="x"><char style="xo" closed="false">3:13: </char><char style="xt" closed="false">Acts 18:24; 1Cor 16:12.</char></note>Help by sending Zenas the lawyer and Apollos on their way so that they won't be needing anything. <verse eid="TIT 3:13" /><verse number="14" style="v" sid="TIT 3:14" />Our people must also be learning to be leading in doing good things to meet the necessary needs so that they won't be unproductive.<verse eid="TIT 3:14" /></para>
+  <para style="p">
+    <verse number="15" style="v" sid="TIT 3:15" />Everyone here with me sends their greetings to you. And please greet the ones there for us who love us in the faith.</para>
+  <para style="p" vid="TIT 3:15">May <char style="add">God's</char> grace be with all of you.<verse eid="TIT 3:15" /></para>
+  <chapter eid="TIT 3" />
+</usx>

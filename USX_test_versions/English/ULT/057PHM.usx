@@ -1,0 +1,1163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<usx version="3.0">
+  <book code="PHM" style="id">EN_ULT en_English_ltr Wed Aug 24 2022 09:33:32 GMT-0400 (Eastern Daylight Time) tc</book>
+  <para style="usfm">3.0</para>
+  <para style="ide">UTF-8</para>
+  <para style="h">Philemon</para>
+  <para style="toc1">The Letter of Paul to Philemon</para>
+  <para style="toc2">Philemon</para>
+  <para style="toc3">Phm</para>
+  <para style="mt">Philemon </para>
+  <para style="ts" status="unknown">
+    <unmatched marker="*" /></para>
+  <chapter number="1" style="c" sid="PHM 1" />
+  <para style="p">
+    <verse number="1" style="v" sid="PHM 1:1" />
+    <verse eid="PHM 1:1" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="G39720" x-lemma="Παῦλος" x-morph="Gr,N,,,,,NMS," x-occurrence="1" x-occurrences="1" x-content="Παῦλος"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Paul</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G11980" x-lemma="δέσμιος" x-morph="Gr,N,,,,,NMS," x-occurrence="1" x-occurrences="1" x-content="δέσμιος"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">a</char> <char style="w" x-occurrence="1" x-occurrences="1">prisoner</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G55470" x-lemma="χριστός" x-morph="Gr,N,,,,,GMS," x-occurrence="1" x-occurrences="1" x-content="Χριστοῦ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">of</char> <char style="w" x-occurrence="1" x-occurrences="1">Christ</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G24240" x-lemma="Ἰησοῦς" x-morph="Gr,N,,,,,GMS," x-occurrence="1" x-occurrences="1" x-content="Ἰησοῦ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Jesus</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G25320" x-lemma="καί" x-morph="Gr,CC,,,,,,,," x-occurrence="1" x-occurrences="2" x-content="καὶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">and</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EP,,,,NMS," x-occurrence="1" x-occurrences="1" x-content="ὁ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">our</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G00800" x-lemma="ἀδελφός" x-morph="Gr,N,,,,,NMS," x-occurrence="1" x-occurrences="1" x-content="ἀδελφὸς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">brother</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G50950" x-lemma="Τιμόθεος" x-morph="Gr,N,,,,,NMS," x-occurrence="1" x-occurrences="1" x-content="Τιμόθεος"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Timothy</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G53710" x-lemma="Φιλήμων" x-morph="Gr,N,,,,,DMS," x-occurrence="1" x-occurrences="1" x-content="Φιλήμονι"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">to</char> <char style="w" x-occurrence="1" x-occurrences="1">Philemon</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,DMS," x-occurrence="1" x-occurrences="1" x-content="τῷ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">the</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G00270" x-lemma="ἀγαπητός" x-morph="Gr,AR,,,,DMS," x-occurrence="1" x-occurrences="1" x-content="ἀγαπητῷ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">beloved</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G25320" x-lemma="καί" x-morph="Gr,CC,,,,,,,," x-occurrence="2" x-occurrences="2" x-content="καὶ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">and</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14730" x-lemma="ἐγώ" x-morph="Gr,RP,,,1G,P," x-occurrence="1" x-occurrences="1" x-content="ἡμῶν"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">our</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G49040" x-lemma="συνεργός" x-morph="Gr,NS,,,,DMS," x-occurrence="1" x-occurrences="1" x-content="συνεργῷ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">fellow</char> <char style="w" x-occurrence="1" x-occurrences="1">worker</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, <verse number="2" style="v" sid="PHM 1:2" /><verse eid="PHM 1:2" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G25320" x-lemma="καί" x-morph="Gr,CC,,,,,,,," x-occurrence="1" x-occurrences="3" x-content="καὶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="3">and</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G06820" x-lemma="Ἀπφία" x-morph="Gr,N,,,,,DFS," x-occurrence="1" x-occurrences="1" x-content="Ἀπφίᾳ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="3">to</char> <char style="w" x-occurrence="1" x-occurrences="1">Apphia</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,DFS," x-occurrence="1" x-occurrences="2" x-content="τῇ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">our</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G00790" x-lemma="ἀδελφή" x-morph="Gr,N,,,,,DFS," x-occurrence="1" x-occurrences="1" x-content="ἀδελφῇ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">sister</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G25320" x-lemma="καί" x-morph="Gr,CC,,,,,,,," x-occurrence="2" x-occurrences="3" x-content="καὶ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="3">and</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G07510" x-lemma="Ἄρχιππος" x-morph="Gr,N,,,,,DMS," x-occurrence="1" x-occurrences="1" x-content="Ἀρχίππῳ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="3">to</char> <char style="w" x-occurrence="1" x-occurrences="1">Archippus</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14730" x-lemma="ἐγώ" x-morph="Gr,RP,,,1G,P," x-occurrence="1" x-occurrences="1" x-content="ἡμῶν"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">our</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,DMS," x-occurrence="1" x-occurrences="1" x-content="τῷ"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G49610" x-lemma="συνστρατιώτης" x-morph="Gr,N,,,,,DMS," x-occurrence="1" x-occurrences="1" x-content="συνστρατιώτῃ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">fellow</char> <char style="w" x-occurrence="1" x-occurrences="1">soldier</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G25320" x-lemma="καί" x-morph="Gr,CC,,,,,,,," x-occurrence="3" x-occurrences="3" x-content="καὶ"<unmatched marker="*" /><char style="w" x-occurrence="3" x-occurrences="3">and</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,DFS," x-occurrence="2" x-occurrences="2" x-content="τῇ"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G15770" x-lemma="ἐκκλησία" x-morph="Gr,N,,,,,DFS," x-occurrence="1" x-occurrences="1" x-content="ἐκκλησίᾳ"<unmatched marker="*" /><char style="w" x-occurrence="3" x-occurrences="3">to</char> <char style="w" x-occurrence="1" x-occurrences="1">the</char> <char style="w" x-occurrence="1" x-occurrences="1">church</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G25960" x-lemma="κατά" x-morph="Gr,P,,,,,A,,," x-occurrence="1" x-occurrences="1" x-content="κατ’"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">in</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2G,S," x-occurrence="1" x-occurrences="1" x-content="σου"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">your</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G36240" x-lemma="οἶκος" x-morph="Gr,N,,,,,AMS," x-occurrence="1" x-occurrences="1" x-content="οἶκόν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">house</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. <verse number="3" style="v" sid="PHM 1:3" /><verse eid="PHM 1:3" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G54850" x-lemma="χάρις" x-morph="Gr,N,,,,,NFS," x-occurrence="1" x-occurrences="1" x-content="χάρις"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Grace</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2D,P," x-occurrence="1" x-occurrences="1" x-content="ὑμῖν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">to</char> <char style="w" x-occurrence="1" x-occurrences="1">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G25320" x-lemma="καί" x-morph="Gr,CC,,,,,,,," x-occurrence="1" x-occurrences="2" x-content="καὶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">and</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G15150" x-lemma="εἰρήνη" x-morph="Gr,N,,,,,NFS," x-occurrence="1" x-occurrences="1" x-content="εἰρήνη"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">peace</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G05750" x-lemma="ἀπό" x-morph="Gr,P,,,,,G,,," x-occurrence="1" x-occurrences="1" x-content="ἀπὸ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">from</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G23160" x-lemma="θεός" x-morph="Gr,N,,,,,GMS," x-occurrence="1" x-occurrences="1" x-content="Θεοῦ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">God</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14730" x-lemma="ἐγώ" x-morph="Gr,RP,,,1G,P," x-occurrence="1" x-occurrences="2" x-content="ἡμῶν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">our</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G39620" x-lemma="πατήρ" x-morph="Gr,N,,,,,GMS," x-occurrence="1" x-occurrences="1" x-content="Πατρὸς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Father</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G25320" x-lemma="καί" x-morph="Gr,CC,,,,,,,," x-occurrence="2" x-occurrences="2" x-content="καὶ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">and</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14730" x-lemma="ἐγώ" x-morph="Gr,RP,,,1G,P," x-occurrence="2" x-occurrences="2" x-content="ἡμῶν"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">our</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G29620" x-lemma="κύριος" x-morph="Gr,N,,,,,GMS," x-occurrence="1" x-occurrences="1" x-content="Κυρίου"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Lord</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G24240" x-lemma="Ἰησοῦς" x-morph="Gr,N,,,,,GMS," x-occurrence="1" x-occurrences="1" x-content="Ἰησοῦ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Jesus</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G55470" x-lemma="χριστός" x-morph="Gr,N,,,,,GMS," x-occurrence="1" x-occurrences="1" x-content="Χριστοῦ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Christ</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. </para>
+  <para style="ts" status="unknown">
+    <unmatched marker="*" /></para>
+  <para style="p">
+    <verse number="4" style="v" sid="PHM 1:4" />
+    <verse eid="PHM 1:4" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="G21680" x-lemma="εὐχαριστέω" x-morph="Gr,V,IPA1,,S," x-occurrence="1" x-occurrences="1" x-content="εὐχαριστῶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">I</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G38420" x-lemma="πάντοτε" x-morph="Gr,D,,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="πάντοτε"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">always</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G21680" x-lemma="εὐχαριστέω" x-morph="Gr,V,IPA1,,S," x-occurrence="1" x-occurrences="1" x-content="εὐχαριστῶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">thank</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14730" x-lemma="ἐγώ" x-morph="Gr,RP,,,1G,S," x-occurrence="1" x-occurrences="2" x-content="μου"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">my</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,DMS," x-occurrence="1" x-occurrences="1" x-content="τῷ"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G23160" x-lemma="θεός" x-morph="Gr,N,,,,,DMS," x-occurrence="1" x-occurrences="1" x-content="Θεῷ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">God</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G41600" x-lemma="ποιέω" x-morph="Gr,V,PPM,NMS," x-occurrence="1" x-occurrences="1" x-content="ποιούμενος"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">making</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G34170" x-lemma="μνεία" x-morph="Gr,N,,,,,AFS," x-occurrence="1" x-occurrences="1" x-content="μνείαν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">mention</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2G,S," x-occurrence="1" x-occurrences="1" x-content="σου"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">of</char> <char style="w" x-occurrence="1" x-occurrences="1">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G19090" x-lemma="ἐπί" x-morph="Gr,P,,,,,G,,," x-occurrence="1" x-occurrences="1" x-content="ἐπὶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">in</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14730" x-lemma="ἐγώ" x-morph="Gr,RP,,,1G,S," x-occurrence="2" x-occurrences="2" x-content="μου"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">my</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,GFP," x-occurrence="1" x-occurrences="1" x-content="τῶν"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G43350" x-lemma="προσευχή" x-morph="Gr,N,,,,,GFP," x-occurrence="1" x-occurrences="1" x-content="προσευχῶν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">prayers</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, <verse number="5" style="v" sid="PHM 1:5" /><verse eid="PHM 1:5" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G01910" x-lemma="ἀκούω" x-morph="Gr,V,PPA,NMS," x-occurrence="1" x-occurrences="1" x-content="ἀκούων"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">hearing</char> <char style="w" x-occurrence="1" x-occurrences="1">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2G,S," x-occurrence="1" x-occurrences="1" x-content="σου"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">your</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,AFS," x-occurrence="1" x-occurrences="2" x-content="τὴν"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G00260" x-lemma="ἀγάπη" x-morph="Gr,N,,,,,AFS," x-occurrence="1" x-occurrences="1" x-content="ἀγάπην"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">love</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G25320" x-lemma="καί" x-morph="Gr,CC,,,,,,,," x-occurrence="1" x-occurrences="2" x-content="καὶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">and</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,AFS," x-occurrence="2" x-occurrences="2" x-content="τὴν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="3">the</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G41020" x-lemma="πίστις" x-morph="Gr,N,,,,,AFS," x-occurrence="1" x-occurrences="1" x-content="πίστιν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">faith</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G37390" x-lemma="ὅς" x-morph="Gr,RD,,,,AFS," x-occurrence="1" x-occurrences="1" x-content="ἣν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">that</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G21920" x-lemma="ἔχω" x-morph="Gr,V,IPA2,,S," x-occurrence="1" x-occurrences="1" x-content="ἔχεις"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">you</char> <char style="w" x-occurrence="1" x-occurrences="1">have</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G43140" x-lemma="πρός" x-morph="Gr,P,,,,,A,,," x-occurrence="1" x-occurrences="1" x-content="πρὸς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">in</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,AMS," x-occurrence="1" x-occurrences="1" x-content="τὸν"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="3">the</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G29620" x-lemma="κύριος" x-morph="Gr,N,,,,,AMS," x-occurrence="1" x-occurrences="1" x-content="Κύριον"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Lord</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G24240" x-lemma="Ἰησοῦς" x-morph="Gr,N,,,,,AMS," x-occurrence="1" x-occurrences="1" x-content="Ἰησοῦν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Jesus</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G25320" x-lemma="καί" x-morph="Gr,CC,,,,,,,," x-occurrence="2" x-occurrences="2" x-content="καὶ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">and</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G15190" x-lemma="εἰς" x-morph="Gr,P,,,,,A,,," x-occurrence="1" x-occurrences="1" x-content="εἰς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">for</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G39560" x-lemma="πᾶς" x-morph="Gr,EQ,,,,AMP," x-occurrence="1" x-occurrences="1" x-content="πάντας"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">all</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,AMP," x-occurrence="1" x-occurrences="1" x-content="τοὺς"<unmatched marker="*" /><char style="w" x-occurrence="3" x-occurrences="3">the</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G00400" x-lemma="ἅγιος" x-morph="Gr,NS,,,,AMP," x-occurrence="1" x-occurrences="1" x-content="ἁγίους"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">saints</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, <verse number="6" style="v" sid="PHM 1:6" /><verse eid="PHM 1:6" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G37040" x-lemma="ὅπως" x-morph="Gr,CS,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="ὅπως"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">that</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,NFS," x-occurrence="1" x-occurrences="1" x-content="ἡ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">the</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G28420" x-lemma="κοινωνία" x-morph="Gr,N,,,,,NFS," x-occurrence="1" x-occurrences="1" x-content="κοινωνία"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">fellowship</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,GFS," x-occurrence="1" x-occurrences="1" x-content="τῆς"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G41020" x-lemma="πίστις" x-morph="Gr,N,,,,,GFS," x-occurrence="1" x-occurrences="1" x-content="πίστεώς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2G,S," x-occurrence="1" x-occurrences="1" x-content="σου"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">your</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,GFS," x-occurrence="1" x-occurrences="1" x-content="τῆς"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G41020" x-lemma="πίστις" x-morph="Gr,N,,,,,GFS," x-occurrence="1" x-occurrences="1" x-content="πίστεώς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">faith</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G10960" x-lemma="γίνομαι" x-morph="Gr,V,SAM3,,S," x-occurrence="1" x-occurrences="1" x-content="γένηται"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">may</char> <char style="w" x-occurrence="1" x-occurrences="1">become</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G17560" x-lemma="ἐνεργής" x-morph="Gr,NP,,,,NFS," x-occurrence="1" x-occurrences="1" x-content="ἐνεργὴς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">effective</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G17220" x-lemma="ἐν" x-morph="Gr,P,,,,,D,,," x-occurrence="1" x-occurrences="2" x-content="ἐν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">through</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G19220" x-lemma="ἐπίγνωσις" x-morph="Gr,N,,,,,DFS," x-occurrence="1" x-occurrences="1" x-content="ἐπιγνώσει"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">the</char> <char style="w" x-occurrence="1" x-occurrences="1">knowledge</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G39560" x-lemma="πᾶς" x-morph="Gr,EQ,,,,GNS," x-occurrence="1" x-occurrences="1" x-content="παντὸς"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">of</char> <char style="w" x-occurrence="1" x-occurrences="1">everything</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G00180" x-lemma="ἀγαθός" x-morph="Gr,NS,,,,GNS," x-occurrence="1" x-occurrences="1" x-content="ἀγαθοῦ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">good</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> {</para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,RD,,,,GNS," x-occurrence="1" x-occurrences="1" x-content="τοῦ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">that</char> <char style="w" x-occurrence="1" x-occurrences="1">is</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />} </para>
+  <para style="zaln-s" status="unknown">|x-strong="G17220" x-lemma="ἐν" x-morph="Gr,P,,,,,D,,," x-occurrence="2" x-occurrences="2" x-content="ἐν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">among</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14730" x-lemma="ἐγώ" x-morph="Gr,RP,,,1D,P," x-occurrence="1" x-occurrences="1" x-content="ἡμῖν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">us</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G15190" x-lemma="εἰς" x-morph="Gr,P,,,,,A,,," x-occurrence="1" x-occurrences="1" x-content="εἰς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">for</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G55470" x-lemma="χριστός" x-morph="Gr,N,,,,,AMS," x-occurrence="1" x-occurrences="1" x-content="Χριστόν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Christ</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. <verse number="7" style="v" sid="PHM 1:7" /><verse eid="PHM 1:7" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G10630" x-lemma="γάρ" x-morph="Gr,CC,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="γὰρ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">For</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G21920" x-lemma="ἔχω" x-morph="Gr,V,IAA1,,S," x-occurrence="1" x-occurrences="1" x-content="ἔσχον"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">I</char> <char style="w" x-occurrence="1" x-occurrences="1">had</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G41830" x-lemma="πολλός" x-morph="Gr,EQ,,,,AFS," x-occurrence="1" x-occurrences="1" x-content="πολλὴν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">much</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G54790" x-lemma="χαρά" x-morph="Gr,N,,,,,AFS," x-occurrence="1" x-occurrences="1" x-content="χαρὰν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">joy</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G25320" x-lemma="καί" x-morph="Gr,CC,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="καὶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">and</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G38740" x-lemma="παράκλησις" x-morph="Gr,N,,,,,AFS," x-occurrence="1" x-occurrences="1" x-content="παράκλησιν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">comfort</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G19090" x-lemma="ἐπί" x-morph="Gr,P,,,,,D,,," x-occurrence="1" x-occurrences="1" x-content="ἐπὶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">because</char> <char style="w" x-occurrence="1" x-occurrences="2">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2G,S," x-occurrence="1" x-occurrences="1" x-content="σου"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">your</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,DFS," x-occurrence="1" x-occurrences="1" x-content="τῇ"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G00260" x-lemma="ἀγάπη" x-morph="Gr,N,,,,,DFS," x-occurrence="1" x-occurrences="1" x-content="ἀγάπῃ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">love</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G37540" x-lemma="ὅτι" x-morph="Gr,CS,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="ὅτι"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">because</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,NNP," x-occurrence="1" x-occurrences="1" x-content="τὰ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">the</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G46980" x-lemma="σπλάγχνον" x-morph="Gr,N,,,,,NNP," x-occurrence="1" x-occurrences="1" x-content="σπλάγχνα"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">inner</char> <char style="w" x-occurrence="1" x-occurrences="1">parts</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,GMP," x-occurrence="1" x-occurrences="1" x-content="τῶν"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G00400" x-lemma="ἅγιος" x-morph="Gr,NS,,,,GMP," x-occurrence="1" x-occurrences="1" x-content="ἁγίων"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">of</char> <char style="w" x-occurrence="2" x-occurrences="2">the</char> <char style="w" x-occurrence="1" x-occurrences="1">saints</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G03730" x-lemma="ἀναπαύω" x-morph="Gr,V,IEP3,,S," x-occurrence="1" x-occurrences="1" x-content="ἀναπέπαυται"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">are</char> <char style="w" x-occurrence="1" x-occurrences="1">being</char> <char style="w" x-occurrence="1" x-occurrences="1">refreshed</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G12230" x-lemma="διά" x-morph="Gr,P,,,,,G,,," x-occurrence="1" x-occurrences="1" x-content="διὰ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">by</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2G,S," x-occurrence="1" x-occurrences="1" x-content="σοῦ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G00800" x-lemma="ἀδελφός" x-morph="Gr,N,,,,,VMS," x-occurrence="1" x-occurrences="1" x-content="ἀδελφέ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">brother</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. </para>
+  <para style="ts" status="unknown">
+    <unmatched marker="*" /></para>
+  <para style="p">
+    <verse number="8" style="v" sid="PHM 1:8" />
+    <verse eid="PHM 1:8" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="G13520" x-lemma="διό" x-morph="Gr,CC,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="διό"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Therefore</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G21920" x-lemma="ἔχω" x-morph="Gr,V,PPA,NMS," x-occurrence="1" x-occurrences="1" x-content="ἔχων"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">having</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G41830" x-lemma="πολλός" x-morph="Gr,RI,,,,AFS," x-occurrence="1" x-occurrences="1" x-content="πολλὴν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">much</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G39540" x-lemma="παρρησία" x-morph="Gr,N,,,,,AFS," x-occurrence="1" x-occurrences="1" x-content="παρρησίαν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">boldness</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G17220" x-lemma="ἐν" x-morph="Gr,P,,,,,D,,," x-occurrence="1" x-occurrences="1" x-content="ἐν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">in</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G55470" x-lemma="χριστός" x-morph="Gr,N,,,,,DMS," x-occurrence="1" x-occurrences="1" x-content="Χριστῷ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Christ</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G20040" x-lemma="ἐπιτάσσω" x-morph="Gr,V,NPA,,,,," x-occurrence="1" x-occurrences="1" x-content="ἐπιτάσσειν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">to</char> <char style="w" x-occurrence="1" x-occurrences="1">command</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2D,S," x-occurrence="1" x-occurrences="1" x-content="σοι"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,RR,,,,ANS," x-occurrence="1" x-occurrences="1" x-content="τὸ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">the</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> {</para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,RR,,,,ANS," x-occurrence="1" x-occurrences="1" x-content="τὸ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">thing</char> <char style="w" x-occurrence="1" x-occurrences="1">that</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />} </para>
+  <para style="zaln-s" status="unknown">|x-strong="G04330" x-lemma="ἀνήκω" x-morph="Gr,V,PPA,ANS," x-occurrence="1" x-occurrences="1" x-content="ἀνῆκον"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">is</char> <char style="w" x-occurrence="1" x-occurrences="1">proper</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> {</para>
+  <para style="zaln-s" status="unknown">|x-strong="G04330" x-lemma="ἀνήκω" x-morph="Gr,V,PPA,ANS," x-occurrence="1" x-occurrences="1" x-content="ἀνῆκον"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">to</char> <char style="w" x-occurrence="1" x-occurrences="1">do</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />}, <verse number="9" style="v" sid="PHM 1:9" /><verse eid="PHM 1:9" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G12230" x-lemma="διά" x-morph="Gr,P,,,,,A,,," x-occurrence="1" x-occurrences="1" x-content="διὰ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">because</char> <char style="w" x-occurrence="1" x-occurrences="2">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,AFS," x-occurrence="1" x-occurrences="1" x-content="τὴν"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G00260" x-lemma="ἀγάπη" x-morph="Gr,N,,,,,AFS," x-occurrence="1" x-occurrences="1" x-content="ἀγάπην"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">love</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G38700" x-lemma="παρακαλέω" x-morph="Gr,V,IPA1,,S," x-occurrence="1" x-occurrences="1" x-content="παρακαλῶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">I</char> <char style="w" x-occurrence="1" x-occurrences="1">appeal</char> <char style="w" x-occurrence="1" x-occurrences="1">to</char> <char style="w" x-occurrence="1" x-occurrences="1">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G31230" x-lemma="μᾶλλον" x-morph="Gr,D,,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="μᾶλλον"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">instead</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />—</para>
+  <para style="zaln-s" status="unknown">|x-strong="G15100" x-lemma="εἰμί" x-morph="Gr,V,PPA,NMS," x-occurrence="1" x-occurrences="1" x-content="ὢν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">being</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G51080" x-lemma="τοιοῦτος" x-morph="Gr,RD,,,,NMS," x-occurrence="1" x-occurrences="1" x-content="τοιοῦτος"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">such</char> <char style="w" x-occurrence="1" x-occurrences="2">a</char> <char style="w" x-occurrence="1" x-occurrences="1">one</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G56130" x-lemma="ὡς" x-morph="Gr,CS,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="ὡς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">as</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G39720" x-lemma="Παῦλος" x-morph="Gr,N,,,,,NMS," x-occurrence="1" x-occurrences="1" x-content="Παῦλος"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Paul</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G42460" x-lemma="πρεσβύτης" x-morph="Gr,N,,,,,NMS," x-occurrence="1" x-occurrences="1" x-content="πρεσβύτης"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">an</char> <char style="w" x-occurrence="1" x-occurrences="1">elder</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G11610" x-lemma="δέ" x-morph="Gr,CC,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="δὲ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">and</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35680" x-lemma="νυνί" x-morph="Gr,D,,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="νυνὶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">now</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G25320" x-lemma="καί" x-morph="Gr,D,,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="καὶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">also</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G11980" x-lemma="δέσμιος" x-morph="Gr,N,,,,,NMS," x-occurrence="1" x-occurrences="1" x-content="δέσμιος"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">a</char> <char style="w" x-occurrence="1" x-occurrences="1">prisoner</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G55470" x-lemma="χριστός" x-morph="Gr,N,,,,,GMS," x-occurrence="1" x-occurrences="1" x-content="Χριστοῦ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">of</char> <char style="w" x-occurrence="1" x-occurrences="1">Christ</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G24240" x-lemma="Ἰησοῦς" x-morph="Gr,N,,,,,GMS," x-occurrence="1" x-occurrences="1" x-content="Ἰησοῦ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Jesus</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. </para>
+  <para style="ts" status="unknown">
+    <unmatched marker="*" /> <verse number="10" style="v" sid="PHM 1:10" /><verse eid="PHM 1:10" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G38700" x-lemma="παρακαλέω" x-morph="Gr,V,IPA1,,S," x-occurrence="1" x-occurrences="1" x-content="παρακαλῶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">I</char> <char style="w" x-occurrence="1" x-occurrences="1">am</char> <char style="w" x-occurrence="1" x-occurrences="1">appealing</char> <char style="w" x-occurrence="1" x-occurrences="1">to</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2A,S," x-occurrence="1" x-occurrences="1" x-content="σε"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G40120" x-lemma="περί" x-morph="Gr,P,,,,,G,,," x-occurrence="1" x-occurrences="1" x-content="περὶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">on</char> <char style="w" x-occurrence="1" x-occurrences="1">behalf</char> <char style="w" x-occurrence="1" x-occurrences="1">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G16990" x-lemma="ἐμός" x-morph="Gr,RP,,,1GMS," x-occurrence="1" x-occurrences="1" x-content="ἐμοῦ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">my</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,GNS," x-occurrence="1" x-occurrences="1" x-content="τοῦ"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G50430" x-lemma="τέκνον" x-morph="Gr,N,,,,,GNS," x-occurrence="1" x-occurrences="1" x-content="τέκνου"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">child</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G36820" x-lemma="Ὀνήσιμος" x-morph="Gr,N,,,,,AMS," x-occurrence="1" x-occurrences="1" x-content="Ὀνήσιμον"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Onesimus</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G37390" x-lemma="ὅς" x-morph="Gr,RR,,,,AMS," x-occurrence="1" x-occurrences="1" x-content="ὃν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">whom</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G10800" x-lemma="γεννάω" x-morph="Gr,V,IAA1,,S," x-occurrence="1" x-occurrences="1" x-content="ἐγέννησα"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">I</char> <char style="w" x-occurrence="1" x-occurrences="1">have</char> <char style="w" x-occurrence="1" x-occurrences="1">fathered</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G17220" x-lemma="ἐν" x-morph="Gr,P,,,,,D,,," x-occurrence="1" x-occurrences="1" x-content="ἐν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">in</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EP,,,,DMP," x-occurrence="1" x-occurrences="1" x-content="τοῖς"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">my</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G11990" x-lemma="δεσμός" x-morph="Gr,N,,,,,DMP," x-occurrence="1" x-occurrences="1" x-content="δεσμοῖς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">chains</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. <verse number="11" style="v" sid="PHM 1:11" /><verse eid="PHM 1:11" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,RD,,,,AMS," x-occurrence="1" x-occurrences="1" x-content="τόν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">The</char> <char style="w" x-occurrence="1" x-occurrences="1">one</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G42180" x-lemma="ποτέ" x-morph="Gr,D,,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="ποτέ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">formerly</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G08900" x-lemma="ἄχρηστος" x-morph="Gr,NS,,,,AMS," x-occurrence="1" x-occurrences="1" x-content="ἄχρηστον"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">useless</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2D,S," x-occurrence="1" x-occurrences="1" x-content="σοι"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="3">to</char> <char style="w" x-occurrence="1" x-occurrences="2">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G11610" x-lemma="δέ" x-morph="Gr,CC,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="δὲ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">but</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35680" x-lemma="νυνί" x-morph="Gr,D,,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="νυνὶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">now</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G21730" x-lemma="εὔχρηστος" x-morph="Gr,NS,,,,AMS," x-occurrence="1" x-occurrences="1" x-content="εὔχρηστον"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">useful</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G25320" x-lemma="καί" x-morph="Gr,DO,,,,,,,," x-occurrence="1" x-occurrences="2" x-content="καὶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">both</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2D,S," x-occurrence="1" x-occurrences="1" x-content="σοὶ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="3">to</char> <char style="w" x-occurrence="2" x-occurrences="2">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G25320" x-lemma="καί" x-morph="Gr,CO,,,,,,,," x-occurrence="2" x-occurrences="2" x-content="καὶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">and</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14730" x-lemma="ἐγώ" x-morph="Gr,RP,,,1D,S," x-occurrence="1" x-occurrences="1" x-content="ἐμοὶ"<unmatched marker="*" /><char style="w" x-occurrence="3" x-occurrences="3">to</char> <char style="w" x-occurrence="1" x-occurrences="1">me</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, <verse number="12" style="v" sid="PHM 1:12" /><verse eid="PHM 1:12" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G37390" x-lemma="ὅς" x-morph="Gr,RR,,,,AMS," x-occurrence="1" x-occurrences="1" x-content="ὃν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">whom</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G03750" x-lemma="ἀναπέμπω" x-morph="Gr,V,IAA1,,S," x-occurrence="1" x-occurrences="1" x-content="ἀνέπεμψά"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">I</char> <char style="w" x-occurrence="1" x-occurrences="1">have</char> <char style="w" x-occurrence="1" x-occurrences="1">sent</char> <char style="w" x-occurrence="1" x-occurrences="1">back</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2D,S," x-occurrence="1" x-occurrences="1" x-content="σοι"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">to</char> <char style="w" x-occurrence="1" x-occurrences="1">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />—</para>
+  <para style="zaln-s" status="unknown">|x-strong="G08460" x-lemma="αὐτός" x-morph="Gr,RP,,,3AMS," x-occurrence="1" x-occurrences="1" x-content="αὐτόν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">him</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />—</para>
+  <para style="zaln-s" status="unknown">|x-strong="G37780" x-lemma="οὗτος" x-morph="Gr,RD,,,,NNS," x-occurrence="1" x-occurrences="1" x-content="τοῦτ’"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">this</char> <char style="w" x-occurrence="1" x-occurrences="1">one</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G15100" x-lemma="εἰμί" x-morph="Gr,V,IPA3,,S," x-occurrence="1" x-occurrences="1" x-content="ἔστιν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">is</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G16990" x-lemma="ἐμός" x-morph="Gr,EP,,,1NNP," x-occurrence="1" x-occurrences="1" x-content="ἐμὰ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">my</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,NNP," x-occurrence="1" x-occurrences="1" x-content="τὰ"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G46980" x-lemma="σπλάγχνον" x-morph="Gr,N,,,,,NNP," x-occurrence="1" x-occurrences="1" x-content="σπλάγχνα"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">inner</char> <char style="w" x-occurrence="1" x-occurrences="1">parts</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />; <verse number="13" style="v" sid="PHM 1:13" /><verse eid="PHM 1:13" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G37390" x-lemma="ὅς" x-morph="Gr,RR,,,,AMS," x-occurrence="1" x-occurrences="1" x-content="ὃν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">whom</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14730" x-lemma="ἐγώ" x-morph="Gr,RP,,,1N,S," x-occurrence="1" x-occurrences="1" x-content="ἐγὼ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">I</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G10140" x-lemma="βούλομαι" x-morph="Gr,V,IIM1,,S," x-occurrence="1" x-occurrences="1" x-content="ἐβουλόμην"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">desired</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G27220" x-lemma="κατέχω" x-morph="Gr,V,NPA,,,,," x-occurrence="1" x-occurrences="1" x-content="κατέχειν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">to</char> <char style="w" x-occurrence="1" x-occurrences="1">keep</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G43140" x-lemma="πρός" x-morph="Gr,P,,,,,A,,," x-occurrence="1" x-occurrences="1" x-content="πρὸς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">with</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G16830" x-lemma="ἐμαυτοῦ" x-morph="Gr,RE,,,1AMS," x-occurrence="1" x-occurrences="1" x-content="ἐμαυτὸν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">me</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G24430" x-lemma="ἵνα" x-morph="Gr,CS,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="ἵνα"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">so</char> <char style="w" x-occurrence="1" x-occurrences="1">that</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G12470" x-lemma="διακονέω" x-morph="Gr,V,SPA3,,S," x-occurrence="1" x-occurrences="1" x-content="διακονῇ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">he</char> <char style="w" x-occurrence="1" x-occurrences="1">might</char> <char style="w" x-occurrence="1" x-occurrences="1">serve</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14730" x-lemma="ἐγώ" x-morph="Gr,RP,,,1D,S," x-occurrence="1" x-occurrences="1" x-content="μοι"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">me</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G52280" x-lemma="ὑπέρ" x-morph="Gr,P,,,,,G,,," x-occurrence="1" x-occurrences="1" x-content="ὑπὲρ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">on</char> <char style="w" x-occurrence="1" x-occurrences="1">behalf</char> <char style="w" x-occurrence="1" x-occurrences="2">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2G,S," x-occurrence="1" x-occurrences="1" x-content="σοῦ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G17220" x-lemma="ἐν" x-morph="Gr,P,,,,,D,,," x-occurrence="1" x-occurrences="1" x-content="ἐν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">in</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,DMP," x-occurrence="1" x-occurrences="1" x-content="τοῖς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">the</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G11990" x-lemma="δεσμός" x-morph="Gr,N,,,,,DMP," x-occurrence="1" x-occurrences="1" x-content="δεσμοῖς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">chains</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,GNS," x-occurrence="1" x-occurrences="1" x-content="τοῦ"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G20980" x-lemma="εὐαγγέλιον" x-morph="Gr,N,,,,,GNS," x-occurrence="1" x-occurrences="1" x-content="εὐαγγελίου"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">of</char> <char style="w" x-occurrence="2" x-occurrences="2">the</char> <char style="w" x-occurrence="1" x-occurrences="1">gospel</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. </para>
+  <para style="ts" status="unknown">
+    <unmatched marker="*" /> <verse number="14" style="v" sid="PHM 1:14" /><verse eid="PHM 1:14" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G11610" x-lemma="δέ" x-morph="Gr,CC,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="δὲ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">But</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G23090" x-lemma="θέλω" x-morph="Gr,V,IAA1,,S," x-occurrence="1" x-occurrences="1" x-content="ἠθέλησα"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">I</char> <char style="w" x-occurrence="1" x-occurrences="1">did</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G37620" x-lemma="οὐδείς" x-morph="Gr,RI,,,,ANS," x-occurrence="1" x-occurrences="1" x-content="οὐδὲν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">not</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G23090" x-lemma="θέλω" x-morph="Gr,V,IAA1,,S," x-occurrence="1" x-occurrences="1" x-content="ἠθέλησα"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">want</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G41600" x-lemma="ποιέω" x-morph="Gr,V,NAA,,,,," x-occurrence="1" x-occurrences="1" x-content="ποιῆσαι"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="3">to</char> <char style="w" x-occurrence="1" x-occurrences="1">do</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G37620" x-lemma="οὐδείς" x-morph="Gr,RI,,,,ANS," x-occurrence="1" x-occurrences="1" x-content="οὐδὲν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">anything</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G55650" x-lemma="χωρίς" x-morph="Gr,PI,,,,G,,," x-occurrence="1" x-occurrences="1" x-content="χωρὶς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">without</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G46740" x-lemma="σός" x-morph="Gr,EP,,,2GFS," x-occurrence="1" x-occurrences="1" x-content="σῆς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">your</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,GFS," x-occurrence="1" x-occurrences="1" x-content="τῆς"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G11060" x-lemma="γνώμη" x-morph="Gr,N,,,,,GFS," x-occurrence="1" x-occurrences="1" x-content="γνώμης"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">consent</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G24430" x-lemma="ἵνα" x-morph="Gr,CS,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="ἵνα"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">so</char> <char style="w" x-occurrence="1" x-occurrences="1">that</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2G,S," x-occurrence="1" x-occurrences="1" x-content="σου"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">your</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,NNS," x-occurrence="1" x-occurrences="1" x-content="τὸ"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G00180" x-lemma="ἀγαθός" x-morph="Gr,NS,,,,NNS," x-occurrence="1" x-occurrences="1" x-content="ἀγαθόν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">good</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> {</para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,NNS," x-occurrence="1" x-occurrences="1" x-content="τὸ"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G00180" x-lemma="ἀγαθός" x-morph="Gr,NS,,,,NNS," x-occurrence="1" x-occurrences="1" x-content="ἀγαθόν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">deed</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />} </para>
+  <para style="zaln-s" status="unknown">|x-strong="G15100" x-lemma="εἰμί" x-morph="Gr,V,SPA3,,S," x-occurrence="1" x-occurrences="1" x-content="ᾖ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">might</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G33610" x-lemma="μή" x-morph="Gr,DO,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="μὴ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">not</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G15100" x-lemma="εἰμί" x-morph="Gr,V,SPA3,,S," x-occurrence="1" x-occurrences="1" x-content="ᾖ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">be</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G56130" x-lemma="ὡς" x-morph="Gr,CS,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="ὡς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">as</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G25960" x-lemma="κατά" x-morph="Gr,P,,,,,A,,," x-occurrence="1" x-occurrences="2" x-content="κατὰ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">according</char> <char style="w" x-occurrence="2" x-occurrences="3">to</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G03180" x-lemma="ἀνάγκη" x-morph="Gr,N,,,,,AFS," x-occurrence="1" x-occurrences="1" x-content="ἀνάγκην"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">compulsion</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G02350" x-lemma="ἀλλά" x-morph="Gr,CO,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="ἀλλὰ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">but</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G25960" x-lemma="κατά" x-morph="Gr,P,,,,,A,,," x-occurrence="2" x-occurrences="2" x-content="κατὰ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">according</char> <char style="w" x-occurrence="3" x-occurrences="3">to</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G15950" x-lemma="ἑκούσιος" x-morph="Gr,NS,,,,ANS," x-occurrence="1" x-occurrences="1" x-content="ἑκούσιον"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">good</char> <char style="w" x-occurrence="1" x-occurrences="1">will</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. <verse number="15" style="v" sid="PHM 1:15" /><verse eid="PHM 1:15" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G10630" x-lemma="γάρ" x-morph="Gr,CC,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="γὰρ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">For</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G50290" x-lemma="τάχα" x-morph="Gr,D,,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="τάχα"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">perhaps</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G12230" x-lemma="διά" x-morph="Gr,P,,,,,A,,," x-occurrence="1" x-occurrences="1" x-content="διὰ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">because</char> <char style="w" x-occurrence="1" x-occurrences="1">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G37780" x-lemma="οὗτος" x-morph="Gr,RD,,,,ANS," x-occurrence="1" x-occurrences="1" x-content="τοῦτο"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">this</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G55630" x-lemma="χωρίζω" x-morph="Gr,V,IAP3,,S," x-occurrence="1" x-occurrences="1" x-content="ἐχωρίσθη"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">he</char> <char style="w" x-occurrence="1" x-occurrences="1">was</char> <char style="w" x-occurrence="1" x-occurrences="1">separated</char> <char style="w" x-occurrence="1" x-occurrences="1">from</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> {</para>
+  <para style="zaln-s" status="unknown">|x-strong="G55630" x-lemma="χωρίζω" x-morph="Gr,V,IAP3,,S," x-occurrence="1" x-occurrences="1" x-content="ἐχωρίσθη"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />} </para>
+  <para style="zaln-s" status="unknown">|x-strong="G43140" x-lemma="πρός" x-morph="Gr,P,,,,,A,,," x-occurrence="1" x-occurrences="1" x-content="πρὸς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">for</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G56100" x-lemma="ὥρα" x-morph="Gr,N,,,,,AFS," x-occurrence="1" x-occurrences="1" x-content="ὥραν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">an</char> <char style="w" x-occurrence="1" x-occurrences="1">hour</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G24430" x-lemma="ἵνα" x-morph="Gr,CS,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="ἵνα"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">so</char> <char style="w" x-occurrence="1" x-occurrences="1">that</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G05680" x-lemma="ἀπέχω" x-morph="Gr,V,SAA2,,S," x-occurrence="1" x-occurrences="1" x-content="ἀπέχῃς"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">you</char> <char style="w" x-occurrence="1" x-occurrences="1">might</char> <char style="w" x-occurrence="1" x-occurrences="1">have</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G08460" x-lemma="αὐτός" x-morph="Gr,RP,,,3AMS," x-occurrence="1" x-occurrences="1" x-content="αὐτὸν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">him</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G05680" x-lemma="ἀπέχω" x-morph="Gr,V,SAA2,,S," x-occurrence="1" x-occurrences="1" x-content="ἀπέχῃς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">back</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G01660" x-lemma="αἰώνιος" x-morph="Gr,NS,,,,AMS," x-occurrence="1" x-occurrences="1" x-content="αἰώνιον"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">forever</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, <verse number="16" style="v" sid="PHM 1:16" /><verse eid="PHM 1:16" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G37650" x-lemma="οὐκέτι" x-morph="Gr,D,,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="οὐκέτι"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">no</char> <char style="w" x-occurrence="1" x-occurrences="1">longer</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G56130" x-lemma="ὡς" x-morph="Gr,CS,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="ὡς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">as</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14010" x-lemma="δοῦλος" x-morph="Gr,N,,,,,AMS," x-occurrence="1" x-occurrences="2" x-content="δοῦλον"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="3">a</char> <char style="w" x-occurrence="1" x-occurrences="2">slave</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G02350" x-lemma="ἀλλά" x-morph="Gr,CC,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="ἀλλὰ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">but</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G52280" x-lemma="ὑπέρ" x-morph="Gr,P,,,,,A,,," x-occurrence="1" x-occurrences="1" x-content="ὑπὲρ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">better</char> <char style="w" x-occurrence="1" x-occurrences="1">than</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14010" x-lemma="δοῦλος" x-morph="Gr,N,,,,,AMS," x-occurrence="2" x-occurrences="2" x-content="δοῦλον"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="3">a</char> <char style="w" x-occurrence="2" x-occurrences="2">slave</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />—</para>
+  <para style="zaln-s" status="unknown">|x-strong="G00800" x-lemma="ἀδελφός" x-morph="Gr,N,,,,,AMS," x-occurrence="1" x-occurrences="1" x-content="ἀδελφὸν"<unmatched marker="*" /><char style="w" x-occurrence="3" x-occurrences="3">a</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G00270" x-lemma="ἀγαπητός" x-morph="Gr,AA,,,,AMS," x-occurrence="1" x-occurrences="1" x-content="ἀγαπητόν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">beloved</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G00800" x-lemma="ἀδελφός" x-morph="Gr,N,,,,,AMS," x-occurrence="1" x-occurrences="1" x-content="ἀδελφὸν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">brother</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G31220" x-lemma="μάλιστα" x-morph="Gr,D,,,,,,,,S" x-occurrence="1" x-occurrences="1" x-content="μάλιστα"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">especially</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14730" x-lemma="ἐγώ" x-morph="Gr,RP,,,1D,S," x-occurrence="1" x-occurrences="1" x-content="ἐμοί"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">to</char> <char style="w" x-occurrence="1" x-occurrences="1">me</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G11610" x-lemma="δέ" x-morph="Gr,CC,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="δὲ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">but</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G42140" x-lemma="πόσος" x-morph="Gr,RT,,,,DNS," x-occurrence="1" x-occurrences="1" x-content="πόσῳ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">much</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G31230" x-lemma="μᾶλλον" x-morph="Gr,D,,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="μᾶλλον"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">more</char> <char style="w" x-occurrence="1" x-occurrences="1">so</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2D,S," x-occurrence="1" x-occurrences="1" x-content="σοὶ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">to</char> <char style="w" x-occurrence="1" x-occurrences="1">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G17220" x-lemma="ἐν" x-morph="Gr,P,,,,,D,,," x-occurrence="1" x-occurrences="2" x-content="ἐν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">in</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G25320" x-lemma="καί" x-morph="Gr,DO,,,,,,,," x-occurrence="1" x-occurrences="2" x-content="καὶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">both</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G45610" x-lemma="σάρξ" x-morph="Gr,N,,,,,DFS," x-occurrence="1" x-occurrences="1" x-content="σαρκὶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">the</char> <char style="w" x-occurrence="1" x-occurrences="1">flesh</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G25320" x-lemma="καί" x-morph="Gr,CO,,,,,,,," x-occurrence="2" x-occurrences="2" x-content="καὶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">and</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G17220" x-lemma="ἐν" x-morph="Gr,P,,,,,D,,," x-occurrence="2" x-occurrences="2" x-content="ἐν"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">in</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G29620" x-lemma="κύριος" x-morph="Gr,N,,,,,DMS," x-occurrence="1" x-occurrences="1" x-content="Κυρίῳ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">the</char> <char style="w" x-occurrence="1" x-occurrences="1">Lord</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. </para>
+  <para style="ts" status="unknown">
+    <unmatched marker="*" /> <verse number="17" style="v" sid="PHM 1:17" /><verse eid="PHM 1:17" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G37670" x-lemma="οὖν" x-morph="Gr,CC,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="οὖν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Therefore</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14870" x-lemma="εἰ" x-morph="Gr,CS,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="εἰ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">if</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G21920" x-lemma="ἔχω" x-morph="Gr,V,IPA2,,S," x-occurrence="1" x-occurrences="1" x-content="ἔχεις"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">you</char> <char style="w" x-occurrence="1" x-occurrences="1">have</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14730" x-lemma="ἐγώ" x-morph="Gr,RP,,,1A,S," x-occurrence="1" x-occurrences="1" x-content="με"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">me</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> {</para>
+  <para style="zaln-s" status="unknown">|x-strong="G21920" x-lemma="ἔχω" x-morph="Gr,V,IPA2,,S," x-occurrence="1" x-occurrences="1" x-content="ἔχεις"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">as</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />} </para>
+  <para style="zaln-s" status="unknown">|x-strong="G28440" x-lemma="κοινωνός" x-morph="Gr,N,,,,,AMS," x-occurrence="1" x-occurrences="1" x-content="κοινωνόν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">a</char> <char style="w" x-occurrence="1" x-occurrences="1">partner</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G43550" x-lemma="προσλαμβάνω" x-morph="Gr,V,MAM2,,S," x-occurrence="1" x-occurrences="1" x-content="προσλαβοῦ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">receive</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G08460" x-lemma="αὐτός" x-morph="Gr,RP,,,3AMS," x-occurrence="1" x-occurrences="1" x-content="αὐτὸν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">him</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G56130" x-lemma="ὡς" x-morph="Gr,CS,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="ὡς"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">as</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14730" x-lemma="ἐγώ" x-morph="Gr,RP,,,1A,S," x-occurrence="1" x-occurrences="1" x-content="ἐμέ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">me</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. <verse number="18" style="v" sid="PHM 1:18" /><verse eid="PHM 1:18" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G11610" x-lemma="δέ" x-morph="Gr,CC,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="δέ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">But</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14870" x-lemma="εἰ" x-morph="Gr,CS,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="εἰ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">if</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G00910" x-lemma="ἀδικέω" x-morph="Gr,V,IAA3,,S," x-occurrence="1" x-occurrences="1" x-content="ἠδίκησέν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">he</char> <char style="w" x-occurrence="1" x-occurrences="1">has</char> <char style="w" x-occurrence="1" x-occurrences="1">wronged</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2A,S," x-occurrence="1" x-occurrences="1" x-content="σε"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G22280" x-lemma="ἤ" x-morph="Gr,CC,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="ἢ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">or</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G37840" x-lemma="ὀφείλω" x-morph="Gr,V,IPA3,,S," x-occurrence="1" x-occurrences="1" x-content="ὀφείλει"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">owes</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> {</para>
+  <para style="zaln-s" status="unknown">|x-strong="G37840" x-lemma="ὀφείλω" x-morph="Gr,V,IPA3,,S," x-occurrence="1" x-occurrences="1" x-content="ὀφείλει"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />} </para>
+  <para style="zaln-s" status="unknown">|x-strong="G51000" x-lemma="τις" x-morph="Gr,RI,,,,ANS," x-occurrence="1" x-occurrences="1" x-content="τι"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">anything</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G16770" x-lemma="ἐλλογάω" x-morph="Gr,V,MPA2,,S," x-occurrence="1" x-occurrences="1" x-content="ἐλλόγα"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">charge</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G37780" x-lemma="οὗτος" x-morph="Gr,RD,,,,ANS," x-occurrence="1" x-occurrences="1" x-content="τοῦτο"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">that</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14730" x-lemma="ἐγώ" x-morph="Gr,RP,,,1D,S," x-occurrence="1" x-occurrences="1" x-content="ἐμοὶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">to</char> <char style="w" x-occurrence="1" x-occurrences="1">me</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. <verse number="19" style="v" sid="PHM 1:19" /><verse eid="PHM 1:19" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G14730" x-lemma="ἐγώ" x-morph="Gr,RP,,,1N,S," x-occurrence="1" x-occurrences="2" x-content="ἐγὼ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">I</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G39720" x-lemma="Παῦλος" x-morph="Gr,N,,,,,NMS," x-occurrence="1" x-occurrences="1" x-content="Παῦλος"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Paul</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G11250" x-lemma="γράφω" x-morph="Gr,V,IAA1,,S," x-occurrence="1" x-occurrences="1" x-content="ἔγραψα"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">wrote</char> <char style="w" x-occurrence="1" x-occurrences="1">this</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,DFS," x-occurrence="1" x-occurrences="1" x-content="τῇ"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G54950" x-lemma="χείρ" x-morph="Gr,N,,,,,DFS," x-occurrence="1" x-occurrences="1" x-content="χειρί"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">with</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G16990" x-lemma="ἐμός" x-morph="Gr,EP,,,1DFS," x-occurrence="1" x-occurrences="1" x-content="ἐμῇ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">my</char> <char style="w" x-occurrence="1" x-occurrences="2">own</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,DFS," x-occurrence="1" x-occurrences="1" x-content="τῇ"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G54950" x-lemma="χείρ" x-morph="Gr,N,,,,,DFS," x-occurrence="1" x-occurrences="1" x-content="χειρί"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">hand</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. </para>
+  <para style="zaln-s" status="unknown">|x-strong="G06610" x-lemma="ἀποτίνω" x-morph="Gr,V,IFA1,,S," x-occurrence="1" x-occurrences="1" x-content="ἀποτίσω"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">I</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14730" x-lemma="ἐγώ" x-morph="Gr,RP,,,1N,S," x-occurrence="2" x-occurrences="2" x-content="ἐγὼ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">myself</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G06610" x-lemma="ἀποτίνω" x-morph="Gr,V,IFA1,,S," x-occurrence="1" x-occurrences="1" x-content="ἀποτίσω"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">will</char> <char style="w" x-occurrence="1" x-occurrences="1">pay</char> <char style="w" x-occurrence="1" x-occurrences="1">it</char> <char style="w" x-occurrence="1" x-occurrences="1">back</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />—</para>
+  <para style="zaln-s" status="unknown">|x-strong="G24430" x-lemma="ἵνα" x-morph="Gr,CS,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="ἵνα"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">in</char> <char style="w" x-occurrence="1" x-occurrences="1">order</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G33610" x-lemma="μή" x-morph="Gr,D,,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="μὴ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">not</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G30040" x-lemma="λέγω" x-morph="Gr,V,SPA1,,S," x-occurrence="1" x-occurrences="1" x-content="λέγω"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">to</char> <char style="w" x-occurrence="1" x-occurrences="1">say</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2D,S," x-occurrence="1" x-occurrences="1" x-content="σοι"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">to</char> <char style="w" x-occurrence="1" x-occurrences="2">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G37540" x-lemma="ὅτι" x-morph="Gr,CS,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="ὅτι"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">that</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G43590" x-lemma="προσοφείλω" x-morph="Gr,V,IPA2,,S," x-occurrence="1" x-occurrences="1" x-content="προσοφείλεις"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">you</char> <char style="w" x-occurrence="1" x-occurrences="1">also</char> <char style="w" x-occurrence="1" x-occurrences="1">owe</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14730" x-lemma="ἐγώ" x-morph="Gr,RP,,,1D,S," x-occurrence="1" x-occurrences="1" x-content="μοι"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">me</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G25320" x-lemma="καί" x-morph="Gr,D,,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="καὶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">even</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G45720" x-lemma="σεαυτοῦ" x-morph="Gr,RE,,,2AMS," x-occurrence="1" x-occurrences="1" x-content="σεαυτόν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">your</char> <char style="w" x-occurrence="2" x-occurrences="2">own</char> <char style="w" x-occurrence="1" x-occurrences="1">self</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />! <verse number="20" style="v" sid="PHM 1:20" /><verse eid="PHM 1:20" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G34830" x-lemma="ναί" x-morph="Gr,IR,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="ναί"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Yes</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G00800" x-lemma="ἀδελφός" x-morph="Gr,N,,,,,VMS," x-occurrence="1" x-occurrences="1" x-content="ἀδελφέ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">brother</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G36850" x-lemma="ὀνίνημι" x-morph="Gr,V,OAM1,,S," x-occurrence="1" x-occurrences="1" x-content="ὀναίμην"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">may</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14730" x-lemma="ἐγώ" x-morph="Gr,RP,,,1N,S," x-occurrence="1" x-occurrences="1" x-content="ἐγώ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">I</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G36850" x-lemma="ὀνίνημι" x-morph="Gr,V,OAM1,,S," x-occurrence="1" x-occurrences="1" x-content="ὀναίμην"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">benefit</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2G,S," x-occurrence="1" x-occurrences="1" x-content="σου"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">from</char> <char style="w" x-occurrence="1" x-occurrences="1">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G17220" x-lemma="ἐν" x-morph="Gr,P,,,,,D,,," x-occurrence="1" x-occurrences="2" x-content="ἐν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">in</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G29620" x-lemma="κύριος" x-morph="Gr,N,,,,,DMS," x-occurrence="1" x-occurrences="1" x-content="Κυρίῳ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">the</char> <char style="w" x-occurrence="1" x-occurrences="1">Lord</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />; </para>
+  <para style="zaln-s" status="unknown">|x-strong="G03730" x-lemma="ἀναπαύω" x-morph="Gr,V,MAA2,,S," x-occurrence="1" x-occurrences="1" x-content="ἀνάπαυσόν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">refresh</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14730" x-lemma="ἐγώ" x-morph="Gr,RP,,,1G,S," x-occurrence="1" x-occurrences="1" x-content="μου"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">my</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,ANP," x-occurrence="1" x-occurrences="1" x-content="τὰ"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G46980" x-lemma="σπλάγχνον" x-morph="Gr,N,,,,,ANP," x-occurrence="1" x-occurrences="1" x-content="σπλάγχνα"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">inner</char> <char style="w" x-occurrence="1" x-occurrences="1">parts</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G17220" x-lemma="ἐν" x-morph="Gr,P,,,,,D,,," x-occurrence="2" x-occurrences="2" x-content="ἐν"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">in</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G55470" x-lemma="χριστός" x-morph="Gr,N,,,,,DMS," x-occurrence="1" x-occurrences="1" x-content="Χριστῷ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Christ</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. </para>
+  <para style="ts" status="unknown">
+    <unmatched marker="*" /></para>
+  <para style="p">
+    <verse number="21" style="v" sid="PHM 1:21" />
+    <verse eid="PHM 1:21" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="G39820" x-lemma="πείθω" x-morph="Gr,V,PEA,NMS," x-occurrence="1" x-occurrences="1" x-content="πεποιθὼς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Having</char> <char style="w" x-occurrence="1" x-occurrences="1">confidence</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,DFS," x-occurrence="1" x-occurrences="1" x-content="τῇ"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G52180" x-lemma="ὑπακοή" x-morph="Gr,N,,,,,DFS," x-occurrence="1" x-occurrences="1" x-content="ὑπακοῇ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">in</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2G,S," x-occurrence="1" x-occurrences="1" x-content="σου"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">your</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,DFS," x-occurrence="1" x-occurrences="1" x-content="τῇ"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G52180" x-lemma="ὑπακοή" x-morph="Gr,N,,,,,DFS," x-occurrence="1" x-occurrences="1" x-content="ὑπακοῇ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">obedience</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G11250" x-lemma="γράφω" x-morph="Gr,V,IAA1,,S," x-occurrence="1" x-occurrences="1" x-content="ἔγραψά"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">I</char> <char style="w" x-occurrence="1" x-occurrences="1">wrote</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2D,S," x-occurrence="1" x-occurrences="1" x-content="σοι"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">to</char> <char style="w" x-occurrence="1" x-occurrences="2">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14920" x-lemma="εἴδω" x-morph="Gr,V,PEA,NMS," x-occurrence="1" x-occurrences="1" x-content="εἰδὼς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">having</char> <char style="w" x-occurrence="1" x-occurrences="1">known</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G37540" x-lemma="ὅτι" x-morph="Gr,CS,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="ὅτι"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">that</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G41600" x-lemma="ποιέω" x-morph="Gr,V,IFA2,,S," x-occurrence="1" x-occurrences="1" x-content="ποιήσεις"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">you</char> <char style="w" x-occurrence="1" x-occurrences="1">will</char> <char style="w" x-occurrence="1" x-occurrences="1">do</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G25320" x-lemma="καί" x-morph="Gr,D,,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="καὶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">even</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G52280" x-lemma="ὑπέρ" x-morph="Gr,P,,,,,A,,," x-occurrence="1" x-occurrences="1" x-content="ὑπὲρ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">beyond</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G37390" x-lemma="ὅς" x-morph="Gr,RR,,,,ANP," x-occurrence="1" x-occurrences="1" x-content="ἃ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">what</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G30040" x-lemma="λέγω" x-morph="Gr,V,IPA1,,S," x-occurrence="1" x-occurrences="1" x-content="λέγω"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">I</char> <char style="w" x-occurrence="1" x-occurrences="1">am</char> <char style="w" x-occurrence="1" x-occurrences="1">saying</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. <verse number="22" style="v" sid="PHM 1:22" /><verse eid="PHM 1:22" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G11610" x-lemma="δέ" x-morph="Gr,CC,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="δὲ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">But</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G02600" x-lemma="ἅμα" x-morph="Gr,D,,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="ἅμα"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">at</char> <char style="w" x-occurrence="1" x-occurrences="1">the</char> <char style="w" x-occurrence="1" x-occurrences="1">same</char> <char style="w" x-occurrence="1" x-occurrences="1">time</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G25320" x-lemma="καί" x-morph="Gr,D,,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="καὶ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">also</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G20900" x-lemma="ἑτοιμάζω" x-morph="Gr,V,MPA2,,S," x-occurrence="1" x-occurrences="1" x-content="ἑτοίμαζέ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">prepare</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35780" x-lemma="ξενία" x-morph="Gr,N,,,,,AFS," x-occurrence="1" x-occurrences="1" x-content="ξενίαν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">a</char> <char style="w" x-occurrence="1" x-occurrences="1">guest</char> <char style="w" x-occurrence="1" x-occurrences="1">room</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14730" x-lemma="ἐγώ" x-morph="Gr,RP,,,1D,S," x-occurrence="1" x-occurrences="1" x-content="μοι"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">for</char> <char style="w" x-occurrence="1" x-occurrences="1">me</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G10630" x-lemma="γάρ" x-morph="Gr,CC,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="γὰρ"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">for</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G16790" x-lemma="ἐλπίζω" x-morph="Gr,V,IPA1,,S," x-occurrence="1" x-occurrences="1" x-content="ἐλπίζω"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="2">I</char> <char style="w" x-occurrence="1" x-occurrences="1">hope</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G37540" x-lemma="ὅτι" x-morph="Gr,CS,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="ὅτι"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">that</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G12230" x-lemma="διά" x-morph="Gr,P,,,,,G,,," x-occurrence="1" x-occurrences="1" x-content="διὰ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">through</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2G,P," x-occurrence="1" x-occurrences="1" x-content="ὑμῶν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">your</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,GFP," x-occurrence="1" x-occurrences="1" x-content="τῶν"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G43350" x-lemma="προσευχή" x-morph="Gr,N,,,,,GFP," x-occurrence="1" x-occurrences="1" x-content="προσευχῶν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">prayers</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G54830" x-lemma="χαρίζομαι" x-morph="Gr,V,IFP1,,S," x-occurrence="1" x-occurrences="1" x-content="χαρισθήσομαι"<unmatched marker="*" /><char style="w" x-occurrence="2" x-occurrences="2">I</char> <char style="w" x-occurrence="1" x-occurrences="1">will</char> <char style="w" x-occurrence="1" x-occurrences="1">be</char> <char style="w" x-occurrence="1" x-occurrences="1">given</char> <char style="w" x-occurrence="1" x-occurrences="1">back</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2D,P," x-occurrence="1" x-occurrences="1" x-content="ὑμῖν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">to</char> <char style="w" x-occurrence="1" x-occurrences="1">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. </para>
+  <para style="ts" status="unknown">
+    <unmatched marker="*" /></para>
+  <para style="p">
+    <verse number="23" style="v" sid="PHM 1:23" />
+    <verse eid="PHM 1:23" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="G18890" x-lemma="Ἐπαφρᾶς" x-morph="Gr,N,,,,,NMS," x-occurrence="1" x-occurrences="1" x-content="Ἐπαφρᾶς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Epaphras</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14730" x-lemma="ἐγώ" x-morph="Gr,RP,,,1G,S," x-occurrence="1" x-occurrences="1" x-content="μου"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">my</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,NMS," x-occurrence="1" x-occurrences="1" x-content="ὁ"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G48690" x-lemma="συναιχμάλωτος" x-morph="Gr,N,,,,,NMS," x-occurrence="1" x-occurrences="1" x-content="συναιχμάλωτός"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">fellow</char> <char style="w" x-occurrence="1" x-occurrences="1">prisoner</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G17220" x-lemma="ἐν" x-morph="Gr,P,,,,,D,,," x-occurrence="1" x-occurrences="1" x-content="ἐν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">in</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G55470" x-lemma="χριστός" x-morph="Gr,N,,,,,DMS," x-occurrence="1" x-occurrences="1" x-content="Χριστῷ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Christ</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G24240" x-lemma="Ἰησοῦς" x-morph="Gr,N,,,,,DMS," x-occurrence="1" x-occurrences="1" x-content="Ἰησοῦ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Jesus</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G07820" x-lemma="ἀσπάζομαι" x-morph="Gr,V,IPM3,,S," x-occurrence="1" x-occurrences="1" x-content="ἀσπάζεταί"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">greets</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2A,S," x-occurrence="1" x-occurrences="1" x-content="σε"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">you</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, <verse number="24" style="v" sid="PHM 1:24" /><verse eid="PHM 1:24" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G31380" x-lemma="Μᾶρκος" x-morph="Gr,N,,,,,NMS," x-occurrence="1" x-occurrences="1" x-content="Μᾶρκος"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Mark</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G07080" x-lemma="Ἀρίσταρχος" x-morph="Gr,N,,,,,NMS," x-occurrence="1" x-occurrences="1" x-content="Ἀρίσταρχος"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Aristarchus</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G12140" x-lemma="Δημᾶς" x-morph="Gr,N,,,,,NMS," x-occurrence="1" x-occurrences="1" x-content="Δημᾶς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Demas</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, {</para>
+  <para style="zaln-s" status="unknown">|x-strong="G30650" x-lemma="Λουκᾶς" x-morph="Gr,N,,,,,NMS," x-occurrence="1" x-occurrences="1" x-content="Λουκᾶς"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">and</char>} <char style="w" x-occurrence="1" x-occurrences="1">Luke</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />, </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14730" x-lemma="ἐγώ" x-morph="Gr,RP,,,1G,S," x-occurrence="1" x-occurrences="1" x-content="μου"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">my</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,NMP," x-occurrence="1" x-occurrences="1" x-content="οἱ"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G49040" x-lemma="συνεργός" x-morph="Gr,NS,,,,NMP," x-occurrence="1" x-occurrences="1" x-content="συνεργοί"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">fellow</char> <char style="w" x-occurrence="1" x-occurrences="1">workers</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />.</para>
+  <para style="p">
+    <verse number="25" style="v" sid="PHM 1:25" />
+    <verse eid="PHM 1:25" />
+  </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,NFS," x-occurrence="1" x-occurrences="1" x-content="ἡ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">The</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G54850" x-lemma="χάρις" x-morph="Gr,N,,,,,NFS," x-occurrence="1" x-occurrences="1" x-content="χάρις"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">grace</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,GMS," x-occurrence="1" x-occurrences="2" x-content="τοῦ"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G29620" x-lemma="κύριος" x-morph="Gr,N,,,,,GMS," x-occurrence="1" x-occurrences="1" x-content="Κυρίου"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">of</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G14730" x-lemma="ἐγώ" x-morph="Gr,RP,,,1G,P," x-occurrence="1" x-occurrences="1" x-content="ἡμῶν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">our</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,GMS," x-occurrence="1" x-occurrences="2" x-content="τοῦ"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G29620" x-lemma="κύριος" x-morph="Gr,N,,,,,GMS," x-occurrence="1" x-occurrences="1" x-content="Κυρίου"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Lord</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G24240" x-lemma="Ἰησοῦς" x-morph="Gr,N,,,,,GMS," x-occurrence="1" x-occurrences="1" x-content="Ἰησοῦ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Jesus</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G55470" x-lemma="χριστός" x-morph="Gr,N,,,,,GMS," x-occurrence="1" x-occurrences="1" x-content="Χριστοῦ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Christ</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> {</para>
+  <para style="zaln-s" status="unknown">|x-strong="G33260" x-lemma="μετά" x-morph="Gr,P,,,,,G,,," x-occurrence="1" x-occurrences="1" x-content="μετὰ"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">be</char>} <char style="w" x-occurrence="1" x-occurrences="1">with</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G47710" x-lemma="σύ" x-morph="Gr,RP,,,2G,P," x-occurrence="1" x-occurrences="1" x-content="ὑμῶν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">your</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" /> </para>
+  <para style="zaln-s" status="unknown">|x-strong="G35880" x-lemma="ὁ" x-morph="Gr,EA,,,,GNS," x-occurrence="2" x-occurrences="2" x-content="τοῦ"<unmatched marker="*" /></para>
+  <para style="zaln-s" status="unknown">|x-strong="G41510" x-lemma="πνεῦμα" x-morph="Gr,N,,,,,GNS," x-occurrence="1" x-occurrences="1" x-content="πνεύματος"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">spirit</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />
+  </para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />. </para>
+  <para style="zaln-s" status="unknown">|x-strong="G02810" x-lemma="ἀμήν" x-morph="Gr,IE,,,,,,,," x-occurrence="1" x-occurrences="1" x-content="ἀμήν"<unmatched marker="*" /><char style="w" x-occurrence="1" x-occurrences="1">Amen</char></para>
+  <para style="zaln-e" status="unknown">
+    <unmatched marker="*" />.</para>
+  <chapter eid="PHM 1" />
+</usx>
