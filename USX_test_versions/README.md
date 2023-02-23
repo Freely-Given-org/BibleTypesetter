@@ -1,6 +1,6 @@
 # USX Test Versions folder
 
-Is this folder we provide USX text versions converted from USFM to USX by Paratext 9
+In this folder we provide USX XML Bible files converted from USFM to USX by Paratext 9
 in order to be sure that the test Bibles are in the best official form of USX.
 
 (Our own [BibleOrgSys](https://github.com/Freely-Given-org/BibleOrgSys) can also
@@ -14,6 +14,18 @@ We are very grateful to [eBible.org](https://ebible.org/)
 for providing access to [open-licenced USFM Bibles](https://ebible.org/Scriptures/)
 (that we then converted to USX with the now unsupported
 [Paratext 9.0.100.10238](https://paratext.org/download/download-paratext-for-linux/) running on Ubuntu Linux).
+
+## Metadata
+
+Unfortunately, the raw Bible book USX files contain very little metadata (beyond the "book" titles, etc.)
+Obviously to typeset a Bible, we need "work" metadata including the work title, the copyright, the licence, etc.
+Some of this may be in a FRT (preface) or INT file if they exist (see [here](https://ubsicap.github.io/usx/peripherals.html)),
+but many versions don't supply this information (especially older works).
+
+(We expect that for new and current works, in the future they might be packaged
+in [Scripture Burritos](https://docs.burrito.bible/en/v1.0.0-rc1/) which will help considerably.)
+
+So meanwhile, we may need to define and create some metadata files in order to typeset the title pages, etc.???
 
 ## Updates
 
