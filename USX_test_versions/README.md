@@ -47,5 +47,3 @@ Note: Fortunately Paratext uses the \id lines containing the
 [book id](https://ubsicap.github.io/usfm/identification/books.html),
 and not the filenames, because eBible.org uses a custom book numbering scheme.
 5. In the project window, use **Advanced** / **Export project to USX…** to create the desired folder and export the USX files
-2. Use Paratext to import the USFM files into a Paratext project
-3. Use Paratext to export the project files as USX.
