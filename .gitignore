@@ -1,0 +1,4 @@
+# SILE artifacts and build products
+*.toc
+*.ref
+*.pdf

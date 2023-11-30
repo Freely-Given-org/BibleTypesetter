@@ -1,0 +1,89 @@
+masterfile: 0.0
+metadata:
+  title: Berean Study Bible
+font:
+  family: Libertinus Serif
+  size: 10pt
+language: en
+sile:
+  options:
+    # class: resilient.book # optional (default)
+    papersize: 7.44in x 9.68in   # 189mm x 246mm Crown Quarto
+    layout: marginal             # We need big side margins for the notes
+    resolution: 300
+  settings:
+    textsubsuper.fake: true      # Libertinus has decent superscripts, but I prefer the fake ones
+    document.baselineskip: 1.2em # Bad, but grid typesetting does not work well either yet.
+    document.parskip: 0          # idem
+    document.lineskip: 0         # idem
+    # typesetter.italicCorrection: true # not yet available
+  packages:
+    - resilient.bible.usx
+chapters:
+  - hack.sil
+  - ../../USX_test_versions/English/BSB/001GEN.usx
+  - ../../USX_test_versions/English/BSB/002EXO.usx
+  - ../../USX_test_versions/English/BSB/003LEV.usx
+  - ../../USX_test_versions/English/BSB/004NUM.usx
+  - ../../USX_test_versions/English/BSB/005DEU.usx
+  - ../../USX_test_versions/English/BSB/006JOS.usx
+  - ../../USX_test_versions/English/BSB/007JDG.usx
+  - ../../USX_test_versions/English/BSB/008RUT.usx
+  - ../../USX_test_versions/English/BSB/0091SA.usx
+  - ../../USX_test_versions/English/BSB/0102SA.usx
+  - ../../USX_test_versions/English/BSB/0111KI.usx
+  - ../../USX_test_versions/English/BSB/0122KI.usx
+  - ../../USX_test_versions/English/BSB/0131CH.usx
+  - ../../USX_test_versions/English/BSB/0142CH.usx
+  - ../../USX_test_versions/English/BSB/015EZR.usx
+  - ../../USX_test_versions/English/BSB/016NEH.usx
+  - ../../USX_test_versions/English/BSB/017EST.usx
+  - ../../USX_test_versions/English/BSB/018JOB.usx
+  - ../../USX_test_versions/English/BSB/019PSA.usx
+  - ../../USX_test_versions/English/BSB/020PRO.usx
+  - ../../USX_test_versions/English/BSB/021ECC.usx
+  - ../../USX_test_versions/English/BSB/022SNG.usx
+  - ../../USX_test_versions/English/BSB/023ISA.usx
+  - ../../USX_test_versions/English/BSB/024JER.usx
+  - ../../USX_test_versions/English/BSB/025LAM.usx
+  - ../../USX_test_versions/English/BSB/026EZK.usx
+  - ../../USX_test_versions/English/BSB/027DAN.usx
+  - ../../USX_test_versions/English/BSB/028HOS.usx
+  - ../../USX_test_versions/English/BSB/029JOL.usx
+  - ../../USX_test_versions/English/BSB/030AMO.usx
+  - ../../USX_test_versions/English/BSB/031OBA.usx
+  - ../../USX_test_versions/English/BSB/032JON.usx
+  - ../../USX_test_versions/English/BSB/033MIC.usx
+  - ../../USX_test_versions/English/BSB/034NAM.usx
+  - ../../USX_test_versions/English/BSB/035HAB.usx
+  - ../../USX_test_versions/English/BSB/036ZEP.usx
+  - ../../USX_test_versions/English/BSB/037HAG.usx
+  - ../../USX_test_versions/English/BSB/038ZEC.usx
+  - ../../USX_test_versions/English/BSB/039MAL.usx
+  - ../../USX_test_versions/English/BSB/040MAT.usx
+  - ../../USX_test_versions/English/BSB/041MRK.usx
+  - ../../USX_test_versions/English/BSB/042LUK.usx
+  - ../../USX_test_versions/English/BSB/043JHN.usx
+  - ../../USX_test_versions/English/BSB/044ACT.usx
+  - ../../USX_test_versions/English/BSB/045ROM.usx
+  - ../../USX_test_versions/English/BSB/0461CO.usx
+  - ../../USX_test_versions/English/BSB/0472CO.usx
+  - ../../USX_test_versions/English/BSB/048GAL.usx
+  - ../../USX_test_versions/English/BSB/049EPH.usx
+  - ../../USX_test_versions/English/BSB/050PHP.usx
+  - ../../USX_test_versions/English/BSB/051COL.usx
+  - ../../USX_test_versions/English/BSB/0521TH.usx
+  - ../../USX_test_versions/English/BSB/0532TH.usx
+  - ../../USX_test_versions/English/BSB/0541TI.usx
+  - ../../USX_test_versions/English/BSB/0552TI.usx
+  - ../../USX_test_versions/English/BSB/056TIT.usx
+  - ../../USX_test_versions/English/BSB/057PHM.usx
+  - ../../USX_test_versions/English/BSB/058HEB.usx
+  - ../../USX_test_versions/English/BSB/059JAS.usx
+  - ../../USX_test_versions/English/BSB/0601PE.usx
+  - ../../USX_test_versions/English/BSB/0612PE.usx
+  - ../../USX_test_versions/English/BSB/0621JN.usx
+  - ../../USX_test_versions/English/BSB/0632JN.usx
+  - ../../USX_test_versions/English/BSB/0643JN.usx
+  - ../../USX_test_versions/English/BSB/065JUD.usx
+  - ../../USX_test_versions/English/BSB/066REV.usx

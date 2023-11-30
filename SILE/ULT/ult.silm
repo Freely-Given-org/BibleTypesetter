@@ -1,0 +1,91 @@
+masterfile: 0.0
+metadata:
+  title: unfoldingWord Literal Text
+font:
+  family: Libertinus Serif
+  size: 10pt
+language: en
+sile:
+  options:
+    # class: resilient.book # optional (default)
+    papersize: 7.44in x 9.68in   # 189mm x 246mm Crown Quarto
+    layout: marginal             # We need big side margins for the notes
+    resolution: 300
+  settings:
+    textsubsuper.fake: true      # Libertinus has decent superscripts, but I prefer the fake ones
+    document.baselineskip: 1.2em # Bad, but grid typesetting does not work well either yet.
+    document.parskip: 0          # idem
+    document.lineskip: 0         # idem
+    # typesetter.italicCorrection: true # not yet available
+  packages:
+    - resilient.bible.usx
+chapters:
+  - hack.sil
+  - ../../USX_test_versions/English/ULT/001GEN.usx
+  - ../../USX_test_versions/English/ULT/002EXO.usx
+  - ../../USX_test_versions/English/ULT/003LEV.usx
+  - ../../USX_test_versions/English/ULT/004NUM.usx
+  - ../../USX_test_versions/English/ULT/005DEU.usx
+  - ../../USX_test_versions/English/ULT/006JOS.usx
+  - ../../USX_test_versions/English/ULT/007JDG.usx
+  - ../../USX_test_versions/English/ULT/008RUT.usx
+  - ../../USX_test_versions/English/ULT/0091SA.usx
+  - ../../USX_test_versions/English/ULT/0102SA.usx
+  - ../../USX_test_versions/English/ULT/0111KI.usx
+  - ../../USX_test_versions/English/ULT/0122KI.usx
+  - ../../USX_test_versions/English/ULT/0131CH.usx
+  - ../../USX_test_versions/English/ULT/0142CH.usx
+  - ../../USX_test_versions/English/ULT/015EZR.usx
+  - ../../USX_test_versions/English/ULT/016NEH.usx
+  - ../../USX_test_versions/English/ULT/017EST.usx
+  - ../../USX_test_versions/English/ULT/018JOB.usx
+  - ../../USX_test_versions/English/ULT/019PSA.usx
+  - ../../USX_test_versions/English/ULT/020PRO.usx
+  - ../../USX_test_versions/English/ULT/021ECC.usx
+  - ../../USX_test_versions/English/ULT/022SNG.usx
+  - ../../USX_test_versions/English/ULT/023ISA.usx
+  - ../../USX_test_versions/English/ULT/024JER.usx
+  - ../../USX_test_versions/English/ULT/025LAM.usx
+  - ../../USX_test_versions/English/ULT/026EZK.usx
+  - ../../USX_test_versions/English/ULT/027DAN.usx
+  - ../../USX_test_versions/English/ULT/028HOS.usx
+  - ../../USX_test_versions/English/ULT/029JOL.usx
+  - ../../USX_test_versions/English/ULT/030AMO.usx
+  - ../../USX_test_versions/English/ULT/031OBA.usx
+  - ../../USX_test_versions/English/ULT/032JON.usx
+  - ../../USX_test_versions/English/ULT/033MIC.usx
+  - ../../USX_test_versions/English/ULT/034NAM.usx
+  - ../../USX_test_versions/English/ULT/035HAB.usx
+  - ../../USX_test_versions/English/ULT/036ZEP.usx
+  - ../../USX_test_versions/English/ULT/037HAG.usx
+  - ../../USX_test_versions/English/ULT/038ZEC.usx
+  - ../../USX_test_versions/English/ULT/039MAL.usx
+  - ../../USX_test_versions/English/ULT/040MAT.usx
+  - ../../USX_test_versions/English/ULT/041MRK.usx
+  - ../../USX_test_versions/English/ULT/042LUK.usx
+  - ../../USX_test_versions/English/ULT/043JHN.usx
+  - ../../USX_test_versions/English/ULT/044ACT.usx
+  - ../../USX_test_versions/English/ULT/045ROM.usx
+  - ../../USX_test_versions/English/ULT/0461CO.usx
+  - ../../USX_test_versions/English/ULT/0472CO.usx
+  - ../../USX_test_versions/English/ULT/048GAL.usx
+  - ../../USX_test_versions/English/ULT/049EPH.usx
+  - ../../USX_test_versions/English/ULT/050PHP.usx
+  - ../../USX_test_versions/English/ULT/051COL.usx
+  - ../../USX_test_versions/English/ULT/0521TH.usx
+  - ../../USX_test_versions/English/ULT/0532TH.usx
+  - ../../USX_test_versions/English/ULT/0541TI.usx
+  - ../../USX_test_versions/English/ULT/0552TI.usx
+  - ../../USX_test_versions/English/ULT/056TIT.usx
+  - ../../USX_test_versions/English/ULT/057PHM.usx
+  - ../../USX_test_versions/English/ULT/058HEB.usx
+  - ../../USX_test_versions/English/ULT/059JAS.usx
+  - ../../USX_test_versions/English/ULT/0601PE.usx
+  - ../../USX_test_versions/English/ULT/0612PE.usx
+  - ../../USX_test_versions/English/ULT/0621JN.usx
+  - ../../USX_test_versions/English/ULT/0632JN.usx
+  - ../../USX_test_versions/English/ULT/0643JN.usx
+  - ../../USX_test_versions/English/ULT/065JUD.usx
+  - ../../USX_test_versions/English/ULT/066REV.usx
+  - ../../USX_test_versions/English/ULT/100FRT.usx
+
