@@ -37,28 +37,44 @@ You are on your own checking that you have the right versions of the dependencie
 
 ### Usage
 
-For any bible in the repository, you can generate a PDF with a one-line command, run from the base folder of this repository (so one level above this very README file).
+For any bible in the repository, you can generate a PDF with a one-line command, run from the base folder of this repository (so one level _above_ this very README file).
 
- - The King James Version of the Holy Bible (KJB)
+ - English bibles
+    - The King James Version of the Holy Bible (KJB)
 
-   ```bash
-   sile -u inputters.silm SILE/KJB/kjb.silm
-   ```
+    ```bash
+    sile -u inputters.silm SILE/KJB/kjb.silm
+    ```
 
- - Berean Study Bible (BSB)
+    - Berean Study Bible (BSB)
 
-   ```bash
-   sile -u inputters.silm SILE/BSB/bsb.silm
-   ```
+    ```bash
+    sile -u inputters.silm SILE/BSB/bsb.silm
+    ```
 
- - World English Bible (WEB)
+    - World English Bible (WEB)
 
-   ```bash
-   sile -u inputters.silm SILE/WEB/web.silm
-   ```
+    ```bash
+    sile -u inputters.silm SILE/WEB/web.silm
+    ```
 
- - unfoldingWord Literal Text (ULT)
+    - unfoldingWord Literal Text (ULT)
 
-   ```bash
-   sile -u inputters.silm SILE/ULT/ult.silm
-   ```
+    ```bash
+    sile -u inputters.silm SILE/ULT/ult.silm
+    ```
+ - French bibles
+
+   - FOB (Français courant, version œcuménique de la Bible? Unsure)
+
+    ```bash
+    sile -u inputters.silm SILE/FOB/fob.silm
+    ```
+ 
+   - NCL (Nouvelle Bible Segond? Unsure)
+
+    ```bash
+    sile -u inputters.silm SILE/NCL/ncl.silm
+    ```
+
+

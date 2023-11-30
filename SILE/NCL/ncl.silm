@@ -1,0 +1,96 @@
+masterfile: 0.0
+metadata:
+  title: NCL
+font:
+  family: Libertinus Serif
+  size: 10pt
+language: fr
+sile:
+  options:
+    # class: resilient.book # optional (default)
+    papersize: 7.44in x 9.68in   # 189mm x 246mm Crown Quarto
+    layout: marginal             # We need big side margins for the notes
+    resolution: 300
+  settings:
+    textsubsuper.fake: true      # Libertinus has decent superscripts, but I prefer the fake ones
+    document.baselineskip: 1.2em # Bad, but grid typesetting does not work well either yet.
+    document.parskip: 0          # idem
+    document.lineskip: 0         # idem
+    # typesetter.italicCorrection: true # not yet available
+  packages:
+    - resilient.bible.usx
+chapters:
+  - hack.sil
+  - ../../USX_test_versions/French/NCL/001GEN.usx
+  - ../../USX_test_versions/French/NCL/002EXO.usx
+  - ../../USX_test_versions/French/NCL/003LEV.usx
+  - ../../USX_test_versions/French/NCL/004NUM.usx
+  - ../../USX_test_versions/French/NCL/005DEU.usx
+  - ../../USX_test_versions/French/NCL/006JOS.usx
+  - ../../USX_test_versions/French/NCL/007JDG.usx
+  - ../../USX_test_versions/French/NCL/008RUT.usx
+  - ../../USX_test_versions/French/NCL/0091SA.usx
+  - ../../USX_test_versions/French/NCL/0102SA.usx
+  - ../../USX_test_versions/French/NCL/0111KI.usx
+  - ../../USX_test_versions/French/NCL/0122KI.usx
+  - ../../USX_test_versions/French/NCL/0131CH.usx
+  - ../../USX_test_versions/French/NCL/0142CH.usx
+  - ../../USX_test_versions/French/NCL/015EZR.usx
+  - ../../USX_test_versions/French/NCL/016NEH.usx
+  - ../../USX_test_versions/French/NCL/017EST.usx
+  - ../../USX_test_versions/French/NCL/018JOB.usx
+  - ../../USX_test_versions/French/NCL/019PSA.usx
+  - ../../USX_test_versions/French/NCL/020PRO.usx
+  - ../../USX_test_versions/French/NCL/021ECC.usx
+  - ../../USX_test_versions/French/NCL/022SNG.usx
+  - ../../USX_test_versions/French/NCL/023ISA.usx
+  - ../../USX_test_versions/French/NCL/024JER.usx
+  - ../../USX_test_versions/French/NCL/025LAM.usx
+  - ../../USX_test_versions/French/NCL/026EZK.usx
+  - ../../USX_test_versions/French/NCL/027DAN.usx
+  - ../../USX_test_versions/French/NCL/028HOS.usx
+  - ../../USX_test_versions/French/NCL/029JOL.usx
+  - ../../USX_test_versions/French/NCL/030AMO.usx
+  - ../../USX_test_versions/French/NCL/031OBA.usx
+  - ../../USX_test_versions/French/NCL/032JON.usx
+  - ../../USX_test_versions/French/NCL/033MIC.usx
+  - ../../USX_test_versions/French/NCL/034NAM.usx
+  - ../../USX_test_versions/French/NCL/035HAB.usx
+  - ../../USX_test_versions/French/NCL/036ZEP.usx
+  - ../../USX_test_versions/French/NCL/037HAG.usx
+  - ../../USX_test_versions/French/NCL/038ZEC.usx
+  - ../../USX_test_versions/French/NCL/039MAL.usx
+  - ../../USX_test_versions/French/NCL/040MAT.usx
+  - ../../USX_test_versions/French/NCL/041MRK.usx
+  - ../../USX_test_versions/French/NCL/042LUK.usx
+  - ../../USX_test_versions/French/NCL/043JHN.usx
+  - ../../USX_test_versions/French/NCL/044ACT.usx
+  - ../../USX_test_versions/French/NCL/045ROM.usx
+  - ../../USX_test_versions/French/NCL/0461CO.usx
+  - ../../USX_test_versions/French/NCL/0472CO.usx
+  - ../../USX_test_versions/French/NCL/048GAL.usx
+  - ../../USX_test_versions/French/NCL/049EPH.usx
+  - ../../USX_test_versions/French/NCL/050PHP.usx
+  - ../../USX_test_versions/French/NCL/051COL.usx
+  - ../../USX_test_versions/French/NCL/0521TH.usx
+  - ../../USX_test_versions/French/NCL/0532TH.usx
+  - ../../USX_test_versions/French/NCL/0541TI.usx
+  - ../../USX_test_versions/French/NCL/0552TI.usx
+  - ../../USX_test_versions/French/NCL/056TIT.usx
+  - ../../USX_test_versions/French/NCL/057PHM.usx
+  - ../../USX_test_versions/French/NCL/058HEB.usx
+  - ../../USX_test_versions/French/NCL/059JAS.usx
+  - ../../USX_test_versions/French/NCL/0601PE.usx
+  - ../../USX_test_versions/French/NCL/0612PE.usx
+  - ../../USX_test_versions/French/NCL/0621JN.usx
+  - ../../USX_test_versions/French/NCL/0632JN.usx
+  - ../../USX_test_versions/French/NCL/0643JN.usx
+  - ../../USX_test_versions/French/NCL/065JUD.usx
+  - ../../USX_test_versions/French/NCL/066REV.usx
+  - ../../USX_test_versions/French/NCL/067TOB.usx
+  - ../../USX_test_versions/French/NCL/068JDT.usx
+  - ../../USX_test_versions/French/NCL/070WIS.usx
+  - ../../USX_test_versions/French/NCL/071SIR.usx
+  - ../../USX_test_versions/French/NCL/072BAR.usx
+  - ../../USX_test_versions/French/NCL/0771MA.usx
+  - ../../USX_test_versions/French/NCL/0782MA.usx
