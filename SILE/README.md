@@ -42,39 +42,45 @@ For any bible in the repository, you can generate a PDF with a one-line command,
  - English bibles
     - The King James Version of the Holy Bible (KJB)
 
-    ```bash
-    sile -u inputters.silm SILE/KJB/kjb.silm
-    ```
+      ```bash
+      sile -u inputters.silm SILE/KJB/kjb.silm
+      ```
 
     - Berean Study Bible (BSB)
 
-    ```bash
-    sile -u inputters.silm SILE/BSB/bsb.silm
-    ```
+      ```bash
+      sile -u inputters.silm SILE/BSB/bsb.silm
+      ```
 
     - World English Bible (WEB)
 
-    ```bash
-    sile -u inputters.silm SILE/WEB/web.silm
-    ```
+      ```bash
+      sile -u inputters.silm SILE/WEB/web.silm
+      ```
 
     - unfoldingWord Literal Text (ULT)
 
-    ```bash
-    sile -u inputters.silm SILE/ULT/ult.silm
-    ```
+      ```bash
+      sile -u inputters.silm SILE/ULT/ult.silm
+      ```
+
  - French bibles
+    - FOB (Français courant, version œcuménique de la Bible? Unsure)
 
-   - FOB (Français courant, version œcuménique de la Bible? Unsure)
-
-    ```bash
-    sile -u inputters.silm SILE/FOB/fob.silm
-    ```
+      ```bash
+      sile -u inputters.silm SILE/FOB/fob.silm
+      ```
  
-   - NCL (Nouvelle Bible Segond? Unsure)
+    - NCL (Nouvelle Bible Segond? Unsure)
 
-    ```bash
-    sile -u inputters.silm SILE/NCL/ncl.silm
-    ```
+      ```bash
+      sile -u inputters.silm SILE/NCL/ncl.silm
+      ```
+
+    - SBL (?)
+
+      ```bash
+      sile -u inputters.silm SILE/SBL/sbl.silm
+      ```
 
 
