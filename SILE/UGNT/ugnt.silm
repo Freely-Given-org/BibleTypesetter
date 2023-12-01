@@ -1,0 +1,50 @@
+masterfile: 0.0
+metadata:
+  title: unfoldingWord Greek New Testament
+font:
+  family: Libertinus Serif
+  size: 10pt
+language: el
+sile:
+  options:
+    # class: resilient.book # optional (default)
+    papersize: 7.44in x 9.68in   # 189mm x 246mm Crown Quarto
+    layout: marginal             # We need big side margins for the notes
+    resolution: 300
+  settings:
+    textsubsuper.fake: true      # Libertinus has decent superscripts, but I prefer the fake ones
+    document.baselineskip: 1.2em # Bad, but grid typesetting does not work well either yet.
+    document.parskip: 0          # idem
+    document.lineskip: 0         # idem
+    # typesetter.italicCorrection: true # not yet available
+  packages:
+    - resilient.bible.usx
+chapters:
+  - hack.sil
+  - ../../USX_test_versions/Original/UGNT/040MAT.usx
+  - ../../USX_test_versions/Original/UGNT/041MRK.usx
+  - ../../USX_test_versions/Original/UGNT/042LUK.usx
+  - ../../USX_test_versions/Original/UGNT/043JHN.usx
+  - ../../USX_test_versions/Original/UGNT/044ACT.usx
+  - ../../USX_test_versions/Original/UGNT/045ROM.usx
+  - ../../USX_test_versions/Original/UGNT/0461CO.usx
+  - ../../USX_test_versions/Original/UGNT/0472CO.usx
+  - ../../USX_test_versions/Original/UGNT/048GAL.usx
+  - ../../USX_test_versions/Original/UGNT/049EPH.usx
+  - ../../USX_test_versions/Original/UGNT/050PHP.usx
+  - ../../USX_test_versions/Original/UGNT/051COL.usx
+  - ../../USX_test_versions/Original/UGNT/0521TH.usx
+  - ../../USX_test_versions/Original/UGNT/0532TH.usx
+  - ../../USX_test_versions/Original/UGNT/0541TI.usx
+  - ../../USX_test_versions/Original/UGNT/0552TI.usx
+  - ../../USX_test_versions/Original/UGNT/056TIT.usx
+  - ../../USX_test_versions/Original/UGNT/057PHM.usx
+  - ../../USX_test_versions/Original/UGNT/058HEB.usx
+  - ../../USX_test_versions/Original/UGNT/059JAS.usx
+  - ../../USX_test_versions/Original/UGNT/0601PE.usx
+  - ../../USX_test_versions/Original/UGNT/0612PE.usx
+  - ../../USX_test_versions/Original/UGNT/0621JN.usx
+  - ../../USX_test_versions/Original/UGNT/0632JN.usx
+  - ../../USX_test_versions/Original/UGNT/0643JN.usx
+  - ../../USX_test_versions/Original/UGNT/065JUD.usx
+  - ../../USX_test_versions/Original/UGNT/066REV.usx

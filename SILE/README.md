@@ -83,4 +83,9 @@ For any bible in the repository, you can generate a PDF with a one-line command,
       sile -u inputters.silm SILE/SBL/sbl.silm
       ```
 
+ - Greek bible
+    - UGNT (unfoldingWord Greek New Testament)
 
+      ```bash
+      sile -u inputters.silm SILE/UGNT/ugnt.silm
+      ```
