@@ -20,7 +20,6 @@ sile:
   packages:
     - resilient.bible.usx
 chapters:
-  - hack.sil
   - ../../USX_test_versions/English/WEB/001GEN.usx
   - ../../USX_test_versions/English/WEB/002EXO.usx
   - ../../USX_test_versions/English/WEB/003LEV.usx

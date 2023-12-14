@@ -20,7 +20,6 @@ sile:
   packages:
     - resilient.bible.usx
 chapters:
-  - hack.sil
   - ../../USX_test_versions/Original/UGNT/040MAT.usx
   - ../../USX_test_versions/Original/UGNT/041MRK.usx
   - ../../USX_test_versions/Original/UGNT/042LUK.usx
