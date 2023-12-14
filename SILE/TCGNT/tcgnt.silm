@@ -1,0 +1,49 @@
+masterfile: 0.0
+metadata:
+  title: Text-Critical Greek New Testament
+font:
+  family: Libertinus Serif
+  size: 10pt
+language: el
+sile:
+  options:
+    # class: resilient.book # optional (default)
+    papersize: 7.44in x 9.68in   # 189mm x 246mm Crown Quarto
+    layout: marginal             # We need big side margins for the notes
+    resolution: 300
+  settings:
+    textsubsuper.fake: true      # Libertinus has decent superscripts, but I prefer the fake ones
+    document.baselineskip: 1.2em # Bad, but grid typesetting does not work well either yet.
+    document.parskip: 0          # idem
+    document.lineskip: 0         # idem
+    # typesetter.italicCorrection: true # not yet available
+  packages:
+    - resilient.bible.usx
+chapters:
+  - ../../USX_test_versions/Greek/TCGNT/MAT.usx
+  - ../../USX_test_versions/Greek/TCGNT/MRK.usx
+  - ../../USX_test_versions/Greek/TCGNT/LUK.usx
+  - ../../USX_test_versions/Greek/TCGNT/JHN.usx
+  - ../../USX_test_versions/Greek/TCGNT/ACT.usx
+  - ../../USX_test_versions/Greek/TCGNT/ROM.usx
+  - ../../USX_test_versions/Greek/TCGNT/1CO.usx
+  - ../../USX_test_versions/Greek/TCGNT/2CO.usx
+  - ../../USX_test_versions/Greek/TCGNT/GAL.usx
+  - ../../USX_test_versions/Greek/TCGNT/EPH.usx
+  - ../../USX_test_versions/Greek/TCGNT/PHP.usx
+  - ../../USX_test_versions/Greek/TCGNT/COL.usx
+  - ../../USX_test_versions/Greek/TCGNT/1TH.usx
+  - ../../USX_test_versions/Greek/TCGNT/2TH.usx
+  - ../../USX_test_versions/Greek/TCGNT/1TI.usx
+  - ../../USX_test_versions/Greek/TCGNT/2TI.usx
+  - ../../USX_test_versions/Greek/TCGNT/TIT.usx
+  - ../../USX_test_versions/Greek/TCGNT/PHM.usx
+  - ../../USX_test_versions/Greek/TCGNT/HEB.usx
+  - ../../USX_test_versions/Greek/TCGNT/JAS.usx
+  - ../../USX_test_versions/Greek/TCGNT/1PE.usx
+  - ../../USX_test_versions/Greek/TCGNT/2PE.usx
+  - ../../USX_test_versions/Greek/TCGNT/1JN.usx 
+  - ../../USX_test_versions/Greek/TCGNT/2JN.usx
+  - ../../USX_test_versions/Greek/TCGNT/3JN.usx
+  - ../../USX_test_versions/Greek/TCGNT/JUD.usx
+  - ../../USX_test_versions/Greek/TCGNT/REV.usx

@@ -87,5 +87,11 @@ For any bible in the repository, you can generate a PDF with a one-line command,
     - UGNT (unfoldingWord Greek New Testament)
 
       ```bash
-      sile -u inputters.silm SILE/UGNT/ugnt.silm
+      sile -u inputterszsilm SILE/UGNT/ugnt.silm
+      ```
+    
+    - TCGNT (Text-Critical Greek New Testament)
+
+      ```bash
+      sile -u inputterszsilm SILE/TCGNT/tcgnt.silm
       ```
