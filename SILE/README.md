@@ -1,9 +1,6 @@
 # SILE
 
-
-Here we will have code to use [SILE](https://sile-typesetter.org/) to typeset a USX Bible in one or two columns.
-
-
+This folder contains master files for the various USX bibles in this repository, to typeset them with the [SILE](https://sile-typesetter.org/) typesetting system and the _re·sil·ient_ collection of classes and packages.
 
 ## Installation
 
@@ -17,9 +14,9 @@ Go to the [Awesome SILE books](https://github.com/Omikhleia/awesome-sile-books#o
 
 You are on your own checking that you have the right versions of the dependencies and a proper working installation:
 
-- [SILE](https://github.com/sile-typesetter/sile) 0.14.**11** or upper
+- [SILE](https://github.com/sile-typesetter/sile)
 
-  See installation instructions on the SILE website.
+  See installation instructions on the SILE website, and be sure to install the latest version.
 
 - [LuaRocks](https://luarocks.org/)
 
@@ -58,40 +55,40 @@ For any bible in the repository, you can generate a PDF with a one-line command,
       sile -u inputters.silm SILE/WEB/web.silm
       ```
 
-    - unfoldingWord Literal Text (ULT)
+    - unfoldingWord® Literal Text (ULT)
 
       ```bash
       sile -u inputters.silm SILE/ULT/ult.silm
       ```
 
  - French bibles
-    - FOB (Français courant, version œcuménique de la Bible? Unsure)
+    - FOB (Français courant, version œcuménique de la Bible)
 
       ```bash
       sile -u inputters.silm SILE/FOB/fob.silm
       ```
  
-    - NCL (Nouvelle Bible Segond? Unsure)
+    - NCL (Nouvelle Bible Segond)
 
       ```bash
       sile -u inputters.silm SILE/NCL/ncl.silm
       ```
 
-    - SBL (?)
+    - SBL (Sainte Bible libre pour le monde)
 
       ```bash
       sile -u inputters.silm SILE/SBL/sbl.silm
       ```
 
  - Greek bible
-    - UGNT (unfoldingWord Greek New Testament)
+    - UGNT (unfoldingWord® Greek New Testament)
 
       ```bash
-      sile -u inputterszsilm SILE/UGNT/ugnt.silm
+      sile -u inputters.silm SILE/UGNT/ugnt.silm
       ```
     
     - TCGNT (Text-Critical Greek New Testament)
 
       ```bash
-      sile -u inputterszsilm SILE/TCGNT/tcgnt.silm
+      sile -u inputters.silm SILE/TCGNT/tcgnt.silm
       ```
