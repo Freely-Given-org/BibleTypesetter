@@ -1,0 +1,106 @@
+masterfile: 0.0
+metadata:
+  title: World English Bible (WEB)
+font:
+  family: Libertinus Serif
+  size: 10pt
+language: en
+sile:
+  options:
+    # class: resilient.book # optional (default)
+    papersize: 7.44in x 9.68in   # 189mm x 246mm Crown Quarto
+    layout: marginal             # We need big side margins for the notes
+    resolution: 300
+  settings:
+    textsubsuper.fake: true      # Libertinus has decent superscripts, but I prefer the fake ones
+    document.baselineskip: 1.2em # Bad, but grid typesetting does not work well either yet.
+    document.parskip: 0          # idem
+    document.lineskip: 0         # idem
+    # typesetter.italicCorrection: true # not yet available
+  packages:
+    - resilient.bible.usx
+chapters:
+  - ../../USX_test_versions/English/WEB/001GEN.usx
+  - ../../USX_test_versions/English/WEB/002EXO.usx
+  - ../../USX_test_versions/English/WEB/003LEV.usx
+  - ../../USX_test_versions/English/WEB/004NUM.usx
+  - ../../USX_test_versions/English/WEB/005DEU.usx
+  - ../../USX_test_versions/English/WEB/006JOS.usx
+  - ../../USX_test_versions/English/WEB/007JDG.usx
+  - ../../USX_test_versions/English/WEB/008RUT.usx
+  - ../../USX_test_versions/English/WEB/0091SA.usx
+  - ../../USX_test_versions/English/WEB/0102SA.usx
+  - ../../USX_test_versions/English/WEB/0111KI.usx
+  - ../../USX_test_versions/English/WEB/0122KI.usx
+  - ../../USX_test_versions/English/WEB/0131CH.usx
+  - ../../USX_test_versions/English/WEB/0142CH.usx
+  - ../../USX_test_versions/English/WEB/015EZR.usx
+  - ../../USX_test_versions/English/WEB/016NEH.usx
+  - ../../USX_test_versions/English/WEB/017EST.usx
+  - ../../USX_test_versions/English/WEB/018JOB.usx
+  - ../../USX_test_versions/English/WEB/019PSA.usx
+  - ../../USX_test_versions/English/WEB/020PRO.usx
+  - ../../USX_test_versions/English/WEB/021ECC.usx
+  - ../../USX_test_versions/English/WEB/022SNG.usx
+  - ../../USX_test_versions/English/WEB/023ISA.usx
+  - ../../USX_test_versions/English/WEB/024JER.usx
+  - ../../USX_test_versions/English/WEB/025LAM.usx
+  - ../../USX_test_versions/English/WEB/026EZK.usx
+  - ../../USX_test_versions/English/WEB/027DAN.usx
+  - ../../USX_test_versions/English/WEB/028HOS.usx
+  - ../../USX_test_versions/English/WEB/029JOL.usx
+  - ../../USX_test_versions/English/WEB/030AMO.usx
+  - ../../USX_test_versions/English/WEB/031OBA.usx
+  - ../../USX_test_versions/English/WEB/032JON.usx
+  - ../../USX_test_versions/English/WEB/033MIC.usx
+  - ../../USX_test_versions/English/WEB/034NAM.usx
+  - ../../USX_test_versions/English/WEB/035HAB.usx
+  - ../../USX_test_versions/English/WEB/036ZEP.usx
+  - ../../USX_test_versions/English/WEB/037HAG.usx
+  - ../../USX_test_versions/English/WEB/038ZEC.usx
+  - ../../USX_test_versions/English/WEB/039MAL.usx
+  - ../../USX_test_versions/English/WEB/040MAT.usx
+  - ../../USX_test_versions/English/WEB/041MRK.usx
+  - ../../USX_test_versions/English/WEB/042LUK.usx
+  - ../../USX_test_versions/English/WEB/043JHN.usx
+  - ../../USX_test_versions/English/WEB/044ACT.usx
+  - ../../USX_test_versions/English/WEB/045ROM.usx
+  - ../../USX_test_versions/English/WEB/0461CO.usx
+  - ../../USX_test_versions/English/WEB/0472CO.usx
+  - ../../USX_test_versions/English/WEB/048GAL.usx
+  - ../../USX_test_versions/English/WEB/049EPH.usx
+  - ../../USX_test_versions/English/WEB/050PHP.usx
+  - ../../USX_test_versions/English/WEB/051COL.usx
+  - ../../USX_test_versions/English/WEB/0521TH.usx
+  - ../../USX_test_versions/English/WEB/0532TH.usx
+  - ../../USX_test_versions/English/WEB/0541TI.usx
+  - ../../USX_test_versions/English/WEB/0552TI.usx
+  - ../../USX_test_versions/English/WEB/056TIT.usx
+  - ../../USX_test_versions/English/WEB/057PHM.usx
+  - ../../USX_test_versions/English/WEB/058HEB.usx
+  - ../../USX_test_versions/English/WEB/059JAS.usx
+  - ../../USX_test_versions/English/WEB/0601PE.usx
+  - ../../USX_test_versions/English/WEB/0612PE.usx
+  - ../../USX_test_versions/English/WEB/0621JN.usx
+  - ../../USX_test_versions/English/WEB/0632JN.usx
+  - ../../USX_test_versions/English/WEB/0643JN.usx
+  - ../../USX_test_versions/English/WEB/065JUD.usx
+  - ../../USX_test_versions/English/WEB/066REV.usx
+  - ../../USX_test_versions/English/WEB/067TOB.usx
+  - ../../USX_test_versions/English/WEB/068JDT.usx
+  - ../../USX_test_versions/English/WEB/069ESG.usx
+  - ../../USX_test_versions/English/WEB/070WIS.usx
+  - ../../USX_test_versions/English/WEB/071SIR.usx
+  - ../../USX_test_versions/English/WEB/072BAR.usx
+  - ../../USX_test_versions/English/WEB/0771MA.usx
+  - ../../USX_test_versions/English/WEB/0782MA.usx
+  - ../../USX_test_versions/English/WEB/0793MA.usx
+  - ../../USX_test_versions/English/WEB/0804MA.usx
+  - ../../USX_test_versions/English/WEB/0811ES.usx
+  - ../../USX_test_versions/English/WEB/0822ES.usx
+  - ../../USX_test_versions/English/WEB/083MAN.usx
+  - ../../USX_test_versions/English/WEB/084PS2.usx
+  - ../../USX_test_versions/English/WEB/100FRT.usx
+  - ../../USX_test_versions/English/WEB/109GLO.usx
+  - ../../USX_test_versions/English/WEB/112DAG.usx
+

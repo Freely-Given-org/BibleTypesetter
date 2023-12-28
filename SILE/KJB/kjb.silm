@@ -1,0 +1,103 @@
+masterfile: 0.0
+metadata:
+  title: The King James Version of the Holy Bible
+font:
+  family: Libertinus Serif
+  size: 10pt
+language: en
+sile:
+  options:
+    # class: resilient.book # optional (default)
+    papersize: 7.44in x 9.68in   # 189mm x 246mm Crown Quarto
+    layout: marginal             # We need big side margins for the notes
+    resolution: 300
+  settings:
+    textsubsuper.fake: true      # Libertinus has decent superscripts, but I prefer the fake ones
+    document.baselineskip: 1.2em # Bad, but grid typesetting does not work well either yet.
+    document.parskip: 0          # idem
+    document.lineskip: 0         # idem
+    # typesetter.italicCorrection: true # not yet available
+  packages:
+    - resilient.bible.usx
+chapters:
+  - ../../USX_test_versions/English/KJB/001GEN.usx
+  - ../../USX_test_versions/English/KJB/002EXO.usx
+  - ../../USX_test_versions/English/KJB/003LEV.usx
+  - ../../USX_test_versions/English/KJB/004NUM.usx
+  - ../../USX_test_versions/English/KJB/005DEU.usx
+  - ../../USX_test_versions/English/KJB/006JOS.usx
+  - ../../USX_test_versions/English/KJB/007JDG.usx
+  - ../../USX_test_versions/English/KJB/008RUT.usx
+  - ../../USX_test_versions/English/KJB/0091SA.usx
+  - ../../USX_test_versions/English/KJB/0102SA.usx
+  - ../../USX_test_versions/English/KJB/0111KI.usx
+  - ../../USX_test_versions/English/KJB/0122KI.usx
+  - ../../USX_test_versions/English/KJB/0131CH.usx
+  - ../../USX_test_versions/English/KJB/0142CH.usx
+  - ../../USX_test_versions/English/KJB/015EZR.usx
+  - ../../USX_test_versions/English/KJB/016NEH.usx
+  - ../../USX_test_versions/English/KJB/017EST.usx
+  - ../../USX_test_versions/English/KJB/018JOB.usx
+  - ../../USX_test_versions/English/KJB/019PSA.usx
+  - ../../USX_test_versions/English/KJB/020PRO.usx
+  - ../../USX_test_versions/English/KJB/021ECC.usx
+  - ../../USX_test_versions/English/KJB/022SNG.usx
+  - ../../USX_test_versions/English/KJB/023ISA.usx
+  - ../../USX_test_versions/English/KJB/024JER.usx
+  - ../../USX_test_versions/English/KJB/025LAM.usx
+  - ../../USX_test_versions/English/KJB/026EZK.usx
+  - ../../USX_test_versions/English/KJB/027DAN.usx
+  - ../../USX_test_versions/English/KJB/028HOS.usx
+  - ../../USX_test_versions/English/KJB/029JOL.usx
+  - ../../USX_test_versions/English/KJB/030AMO.usx
+  - ../../USX_test_versions/English/KJB/031OBA.usx
+  - ../../USX_test_versions/English/KJB/032JON.usx
+  - ../../USX_test_versions/English/KJB/033MIC.usx
+  - ../../USX_test_versions/English/KJB/034NAM.usx
+  - ../../USX_test_versions/English/KJB/035HAB.usx
+  - ../../USX_test_versions/English/KJB/036ZEP.usx
+  - ../../USX_test_versions/English/KJB/037HAG.usx
+  - ../../USX_test_versions/English/KJB/038ZEC.usx
+  - ../../USX_test_versions/English/KJB/039MAL.usx
+  - ../../USX_test_versions/English/KJB/040MAT.usx
+  - ../../USX_test_versions/English/KJB/041MRK.usx
+  - ../../USX_test_versions/English/KJB/042LUK.usx
+  - ../../USX_test_versions/English/KJB/043JHN.usx
+  - ../../USX_test_versions/English/KJB/044ACT.usx
+  - ../../USX_test_versions/English/KJB/045ROM.usx
+  - ../../USX_test_versions/English/KJB/0461CO.usx
+  - ../../USX_test_versions/English/KJB/0472CO.usx
+  - ../../USX_test_versions/English/KJB/048GAL.usx
+  - ../../USX_test_versions/English/KJB/049EPH.usx
+  - ../../USX_test_versions/English/KJB/050PHP.usx
+  - ../../USX_test_versions/English/KJB/051COL.usx
+  - ../../USX_test_versions/English/KJB/0521TH.usx
+  - ../../USX_test_versions/English/KJB/0532TH.usx
+  - ../../USX_test_versions/English/KJB/0541TI.usx
+  - ../../USX_test_versions/English/KJB/0552TI.usx
+  - ../../USX_test_versions/English/KJB/056TIT.usx
+  - ../../USX_test_versions/English/KJB/057PHM.usx
+  - ../../USX_test_versions/English/KJB/058HEB.usx
+  - ../../USX_test_versions/English/KJB/059JAS.usx
+  - ../../USX_test_versions/English/KJB/0601PE.usx
+  - ../../USX_test_versions/English/KJB/0612PE.usx
+  - ../../USX_test_versions/English/KJB/0621JN.usx
+  - ../../USX_test_versions/English/KJB/0632JN.usx
+  - ../../USX_test_versions/English/KJB/0643JN.usx
+  - ../../USX_test_versions/English/KJB/065JUD.usx
+  - ../../USX_test_versions/English/KJB/066REV.usx
+  - ../../USX_test_versions/English/KJB/067TOB.usx
+  - ../../USX_test_versions/English/KJB/068JDT.usx
+  - ../../USX_test_versions/English/KJB/069ESG.usx
+  - ../../USX_test_versions/English/KJB/070WIS.usx
+  - ../../USX_test_versions/English/KJB/071SIR.usx
+  - ../../USX_test_versions/English/KJB/072BAR.usx
+  - ../../USX_test_versions/English/KJB/074S3Y.usx
+  - ../../USX_test_versions/English/KJB/075SUS.usx
+  - ../../USX_test_versions/English/KJB/076BEL.usx
+  - ../../USX_test_versions/English/KJB/0771MA.usx
+  - ../../USX_test_versions/English/KJB/0782MA.usx
+  - ../../USX_test_versions/English/KJB/0811ES.usx
+  - ../../USX_test_versions/English/KJB/0822ES.usx
+  - ../../USX_test_versions/English/KJB/083MAN.usx
+  - ../../USX_test_versions/English/KJB/100FRT.usx
