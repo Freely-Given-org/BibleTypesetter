@@ -1,0 +1,131 @@
+% OET configuration for PTXPrint's native page builder.
+\FontSizeUnit=1bp
+% LineSpaceBase is used as an integer by PTXPrint's font code.
+\def\LineSpaceBase{12}
+\def\LineSpacingFactor{1.041666667}
+\def\VerticalSpaceFactor{1}
+\MarginUnit=1bp
+\def\TopMarginFactor{65}
+\def\BottomMarginFactor{40}
+\def\SideMarginFactor{33}
+\BindingGuttertrue
+\BindingGutter=10bp
+\DoubleSidedtrue
+\def\HeaderPosition{32}
+\def\FooterPosition{18}
+\def\ColumnGutterFactor{16}
+\TitleColumns=1
+\IntroColumns=1
+\BodyColumns=1
+\OmitChapterNumbertrue
+\OmitVerseNumberOnefalse
+\VerseRefstrue
+\def\ChapterVerseSeparator{:}
+\catcode`\@=11
+\def\OETDisplayChapter{1}
+\def\OETFirstVerse{1}
+\def\OETChapter#1 {\gdef\OETDisplayChapter{#1}\gdef\OETFirstVerse{1}}
+\def\OETFirstVerseLabel#1 {\xdef\OETFirstVerse{\detokenize{#1}}}
+\def\AdornVerseNumber#1{\edef\OETVerseLabel{#1}%
+  \edef\OETVerseLabel{\expandafter\detokenize\expandafter{\OETVerseLabel}}%
+  \ifx\OETVerseLabel\OETFirstVerse\OETDisplayChapter:\fi#1}
+\catcode`\@=12
+\input index-pages.tex
+\newwrite\OETIndex
+\immediate\openout\OETIndex=proof.bookpages
+\def\OETRecordBook#1{\immediate\write\OETIndex{#1 \the\pageno}}
+\def\OETContentsPage#1 {\ifcsname OETPage#1\endcsname\csname OETPage#1\endcsname\else —\fi\parfillskip=0pt\rightskip=0pt}
+\def\OETCoverSpace{\leavevmode\vadjust{\vskip70bp}}
+\newif\ifOETTitlePage
+\OETTitlePagefalse
+% Insert a physical blank sheet side between completed native PTXPrint parts.
+% It has the selected trim size, no running header and no printed folio.
+\catcode`\@=11
+\def\OETBlankPage{\begingroup
+  \pdfpagewidth=\PaperWidth \pdfpageheight=\PaperHeight \dimen0=0pt
+  \shipout\vbox{\pdfp@geout\hbox{}}\endgroup
+  \global\advance\pageno by 1}
+\catcode`\@=12
+\def\OETOpenRecto{\ifodd\pageno\else\OETBlankPage\fi}
+% A slash remains visible and offers a break in long LV transliterations.
+\def\slash{\char47\penalty50\relax}
+\def\mainBodyColumns{1}
+\NoGridfalse
+\CropMarksfalse
+\XeTeXuseglyphmetrics=0
+\XeTeXinterwordspaceshaping=0
+\diglotSepNotesfalse
+\diglotBalNotestrue
+\def\PageFullFactor{0.65}
+\def\SpaceStretchFactor{1}
+\def\SpaceShrinkFactor{0.5}
+\ColorFontstrue
+\NoteLinesfalse
+\def\NoteShaveStay{10000} % Keep notes intact on their calling page.
+\headline={\ifOETTitlePage\else\ifdiglot Readers’ Version\hfil\OETBookName\hfil Literal Version\else\OETVersion\hfil\OETBookName\fi\fi}
+\footline={\hfil\folio\hfil}
+
+% Keep the native diglot page builder; add stretch immediately before its
+% merged note box via the position-logging hook it already invokes there.
+\catcode`\@=11
+% Every generated heading begins a fresh paragraph. Native delayed-cutout
+% estimates can otherwise accumulate hundreds of lines in long poetry books.
+% Chapter-number cutouts keep their native delay; our heading boxes start at 0.
+\def\OETHeadingPrefix{dropsidebar}
+\def\OETCheckHeadingBox#1Box#2\OETEnd{\def\OETPrefix{#1}%
+  \ifx\OETPrefix\OETHeadingPrefix\OETOverride\fi}
+\let\OETDelayTest\delay@test
+\def\delay@test#1{\OETDelayTest{#1}\def\OETOverride{\def\t@std@lay{0}}%
+  \edef\OETBoxName{#1Box}\expandafter\OETCheckHeadingBox\OETBoxName\OETEnd}
+\let\OETRaiseTest\raise@test
+\def\raise@test#1{\OETRaiseTest{#1}\def\OETOverride{\let\t@str@ise\relax}%
+  \edef\OETBoxName{#1Box}\expandafter\OETCheckHeadingBox\OETBoxName\OETEnd}
+% The native cutout shapes the text but does not prohibit a page break
+% through the box. Protect the affected lines (including one clearance line).
+% Native cutoutcarryover handles a box extending into the next paragraph.
+\let\OETMakeCutouts\makecutouts
+\newcount\OETLine
+\newcount\OETCut
+\newcount\OETAfter
+\newcount\OETUntil
+\newcount\OETLinePenalty
+\def\makecutouts{%
+  \OETMakeCutouts
+  \interlinepenalties=0
+  \ifnum\@numcuts>0
+    \OETLine=0
+    \edef\OETPenalties{}%
+    \loop\ifnum\OETLine<\@parshapelines
+      \advance\OETLine by 1
+      \global\OETLinePenalty=0
+      {\OETCut=0
+       \loop\ifnum\OETCut<\@numcuts
+         \advance\OETCut by 1
+         \OETAfter=\csname cut@after\the\OETCut\endcsname\relax
+         \OETUntil=\csname cut@lines\the\OETCut\endcsname\relax
+         \advance\OETUntil by \OETAfter
+         \ifnum\OETLine>\OETAfter\ifnum\OETLine>\OETUntil\else
+           \global\OETLinePenalty=10000
+         \fi\fi
+       \repeat}%
+      \edef\OETPenalties{\OETPenalties\space\the\OETLinePenalty}%
+    \repeat
+    \interlinepenalties=\@parshapelines\space\OETPenalties\relax
+  \fi}
+
+\let\OETSetPageContents\@@setppagecontents@simplecols
+\def\@@setppagecontents@simplecols{%
+  \OETSetPageContents
+  \let\OETWritePosition\tmpwrite
+  \def\tmpwrite##1{\def\OETPosition{##1}\def\OETNotes{notes}%
+    \ifx\OETPosition\OETNotes\vfill\fi\OETWritePosition{##1}}}
+
+% Place the folio in the reserved bottom margin, outside the text-height box.
+% Native makefootbox otherwise consumes text height in the diglot output.
+\font\OETFooterFont="Lato" at 8.5bp
+\def\makefootbox{\vbox to 0pt{%
+  \ifOETTitlePage\else
+  \setbox0=\hbox to \textwidth{\OETFooterFont\hfil\folio\hfil}%
+  \kern\dimexpr\bottomm@rgin-22bp-\ht0\relax\box0\fi\vss}}
+\noinkinmarginfalse
+\catcode`\@=12

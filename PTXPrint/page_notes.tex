@@ -1,0 +1,35 @@
+
+% Fallback for native diglot retries that duplicate a merged note insertion.
+% Keep PTXPrint's native note typography, but store each note once. Python
+% supplies the measured caller pages and conservative grid-sized reserves.
+% The same mechanism handles single-column and introduction notes.
+\catcode`\@=11
+\input notes-plan.tex
+\newwrite\OETNoteHeights
+\immediate\openout\OETNoteHeights=proof.noteheights
+\def\OETCaptureNote{%
+  \xdef\OETCapturing{\the\n@teid}%
+  \afterassignment\OETNoteStart\global\setbox\csname OETNote\OETCapturing\endcsname=\vbox}
+\def\OETNoteStart{\aftergroup\OETNoteStored}
+\def\OETNoteStored{\immediate\write\OETNoteHeights{\OETCapturing\space\the\dimexpr\ht\csname OETNote\OETCapturing\endcsname+\dp\csname OETNote\OETCapturing\endcsname\relax}}
+\expandafter\let\csname note-no-insert-f\endcsname\OETCaptureNote
+\let\OETSetNoteWidth\setn@tewidth
+\def\setn@tewidth#1{\OETSetNoteWidth{#1}\n@tewidth=\textwidth}
+\let\OETMonoAvailable\c@lcavailht
+\def\c@lcavailht{\OETMonoAvailable\ifdiglot\else
+  \ifcsname OETReserve\the\pageno\endcsname\advance\availht by -\csname OETReserve\the\pageno\endcsname\relax\fi\fi}
+\let\OETCalcTail\dglt@calc@vailhttail
+\def\dglt@calc@vailhttail{%
+  \ifcsname OETReserve\the\pageno\endcsname\global\advance\availht by -\csname OETReserve\the\pageno\endcsname\relax\fi
+  \OETCalcTail}
+\newbox\OETPageNotes
+\def\OETUseNote#1{\ifcsname OETNote#1\endcsname\expandafter\unvcopy\csname OETNote#1\endcsname\fi}
+\let\OETOriginalFooter\makefootbox
+\def\makefootbox{\vbox to0pt{\offinterlineskip
+  \ifcsname OETNotes\the\pageno\endcsname
+    \setbox\OETPageNotes=\vbox{\hsize=\textwidth\baselineskip=12.5bp\lineskiplimit=-100pt\csname OETNotes\the\pageno\endcsname}%
+    \vbox to0pt{\kern-\dimexpr\ht\OETPageNotes+\dp\OETPageNotes\relax
+      \vbox to0pt{\kern-6bp\hrule width40bp height0.4bp\vss}\box\OETPageNotes\vss}%
+  \fi
+  \OETOriginalFooter\vss}}
+\catcode`\@=12
