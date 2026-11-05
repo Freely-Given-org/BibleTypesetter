@@ -2,3 +2,7 @@ __pycache__/
 font-cache/
 .oet-*/
 .oet-ptx-*/
+
+# SILE artifacts and build products
+*.toc
+*.ref
