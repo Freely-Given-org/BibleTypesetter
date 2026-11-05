@@ -38,55 +38,55 @@ For any bible in the repository, you can generate a PDF with a one-line command,
     - The King James Version of the Holy Bible (KJB)
 
       ```bash
-      sile -u inputters.silm SILE/KJB/kjb.silm
+      sile -u inputters.silm SILE.Resilient/KJB/kjb.silm
       ```
 
     - Berean Study Bible (BSB)
 
       ```bash
-      sile -u inputters.silm SILE/BSB/bsb.silm
+      sile -u inputters.silm SILE.Resilient/BSB/bsb.silm
       ```
 
     - World English Bible (WEB)
 
       ```bash
-      sile -u inputters.silm SILE/WEB/web.silm
+      sile -u inputters.silm SILE.Resilient/WEB/web.silm
       ```
 
     - unfoldingWord® Literal Text (ULT)
 
       ```bash
-      sile -u inputters.silm SILE/ULT/ult.silm
+      sile -u inputters.silm SILE.Resilient/ULT/ult.silm
       ```
 
  - French bibles
     - FOB (Français courant, version œcuménique de la Bible)
 
       ```bash
-      sile -u inputters.silm SILE/FOB/fob.silm
+      sile -u inputters.silm SILE.Resilient/FOB/fob.silm
       ```
  
     - NCL (Nouvelle Bible Segond)
 
       ```bash
-      sile -u inputters.silm SILE/NCL/ncl.silm
+      sile -u inputters.silm SILE.Resilient/NCL/ncl.silm
       ```
 
     - SBL (Sainte Bible libre pour le monde)
 
       ```bash
-      sile -u inputters.silm SILE/SBL/sbl.silm
+      sile -u inputters.silm SILE.Resilient/SBL/sbl.silm
       ```
 
  - Greek bible
     - UGNT (unfoldingWord® Greek New Testament)
 
       ```bash
-      sile -u inputters.silm SILE/UGNT/ugnt.silm
+      sile -u inputters.silm SILE.Resilient/UGNT/ugnt.silm
       ```
     
     - TCGNT (Text-Critical Greek New Testament)
 
       ```bash
-      sile -u inputters.silm SILE/TCGNT/tcgnt.silm
+      sile -u inputters.silm SILE.Resilient/TCGNT/tcgnt.silm
       ```
