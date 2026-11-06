@@ -6,7 +6,8 @@ import sys
 import tempfile
 import unittest
 
-from typeset import HERE, USFMWriter, dimensions, paired_book, paper_size, prepare, verify_note_pages, note_plan
+from typeset import HERE, USFMWriter, dimensions, paired_book, paper_size, prepare, verify_note_pages, note_plan, page_verse_ranges
+from oet_publication import link_publication
 
 
 class DriverTests(unittest.TestCase):
@@ -36,8 +37,8 @@ class DriverTests(unittest.TestCase):
         self.assertIn("\\lefttext", body)
         self.assertIn("\\righttext", body)
         self.assertIn("\\v 1-2", body)
-        self.assertIn("\\v 1 Literal_text.", body)
-        self.assertIn("\\v 2 Second.", body)
+        self.assertRegex(body, r'\\v 1 [^\n]*Literal_text\.')
+        self.assertRegex(body, r'\\v 2 [^\n]*Second\.')
         self.assertIn("\\s1 A heading\\sup 1\\sup*", body)
         self.assertIn("\\f - \\ft 1", body)
         self.assertEqual([n["text"] for n in writer.notes], ["Mat. 1:2", "A note."])
@@ -64,7 +65,7 @@ class DriverTests(unittest.TestCase):
         self.assertIn('Translation draft v9.8.7', intro)
         self.assertNotIn('Translation draft', body)
         self.assertGreater(body.index('\\zbookend MRK · OET-RV v1.2.3'), body.index('Literal_ending.'))
-        self.assertIn('\\righttext\n\\zbookend MRK · OET-LV version not specified in source ID', body)
+        self.assertIn('\\righttext\n\\m \\null\n\\zbookend MRK · OET-LV version not specified in source ID', body)
 
     def test_chapter_start_with_a_late_first_verse_keeps_the_chapter_label(self):
         self.source('LV', '\\v 26 First supplied verse.\n\\v 27 Next.')
@@ -116,6 +117,31 @@ class DriverTests(unittest.TestCase):
         for invalid in [records + r'\@noteid{1}{f}{c}{4}', r'\@noteid{1}{f}{c}{3}']:
             with self.assertRaises(ValueError):
                 note_plan(invalid, heights, {})
+
+    def test_page_ranges_include_both_columns_bridges_and_continuations(self):
+        # A bridged verse continues through a page containing no new verse
+        # number in its column; the other column has different boundaries.
+        records = '1 2:5-7 10\n2 2:4b 11\n2 2:4b 11\n1 2:5-7 12\n3 3:1 12\n3 3:1 12'
+        self.assertEqual(page_verse_ranges(records),
+                         {10: '2:5 – 2:7', 11: '2:4b – 2:7', 12: '2:5 – 3:1'})
+        self.assertEqual(page_verse_ranges('1 151:1 17\n1 151:1 17'), {17: '151:1'})
+
+    def test_links_keep_safe_destinations_separate_from_display_text(self):
+        target = 'https://example.org/a_(b)/?q=a+b&x=2%20y#Top'
+        self.source('RV', '\\v 1 See ' + target + '.')
+        book = paired_book(self.root, 'MRK', 'OET-RV')
+        book.set('medium', 'screen')
+        link_publication(book, 'screen')
+        build = self.root / 'build'
+        build.mkdir()
+        prepare(build, [book], 'b5', 'OET-RV')
+        setup = (build / 'proof.tex').read_text()
+        self.assertIn(target.encode('utf-8').hex(), setup)
+        body = (build / 'MRK.usfm').read_text()
+        self.assertNotIn('https:', body)
+        self.assertIn('\\OETLinkPiece ', body)
+        self.assertIn('\\OETLinkSoftBreak ', body)
+        self.assertIn('\\def\\OETLinkColour{', setup)
 
 
 if __name__ == "__main__":

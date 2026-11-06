@@ -1,15 +1,26 @@
 # Printing the Open English Translation with SILE
 
-[Open the B5 Ruth proof](OET-RUT.B5.pdf). Page 2 shows the matched columns, inset headings and a page-bottom note. Page 11 gives the RV book revision and the LV OT set release.
+[Open the B5 Ruth print proof](OET-RUT.B5.print.pdf) or [screen proof](OET-RUT.B5.screen.pdf). Page 2 shows the matched columns, inset headings and a page-bottom note. Page 11 gives the RV book revision and the LV OT set release.
 
 ## Build a book
+
+For all print/screen collections and all individual books, use
+`python3 SILE/build_pdfs.py`. See [the download batch documentation](../README.md#building-the-complete-sile-download-catalogue)
+for automatic OET makefile integration, OBD hosting, catalogues, and incremental rebuilds.
+
+[settings.toml](settings.toml) extends [the shared OET profile](../profiles/oet.toml)
+and sets page numbers to `"outside"` by default. It supplies the publication's
+sources, wording, licence, colours and linked logos. Use `--config PATH` for
+another publication profile (`--layout-settings` remains an alias).
+Set `page_numbers = "centred"` to centre folios.
+See [publication profiles and logo settings](../README.md#publication-profiles).
 
 Use Python 3.11 or newer, SILE 0.15 with its HarfBuzz and libtexpdf backend, and the **Gentium Plus**, **Lato**, **DejaVu Sans** and **Ezra SIL** fonts. Ezra SIL preserves Hebrew in translator notes. The proof was built with SILE 0.15.12. OT/Acts pairing additionally uses BibleOrgSys's verse mappings.
 
 From the BibleTypesetter repository root, with the OET repository checked out alongside it, run
 
 ```sh
-python3 SILE/typeset.py RUT -o SILE/OET-RUT.B5.pdf
+python3 SILE/typeset.py RUT -o SILE/OET-RUT.B5.print.pdf
 ```
 
 MRK is the default. To print a selection into one PDF, pass OET filename codes in reading order. For example
@@ -33,6 +44,15 @@ python3 SILE/typeset.py DC --prepare-only --build-dir /tmp/sile-dc-inputs
 
 Use `--sile /path/to/bin/sile` or set `SILE_BIN` to choose a built executable. The driver otherwise uses `sile` on PATH, then a unique locally cached Nix SILE build if available. For installation options, see the [SILE project](https://github.com/sile-typesetter/sile#readme).
 
+## Print or screen
+
+Use `--print` (default) for greyscale with full visible URLs, or `--screen`
+for coloured headings, verse numbers and links with shortened URL labels.
+Both have live web links, including the reading link after the toolchain credit.
+For example, `python3 SILE/typeset.py RUT --screen` creates
+`OET-RUT.B5.screen.pdf`. These are CLI flags, not TOML settings.
+See [shared output options](../README.md#print-or-screen).
+
 ## Paper size and edition
 
 `--paper-size` accepts `B5` (the default), `A4`, `Letter` (8.5 × 11 inches), or a custom width × height in millimetres or inches. For example
@@ -46,14 +66,14 @@ python3 SILE/typeset.py MRK --paper-size "6 x 9 inches" -o mark-six-by-nine.pdf
 
 Units may follow both dimensions, as in `"210mm x 297mm"`, or the final dimension alone. Width comes first, so `"297x210mm"` produces landscape A4. Type sizes, margins and the baseline grid stay fixed while line widths and the number of rows per page adjust to the paper. Dimensions must leave sufficient space for the text, headings and notes.
 
-`--version` selects `OET` (both versions side by side, the default), `OET-RV`, or `OET-LV`. Each single-version edition uses one full-width column and its own source text, title and introduction. RV-only output retains its boxed section headings. LV-only output follows the LV’s own paragraphs and chapters.
+In the supplied profile, `--version` selects `OET` (both versions side by side, the default), `OET-RV`, or `OET-LV`. Each single-version edition uses one full-width column and its own source text, title and introduction. RV-only output retains its boxed section headings. LV-only output follows the LV’s own paragraphs and chapters.
 
 ```sh
 python3 SILE/typeset.py MRK --version OET-RV --paper-size A4
 python3 SILE/typeset.py MRK --version OET-LV --paper-size "8.5x11in"
 ```
 
-The default output names for these single-version examples are `OET-RV-MRK.A4.pdf` and `OET-LV-MRK.8.5x11in.pdf`. Other paper labels include `.B5.pdf`, `.Letter.pdf`, and `.160x240mm.pdf`; a collection is named, for example, `OET-NT-oet.B5.pdf`. An explicit `-o` filename is used exactly as supplied. Names of versions and paper presets are case-insensitive. Only the selected version’s source files are needed for single-version builds.
+The default output names for these single-version examples are `OET-RV-MRK.A4.print.pdf` and `OET-LV-MRK.8.5x11in.print.pdf`. Other paper labels include `.B5.print.pdf`, `.Letter.print.pdf`, and `.160x240mm.print.pdf`; a collection is named, for example, `OET-NT-oet.B5.print.pdf`. An explicit `-o` filename is used exactly as supplied. Names of versions and paper presets are case-insensitive. Only the selected version’s source files are needed for single-version builds.
 
 ## Print layout
 
@@ -69,6 +89,6 @@ The default output names for these single-version examples are `OET-RV-MRK.A4.pd
 
 [The SILE document class](classes/oet.lua) shapes and measures the actual glyphs with SILE, wraps the columns and boxes, fits the notes, and draws embedded text and vector rules. Page dimensions and typography are defined at the top of the class. SILE’s existing Rust executable runs the Lua class.
 
-The driver accepts all current OT, DC and NT sources. It reports unsupported markers or unresolved alignment with a source location where available. Collection builds isolate each book's SILE process and join its pages without rescaling. The print profile omits illustrations, web link destinations, and editorial comments, and uses one grayscale treatment for the ESFM addition categories.
+The driver accepts all current OT, DC and NT sources. It reports unsupported markers or unresolved alignment with a source location where available. Collection builds isolate each book's SILE process and join its pages without rescaling. The print profile omits source-text illustrations and editorial comments, and uses one grayscale treatment for the ESFM addition categories.
 
 Run the paper-size and edition-selection regression checks with `python3 -B -m unittest discover -s SILE`.

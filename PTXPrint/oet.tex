@@ -31,11 +31,59 @@
   \ifx\OETVerseLabel\OETFirstVerse\OETDisplayChapter:\fi#1}
 \catcode`\@=12
 \input index-pages.tex
+\input page-ranges.tex
+\newwrite\OETRefStream
+\immediate\openout\OETRefStream=proof.oetrefs
+% A non-immediate write records the folio when this piece of text ships.
+\def\OETRangeMark#1 #2 {\leavevmode\write\OETRefStream{#1 \detokenize{#2} \the\pageno}}
+\def\OETRunningBook{\OETBookName\ifcsname OETRange\the\pageno\endcsname
+  \enspace\csname OETRange\the\pageno\endcsname\fi}
 \newwrite\OETIndex
 \immediate\openout\OETIndex=proof.bookpages
 \def\OETRecordBook#1{\immediate\write\OETIndex{#1 \the\pageno}}
 \def\OETContentsPage#1 {\ifcsname OETPage#1\endcsname\csname OETPage#1\endcsname\else —\fi\parfillskip=0pt\rightskip=0pt}
 \def\OETCoverSpace{\leavevmode\vadjust{\vskip70bp}}
+% Borderless external links are live in both outputs. Measured pieces keep
+% annotations out of intervening sidebars and page-bottom note boxes.
+\def\OETLinkColour{0 0 0}
+% PTXPrint redefines \space as a USFM marker; keep an expandable plain space.
+\def\OETLinkSpace{ }
+\def\OETLinkSlash{\char47}
+\def\OETLinkSoftBreak{\penalty50}
+\def\OETLinkLongBreak{\penalty1000}
+\def\OETLinkPiece#1 #2\OETLinkPieceEnd{\leavevmode\begingroup
+  \setbox0=\hbox{\special{color push rgb \OETLinkColour}\cstyle{zlink}{#2}\special{color pop}}%
+  \edef\OETLinkWidth{\the\wd0}\edef\OETLinkHeight{\the\ht0}\edef\OETLinkDepth{\the\dp0}%
+  \special{pdf:ann width \OETLinkWidth\OETLinkSpace height \OETLinkHeight\OETLinkSpace depth \OETLinkDepth\OETLinkSpace
+    << /Type /Annot /Subtype /Link /Border [0 0 0]
+    /A << /S /URI /URI <\csname OETURL#1\endcsname> >> >>}%
+  \box0\endgroup}
+\def\OETReadingText{}
+\def\OETToolchainText{}
+\def\OETOpeningGraphic{}
+\def\OETOpeningLogo{\hbox to \textwidth{\hfil\OETOpeningGraphic\hfil}}
+\def\OETEndingGraphic{}
+\def\OETFooterGraphic{}
+\def\OETLeftLabel{}
+\def\OETRightLabel{}
+% Artwork is copied to simple build-local names. Its dimensions, colour
+% variant and URI are supplied by the publication profile.
+\def\OETLogo#1#2#3#4{\begingroup
+  \setbox0=\hbox{\XeTeXpicfile "#1" width #2 height #3\relax}%
+  \edef\OETLinkWidth{\the\wd0}\edef\OETLinkHeight{\the\ht0}\edef\OETLinkDepth{\the\dp0}%
+  \def\OETLogoURI{#4}\ifx\OETLogoURI\empty\else
+  \special{pdf:ann width \OETLinkWidth\OETLinkSpace height \OETLinkHeight\OETLinkSpace depth \OETLinkDepth\OETLinkSpace
+    << /Type /Annot /Subtype /Link /Border [0 0 0] /A << /S /URI /URI <#4> >> >>}\fi
+  \box0\endgroup}
+% The final chunk uses both columns for the credit. The outer box fits the
+% left column; the inner paragraph wraps and centres at the full text width.
+\def\OETFullCredit{\leavevmode\hbox to 0pt{\vtop{\hsize=\textwidth
+  \everypar={} \parshape=0 \hangindent=0pt \parindent=0pt
+  \leftskip=0pt plus 1fil \rightskip=0pt plus 1fil
+  \parfillskip=0pt
+  \ifx\OETToolchainText\empty\else\noindent \OETToolchainText\endgraf\fi
+  \ifx\OETReadingText\empty\else\noindent \OETReadingText\endgraf\fi
+  \ifx\OETEndingGraphic\empty\else\vskip12.5bp\noindent\OETEndingGraphic\endgraf\fi}\hss}}
 \newif\ifOETTitlePage
 \OETTitlePagefalse
 % Insert a physical blank sheet side between completed native PTXPrint parts.
@@ -62,8 +110,13 @@
 \ColorFontstrue
 \NoteLinesfalse
 \def\NoteShaveStay{10000} % Keep notes intact on their calling page.
-\headline={\ifOETTitlePage\else\ifdiglot Readers’ Version\hfil\OETBookName\hfil Literal Version\else\OETVersion\hfil\OETBookName\fi\fi}
-\footline={\hfil\folio\hfil}
+\headline={\ifnum\pageno=1 \else\ifdiglot\OETLeftLabel\hfil\OETRunningBook\hfil\OETRightLabel\else\OETVersion\hfil\OETRunningBook\fi\fi}
+\newif\ifOETCentredFolios
+\def\OETPrintFolio{\smash{\hbox to 0pt{\ifOETCentredFolios\OETFooterGraphic
+  \else\hbox to \textwidth{\hfil\OETFooterGraphic\hfil}\fi\hss}}%
+  \ifOETCentredFolios\hfil\folio\hfil
+  \else\ifodd\pageno\hfil\folio\else\folio\hfil\fi\fi}
+\footline={\OETPrintFolio}
 
 % Keep the native diglot page builder; add stretch immediately before its
 % merged note box via the position-logging hook it already invokes there.
@@ -125,7 +178,7 @@
 \font\OETFooterFont="Lato" at 8.5bp
 \def\makefootbox{\vbox to 0pt{%
   \ifOETTitlePage\else
-  \setbox0=\hbox to \textwidth{\OETFooterFont\hfil\folio\hfil}%
+  \setbox0=\hbox to \textwidth{\OETFooterFont\OETPrintFolio}%
   \kern\dimexpr\bottomm@rgin-22bp-\ht0\relax\box0\fi\vss}}
 \noinkinmarginfalse
 \catcode`\@=12

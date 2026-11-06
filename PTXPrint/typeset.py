@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Typeset OET ESFM using PTXPrint's native XeTeX macros (no GUI required)."""
+"""Typeset ESFM/USFM Bible text using PTXPrint's native XeTeX macros (no GUI required)."""
 import argparse
 import json
 import math
@@ -10,14 +10,17 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import tomllib
 from xml.sax.saxutils import escape
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent))
-from SILE.typeset import OET, PARAGRAPH, paired_book, paper_size, selected_content
+from SILE.typeset import PARAGRAPH, paired_book, paper_size, selected_content
+from publication_config import default_profile, profile_arguments, resolve_arguments
 from oet_books import selection_arguments, select_books
 from oet_publication import (pdf_pages, merge_parts, require_poppler, default_pdf_filename,
-                             TITLE, COPYRIGHT, draft_credit, book_version_labels)
+                             book_version_labels, toolchain_credit,
+                             output_arguments, book_credits, link_publication)
 
 PRESETS = {"b5": ("176mm", "250mm"), "a4": ("210mm", "297mm"),
            "letter": ("8.5in", "11in")}
@@ -33,7 +36,6 @@ def points(dimension):
 
 def macros_directory(root=None):
     candidates = [Path(root)] if root else [
-        Path("/srv/Programming/ExternalPrograms/SIL_LSDev/ptx2pdf"),
         Path("/usr/share/ptx2pdf"), Path("/usr/local/share/ptx2pdf")]
     for candidate in candidates:
         for directory in (candidate / "src", candidate):
@@ -42,8 +44,25 @@ def macros_directory(root=None):
     raise ValueError("PTXPrint macros not found; use --ptxprint-root or PTXPRINT_ROOT")
 
 
-def styled(run):
-    text = literal(run.text or "")
+def ptxprint_version(macros):
+    """Use metadata belonging to the selected PTXPrint macro installation."""
+    if macros is not None:
+        project = macros.parent / 'pyproject.toml'
+        if project.is_file():
+            metadata = tomllib.loads(project.read_text(encoding='utf-8')).get('project', {})
+            if metadata.get('name') == 'ptxprint' and metadata.get('version'):
+                return 'v' + metadata['version'].removeprefix('v')
+        for version_file in (macros.parent / 'version.py', macros.parent / 'python/lib/ptxprint/version.py'):
+            if version_file.is_file():
+                match = re.search(r'''(?m)^VersionStr\s*=\s*["']([^"']+)''', version_file.read_text())
+                if match:
+                    return 'v' + match[1].removeprefix('v')
+    return '(version unavailable)'
+
+
+def styled(run, link_number=None, tex=False):
+    text = (linked_literal(run.text or '', link_number, tex=tex) if link_number is not None
+            else literal(run.text or "", tex=tex))
     styles = run.get("style", "").split()
     # The replacement glyph is absent from Gentium Plus.
     text = text.replace("◘", r"\zmissing ◘\zmissing*")
@@ -53,28 +72,56 @@ def styled(run):
     return text
 
 
-def literal(text):
+def literal(text, tex=False):
     # PTXPrint interprets a double slash as a layout hint; preserve literal URLs.
-    return text.replace("/", r"\slash ")
+    return ''.join(r'\slash ' if c == '/' else
+                   f'\\char{ord(c)}\\relax ' if tex and c in '#$%&_{}~^\\' else c for c in text)
+
+
+def linked_literal(text, number, tex=False):
+    """Keep each annotation with its text, outside floating heading/note boxes.
+
+    URL punctuation offers normal breaks; long components also have emergency
+    breaks without adding hyphens. Small measured boxes cannot leak a link
+    onto an intervening sidebar, as a spanning pdf:bann/pdf:eann can.
+    """
+    result = []
+    for token in re.findall(r'\s+|[^\s/_.?&=#-]+[/_.?&=#-]?|[/_.?&=#-]', text):
+        if token.isspace():
+            result.append(r'\OETLinkSpace ')
+            continue
+        for start in range(0, len(token), 12):
+            piece = token[start:start+12]
+            value = literal(piece, tex=tex).replace(r'\slash ', r'\OETLinkSlash ')
+            result.append(f'\\OETLinkPiece {number} {value}\\OETLinkPieceEnd')
+            result.append(r'\OETLinkSoftBreak ' if piece[-1] in '/_.?&=#-' else r'\OETLinkLongBreak ')
+    return ''.join(result)
 
 
 class USFMWriter:
     """Emit matched native diglot chunks, with all note kinds in one apparatus."""
     def __init__(self):
         self.notes = []
+        self.block_number = 0
+        self.links = {}
+
+    def styled(self, run, tex=False):
+        href = run.get('href')
+        number = self.links.setdefault(href, len(self.links) + 1) if href else None
+        return styled(run, number, tex=tex)
 
     def note(self, node, silent=False):
         number = len(self.notes) + 1
         self.notes.append({"number": number, **node.attrib,
                            "text": "".join(node.itertext())})
         label = f"{node.get('edition')} {node.get('ref')} · {node.get('kind')}"
-        payload = "".join(styled(run) for run in node)
+        payload = "".join(self.styled(run) for run in node)
         caller = "-" if silent else str(number)
         prefix = f"{number} " if silent else ""
         return number, f"\\f {caller} \\ft {prefix}\\+bd {label}\\+bd* {payload}\\f*"
 
-    def content(self, node):
-        return "".join(self.note(child)[1] if child.tag == "note" else styled(child)
+    def content(self, node, tex=False):
+        return "".join(self.note(child)[1] if child.tag == "note" else self.styled(child, tex=tex)
                        for child in node)
 
     def heading(self, heading):
@@ -85,35 +132,45 @@ class USFMWriter:
                 pieces.append(f'\\sup {number}\\sup*')
                 notes.append(note)
             else:
-                pieces.append(styled(child))
+                pieces.append(self.styled(child))
         return '\\p\n\\s1 ' + ''.join(pieces), notes
 
     def book(self, book):
         code, version = book.get("code"), book.get("version")
-        intro = [f"\\id {code} Open English Translation", f"\\h {book.get('name')}"]
+        sides = book.get('sides', 'rv lv').split()
+        paired = len(sides) == 2
+        intro = [f"\\id {code} {book.get('publication-title', '')}", f"\\h {book.get('name')}"]
+        if book.get('opening-title'):
+            if book.get('logo-opening-src'):
+                intro.append(r'\zlogo \OETOpeningLogo')
+            intro.append('\\imt1 ' + literal(book.get('opening-title')).replace('\n', r'\break '))
         for title in book.findall("title"):
             intro.append(f"\\{title.get('kind')} {self.content(title)}")
-        intro.append(f"\\imt2 {version}")
+        if not paired:
+            intro.append(f'\\imt2 {version}')
         for paragraph in book.findall("intro"):
             intro.append(f"\\{paragraph.get('kind')} {self.content(paragraph)}")
-        if book.get("credit"):
-            intro.append(f"\\ip {literal(book.get('credit'))}")
-        intro.append(f"\\ip {literal(book.get('draft-credit', draft_credit(None)))}")
-        intro.append('\\ip ' + literal(f'{COPYRIGHT} CC BY-SA 4.0. https://creativecommons.org/licenses/by-sa/4.0/'))
+        credits = book.find('credits')
+        if credits is None:
+            credits = book_credits(book)
+            link_publication(credits, book.get('medium', 'print'))
+        intro.append(r'\ib')
+        for node in credits:
+            if node.get('kind') != 'legend':
+                intro.append('\\ip ' + self.content(node))
         intro.append("\\ie")
-        sides = ("rv", "lv") if version == "OET" else (version[-2:].lower(),)
         body = []
         chapters = dict.fromkeys(sides, 0)
         for index, section in enumerate(book.findall("section")):
             for side in sides:
-                if version == "OET":
+                if paired:
                     if body:
                         body.append("\\p")
                     body.append("\\lefttext" if side == "rv" else "\\righttext")
                 if index == 0:
-                    body.extend([f"\\id {code} OET-{side.upper()}", f"\\h {book.get('name')}"])
+                    body.extend([f"\\id {code} {book.get(side + '-id', side)}", f"\\h {book.get('name')}"])
                 blocks = list(section.find(side))
-                heading = section.find("heading") if side == "rv" else None
+                heading = section.find("heading") if side == sides[0] else None
                 pending_notes = []
                 heading_pending = heading is not None
                 if heading is not None:
@@ -139,6 +196,13 @@ class USFMWriter:
                     text = self.content(block) or r"\zmissing ◘\zmissing*"
                     text = "".join(pending_notes) + text
                     pending_notes = []
+                    # Delayed writes on the first and last lines follow the
+                    # actual page breaks, including verses spanning a page turn.
+                    self.block_number += 1
+                    ref = block.get("ref").split(":", 1)[1]
+                    chapter_label = block.get('chapter-label', str(chapter))
+                    anchor = f'\\OETRangeMark {self.block_number} {chapter_label}:{ref} '
+                    text = anchor + text + anchor
                     if block.get("verse"):
                         if block.get('chapter-start'):
                             body.append(f"\\OETFirstVerseLabel {block.get('verse').split('-')[0]} ")
@@ -147,11 +211,21 @@ class USFMWriter:
                         body.append(text)
         for side, label in book_version_labels(book).items():
             body.append('\\p')
-            if version == 'OET':
+            if paired:
                 body.append('\\lefttext' if side == 'rv' else '\\righttext')
+            # A diglot chunk discards leading vertical glue. An actual empty
+            # text line reserves one grid row in both page builders.
+            body.append(r'\m \null')
             body.append('\\zbookend ' + literal(label))
+        if book.get('toolchain') or book.get('logo-ending-src'):
+            # A final synchronised chunk has no right-side text. Its left side
+            # reserves the height of one paragraph spanning the full measure.
+            if paired:
+                body.extend([r'\p', r'\lefttext'])
+            body.append(r'\m \null')
+            body.append(r'\zbookend \OETFullCredit')
         body.append("\\p")
-        if version != "OET":
+        if not paired:
             # Flush through the normal one-column page builder. PTXPrint's
             # end-of-book partial-page path can detach notes when a protected
             # heading moves to another page.
@@ -160,20 +234,29 @@ class USFMWriter:
 
 
 def prepare(directory, books, size, version, publication=None, start_page=1):
+    layout = publication if publication is not None else (books[0] if books else None)
+    screen = layout is not None and layout.get('medium') == 'screen'
+    sides = layout.get('sides', 'rv lv').split() if layout is not None else default_profile().sides(version)
+    paired = len(sides) == 2
+    colours = {key: layout.get('colour-' + key, '000000') for key in ('title', 'heading', 'verse', 'call', 'wj', 'link', 'border')} if layout is not None else {}
     width, height = dimensions(size)
     width_bp, height_bp = points(width), points(height)
-    column = (width_bp - 92) / 2 if version == "OET" else width_bp - 76
+    column = (width_bp - 92) / 2 if paired else width_bp - 76
     if column < 140 or height_bp < 300:
         raise ValueError("paper is too small for this layout (columns need 140pt; height needs 300pt)")
     writer = USFMWriter()
     calls = []
     (directory / 'index-pages.tex').write_text('', encoding='utf-8')
+    (directory / 'page-ranges.tex').write_text('', encoding='utf-8')
     if publication is not None:
-        cover = ['\\id FRT', f'\\h {TITLE}', '\\ip \\null\\OETCoverSpace',
-                 f'\\mt1 {TITLE}', f"\\mt2 {publication.get('title')}",
-                 f'\\imt2 {version}', f"\\imt2 {publication.get('order')}",
-                 '\\imt2 OET.Bible · Freely-Given.org', '\\ie']
-        copyright_page = ['\\id FRT', '\\h Copyright and licence', '\\is1 Copyright and open licence']
+        cover = ['\\id FRT', f'\\h {publication.get("publication-title")}',
+                 *([r'\zlogo \OETOpeningLogo'] if publication.get('logo-opening-src') else []),
+                 '\\ip \\null\\OETCoverSpace',
+                 '\\mt1 ' + publication.get('fulltitle').replace('\n', r'\break '), f"\\mt2 {publication.get('title')}",
+                 *([f'\\imt2 {version}'] if not paired else []),
+                 f"\\imt2 {publication.get('order')}",
+                 '\\imt2 ' + writer.content(publication.find('cover-credit')), '\\ie']
+        copyright_page = ['\\id FRT', '\\h ' + publication.get('copyright-heading'), '\\is1 ' + publication.get('copyright-title')]
         for node in publication.find('copyright'):
             copyright_page.append('\\ip ' + writer.content(node))
         copyright_page.append('\\ie')
@@ -183,11 +266,14 @@ def prepare(directory, books, size, version, publication=None, start_page=1):
             contents.append(f"\\ip {name}\\hfill\\OETContentsPage {entry.get('code')} ")
         contents.append('\\ie')
         preface = ['\\id FRT', '\\h Preface']
-        for node in publication.find('preface'):
+        for node in (publication.find('preface') if publication.find('preface') is not None else []):
             marker = {'p': 'ip', 'm': 'im', 'li1': 'ili1', 'li2': 'ili2', 'b': 'ib'}.get(node.get('kind'), node.get('kind'))
             preface.append(f'\\{marker} {writer.content(node)}')
         preface.append('\\ie')
-        for filename, lines in [('cover', cover), ('copyright', copyright_page), ('contents', contents), ('preface', preface)]:
+        front_parts = [('cover', cover), ('copyright', copyright_page), ('contents', contents)]
+        if publication.find('preface') is not None:
+            front_parts.append(('preface', preface))
+        for filename, lines in front_parts:
             (directory / f'{filename}.usfm').write_text('\n'.join(lines) + '\n', encoding='utf-8')
             calls += [r'\diglotfalse', r'\usediglot{}', f'\\def\\OETBookName{{{filename.title()}}}']
             if filename in {'contents', 'preface'}:
@@ -216,20 +302,36 @@ def prepare(directory, books, size, version, publication=None, start_page=1):
         if book.get('recto') == 'true':
             calls.append(r'\OETOpenRecto')
         calls += [f'\\OETRecordBook{{{code}}}', f"\\ptxfile{{{code}-intro.usfm}}"]
-        if version == "OET":
+        if paired:
             calls += [r"\diglottrue", r"\usediglot{L}"]
+        calls.extend([r'\def\OETToolchainText{}', r'\def\OETReadingText{}'])
+        if book.get('toolchain'):
+            calls.append(r'\def\OETToolchainText{' + book.get('toolchain') + '}')
+            reading = book.find('reading-link')
+            calls.append(r'\def\OETReadingText{' + (writer.content(reading, tex=True) if reading is not None else '') + '}')
         calls.append(f"\\ptxfile{{{code}.usfm}}")
     (directory / "notes.json").write_text(json.dumps(writer.notes, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     styles = (HERE / "oet.sty").read_text(encoding="utf-8")
-    if version == 'OET-LV':
+    if screen:
+        for markers, colour in [
+                (['mt1', 'mt2', 'imt1', 'imt2', 'h'], 'title'),
+                (['is1', 'is2', 's1'], 'heading'), (['v'], 'verse'),
+                (['c', 'fr', 'fv'], 'call'), (['wj'], 'wj'), (['zlink'], 'link')]:
+            for marker in markers:
+                styles += f'\n\\Marker {marker}\n\\Color x{colours[colour]}\n'
+        styles += '\n\\Marker cat:s1box|esb\n\\BorderColor x' + colours['border'] + '\n'
+        styles += ('\n\\Marker zcall\n\\StyleType Character\n\\FontSize 9.2\n'
+                   '\\Superscript\n\\LeftMargin 0.05\n\\Color x' + colours['call'] +
+                   '\n\\Marker f\n\\CallerStyle zcall\n\\NoteCallerStyle zcall\n')
+    if sides == ['lv']:
         # Literal book names use extended transliteration letters (e.g. ⱱ)
         # absent from Lato. Gentium also covers these in titles and headers.
         styles += '\n\\Marker h\n\\FontName Gentium Plus\n\\Marker mt1\n\\FontName Gentium Plus\n'
     styles += f"\n\\Marker cat:s1box|esb\n\\Scale {96 / column:.8f}\n"
     for marker in sorted(PARAGRAPH | {"io1", "io2", "im", "ili1", "ili2", "zcontents"}):
-        size = 9.8 if version == "OET-LV" else 10.4
+        size = 9.8 if sides == ['lv'] else 10.4
         styles += f"\n\\Marker {marker}\n\\FontSize {size}\n\\BaseLine 12.5bp\n"
-        if version == "OET":
+        if paired:
             styles += f"\n\\Marker {marker}L\n\\FontSize 10.4\n\\BaseLine 12.5bp\n"
             styles += f"\n\\Marker {marker}R\n\\FontSize 9.8\n\\BaseLine 12.5bp\n"
     (directory / "oet.sty").write_text(styles, encoding="utf-8")
@@ -237,15 +339,36 @@ def prepare(directory, books, size, version, publication=None, start_page=1):
     setup = [r'\def\regular{"Gentium Plus"}', r'\def\bold{"Gentium Plus/B"}',
              r'\def\italic{"Gentium Plus/I"}', r'\def\bolditalic{"Gentium Plus/BI"}',
              r"\def\pluginlist{}", r"\input paratext2.tex", r"\input ptx-ptxprint.tex",
-             r"\diglottrue" if version == "OET" else r"\diglotfalse",
+             r"\diglottrue" if paired else r"\diglotfalse",
              r"\stylesheet{usfm_sb.sty}", r"\stylesheet{ptx2pdf.sty}", r"\stylesheet{oet.sty}",
              f"\\PaperWidth={width}", f"\\PaperHeight={height}",
              f"\\def\\OETVersion{{{version}}}", r"\input oet.tex"]
+    if layout is not None:
+        for command, key in [('OETLeftLabel', 'rv-label'), ('OETRightLabel', 'lv-label')]:
+            setup.append('\\def\\' + command + '{' + literal(layout.get(key, ''), tex=True) + '}')
+        for role, command in [('opening', 'OETOpeningGraphic'), ('ending', 'OETEndingGraphic'), ('footer', 'OETFooterGraphic')]:
+            source = layout.get(f'logo-{role}-src')
+            if source:
+                filename = f'logo-{role}.png'
+                shutil.copyfile(source, directory / filename)
+                w, h = float(layout.get(f'logo-{role}-width')), float(layout.get(f'logo-{role}-height'))
+                scale = min(1, (width_bp - 76) / w)
+                uri = layout.get(f'logo-{role}-href', '').encode('utf-8').hex()
+                setup.append('\\def\\' + command + '{\\OETLogo{' + filename + '}{' + f'{w*scale:.5f}bp' + '}{' + f'{h*scale:.5f}bp' + '}{' + uri + '}}')
+    if screen:
+        rgb = ' '.join(f'{int(colours["link"][i:i+2], 16) / 255:.6f}' for i in (0, 2, 4))
+        setup.append(r'\def\OETLinkColour{' + rgb + '}')
+    # Hex PDF strings preserve URI fragments, queries, parentheses and escapes
+    # without exposing URL bytes to either TeX or PDF-string interpretation.
+    for href, number in writer.links.items():
+        setup.append(f'\\expandafter\\def\\csname OETURL{number}\\endcsname{{{href.encode("utf-8").hex()}}}')
     # Align the last note baseline with the body grid, leaving at least 45bp
     # below it. PTXPrint's note box already accounts for the final descender.
     last_baseline = 77 + math.floor((height_bp - 45 - 77) / 12.5) * 12.5
     setup.append(f"\\def\\BottomMarginFactor{{{height_bp - last_baseline:.8f}}}")
     setup.append(f"\\pageno={start_page}")
+    if layout is not None and layout.get('page-numbers') == 'centred':
+        setup.append(r'\OETCentredFoliostrue')
     (directory / "proof.tex").write_text("\n".join(setup + calls + [r"\bye", ""]), encoding="utf-8")
 
 
@@ -270,6 +393,40 @@ def write_index(directory, pages):
     (directory / 'index-pages.tex').write_text(''.join(
         f'\\expandafter\\def\\csname OETPage{code}\\endcsname{{{page}}}\n'
         for code, page in pages.items()), encoding='utf-8')
+
+
+def page_verse_ranges(records):
+    """Combine the scripture actually printed in either column on each folio."""
+    blocks = {}
+    for line in records.splitlines():
+        number, address, folio = line.split()
+        blocks.setdefault((number, address), []).append(int(folio))
+    bounds = {}
+    for (_, address), folios in blocks.items():
+        match = re.fullmatch(r'(\d+):(\d+)([a-z]?)(?:-(\d+)([a-z]?))?', address)
+        if not match:
+            raise ValueError(f'Invalid reference in PTXPrint running header: {address!r}')
+        chapter, first, suffix, last, end_suffix = match.groups()
+        lo = (int(chapter), int(first), suffix)
+        hi = (int(chapter), int(last), end_suffix) if last else lo
+        for page in range(min(folios), max(folios) + 1):
+            start, end = bounds.get(page, (lo, hi))
+            bounds[page] = min(start, lo), max(end, hi)
+    def label(ref):
+        return f'{ref[0]}:{ref[1]}{ref[2]}'
+    return {page: label(start) if start == end else f'{label(start)} – {label(end)}'
+            for page, (start, end) in sorted(bounds.items())}
+
+
+def update_page_ranges(directory):
+    ranges = page_verse_ranges((directory / 'proof.oetrefs').read_text())
+    definitions = ''.join(f'\\expandafter\\def\\csname OETRange{page}\\endcsname{{{label}}}\n'
+                          for page, label in ranges.items())
+    path = directory / 'page-ranges.tex'
+    if path.read_text(encoding='utf-8') == definitions:
+        return False
+    path.write_text(definitions, encoding='utf-8')
+    return True
 
 
 def emergency_word_breaks(directory):
@@ -344,7 +501,8 @@ def run_fixed_notes(directory, xetex, env, count):
         records = (directory / 'proof.parlocs').read_text()
         callers, groups = note_plan(records, heights, reserves)
         state = (callers.copy(), reserves.copy(), records)
-        if state == previous:
+        ranges_changed = update_page_ranges(directory)
+        if state == previous and not ranges_changed:
             verify_note_pages(records, count)
             (directory / 'note-pagination.json').write_text(json.dumps({
                 'passes': iteration, 'caller_pages': callers, 'reserved_bp': reserves,
@@ -393,7 +551,8 @@ def run_engine(directory, macros, xetex, converter, index_pages=None):
         write_index(directory, {**(index_pages or {}), **pages})
         state = tuple(p.read_bytes() for p in sorted(directory.glob("proof.*"))
                       if p.suffix in {".notepages", ".parlocs", ".picpages", '.bookpages'})
-        if state == previous:
+        ranges_changed = update_page_ranges(directory)
+        if state == previous and not ranges_changed:
             break
         previous = state
     else:
@@ -426,6 +585,8 @@ def run_engine(directory, macros, xetex, converter, index_pages=None):
     result = subprocess.run([converter, "-o", "proof.pdf", "proof.xdv"], cwd=directory, env=env,
                             text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
     (directory / "xdvipdfmx-output.txt").write_text(result.stdout, encoding="utf-8")
+    if re.search(r'Interpreting special command .* failed', result.stdout):
+        raise ValueError('xdvipdfmx could not create PDF annotations or graphics; see xdvipdfmx-output.txt')
     if result.returncode or not (directory / "proof.pdf").is_file():
         raise ValueError("PDF conversion failed:\n" + result.stdout[-3000:])
 
@@ -470,11 +631,13 @@ def render_publication(directory, books, size, version, publication, macros, xet
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     selection_arguments(parser)
-    parser.add_argument("--oet-root", type=Path, default=OET)
-    parser.add_argument("-o", "--output", type=Path, help="exact destination (default: VERSION-BOOKS.SIZE.pdf)")
+    output_arguments(parser)
+    profile_arguments(parser, HERE)
+    parser.add_argument("--source-root", "--oet-root", dest="oet_root", type=Path, help="override the configured source root")
+    parser.add_argument("-o", "--output", type=Path, help="exact destination (default: VERSION-BOOKS.SIZE.MODE.pdf)")
     parser.add_argument("--paper-size", type=paper_size, default="b5", metavar="SIZE",
                         help='B5 (default), A4, Letter, or dimensions such as "160x240mm" or "6x9in"')
-    parser.add_argument("--version", type=str.upper, choices=("OET", "OET-RV", "OET-LV"), default="OET")
+    parser.add_argument("--version", help="edition ID from TOML (default: publication.default_version)")
     parser.add_argument("--ptxprint-root", type=Path, default=os.environ.get("PTXPRINT_ROOT"),
                         help="PTXPrint checkout or installed macro directory")
     parser.add_argument("--xetex", default=os.environ.get("XETEX_BIN", "xetex"))
@@ -483,6 +646,7 @@ def main():
     parser.add_argument("--prepare-only", action="store_true", help="write inputs without rendering (requires --build-dir)")
     args = parser.parse_args()
     try:
+        profile = resolve_arguments(args)
         selection = select_books(args)
     except (ValueError, OSError) as error:
         parser.error(str(error))
@@ -490,12 +654,18 @@ def main():
         print(' '.join(selection.codes)); return
     if args.prepare_only and not args.build_dir:
         parser.error("--prepare-only requires --build-dir")
-    output = (args.output or Path(default_pdf_filename(args.version, selection.stem, args.paper_size))).resolve()
+    output = (args.output or Path(default_pdf_filename(args.version, selection.stem, args.paper_size, args.medium))).resolve()
     if output.suffix.lower() != ".pdf":
         parser.error("output filename must end in .pdf")
     try:
-        books, publication = selected_content(args, selection)
-        macros = macros_directory(args.ptxprint_root) if not args.prepare_only else None
+        try:
+            macros = macros_directory(args.ptxprint_root or profile.data.get('tools', {}).get('ptxprint_root'))
+        except ValueError:
+            if not args.prepare_only:
+                raise
+            macros = None
+        credit = toolchain_credit('PTXPrint ' + ptxprint_version(macros))
+        books, publication = selected_content(args, selection, credit)
         if not args.prepare_only:
             xetex, converter = shutil.which(args.xetex), shutil.which(args.xdvipdfmx)
             if not xetex or not converter:

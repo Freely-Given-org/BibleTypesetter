@@ -11,8 +11,9 @@ import re
 import unicodedata
 
 import pdfplumber
-from typeset import OET, USFMWriter, paired_book
-from oet_books import DC, SETTINGS, read_orders
+from typeset import USFMWriter, paired_book
+from oet_books import DC, read_orders
+from publication_config import default_profile, profile_arguments, load_profile
 
 
 def normalise(text):
@@ -34,9 +35,16 @@ def compare(label, expected, actual):
                              f"{expected[index:index+80]!r} != {actual[index:index+80]!r}")
 
 
-def audit(pdf_path, build_dir, oet_root=OET, version="OET", start_page=1, code='MRK'):
-    aliases = read_orders(SETTINGS)['OET_SOURCE_BOOK_ALIASES'] if SETTINGS.is_file() else {}
-    book = paired_book(oet_root, code, version, aliases, chapter_pair=code in DC and version == 'OET')
+def audit(pdf_path, build_dir, oet_root=None, version=None, start_page=1, code='MRK', profile=None):
+    profile = profile or default_profile()
+    version = version or profile.version
+    oet_root = oet_root or profile.source_root
+    sides = profile.sides(version)
+    paired = len(sides) == 2
+    keys = profile.data.get('books', {}).get('settings_keys', {})
+    settings = profile.settings_file
+    aliases = read_orders(settings, profile).get(keys.get('aliases'), {}) if settings and settings.is_file() else {}
+    book = paired_book(oet_root, code, version, aliases, chapter_pair=code in DC and paired, profile=profile)
     writer = USFMWriter()
     writer.book(book)
     expected = {}
@@ -75,7 +83,7 @@ def audit(pdf_path, build_dir, oet_root=OET, version="OET", start_page=1, code='
                 page.close()
                 continue
             left = 43 if (page.page_number + start_page - 1) % 2 else 33
-            column = (page.width - 92) / 2 if version == "OET" else page.width - 76
+            column = (page.width - 92) / 2 if paired else page.width - 76
             assert min(c["x0"] for c in chars) >= left - 0.5, page.page_number
             assert max(c["x1"] for c in chars) <= left + page.width - 76 + 0.5, page.page_number
             notechars = [c for c in chars if round(c["size"], 2) == 8.9]
@@ -89,7 +97,7 @@ def audit(pdf_path, build_dir, oet_root=OET, version="OET", start_page=1, code='
             for c in chars:
                 size = round(c["size"], 2)
                 y = page.height - c["matrix"][5]
-                side = ("rv" if c["x0"] < left + column + 8 else "lv") if version == "OET" else version[-2:].lower()
+                side = ("rv" if c["x0"] < left + column + 8 else "lv") if paired else sides[0]
                 if y >= note_top - 4 and size != 8.5:
                     actual["notes"] += c["text"]
                 elif "Lato" in c["fontname"]:
@@ -149,7 +157,7 @@ def audit(pdf_path, build_dir, oet_root=OET, version="OET", start_page=1, code='
                 anchors[side][ref] = (page, y)
             else:
                 body_note_pages[int(label)] = page
-    if version == "OET":
+    if paired:
         for section in book.findall("section"):
             if not all(section.find(side)[0].get('verse') for side in ['rv', 'lv']):
                 continue
@@ -180,9 +188,10 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("pdf", type=Path)
     parser.add_argument("--build-dir", type=Path, required=True)
-    parser.add_argument("--oet-root", type=Path, default=OET)
-    parser.add_argument("--version", choices=("OET", "OET-RV", "OET-LV"), default="OET")
+    profile_arguments(parser, Path(__file__).parent)
+    parser.add_argument("--source-root", "--oet-root", dest="oet_root", type=Path)
+    parser.add_argument("--version")
     parser.add_argument('--start-page', type=int, default=1, help='printed folio of the first page in a collection part')
     parser.add_argument('--book', default='MRK', help='canonical book code (default: MRK)')
     args = parser.parse_args()
-    audit(args.pdf, args.build_dir, args.oet_root, args.version, args.start_page, args.book)
+    audit(args.pdf, args.build_dir, args.oet_root, args.version, args.start_page, args.book, load_profile(args.layout_settings))

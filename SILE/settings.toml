@@ -1,0 +1,4 @@
+# Publication data and artwork are shared; override any table here if needed.
+extends = "../profiles/oet.toml"
+# Folios: "outside" (left on even pages, right on odd pages), or "centred".
+page_numbers = "outside"

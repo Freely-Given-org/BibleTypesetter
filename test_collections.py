@@ -7,7 +7,7 @@ import unittest
 
 from oet_books import NT, OT, SETTINGS, read_orders, selection_arguments, select_books, source_path
 from SILE.typeset import OET, paired_book, publication_front, read_edition, selected_content, paper_size
-from oet_publication import TITLE, default_pdf_filename
+from oet_publication import PRINT_TITLE, default_pdf_filename
 
 
 class CollectionTests(unittest.TestCase):
@@ -82,7 +82,7 @@ class CollectionTests(unittest.TestCase):
         self.assertEqual(books[0].get('recto'), 'false')
         args.start_books_on_odd_pages = True
         self.assertEqual(selected_content(args, selection)[0][0].get('recto'), 'true')
-        self.assertEqual(front.get('fulltitle'), TITLE)
+        self.assertEqual(front.get('fulltitle'), PRINT_TITLE)
         self.assertIn('Translation draft v9.8.7', ''.join(front.find('copyright').itertext()))
         self.assertIn('CC BY-SA 4.0', ''.join(front.find('copyright').itertext()))
 
@@ -92,6 +92,22 @@ class CollectionTests(unittest.TestCase):
             settings.write('    OET_VERSION_NUMBER_STRING = 42\n')
         with self.assertRaisesRegex(ValueError, 'must be a string'):
             self.select('NT')
+
+    def test_title_and_toolchain_are_placed_once_for_the_whole_selection(self):
+        for code in ['JN2', 'JN3']:
+            self.source(code, 'RV', '\\c 1\n\\v 1 Text.')
+        self.source('FRT', 'RV', '\\periph Preface\n\\p Preface text.')
+        args = self.parser.parse_args(['JN2', 'JN3', '--settings', str(self.settings), '--version', 'OET-RV'])
+        args.oet_root = self.root
+        credit = 'Text preprocessed by script v1.0.0, then PDF produced by Example v2.0.1'
+        books, front = selected_content(args, select_books(args), credit)
+        self.assertIsNone(front)
+        self.assertEqual([b.get('opening-title') for b in books], [PRINT_TITLE, None])
+        self.assertEqual([b.get('toolchain') for b in books], [None, credit])
+        args.front_matter = True
+        books, front = selected_content(args, select_books(args), credit)
+        self.assertTrue(all(b.get('opening-title') is None and b.get('toolchain') is None for b in books))
+        self.assertEqual([node.text for node in front.findall('copyright/intro[@kind="toolchain"]/run')], [credit])
 
     def test_lv_release_comes_from_each_books_own_folder(self):
         derived = self.root / 'derivedTexts'
@@ -119,7 +135,9 @@ class CollectionTests(unittest.TestCase):
                              ('160x240mm', '160x240mm'), ('6 x 9 inches', '6x9in'),
                              ('8.5in x 297mm', '8.5inx297mm')]:
             self.assertEqual(default_pdf_filename('OET', 'NT-oet', paper_size(size)),
-                             f'OET-NT-oet.{suffix}.pdf')
+                             f'OET-NT-oet.{suffix}.print.pdf')
+            self.assertEqual(default_pdf_filename('OET', 'NT-oet', paper_size(size), 'screen'),
+                             f'OET-NT-oet.{suffix}.screen.pdf')
 
     def source(self, code, edition, text):
         directory = 'translatedTexts/ReadersVersion' if edition == 'RV' else 'derivedTexts/auto_edited_VLT_ESFM'

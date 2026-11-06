@@ -1,11 +1,20 @@
 # Printing the OET with PTXPrint/XeTeX
 
-[Open the B5 Ruth proof](OET-RUT.B5.pdf). This is the PTXPrint counterpart to the
+[Open the B5 Ruth print proof](OET-RUT.B5.print.pdf) or [screen proof](OET-RUT.B5.screen.pdf). This is the PTXPrint counterpart to the
 [SILE prototype](../SILE/README.md): the same ESFM sources, matched RV/LV
 sections, right-side inset RV headings, page-bottom notes, and a shared
 recto-verso baseline grid.
 
 ## Build
+
+[settings.toml](settings.toml) extends [the shared OET profile](../profiles/oet.toml)
+and sets page numbers to `"outside"` by default. It supplies the publication's
+sources, wording, licence, colours and linked logos. Use `--config PATH` for
+another publication profile (`--layout-settings` remains an alias).
+Set `page_numbers = "centred"` to centre folios.
+See [publication profiles and logo settings](../README.md#publication-profiles). Scripture headers show the range of text on that
+page, including verses that continue from the previous page. The retained
+`proof.oetrefs` records the printed folios used to build each range.
 
 Use Python 3.11 or newer, XeTeX, `xdvipdfmx`, and a PTXPrint source checkout or
 installed macro directory. On Ubuntu/Debian the TeX tools are supplied by:
@@ -22,14 +31,14 @@ that build, without installing fonts or changing the system configuration.
 From the BibleTypesetter root:
 
 ```sh
-python3 PTXPrint/typeset.py RUT -o PTXPrint/OET-RUT.B5.pdf
+python3 PTXPrint/typeset.py RUT -o PTXPrint/OET-RUT.B5.print.pdf
 python3 PTXPrint/typeset.py JN2 PHM -o letters.pdf
 ```
 
-MRK is the default. The OET checkout defaults to the sibling
-`OpenEnglishTranslation--OET` directory; override it with `--oet-root`.
+MRK is the default. The source checkout comes from `sources.root` in TOML; override it with
+`--source-root` (or the older `--oet-root` alias).
 PTXPrint is discovered at this machine's source checkout,
-`/srv/Programming/ExternalPrograms/SIL_LSDev/ptx2pdf`, or at
+`/srv/Programming/ExternalPrograms/SIL_LSDev/ptx2pdf`, as configured by `tools.ptxprint_root` in TOML, or at
 `/usr/share/ptx2pdf` or `/usr/local/share/ptx2pdf`. Use `--ptxprint-root PATH`
 or `PTXPRINT_ROOT` elsewhere. `--xetex` / `XETEX_BIN` and `--xdvipdfmx` /
 `XDVIPDFMX_BIN` override the executables found on PATH.
@@ -53,6 +62,15 @@ not require its GUI, Python application dependencies, or a Paratext project.
 Keep the repository's `SILE/` directory alongside `PTXPrint/`: both drivers
 deliberately share the ESFM parser in `SILE/typeset.py`.
 
+## Print or screen
+
+Use `--print` (default) for greyscale with full visible URLs, or `--screen`
+for coloured headings, verse numbers and links with shortened URL labels.
+Both have live web links, including the reading link after the toolchain credit.
+For example, `python3 PTXPrint/typeset.py RUT --screen` creates
+`OET-RUT.B5.screen.pdf`. These are CLI flags, not TOML settings.
+See [shared output options](../README.md#print-or-screen).
+
 ## Paper and version
 
 The options are the same as the SILE driver:
@@ -72,10 +90,10 @@ are width × height; units may be shared or supplied for each dimension, for
 example `"210mm x 297mm"`. Names are case-insensitive. The default version is
 `OET`, with RV on the left and LV on the right. `OET-RV` and `OET-LV` each use
 one full-width column, loading only their own source. Default output names
-are `VERSION-BOOKS.SIZE.pdf`, for example `OET-NT-oet.B5.pdf`,
-`OET-MRK.A4.pdf`, `OET-MRK.Letter.pdf`, or `OET-MRK.160x240mm.pdf`.
-Inch dimensions use labels such as `.6x9in.pdf`; mixed units retain both,
-such as `.8.5inx297mm.pdf`. An explicit `-o` filename is used exactly as supplied.
+are `VERSION-BOOKS.SIZE.print.pdf`, for example `OET-NT-oet.B5.print.pdf`,
+`OET-MRK.A4.print.pdf`, `OET-MRK.Letter.print.pdf`, or `OET-MRK.160x240mm.print.pdf`.
+Inch dimensions use labels such as `.6x9in.print.pdf`; mixed units retain both,
+such as `.8.5inx297mm.print.pdf`. An explicit `-o` filename is used exactly as supplied.
 
 Fonts, grid spacing and margins retain their physical size as paper changes.
 Very small pages that cannot accommodate the layout are rejected.
@@ -118,8 +136,8 @@ Very small pages that cannot accommodate the layout are rejected.
   page foot. This can leave extra space above the apparatus. The build retains
   the original failure records and a `note-pagination.json` report.
 - Long LV joins that overflow a line get last-resort break opportunities at
-  their visible underscores, division signs and equals signs. No letters or
-  join symbols are removed. Psalm superscriptions, acrostic labels and speaker
+  their visible underscores and division signs. The preprocessor prints both
+  `+` and `=` word joins as underscores. Psalm superscriptions, acrostic labels and speaker
   labels stay in the source text column, outside the inset section headings.
 - Collection and multi-book builds use an isolated native PTXPrint run per
   book, with its starting folio supplied before rendering. This prevents
@@ -131,7 +149,7 @@ Very small pages that cannot accommodate the layout are rejected.
   Small lines at each book's end give the RV revision from its ESFM ID and
   the LV set release from the book folder’s `version.json`.
 
-The profile omits illustrations, editorial comments and hyperlink destinations,
+The profile omits source-text illustrations and editorial comments,
 and uses one gray treatment for ESFM addition categories, like the SILE
 prototype. It preserves source wording and attribution. It is a text proof
 for actual-size, long-edge duplex printing; final press imposition and printer

@@ -12,9 +12,10 @@ local pageStarted = false
 local books = {}
 local pagefile, bookPages
 local width, column
-local version, paired, leftRole
-local editionLabels = { rv = "READERS’ VERSION", lv = "LITERAL VERSION" }
-local editionTitles = { OET = "Parallel reading edition", ["OET-RV"] = "Readers’ Version", ["OET-LV"] = "Literal Version" }
+local version, paired, leftRole, pageNumbers, editionTitle, publicationTitle, publicationAuthor, runningTitle, copyrightHeading
+local logos = {}
+local screen, palette = false, {}
+local editionLabels = {}
 local serif, sans = "Gentium Plus", "Lato"
 local styles = {
    rv = { serif, 10.4 }, lv = { serif, 9.8 }, heading = { sans, 8.5, 700 },
@@ -24,13 +25,13 @@ local styles = {
    label = { sans, 8.3, 700 }, running = { serif, 10, 400, "italic" },
    title = { serif, 29 }, subtitle = { serif, 13, 400, "italic" },
    intro = { serif, 11.1 }, subhead = { sans, 10, 700 }, outline = { serif, 10.4 },
-   copyright = { serif, 9.3 }, colophon = { sans, 7.5 },
+   copyright = { serif, 9.3 }, colophon = { sans, 7.5 }, masthead = { serif, 18 },
 }
 local fonts, cache = {}, {}
 
-local function fragment (s, role, flags)
+local function fragment (s, role, flags, href)
    flags = flags or ""
-   local id = role .. ":" .. flags
+   local id = role .. ":" .. flags .. ":" .. (href or "")
    if s == "◘" then id = id .. ":symbol" end
    if not fonts[id] then
       local spec = styles[role]
@@ -57,7 +58,7 @@ local function fragment (s, role, flags)
          if item.gid == 0 then error("Missing glyph in " .. font.options.family .. ": " .. s) end
       end
       local node = SILE.shaper:formNnode(items, s, font.options).nodes[1]
-      cache[id][s] = { value = node.value, w = node.width:tonumber(), font = font, text = s, role = role, flags = flags }
+      cache[id][s] = { value = node.value, w = node.width:tonumber(), font = font, text = s, role = role, flags = flags, href = href }
    end
    return cache[id][s]
 end
@@ -65,12 +66,31 @@ end
 local function paint (part, x, y)
    local out, font = SILE.outputter, part.font
    y = y - font.rise
-   out:pushColor({ l = font.gray })
+   local colour = { l = font.gray }
+   if screen then
+      local role = part.role
+      colour = (part.href and palette.link)
+         or ((role == "verse" or role == "call") and palette[role])
+         or ((role == "heading" or role == "subhead") and palette.heading)
+         or ((role == "title" or role == "masthead" or role == "label") and palette.title)
+         or (part.flags:find("wj") and not part.flags:find("add") and palette.wj) or colour
+   end
+   out:pushColor(colour)
    out:setFont(font.options)
    out:setCursor(x, y)
    out:drawHbox(part.value, part.w)
    if font.strike then out:drawRule(x, y - font.strike, part.w, 0.38) end
    out:popColor()
+   if part.href then
+      -- The compositor already knows the final position, including URL wraps.
+      -- SILE's annotation API uses PDF coordinates measured from the bottom.
+      local baseline = SILE.documentState.paperSize[2] - y
+      local size = SU.cast("number", font.options.size)
+      local dest = part.href:gsub("\\", "\\\\"):gsub("%(", "\\("):gsub("%)", "\\)")
+      local opts = { external = true, borderwidth = 0, borderoffset = 0 }
+      out:startLink(dest, opts)
+      out:endLink(dest, opts, x, baseline - size * 0.25, x + part.w, baseline + size * 0.85)
+   end
 end
 
 local function label (text, role, x, y, right)
@@ -78,15 +98,28 @@ local function label (text, role, x, y, right)
    paint(part, right and x - part.w or x, y)
 end
 
-local function rule (x, y, w, h)
-   SILE.outputter:pushColor({ l = 0.48 })
+local function drawLogo (role, x, top)
+   local logo = logos[role]
+   if not logo then return end
+   SILE.outputter:drawImage(logo.src, x, top, logo.width, logo.height)
+   if logo.href ~= "" then
+      local opts = { external = true, borderwidth = 0, borderoffset = 0 }
+      local dest = logo.href:gsub("\\", "\\\\"):gsub("%(", "\\("):gsub("%)", "\\)")
+      local height = SILE.documentState.paperSize[2]
+      SILE.outputter:startLink(dest, opts)
+      SILE.outputter:endLink(dest, opts, x, height - top - logo.height, x + logo.width, height - top)
+   end
+end
+
+local function rule (x, y, w, h, colour)
+   SILE.outputter:pushColor(screen and colour or { l = 0.48 })
    SILE.outputter:drawRule(x, y, w, h)
    SILE.outputter:popColor()
 end
 
 -- A word may contain several adjacent runs (e.g. "of_" + a sacred name).
 -- Store note calls on that same word until its line and page are known.
-local function append (words, s, role, flags)
+local function append (words, s, role, flags, href)
    for spaces, token in s:gmatch("(%s*)(%S+)") do
       local spaced = words.space or spaces ~= ""
       local closingQuote = #words > 0 and (token == "”" or token == "’")
@@ -96,7 +129,7 @@ local function append (words, s, role, flags)
       -- Retain the source space but keep a standalone closing quote with its text.
       if closingQuote and spaced then token = " " .. token end
       local word = words[#words]
-      local part = fragment(token, role, flags)
+      local part = fragment(token, role, flags, href)
       word[#word + 1] = part
       word.w = word.w + part.w
       words.space = false
@@ -115,16 +148,16 @@ local function splitWord (word, available)
          local cut, preferred = 0, 0
          for position, code in utf8.codes(part.text) do
             local stop = position + #utf8.char(code) - 1
-            if first.w + fragment(part.text:sub(1, stop), part.role, part.flags).w > available then break end
+            if first.w + fragment(part.text:sub(1, stop), part.role, part.flags, part.href).w > available then break end
             cut = stop
             if code == 47 or code == 95 or code == 45 then preferred = stop end
          end
          if preferred > 0 then cut = preferred end
          if cut > 0 then
-            local prefix = fragment(part.text:sub(1, cut), part.role, part.flags)
+            local prefix = fragment(part.text:sub(1, cut), part.role, part.flags, part.href)
             first[#first + 1] = prefix; first.w = first.w + prefix.w
          end
-         local suffix = fragment(part.text:sub(cut + 1), part.role, part.flags)
+         local suffix = fragment(part.text:sub(cut + 1), part.role, part.flags, part.href)
          rest[#rest + 1] = suffix; rest.w = rest.w + suffix.w
          full = true
       end
@@ -183,13 +216,13 @@ end
 local function addRuns (words, node, role)
    for _, run in ipairs(node) do
       if run.command == "run" then
-         append(words, run[1], role, run.options.style)
+         append(words, run[1], role, run.options.style, run.options.href)
       elseif run.command == "note" then
          noteNumber = noteNumber + 1
          local id, opts = tostring(noteNumber), run.options
          local note = {}
          append(note, id .. " " .. opts.edition .. " " .. opts.ref .. " · " .. opts.kind .. "  ", "key")
-         for _, part in ipairs(run) do append(note, part[1], "note", part.options.style) end
+         for _, part in ipairs(run) do append(note, part[1], "note", part.options.style, part.options.href) end
          append(words, id, "call")
          local calls = words[#words].notes
          local lines = wrap(note, fixed(width), "note", 0, 1)
@@ -323,7 +356,16 @@ end
 
 local function footer (x)
    local y = firstY + (rowsPerPage + 1) * grid
-   label(tostring(number), "label", number % 2 == 1 and x + width or x, y, number % 2 == 1)
+   local folio = tostring(number)
+   if pageNumbers == "centred" then
+      label(folio, "label", x + (width - fragment(folio, "label").w) / 2, y)
+   else
+      label(folio, "label", number % 2 == 1 and x + width or x, y, number % 2 == 1)
+   end
+   if logos.footer then
+      drawLogo("footer", pageNumbers == "centred" and x or x + (width - logos.footer.width) / 2,
+               y - logos.footer.height + 1)
+   end
 end
 
 local function pageRange (rows, a, b)
@@ -340,6 +382,14 @@ local function pageRange (rows, a, b)
    end
    local function ref (n) return math.floor(n / 1000) .. ":" .. n % 1000 end
    return lo == hi and ref(lo) or ref(lo) .. " – " .. ref(hi)
+end
+
+local function drawCenteredLine (line, x, y)
+   local w = line.x
+   for i, word in ipairs(line) do
+      w = w + word.w + ((i > 1 and not word.joined) and line.gap or 0)
+   end
+   drawLine(line, x + (width - w) / 2, y)
 end
 
 local function renderBody (rows, name)
@@ -365,13 +415,15 @@ local function renderBody (rows, name)
          local y = firstY + (i - a) * grid
          if row.left then drawLine(row.left, x, y) end
          if row.right then drawLine(row.right, right, y) end
+         if row.full then drawCenteredLine(row.full, x, y) end
+         if row.logo then drawLogo("ending", x + (width - logos.ending.width) / 2, y - 8) end
          local bx = x + column - row.bw
          if row.boxRows then
             local top, h = y - 9.4, row.boxRows * grid
-            rule(bx, top, row.bw, 0.4)
-            rule(bx, top + h, row.bw, 0.4)
-            rule(bx, top, 0.4, h)
-            rule(bx + row.bw - 0.4, top, 0.4, h)
+            rule(bx, top, row.bw, 0.4, palette.border)
+            rule(bx, top + h, row.bw, 0.4, palette.border)
+            rule(bx, top, 0.4, h, palette.border)
+            rule(bx + row.bw - 0.4, top, 0.4, h, palette.border)
          end
          if row.box then drawLine(row.box, bx + 5, y) end
          for _, line in ipairs(row.notes) do notes[#notes + 1] = line end
@@ -403,14 +455,30 @@ local function frontMatter (book, opts, preface)
    local function newPage ()
       finishPage()
       x, y = startPage(), firstY
-      label(preface == "copyright" and "Copyright and licence" or "OPEN ENGLISH TRANSLATION", "label", x, 31)
-      label(editionTitles[version], "running", x + width, 31, true)
-      rule(x, 38, width, 0.45)
+      if number ~= 1 or not opts["opening-title"] then
+         label(preface == "copyright" and copyrightHeading or runningTitle, "label", x, 31)
+         label(editionTitle, "running", x + width, 31, true)
+         rule(x, 38, width, 0.45)
+      end
       footer(x)
    end
    newPage()
+   if opts["opening-title"] then
+      if logos.opening then
+         drawLogo("opening", x + (width - logos.opening.width) / 2, y - 40)
+         y = y + math.max(1, math.ceil((logos.opening.height - 20 + grid) / grid)) * grid
+      end
+      for phrase in opts["opening-title"]:gmatch("[^\n]+") do
+         local words = {}
+         append(words, phrase, "masthead")
+         for _, line in ipairs(wrap(words, fixed(width), "masthead", 0, 1)) do
+            drawCenteredLine(line, x, y)
+            y = y + 2 * grid
+         end
+      end
+   end
    for _, node in ipairs(book) do
-      if node.command ~= "section" then
+      if node.command ~= "section" and node.command ~= "credits" and node.command ~= "reading-link" then
          local kind = node.options.kind
          local role, before, after = preface == "copyright" and "copyright" or (preface and "outline" or "intro"), 0, 0
          if kind == "mt1" then role, before, after = "title", 1, 1
@@ -419,9 +487,11 @@ local function frontMatter (book, opts, preface)
          elseif kind == "io1" or kind == "io2" then role, after = "outline", 0 end
          if preface and (kind == "p" or kind == "m" or kind == "b") then before = 1 end
          if preface == "copyright" then after = 1 end
+         if not preface and kind == "is1" then after = 1 end
          local words = {}
          addRuns(words, node, role)
-         local indent = preface == "copyright" and 0 or (kind == "li1" and 12 or kind == "li2" and 24 or kind == "io2" and 14 or kind == "ip" and 9 or 0)
+         if kind == "toolchain" then append(words, " " .. SILE.version, role) end
+         local indent = preface == "copyright" and 0 or (kind == "li1" and 12 or kind == "li2" and 24 or kind == "io1" and 14 or kind == "io2" and 28 or kind == "ip" and 9 or 0)
          local lines = wrap(words, fixed(width - indent), role, 0, 1)
          y = y + before * grid
          if y + math.min(#lines, 2) * grid > firstY + (rowsPerPage - 1) * grid then newPage() end
@@ -437,24 +507,23 @@ local function frontMatter (book, opts, preface)
             if y > limit() then newPage() end
             assert(y <= limit(), "Introduction note cannot fit on a page in " .. opts.name)
             for _, noteLine in ipairs(addedNotes) do pageNotes[#pageNotes + 1] = noteLine end
-            drawLine(line, x + indent, y)
+            if not preface and (node.command == "title" or kind == "is1") then
+               drawCenteredLine(line, x, y)
+            else
+               drawLine(line, x + indent, y)
+            end
             y = y + (role == "title" and 2 or 1) * grid
          end
          y = y + after * grid
       end
    end
    if preface then finishPage(); return end
-   local credits = {
-      "Lighter type marks additions. Underscores join parts of a single source word.",
-      "Struck words are untranslated. The ◘ sign marks a verse with no text.",
-      opts["draft-credit"] or "Open English Translation · Translation draft (version unavailable) · OET.Bible",
-      "CC BY-SA 4.0  ·  creativecommons.org/licenses/by-sa/4.0/",
-   }
-   if opts.credit and opts.credit ~= "" then credits[#credits + 1] = opts.credit end
+   local credits = {}
+   for _, node in ipairs(book) do if node.command == "credits" then credits = node end end
    local creditLines = {}
-   for _, text in ipairs(credits) do
+   for _, node in ipairs(credits) do
       local words = {}
-      append(words, text, "note")
+      addRuns(words, node, "note")
       for _, line in ipairs(wrap(words, fixed(width), "note", 0, 1)) do
          creditLines[#creditLines + 1] = line
       end
@@ -471,11 +540,37 @@ local function frontMatter (book, opts, preface)
 end
 
 local function configure (opts)
+      screen = opts.medium == "screen"
+      for _, name in ipairs({ "link", "heading", "border", "verse", "call", "title", "wj" }) do
+         local hex = opts["colour-" .. name] or "000000"
+         palette[name] = { r = tonumber(hex:sub(1, 2), 16) / 255, g = tonumber(hex:sub(3, 4), 16) / 255, b = tonumber(hex:sub(5, 6), 16) / 255 }
+      end
+      pageNumbers = opts["page-numbers"] or "outside"
       if opts.startpage then number = tonumber(opts.startpage) - 1 end
-      version = opts.version or "OET"
-      paired = version == "OET"
-      leftRole = version == "OET-LV" and "lv" or "rv"
+      version = opts.version
+      paired = opts.sides == "rv lv"
+      leftRole = opts.sides:match("%S+")
+      editionTitle = opts["edition-title"] or version
+      publicationTitle = opts["publication-title"] or ""
+      publicationAuthor = opts["publication-author"] or ""
+      runningTitle = opts["running-title"] or ""
+      copyrightHeading = opts["copyright-heading"] or "Publication information"
+      editionLabels = { rv = opts["rv-label"] or "", lv = opts["lv-label"] or "" }
+      logos = {}
+      for _, role in ipairs({ "opening", "ending", "footer" }) do
+         local prefix = "logo-" .. role .. "-"
+         if opts[prefix .. "src"] then
+            logos[role] = { src = opts[prefix .. "src"], width = tonumber(opts[prefix .. "width"]),
+                            height = tonumber(opts[prefix .. "height"]), href = opts[prefix .. "href"] or "" }
+         end
+      end
       width = SILE.documentState.paperSize[1] - inside - outside
+      for _, logo in pairs(logos) do
+         if logo.width > width then
+            logo.height = logo.height * width / logo.width
+            logo.width = width
+         end
+      end
       column = paired and (width - gutter) / 2 or width
       rowsPerPage = math.floor((SILE.documentState.paperSize[2] - bottomMargin - firstY) / grid) - 1
       assert(column >= 150 and width >= 260, "Paper is too narrow for this edition and its margins")
@@ -488,24 +583,29 @@ function class:registerCommands ()
       pagefile, bookPages = opts.pagefile, {}
       local x = startPage()
       local y = firstY + 7 * grid
+      if logos.opening then drawLogo("opening", x + (width - logos.opening.width) / 2, firstY) end
+      if logos.opening then y = math.max(y, firstY + logos.opening.height + 3 * grid) end
       local function centered (text, role)
          local words = {}; append(words, text, role)
          for _, line in ipairs(wrap(words, fixed(width), role, 0, 1)) do
-            local w = math.max(0, (#line - 1) * line.gap)
-            for _, word in ipairs(line) do w = w + word.w end
-            drawLine(line, x + (width - w) / 2, y)
+            drawCenteredLine(line, x, y)
             y = y + 2.5 * grid
          end
       end
-      -- Keep the final phrase together instead of leaving “Bible” alone.
-      centered("Open English Translation", "title")
-      centered("of the Bible", "title")
+      for phrase in opts.fulltitle:gmatch("[^\n]+") do centered(phrase, "title") end
       y = y + 2 * grid
       centered(opts.title, "subtitle")
-      centered(editionTitles[version], "subtitle")
+      centered(editionTitle, "subtitle")
       centered(opts.order, "outline")
       y = firstY + (rowsPerPage - 5) * grid
-      centered("OET.Bible · Freely-Given.org", "note")
+      for _, node in ipairs(nodes) do
+         if node.command == "cover-credit" then
+            local words = {}; addRuns(words, node, "note")
+            for _, line in ipairs(wrap(words, fixed(width), "note", 0, 1)) do
+               drawCenteredLine(line, x, y); y = y + grid
+            end
+         end
+      end
       bookPages[#bookPages + 1] = "TITLE\t" .. number
       for _, node in ipairs(nodes) do
          if node.command == "copyright" then
@@ -532,9 +632,11 @@ function class:registerCommands ()
             for _, line in ipairs(lines) do drawLine(line, x, y); y = y + grid end
          elseif node.command == "preface" then preface = node end
       end
-      openRecto()
-      bookPages[#bookPages + 1] = "FRT\t" .. (number + 1)
-      frontMatter(preface, { name = "Preface" }, true)
+      if preface then
+         openRecto()
+         bookPages[#bookPages + 1] = "FRT\t" .. (number + 1)
+         frontMatter(preface, { name = "Preface" }, true)
+      end
    end)
    self:registerCommand("book", function (opts, book)
       configure(opts)
@@ -569,6 +671,33 @@ function class:registerCommands ()
                                notes = {}, keep = r < count, bw = 0 }
          end
       end
+      if opts.toolchain then
+         local words = {}
+         append(words, opts.toolchain .. " " .. SILE.version, "colophon")
+         rows[#rows].keep = true
+         rows[#rows + 1] = { notes = {}, keep = true, bw = 0 }
+         for _, line in ipairs(wrap(words, fixed(width), "colophon", 0, 1)) do
+            rows[#rows].keep = true
+            rows[#rows + 1] = { full = line, notes = {}, bw = 0 }
+         end
+         for _, node in ipairs(book) do
+            if node.command == "reading-link" then
+               local linked = {}; addRuns(linked, node, "colophon")
+               for _, line in ipairs(wrap(linked, fixed(width), "colophon", 0, 1)) do
+                  rows[#rows].keep = true
+                  rows[#rows + 1] = { full = line, notes = {}, bw = 0 }
+               end
+            end
+         end
+      end
+      if logos.ending then
+         rows[#rows].keep = true
+         rows[#rows + 1] = { notes = {}, keep = true, bw = 0 }
+         for r = 1, math.ceil(logos.ending.height / grid) do
+            rows[#rows].keep = true
+            rows[#rows + 1] = { logo = r == 1, notes = {}, bw = 0 }
+         end
+      end
       renderBody(rows, opts.name)
    end)
 end
@@ -578,8 +707,8 @@ function class:finish ()
       local file = assert(io.open(pagefile, "w"))
       file:write(table.concat(bookPages, "\n") .. "\n"); file:close()
    end
-   SILE.outputter:setMetadata("Title", "Open English Translation of the Bible · " .. table.concat(books, ", ") .. " · " .. editionTitles[version])
-   SILE.outputter:setMetadata("Author", "Open English Translation")
+   SILE.outputter:setMetadata("Title", publicationTitle .. " · " .. table.concat(books, ", ") .. " · " .. editionTitle)
+   SILE.outputter:setMetadata("Author", publicationAuthor)
    SILE.outputter:finish()
 end
 

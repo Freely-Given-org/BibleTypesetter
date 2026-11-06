@@ -1,13 +1,179 @@
 # BibleTypesetter
 
 Comparing [SILE](https://sile-typesetter.org/) and
-[PTXPrint/XeTeX](https://software.sil.org/ptxprint/) for printed Bible PDFs.
+[PTXPrint/XeTeX](https://software.sil.org/ptxprint/) for print and screen Bible PDFs.
 
-[Ruth in the parallel Open English Translation (PDF)](SILE/OET-RUT.B5.pdf) · [Build the SILE edition](SILE/README.md)
+[Ruth with SILE: print](SILE/OET-RUT.B5.print.pdf) · [screen](SILE/OET-RUT.B5.screen.pdf) · [Build the SILE edition](SILE/README.md)
 
-[Ruth using PTXPrint/XeTeX (PDF)](PTXPrint/OET-RUT.B5.pdf) · [Build the PTXPrint edition](PTXPrint/README.md)
+[Ruth with PTXPrint: print](PTXPrint/OET-RUT.B5.print.pdf) · [screen](PTXPrint/OET-RUT.B5.screen.pdf) · [Build the PTXPrint edition](PTXPrint/README.md)
 
 The ISO B5 Ruth proofs have 11 pages in SILE and 12 in PTXPrint.
+
+## Publication profiles
+
+The engines read publication data from TOML. The supplied
+[SILE settings](SILE/settings.toml) and [PTXPrint settings](PTXPrint/settings.toml)
+both extend [the OET profile](profiles/oet.toml). This keeps the two OET editions
+consistent while allowing engine-specific overrides.
+
+The shared profile contains the publication title and author, copyright and
+licence wording, source root and filename patterns, edition IDs and labels,
+reading URLs, preface source, external book-order/version settings, text
+normalisation rules, alignment mappings, screen colours, and logo artwork.
+The Python and rendering code consume those values. Existing internal names
+such as `oet.lua` and `OET...` TeX commands are retained for compatibility;
+they do not select the publication's identity or licence.
+
+```sh
+python3 SILE/typeset.py RUT --config SILE/settings.toml --screen
+python3 PTXPrint/typeset.py RUT --config PTXPrint/settings.toml --print
+python3 SILE/typeset.py MRK --config /path/to/another-publication.toml
+```
+
+`--config` selects the complete publication/layout profile. `--layout-settings`
+remains an alias. `--source-root` overrides its source root (`--oet-root` is
+retained as an alias). `--version` selects an edition ID declared in that
+profile. Without it, `publication.default_version` is used. `--settings` can
+still override a configured external order/version settings file.
+
+Paths are relative to the TOML file that declares them, even when another
+file extends it. Tables merge recursively. A local folio-only override should
+therefore include `extends = "/path/to/the/engine/settings.toml"` before
+`page_numbers = "centred"`.
+
+For another translation, create a standalone profile. A minimal one-version
+example is:
+
+```toml
+[publication]
+id = "EXAMPLE"
+title = "Example Bible"
+default_version = "EXAMPLE"
+author = "Example Publisher"
+licence = "Your actual publication licence"
+intro_licence = "{licence}"
+copyright_paragraphs = ["{licence}"]
+
+[editions.EXAMPLE]
+sides = ["rv"]
+label = "Example edition"
+
+[sources]
+root = "/path/to/USFM-files"
+[sources.rv]
+id = "EXAMPLE"
+label = "Example edition"
+patterns = ["{code}.usfm"]
+```
+
+`rv` and `lv` are the two internal source slots. A profile can use either
+slot alone or both, with arbitrary edition names. Basic USFM/ESFM markers
+are supported; this is not a new USX/OSIS importer. The OET join replacements,
+editorial-code removal and BibleOrgSys mapping IDs are enabled by the OET
+profile. They do not apply to an unrelated standalone profile. A preface,
+logos, web links and release manifests are optional. For release manifests,
+set `release_file` and, optionally, `release_resource` on the relevant source.
+
+The publication templates can refer to other publication fields with
+`{copyright}`, `{licence}`, `{licence_url}`, `{version}` and `{draft_credit}`.
+The per-book reading URL uses `{code}`. `books.settings_keys` maps generic
+order/version fields to names in an external settings file; it is parsed as
+data without executing Python. A profile can instead supply `books.sequence`,
+`books.aliases`, `books.dc_rv`, `books.dc_lv` and `publication.draft_version`
+directly, with traditional book order available independently.
+
+### Linked logos
+
+The supplied profile points to the existing artwork under
+`/srv/FreelyGiven/OpenEnglishTranslation-website/OET-Logo-Files/`.
+`logos.opening` appears above the first-page title or on the title page,
+`logos.ending` follows each book's closing material, and `logos.footer`
+appears beside the folio area on ordinary pages. Blank versos stay blank;
+the title page uses the large logo without a footer mark.
+
+Each placement has `enabled`, `print`, `screen`, `href`, `height_pt` and
+`max_width_pt` settings. Artwork keeps its aspect ratio. PNG is currently
+supported by both renderers. Print uses the supplied black artwork, while
+screen uses the wide colour logo and colour mark. Every displayed logo has
+its configured live link. Disable the repeating mark with:
+
+```toml
+[logos.footer]
+enabled = false
+```
+
+The artwork stays in its source folder. PTXPrint copies the selected images
+into its build directory so retained builds are reproducible.
+
+## Building the complete SILE download catalogue
+
+Run `python3 SILE/build_pdfs.py` to create print and screen PDFs for OT, NT,
+DC & other, ALL, and every individual book. The supplied OET profile selects
+B5 and OET order: 84 books plus four collections, giving 176 PDFs. Publication
+paths and labels remain in `[batch]` in [profiles/oet.toml](profiles/oet.toml).
+
+The PDFs, `manifest.json`, and an `index.htm` download page go directly into
+`OpenBibleData/htmlPages/OET/Downloads/`. The generated links use
+`https://Freely-Given.org/OBD/OET/Downloads/`. A small copy of the catalogue
+goes into the OET website's `src/data/oet-pdfs.json`; its Downloads page uses
+those external links, so no PDFs are included in the OET.Bible deployment.
+
+The OET scripts makefile includes this batch in its default `ALL` target.
+Use `make PDF` there to build only the PDF downloads and their source
+prerequisites. PDF generation waits for RV linking and the OT, NT and DC
+release writers even with parallel make. `TYPESETTER_DIR`, `PDF_CONFIG`,
+`PDF_PYTHON` and `PDF_ARGS` can override the makefile defaults.
+
+The batch checks content fingerprints of each book, release metadata, preface,
+settings, artwork, renderer and mapping code. It skips unchanged PDFs, rebuilds
+missing or damaged outputs, and preserves the previous PDF after a failed
+render. Successful jobs are cached privately under `.build/sile-downloads/`,
+so interrupted batches can resume. The public catalogues are updated only
+after a complete successful batch. No network upload is performed.
+
+Useful batch options:
+
+```sh
+python3 SILE/build_pdfs.py --list-targets
+python3 SILE/build_pdfs.py --jobs 2
+python3 SILE/build_pdfs.py --only RUT DC
+python3 SILE/build_pdfs.py --force
+```
+
+`--only` refreshes both modes for selected targets and leaves catalogues alone;
+run the full batch afterward to update both sites' listings. `--config`,
+`--paper-size`, `--version`, `--output-dir`, `--cache-dir` and `--catalogue-file`
+are also available. OBD preserves `OET/Downloads/` when replacing its generated
+Bible pages. Commit the generated small JSON catalogue with the OET website;
+publish the PDF folder through the normal OBD hosting process.
+
+## Print or screen
+
+Both scripts accept `--print` (the default) or `--screen`. These are mutually
+exclusive command-line flags, independent of the layout TOML files.
+
+```sh
+python3 SILE/typeset.py RUT --screen
+python3 PTXPrint/typeset.py RUT --print
+```
+
+Default names end in `.SIZE.print.pdf` or `.SIZE.screen.pdf`, for example
+`OET-RUT.B5.print.pdf` and `OET-RUT.B5.screen.pdf`. An explicit `-o` remains exact.
+Both outputs contain borderless, clickable web links. Print shows full URLs
+including `https://`; screen omits that prefix from displayed URLs and colours
+links blue. OET.Bible, the licence and project URLs, source hyperlinks, and URLs
+in the preface and notes are included. Relative source links resolve to the
+online OET book. Descriptive source links also show their destination in print.
+The reading link immediately follows the toolchain credit: the final book's
+online page for an edition without a cover, or the OET section directory on
+the copyright page.
+
+Screen adds green heading boxes and note calls, red verse numbers, purple
+titles/headers, and brown for source-marked words of Jesus, using accents based
+on the OBD OET stylesheet. Addition categories retain their existing grey
+styling. Print remains greyscale. Fonts, paper, margins and baseline grid are
+shared; longer visible URLs can change wrapping and pagination.
+These web links do not add internal PDF bookmarks or verse navigation.
 
 ## Collections and book order
 
@@ -32,6 +198,22 @@ from the top-level `version` field in the `version.json` beside its LV source.
 For Ruth the LV line reads `RUT · OET-LV v0.2.0 (OT set)`. If an LV source
 also supplies its own book revision, that appears alongside the set release.
 Older sources without a manifest use their ESFM ID revision when available.
+
+The title is centred over two lines, “Open English Translation” above “of the Bible”.
+A PDF without a title page opens with those lines above the first book.
+Its final book ends with one full-width line giving the
+preprocessing script and renderer versions. Publications with a title page put
+this line on the copyright verso. In both layouts, printed LV text uses an
+underscore for the source’s `+` and `=` word joins.
+
+Page numbers default to the outside edge (left on even pages, right on odd
+pages). To centre them, set `page_numbers = "centred"` in
+[SILE/settings.toml](SILE/settings.toml) or
+[PTXPrint/settings.toml](PTXPrint/settings.toml). Both drivers also accept
+`--layout-settings PATH` for a separate print configuration. The existing
+`--settings` option selects the OpenBibleData book-order and draft settings.
+Scripture pages show the chapter and verse range covered by the printed text.
+The range includes both columns and any verse continuing across a page turn.
 
 By default, each new book starts on the next available page. Add
 `--start-books-on-odd-pages` to either driver to start every book's introduction
@@ -78,10 +260,10 @@ is given. Add `--front-matter` to give such a selection the same opening pages.
 All collection options combine with `--version`, named or custom paper sizes,
 `--build-dir`, and `--prepare-only`.
 
-Default output filenames include the paper size: `OET-NT-oet.B5.pdf`,
-`OET-RV-OT-traditional.A4.pdf`, or `OET-DC-traditional.Letter.pdf`.
-Custom sizes use labels such as `.160x240mm.pdf`, `.6x9in.pdf`, or
-`.8.5inx297mm.pdf` for mixed units. An explicit `-o` / `--output` filename
+Default output filenames include the paper size: `OET-NT-oet.B5.print.pdf`,
+`OET-RV-OT-traditional.A4.print.pdf`, or `OET-DC-traditional.Letter.print.pdf`.
+Custom sizes use labels such as `.160x240mm.print.pdf`, `.6x9in.print.pdf`, or
+`.8.5inx297mm.print.pdf` for mixed units. An explicit `-o` / `--output` filename
 is used exactly as supplied.
 
 Collection builds require Python 3.11+, Poppler's `pdfinfo` and `pdfunite`, and
@@ -98,14 +280,13 @@ page-builder retries duplicate or move a note, the driver automatically
 uses measured note boxes and reserves whole grid rows for them on successive
 passes. These conservative reserves can leave extra space above the notes.
 The retained `note-pagination.json` records which books used this fallback.
-Very long LV word joins get last-resort line breaks at their visible `_`, `÷`
-or `=` separators if the native line breaker reports an overflow; the symbols
-and text remain intact.
+Very long LV words can break at a printed underscore or division sign if the
+native line breaker reports an overflow.
 
 Run checks with:
 
 ```sh
-python3 -B -m unittest test_collections
+python3 -B -m unittest test_collections test_publication_links test_profiles
 python3 -B -m unittest discover -s SILE
 python3 -B -m unittest discover -s PTXPrint
 ```

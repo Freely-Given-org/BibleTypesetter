@@ -7,8 +7,9 @@ import re
 import pdfplumber
 
 from oet_books import selection_arguments, select_books
-from SILE.typeset import OET, selected_content
-from oet_publication import TITLE, book_version_labels
+from SILE.typeset import selected_content
+from oet_publication import book_version_labels, toolchain_credit, output_arguments
+from publication_config import profile_arguments, resolve_arguments
 
 
 def normalise(text):
@@ -23,33 +24,36 @@ def body_text(page):
 def audit(pdf_path, build_dir, selection, books, front, recto=False):
     pages = dict(
         (c, int(p)) for c, p in (line.split('\t') for line in (build_dir / 'book-pages.tsv').read_text().splitlines()))
-    assert list(pages) == ['TITLE', 'COPYRIGHT', 'CONTENTS', 'FRT', *selection.codes], 'Book order or index membership differs'
+    assert list(pages) == ['TITLE', 'COPYRIGHT', 'CONTENTS', *(['FRT'] if front.find('preface') is not None else []), *selection.codes], 'Book order or index membership differs'
     assert list(pages.values()) == sorted(set(pages.values())), 'Book starts are not increasing'
     assert pages['TITLE'] == 1 and pages['COPYRIGHT'] == 2, 'Copyright must be on the title verso'
-    assert pages['CONTENTS'] % 2 == pages['FRT'] % 2 == 1, 'Contents and preface must start recto'
+    assert pages['CONTENTS'] % 2 == 1 and ('FRT' not in pages or pages['FRT'] % 2 == 1), 'Contents and preface must start recto'
     if recto:
         assert all(pages[c] % 2 == 1 for c in selection.codes), 'A book starts on a verso'
     with pdfplumber.open(pdf_path) as pdf:
         assert pages[selection.codes[-1]] <= len(pdf.pages)
         trim = (pdf.pages[0].width, pdf.pages[0].height)
         assert all((p.width, p.height) == trim for p in pdf.pages), 'Page sizes differ, including blank versos'
-        cover = normalise(pdf.pages[0].extract_text() or '')
-        assert normalise(TITLE) in cover, 'Wrong title'
-        assert 'Translationdraft' not in cover, 'Draft version belongs on the verso'
+        cover = pdf.pages[0].extract_text() or ''
+        assert [normalise(line) for line in cover.splitlines()[:len(front.get('fulltitle').splitlines())]] == [
+            normalise(line) for line in front.get('fulltitle').splitlines()], 'Wrong title or title line break'
+        assert 'Translationdraft' not in normalise(cover), 'Draft version belongs on the verso'
         copyright_page = normalise(pdf.pages[1].extract_text() or '')
+        assert normalise(toolchain_credit('')) in copyright_page, 'Toolchain credit missing from the copyright page'
         for paragraph in front.find('copyright'):
             assert normalise(''.join(paragraph.itertext())) in copyright_page, 'Copyright text missing from title verso'
-        index = ''.join(p.extract_text() or '' for p in pdf.pages[pages['CONTENTS']-1:pages['FRT']-1])
+        index = ''.join(p.extract_text() or '' for p in pdf.pages[pages['CONTENTS']-1:pages.get('FRT', pages[selection.codes[0]])-1])
         for entry in front.findall('entry'):
             code = entry.get('code')
             text = ('' if code == 'FRT' else code) + entry.get('name') + str(pages[code])
             assert normalise(text) in normalise(index), f'Index entry missing/wrong: {code}'
-        preface = ''.join(body_text(p) for p in pdf.pages[pages['FRT']-1:pages[selection.codes[0]]-1])
-        expected = normalise(''.join(front.find('preface').itertext()))
-        actual = normalise(preface)
-        if expected != actual:
-            at = next((i for i, (a, b) in enumerate(zip(expected, actual)) if a != b), min(len(expected), len(actual)))
-            raise AssertionError(f'Preface differs at {at}: {expected[at:at+70]!r} != {actual[at:at+70]!r}')
+        if front.find('preface') is not None:
+            preface = ''.join(body_text(p) for p in pdf.pages[pages['FRT']-1:pages[selection.codes[0]]-1])
+            expected = normalise(''.join(front.find('preface').itertext()))
+            actual = normalise(preface)
+            if expected != actual:
+                at = next((i for i, (a, b) in enumerate(zip(expected, actual)) if a != b), min(len(expected), len(actual)))
+                raise AssertionError(f'Preface differs at {at}: {expected[at:at+70]!r} != {actual[at:at+70]!r}')
         for position, book in enumerate(books):
             code = book.get('code')
             page = pdf.pages[pages[code]-1]
@@ -64,7 +68,7 @@ def audit(pdf_path, build_dir, selection, books, front, recto=False):
             ending = normalise(final_page.extract_text() or '')
             for label in book_version_labels(book).values():
                 assert normalise(label) in ending, f'Book revision missing at end of {code}: {label}'
-            if code in selection.dc and book.get('version') == 'OET':
+            if code in selection.dc and book.get('sides') == 'rv lv':
                 # Long introductions can place the notice on a later intro page.
                 text = ''
                 for intro_page in pdf.pages[pages[code]-1:end]:
@@ -81,11 +85,14 @@ def audit(pdf_path, build_dir, selection, books, front, recto=False):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     selection_arguments(parser)
+    output_arguments(parser)
     parser.add_argument('--pdf', type=Path, required=True)
     parser.add_argument('--build-dir', type=Path, required=True)
-    parser.add_argument('--oet-root', type=Path, default=OET)
-    parser.add_argument('--version', choices=['OET', 'OET-RV', 'OET-LV'], default='OET')
+    profile_arguments(parser, Path(__file__).parent / 'SILE')
+    parser.add_argument('--source-root', '--oet-root', dest='oet_root', type=Path)
+    parser.add_argument('--version')
     args = parser.parse_args()
+    resolve_arguments(args)
     selection = select_books(args)
     books, front = selected_content(args, selection)
     if front is None:
