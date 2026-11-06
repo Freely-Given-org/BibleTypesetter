@@ -1,6 +1,6 @@
 # Printing the Open English Translation with SILE
 
-[Open the B5 Ruth print proof](OET-RUT.B5.print.pdf) or [screen proof](OET-RUT.B5.screen.pdf). Page 2 shows the matched columns, inset headings and a page-bottom note. Page 11 gives the RV book revision and the LV OT set release.
+[Open the B5 Ruth print proof](OET-RUT.B5.print.pdf) or [screen proof](OET-RUT.B5.screen.pdf). Page 2 shows the matched columns, inset headings and a page-bottom note. Page 10 gives the RV book revision and the LV OT set release.
 
 ## Build a book
 
@@ -66,7 +66,7 @@ python3 SILE/typeset.py MRK --paper-size "6 x 9 inches" -o mark-six-by-nine.pdf
 
 Units may follow both dimensions, as in `"210mm x 297mm"`, or the final dimension alone. Width comes first, so `"297x210mm"` produces landscape A4. Type sizes, margins and the baseline grid stay fixed while line widths and the number of rows per page adjust to the paper. Dimensions must leave sufficient space for the text, headings and notes.
 
-In the supplied profile, `--version` selects `OET` (both versions side by side, the default), `OET-RV`, or `OET-LV`. Each single-version edition uses one full-width column and its own source text, title and introduction. RV-only output retains its boxed section headings. LV-only output follows the LV’s own paragraphs and chapters.
+In the supplied profile, `--version` selects `OET` (both versions side by side, the default), `OET-RV`, or `OET-LV`. Each single-version edition uses its own source text, title and full-width introduction. RV-only scripture flows down the left column, then the right; its end credits span the page. `editions.OET-RV.body_columns = 2` selects this layout. LV-only scripture remains full width. RV-only output retains its boxed section headings. LV-only output follows the LV’s own paragraphs and chapters.
 
 ```sh
 python3 SILE/typeset.py MRK --version OET-RV --paper-size A4
@@ -77,10 +77,10 @@ The default output names for these single-version examples are `OET-RV-MRK.A4.pr
 
 ## Print layout
 
-- **Page and register.** The supplied proof uses ISO B5 (176 × 250 mm), actual size, duplex, long-edge binding. The inside margin is 43 pt, the outside margin 33 pt, and the parallel column gap 16 pt. They mirror across the sheet. Text and page notes share a 12.5 pt baseline grid. The first body baseline is 77 pt from the top, and the last row is calculated from the selected paper height. Printer registration and show-through can be judged by holding a printed sheet to the light.
+- **Page and register.** The supplied proof uses ISO B5 (176 × 250 mm), actual size, duplex, long-edge binding. The inside margin is 43 pt, the outside margin 33 pt, and the parallel column gap 16 pt. They mirror across the sheet. RV text and page notes share a 12.5 pt baseline grid. In the parallel edition, LV uses 9.4 pt type on 11.25 pt leading; RV uses 10.4 pt type. RV occupies 53% of the available column width on the outside of each page, with LV in the narrower inside column. Matched sections start level, so LV grid registration is approximate. The first body baseline is 77 pt from the top, and the last row is calculated from the selected paper height. Printer registration and show-through can be judged by holding a printed sheet to the light.
 - **Matched sections.** Each RV heading starts a paired block at its verse address. The two versions flow independently until the next block, including across page turns. The shorter side can leave white space. Paragraphs and poetry continuations stay with their verse. Verse bridges such as Mark 7:21–22 align with both individual LV verses.
 - **Headings and apparatus.** A heading box occupies the right edge of the RV column only for the lines it needs. Boxes stay on one page. Footnotes (\f), verse cross-references (\x), and parallel passages attached to headings (\r) have numbered calls. The compositor measures notes from both columns before choosing each physical page break and sets them at the foot of that page.
-- **Translation typography.** Lighter ink marks additions, bold marks sacred names, and a small struck word represents untranslated LV material. LV underscores and superscripts are retained. Mark’s RV longer ending keeps the source’s lighter styling. An empty LV section has an explicit range and absence label. The introduction carries the attribution and licence.
+- **Translation typography.** Lighter ink marks additions, bold marks sacred names, and a small struck word represents untranslated LV material. LV `+`, `=` and `÷` joins become underscores; a broken underscore is repeated at the start of the next line. RV uses standard English hyphenation. Superscripts are retained. Mark’s RV longer ending keeps the source’s lighter styling. An empty LV section has an explicit range and absence label. The introduction carries the attribution and licence.
 - **Publication details.** The title page reads “Open English Translation of the Bible”. The copyright verso and book introductions carry the overall draft version from `settings.py`. The book-end lines give the RV revision from its ESFM ID and the LV set release from the book folder’s `version.json`.
 
 ## Implementation and scope

@@ -34,6 +34,8 @@ class DriverTests(unittest.TestCase):
         self.source("LV", "\\v 1 Literal_text.\n\\v 2 Second.")
         writer = USFMWriter()
         intro, body = writer.book(paired_book(self.root, "MRK"))
+        self.assertIn(r"\OETJoin ", body)
+        body = body.replace(r"\OETJoin ", "_")
         self.assertIn("\\lefttext", body)
         self.assertIn("\\righttext", body)
         self.assertIn("\\v 1-2", body)
@@ -55,6 +57,16 @@ class DriverTests(unittest.TestCase):
         self.assertIn("\\PaperWidth=8.5in", (directory / "proof.tex").read_text())
         self.assertEqual(json.loads((directory / "notes.json").read_text()), [])
 
+    def test_rv_uses_two_columns_after_full_width_introduction(self):
+        self.source('RV', '\\v 1 Readers’ text.')
+        directory = self.root / 'build'
+        directory.mkdir()
+        prepare(directory, [paired_book(self.root, 'MRK', 'OET-RV')], 'b5', 'OET-RV')
+        tex = (directory / 'proof.tex').read_text()
+        self.assertLess(tex.index('\\BodyColumns=1'), tex.index('MRK-intro.usfm'))
+        self.assertGreater(tex.index('\\BodyColumns=2'), tex.index('MRK-intro.usfm'))
+        self.assertIn('\\goone', (directory / 'MRK.usfm').read_text())
+
     def test_revision_lines_follow_the_book_text(self):
         self.source('RV', '\\v 1 Readers’ ending.')
         self.source('LV', '\\v 1 Literal_ending.')
@@ -64,7 +76,7 @@ class DriverTests(unittest.TestCase):
         intro, body = USFMWriter().book(book)
         self.assertIn('Translation draft v9.8.7', intro)
         self.assertNotIn('Translation draft', body)
-        self.assertGreater(body.index('\\zbookend MRK · OET-RV v1.2.3'), body.index('Literal_ending.'))
+        self.assertGreater(body.index('\\zbookend MRK · OET-RV v1.2.3'), body.index(r'Literal\OETJoin ending.'))
         self.assertIn('\\righttext\n\\m \\null\n\\zbookend MRK · OET-LV version not specified in source ID', body)
 
     def test_chapter_start_with_a_late_first_verse_keeps_the_chapter_label(self):

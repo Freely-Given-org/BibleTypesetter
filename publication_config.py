@@ -100,6 +100,9 @@ class Profile:
     def renderer_attributes(self, version):
         sides = self.sides(version)
         attrs = {'version': version, 'sides': ' '.join(sides),
+                 'body-columns': str(self.data['editions'][version].get('body_columns', 1)),
+                 'primary-column': self.data['editions'][version].get('primary_column', 'left'),
+                 'primary-width': str(self.data['editions'][version].get('primary_width', 0.5)),
                  'publication-title': ' '.join(self.title.splitlines()),
                  'publication-author': self.publication.get('author', ''),
                  'running-title': self.publication.get('running_title', self.publication['id']),
@@ -109,6 +112,11 @@ class Profile:
             source = self.source(side)
             attrs[side + '-id'] = source['id']
             attrs[side + '-label'] = source.get('label', source['id'])
+            attrs[side + '-line-breaks'] = source.get('line_breaks', 'none')
+            for table, attr in [('font_sizes', 'font-size'), ('line_spacing', 'line-spacing')]:
+                value = self.data['editions'][version].get(table, {}).get(side)
+                if value is not None:
+                    attrs[side + '-' + attr] = str(value)
         for key, value in self.data.get('screen_colours', {}).items():
             attrs['colour-' + key] = value
         return attrs
@@ -153,10 +161,23 @@ def load_profile(path):
         sides = edition.get('sides')
         if sides not in (['rv'], ['lv'], ['rv', 'lv']):
             raise ValueError(f'{path}: {name}.sides must select rv, lv or both in that order')
+        if edition.get('body_columns', 1) not in (1, 2):
+            raise ValueError(f'{path}: {name}.body_columns must be 1 or 2')
+        if edition.get('primary_column', 'left') not in ('left', 'outside'):
+            raise ValueError(f'{path}: {name}.primary_column must be left or outside')
+        fraction = edition.get('primary_width', 0.5)
+        if not isinstance(fraction, (float, int)) or not 0.25 <= fraction <= 0.75:
+            raise ValueError(f'{path}: {name}.primary_width must be between 0.25 and 0.75')
+        for table in ('font_sizes', 'line_spacing'):
+            for side, size in edition.get(table, {}).items():
+                if side not in sides or not isinstance(size, (float, int)) or not 6 <= size <= 24:
+                    raise ValueError(f'{path}: {name}.{table} must assign selected sides sizes between 6 and 24 points')
         for side in sides:
             source = data['sources'].get(side, {})
             if not source.get('id') or not isinstance(source.get('patterns'), list) or not source['patterns']:
                 raise ValueError(f'{path}: sources.{side} requires an id and source patterns')
+            if source.get('line_breaks', 'none') not in ('none', 'english', 'underscore'):
+                raise ValueError(f'{path}: sources.{side}.line_breaks must be none, english or underscore')
             if any('{code}' not in p for p in source['patterns']):
                 raise ValueError(f'{path}: source patterns must contain {{code}}')
             if any(len(k) != 1 for k in source.get('text_replacements', {})):

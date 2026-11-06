@@ -88,8 +88,12 @@ python3 PTXPrint/typeset.py MRK --version OET-LV --paper-size "8.5x11in"
 `B5` means ISO B5, 176 × 250 mm. `Letter` means 8.5 × 11 inches. Custom sizes
 are width × height; units may be shared or supplied for each dimension, for
 example `"210mm x 297mm"`. Names are case-insensitive. The default version is
-`OET`, with RV on the left and LV on the right. `OET-RV` and `OET-LV` each use
-one full-width column, loading only their own source. Default output names
+`OET`, with RV in the wider outside column and LV in the narrower inside
+column (53:47). RV uses 10.4 pt type on 12.5 pt leading, while LV uses
+9.4 pt type on 11.25 pt leading. Section starts remain aligned; LV register
+matching is approximate. `OET-RV` has a full-width introduction followed by
+two-column scripture; `OET-LV` retains one full-width column. Both load only
+their own source. Default output names
 are `VERSION-BOOKS.SIZE.print.pdf`, for example `OET-NT-oet.B5.print.pdf`,
 `OET-MRK.A4.print.pdf`, `OET-MRK.Letter.print.pdf`, or `OET-MRK.160x240mm.print.pdf`.
 Inch dimensions use labels such as `.6x9in.print.pdf`; mixed units retain both,
@@ -97,6 +101,12 @@ such as `.8.5inx297mm.print.pdf`. An explicit `-o` filename is used exactly as s
 
 Fonts, grid spacing and margins retain their physical size as paper changes.
 Very small pages that cannot accommodate the layout are rejected.
+
+The LV joins `+`, `=` and `÷` are printed as underscores. A line may break
+at an underscore, retaining it at the line end and repeating it at the start
+of the next line. No hyphen is inserted there. RV uses English hyphenation.
+These source rules and the parallel edition’s fonts, spacing and column
+placement are configured in the shared TOML profile.
 
 ## Layout and implementation
 
@@ -136,8 +146,8 @@ Very small pages that cannot accommodate the layout are rejected.
   page foot. This can leave extra space above the apparatus. The build retains
   the original failure records and a `note-pagination.json` report.
 - Long LV joins that overflow a line get last-resort break opportunities at
-  their visible underscores and division signs. The preprocessor prints both
-  `+` and `=` word joins as underscores. Psalm superscriptions, acrostic labels and speaker
+  their visible join marks. The preprocessor prints `+`, `=` and `÷` word joins
+  as underscores. Psalm superscriptions, acrostic labels and speaker
   labels stay in the source text column, outside the inset section headings.
 - Collection and multi-book builds use an isolated native PTXPrint run per
   book, with its starting folio supplied before rendering. This prevents

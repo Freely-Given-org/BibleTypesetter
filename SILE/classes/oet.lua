@@ -5,17 +5,19 @@ local class = pl.class(require("classes.base"))
 class._name = "oet"
 local inside, outside, gutter = 43, 33, 16
 local grid, firstY, bottomMargin = 12.5, 77, 31
+local secondaryGrid = 12.5
 local rowsPerPage
 local boxWidth, clearance = 88, 6
 local number, noteNumber = 0, 0
 local pageStarted = false
 local books = {}
 local pagefile, bookPages
-local width, column
-local version, paired, leftRole, pageNumbers, editionTitle, publicationTitle, publicationAuthor, runningTitle, copyrightHeading
+local width, column, otherColumn, primaryOutside
+local version, paired, flowing, leftRole, pageNumbers, editionTitle, publicationTitle, publicationAuthor, runningTitle, copyrightHeading
 local logos = {}
 local screen, palette = false, {}
 local editionLabels = {}
+local lineBreaks, hyphenPoints = {}, {}
 local serif, sans = "Gentium Plus", "Lato"
 local styles = {
    rv = { serif, 10.4 }, lv = { serif, 9.8 }, heading = { sans, 8.5, 700 },
@@ -166,6 +168,68 @@ local function splitWord (word, available)
    return first, rest
 end
 
+local function splitAt (word, partIndex, stop, before, after)
+   local first = { w = 0, ref = word.ref, notes = {}, joined = word.joined }
+   local rest = { w = 0, ref = word.ref, notes = {}, joined = true }
+   local function push (target, part, text, note)
+      if text == "" then return end
+      local piece = fragment(text, part.role, part.flags, part.href)
+      target[#target + 1] = piece; target.w = target.w + piece.w
+      if note then
+         target.notes[#target.notes + 1] = note
+         target.noteByPart = target.noteByPart or {}
+         target.noteByPart[#target] = note
+      end
+   end
+   for i, part in ipairs(word) do
+      local note = word.noteByPart and word.noteByPart[i]
+      if i < partIndex then push(first, part, part.text, note)
+      elseif i > partIndex then push(rest, part, part.text, note)
+      else
+         push(first, part, part.text:sub(1, stop) .. before)
+         push(rest, part, after .. part.text:sub(stop + 1), note)
+      end
+   end
+   return first, rest
+end
+
+local function breakWord (word, available, role)
+   local policy = lineBreaks[role]
+   if policy ~= "english" and policy ~= "underscore" then return end
+   local best, tail
+   for i, part in ipairs(word) do
+      if part.role == role and not part.href then
+         local candidates = {}
+         if policy == "underscore" then
+            for offset in part.text:gmatch("()_") do candidates[#candidates + 1] = { offset, "", "_" } end
+         else
+            for start, token in part.text:gmatch("()([A-Za-z]+)") do
+               if not hyphenPoints[token] then
+                  local pieces, position = SILE.showHyphenationPoints(token, "en"), 0
+                  hyphenPoints[token] = {}
+                  for piece in pieces:gmatch("[^-]+") do
+                     position = position + #piece
+                     if position < #token then hyphenPoints[token][#hyphenPoints[token] + 1] = position end
+                  end
+               end
+               for _, position in ipairs(hyphenPoints[token]) do
+                  candidates[#candidates + 1] = { start + position - 1, "-", "" }
+               end
+            end
+         end
+         for _, candidate in ipairs(candidates) do
+            local first, rest = splitAt(word, i, candidate[1], candidate[2], candidate[3])
+            local continuation = false
+            for _, piece in ipairs(rest) do
+               if piece.role == role and piece.text:find("[^_%p%s]") then continuation = true end
+            end
+            if first.w <= available and continuation and (not best or first.w > best.w) then best, tail = first, rest end
+         end
+      end
+   end
+   return best, tail
+end
+
 local function wrap (words, measure, role, indent, startRow)
    local lines, i = {}, 1
    local space = fragment(" ", role).w
@@ -177,8 +241,17 @@ local function wrap (words, measure, role, indent, startRow)
       repeat
          local word = words[i]
          local advance = word.w + ((#line == 0 or word.joined) and 0 or space)
-         if #line > 0 and used + advance > available then break end
-         if word.w > available + 0.02 then
+         local endLine = false
+         if used + advance > available then
+            local first, rest = breakWord(word, available - used - (advance - word.w), role)
+            if first then
+               word, words[i] = first, first
+               table.insert(words, i + 1, rest)
+               advance = first.w + ((#line == 0 or first.joined) and 0 or space)
+               endLine = true
+            elseif #line > 0 then break end
+         end
+         if not endLine and word.w > available + 0.02 then
             local rest
             word, rest = splitWord(word, available)
             words[i] = word
@@ -188,6 +261,7 @@ local function wrap (words, measure, role, indent, startRow)
          line[#line + 1] = word
          for _, note in ipairs(word.notes) do line.notes[#line.notes + 1] = note end
          used, i = used + advance, i + 1
+         if endLine then break end
       until i > #words
       if i <= #words and #line > 1 and (role == "rv" or role == "lv") then
          -- Keep lines ragged where justification would open distracting rivers.
@@ -230,6 +304,8 @@ local function addRuns (words, node, role)
             line.note, line.noteLine = noteNumber, index
          end
          calls[#calls + 1] = lines
+         words[#words].noteByPart = words[#words].noteByPart or {}
+         words[#words].noteByPart[#words[#words]] = lines
       else
          error("Unknown inline element " .. tostring(run.command))
       end
@@ -319,10 +395,17 @@ local function sectionRows (section)
       boxRows = #box
    end
    local left, innerBoxes = columnLines(rv or lv, function (r) return r <= boxRows and column - bw - clearance or column end, leftRole)
-   local right = paired and columnLines(lv, fixed(column), "lv") or {}
+   local right = paired and columnLines(lv, fixed(otherColumn), "lv") or {}
+   local rightRows = {}
+   for i, line in ipairs(right) do
+      local position = (i - 1) * secondaryGrid / grid
+      local index = math.floor(position + 0.00001) + 1
+      rightRows[index] = rightRows[index] or {}
+      rightRows[index][#rightRows[index] + 1] = { line = line, offset = (position - index + 1) * grid }
+   end
    local rows = {}
-   for r = 1, math.max(#left, #right, boxRows) do
-      local row = { left = left[r], right = right[r], box = box[r], bw = bw, notes = {} }
+   for r = 1, math.max(#left, math.ceil(#right * secondaryGrid / grid), boxRows) do
+      local row = { left = left[r], rights = rightRows[r], box = box[r], bw = bw, notes = {}, overhang = 0 }
       -- A page may break only after the entire heading box and its first two
       -- body rows have landed, including any notes called from those rows.
       row.keep = r < math.max(boxRows, 2)
@@ -333,6 +416,12 @@ local function sectionRows (section)
       end
       for _, field in ipairs({ "box", "left", "right" }) do
          for _, note in ipairs(row[field] and row[field].notes or {}) do
+            for _, line in ipairs(note) do row.notes[#row.notes + 1] = line end
+         end
+      end
+      for _, item in ipairs(row.rights or {}) do
+         row.overhang = math.max(row.overhang, item.offset)
+         for _, note in ipairs(item.line.notes) do
             for _, line in ipairs(note) do row.notes[#row.notes + 1] = line end
          end
       end
@@ -370,15 +459,17 @@ end
 
 local function pageRange (rows, a, b)
    local lo, hi
-   for r = a, b do
-      for _, side in ipairs({ "left", "right" }) do
-         for _, word in ipairs(rows[r][side] or {}) do
+   local function addLine (line)
+         for _, word in ipairs(line or {}) do
             local c, v, e = word.ref:match("^(%d+):(%d+)[a-z]?%-?(%d*)[a-z]?$")
             local first = tonumber(c) * 1000 + tonumber(v)
             local last = tonumber(c) * 1000 + tonumber(e ~= "" and e or v)
             lo, hi = math.min(lo or first, first), math.max(hi or last, last)
          end
-      end
+   end
+   for r = a, b do
+      addLine(rows[r].left); addLine(rows[r].right)
+      for _, item in ipairs(rows[r].rights or {}) do addLine(item.line) end
    end
    local function ref (n) return math.floor(n / 1000) .. ":" .. n % 1000 end
    return lo == hi and ref(lo) or ref(lo) .. " – " .. ref(hi)
@@ -395,29 +486,67 @@ end
 local function renderBody (rows, name)
    local a = 1
    while a <= #rows do
-      local count, b = 0, nil
+      local count, b, split, spanning = 0, nil, nil, nil
       for i = a, #rows do
          count = count + #rows[i].notes
-         if i - a + 1 + count + (count > 0 and 1 or 0) > rowsPerPage then break end
-         if not rows[i].keep then b = i end
+         if flowing and rows[i].span and not spanning then spanning = i end
+         local height = rowsPerPage - count - (count > 0 and 1 or 0)
+         if flowing then
+            local bodyEnd = (spanning or (i + 1)) - 1
+            local tail = spanning and i - spanning + 1 or 0
+            height = height - tail
+            if bodyEnd - a + 1 > 2 * height or height < 0 then break end
+            if not rows[i].keep then
+               -- Break only between complete heading groups. On the last page,
+               -- balance the columns before the full-width publication credits.
+               local candidate, score
+               local balanced = spanning or i == #rows
+               for j = math.max(a - 1, bodyEnd - height), math.min(bodyEnd, a + height - 1) do
+                  if j < a or not rows[j].keep then
+                     local distance = balanced and math.abs((j - a + 1) - (bodyEnd - j)) or bodyEnd - j
+                     if not score or distance < score then candidate, score = j, distance end
+                  end
+               end
+               if candidate then b, split = i, candidate end
+            end
+         else
+            if i - a + 1 + (rows[i].overhang or 0) / grid > height then break end
+            if not rows[i].keep then b = i end
+         end
       end
       assert(b, "Heading or note cannot fit on a page in " .. name)
       local x = startPage()
       local right = x + column + gutter
+      local primary = x
+      if paired and primaryOutside and number % 2 == 1 then
+         primary, right = x + otherColumn + gutter, x
+      end
       label(name, "running", x, 31)
       label(pageRange(rows, a, b), "running", x + width, 31, true)
       rule(x, 38, width, 0.45)
-      label(editionLabels[leftRole], "label", x, firstY - 1.5 * grid)
+      label(editionLabels[leftRole], "label", primary, firstY - 1.5 * grid)
       if paired then label(editionLabels.lv, "label", right, firstY - 1.5 * grid) end
       local notes = {}
+      local spanStart
+      if flowing then
+         for i = a, b do if rows[i].span then spanStart = i; break end end
+      end
+      local bodyEnd = (spanStart or (b + 1)) - 1
+      local bodyHeight = flowing and math.max(split - a + 1, bodyEnd - split) or b - a + 1
       for i = a, b do
          local row = rows[i]
-         local y = firstY + (i - a) * grid
-         if row.left then drawLine(row.left, x, y) end
+         local rowX, rowIndex = primary, i - a
+         if flowing then
+            if spanStart and i >= spanStart then rowIndex = bodyHeight + i - spanStart
+            elseif i > split then rowX, rowIndex = right, i - split - 1 end
+         end
+         local y = firstY + rowIndex * grid
+         if row.left then drawLine(row.left, rowX, y) end
          if row.right then drawLine(row.right, right, y) end
+         for _, item in ipairs(row.rights or {}) do drawLine(item.line, right, y + item.offset) end
          if row.full then drawCenteredLine(row.full, x, y) end
          if row.logo then drawLogo("ending", x + (width - logos.ending.width) / 2, y - 8) end
-         local bx = x + column - row.bw
+         local bx = rowX + column - row.bw
          if row.boxRows then
             local top, h = y - 9.4, row.boxRows * grid
             rule(bx, top, row.bw, 0.4, palette.border)
@@ -549,6 +678,12 @@ local function configure (opts)
       if opts.startpage then number = tonumber(opts.startpage) - 1 end
       version = opts.version
       paired = opts.sides == "rv lv"
+      flowing = not paired and opts["body-columns"] == "2"
+      primaryOutside = opts["primary-column"] == "outside"
+      styles.rv[2] = tonumber(opts["rv-font-size"]) or 10.4
+      styles.lv[2] = tonumber(opts["lv-font-size"]) or 9.8
+      grid = tonumber(opts["rv-line-spacing"]) or 12.5
+      secondaryGrid = paired and (tonumber(opts["lv-line-spacing"]) or grid) or grid
       leftRole = opts.sides:match("%S+")
       editionTitle = opts["edition-title"] or version
       publicationTitle = opts["publication-title"] or ""
@@ -556,6 +691,7 @@ local function configure (opts)
       runningTitle = opts["running-title"] or ""
       copyrightHeading = opts["copyright-heading"] or "Publication information"
       editionLabels = { rv = opts["rv-label"] or "", lv = opts["lv-label"] or "" }
+      lineBreaks = { rv = opts["rv-line-breaks"] or "none", lv = opts["lv-line-breaks"] or "none" }
       logos = {}
       for _, role in ipairs({ "opening", "ending", "footer" }) do
          local prefix = "logo-" .. role .. "-"
@@ -571,9 +707,11 @@ local function configure (opts)
             logo.width = width
          end
       end
-      column = paired and (width - gutter) / 2 or width
+      column = (paired or flowing) and (width - gutter) / 2 or width
+      if paired then column = (width - gutter) * (tonumber(opts["primary-width"]) or 0.5) end
+      otherColumn = paired and width - gutter - column or column
       rowsPerPage = math.floor((SILE.documentState.paperSize[2] - bottomMargin - firstY) / grid) - 1
-      assert(column >= 150 and width >= 260, "Paper is too narrow for this edition and its margins")
+      assert(math.min(column, otherColumn) >= 150 and width >= 260, "Paper is too narrow for this edition and its margins")
       assert(rowsPerPage >= 12, "Paper is too short for this layout and its margins")
 end
 
@@ -652,6 +790,7 @@ function class:registerCommands ()
             for _, row in ipairs(sectionRows(node)) do rows[#rows + 1] = row end
          end
       end
+      local endingStart = #rows + 1
       local endings, count = {}, 0
       for _, side in ipairs(paired and { "rv", "lv" } or { leftRole }) do
          local words = { ref = "1:1" }
@@ -660,7 +799,7 @@ function class:registerCommands ()
             if line and #line > 0 then words.ref = line[#line].ref; break end
          end
          append(words, opts[side .. "-colophon"] or "", "colophon")
-         endings[side] = wrap(words, fixed(column), "colophon", 0, 1)
+         endings[side] = wrap(words, fixed(flowing and width or (paired and side == "lv" and otherColumn or column)), "colophon", 0, 1)
          count = math.max(count, #endings[side])
       end
       if count > 0 then
@@ -696,6 +835,13 @@ function class:registerCommands ()
          for r = 1, math.ceil(logos.ending.height / grid) do
             rows[#rows].keep = true
             rows[#rows + 1] = { logo = r == 1, notes = {}, bw = 0 }
+         end
+      end
+      if flowing then
+         -- End matter spans both columns, below the final balanced scripture.
+         for i = endingStart, #rows do
+            rows[i].span = true
+            if rows[i].left then rows[i].full, rows[i].left = rows[i].left, nil end
          end
       end
       renderBody(rows, opts.name)

@@ -24,9 +24,14 @@ legend = ["Lighter type marks additions. Underscores join parts of a single sour
 [editions.OET]
 sides = ["rv", "lv"]
 label = "Parallel reading edition"
+primary_column = "outside"
+primary_width = 0.53
+font_sizes = { rv = 10.4, lv = 9.4 }
+line_spacing = { rv = 12.5, lv = 11.25 }
 [editions.OET-RV]
 sides = ["rv"]
 label = "Readers’ Version"
+body_columns = 2
 [editions.OET-LV]
 sides = ["lv"]
 label = "Literal Version"
@@ -35,17 +40,19 @@ label = "Literal Version"
 root = "/srv/FreelyGiven/OpenEnglishTranslation--OET"
 [sources.rv]
 id = "OET-RV"
+line_breaks = "english"
 label = "Readers’ Version"
 note_label = "RV"
 patterns = ["translatedTexts/ReadersVersion/OET-RV_{code}.ESFM"]
 [sources.lv]
 id = "OET-LV"
+line_breaks = "underscore"
 label = "Literal Version"
 note_label = "LV"
 patterns = ["derivedTexts/*/OET-LV_{code}.ESFM"]
 release_file = "version.json"
 release_resource = "OET-LV"
-text_replacements = { "+" = "_", "=" = "_" }
+text_replacements = { "+" = "_", "=" = "_", "÷" = "_" }
 
 [preprocessing]
 strip_word_ids = true
@@ -88,7 +95,9 @@ output_dir = "../../OpenBibleData/htmlPages/OET/Downloads"
 catalogue_file = "../../OpenEnglishTranslation-website/src/data/oet-pdfs.json"
 cache_dir = "../.build/sile-downloads"
 url_prefix = "https://Freely-Given.org/OBD/OET/Downloads/"
-paper_size = "B5"
+versions = ["OET", "OET-RV"]
+print_sizes = ["B5", "A4", "Letter"]
+screen_size = "B5"
 jobs = 4
 collections = ["OT", "NT", "DC", "ALL"]
 group_labels = { OT = "Hebrew Scriptures (Old Testament)", NT = "The Messianic Update (New Testament)", DC = "Deuterocanonical & other books", ALL = "All books" }
@@ -101,7 +110,7 @@ script = "../../theme.js"
 logo_url = "../../oet-logo-wide.png"
 logo_href = "https://OpenEnglishTranslation.Bible"
 navigation = [{ label = "Open Bible Data Home", url = "../../index.htm#Top" }, { label = "About", url = "../../About.htm#Top" }, { label = "News", url = "../../News.htm#Top" }, { label = "OET Key", url = "../../OETKey.htm#Top" }]
-introduction = ["Download the Open English Translation with the Readers’ Version and Literal Version side by side, in OET book order.", "Choose Print for black-and-white printing with full web addresses, or Online for colour and live links. Both editions have clickable links. For printing, use actual size, double-sided, with long-edge binding.", "Deuterocanonical and other books include early drafts. Where both versions are available, they are paired by chapter; their verses and lines do not necessarily correspond. Missing versions are identified in the PDFs."]
+introduction = ["Download the Open English Translation in OET book order: choose the parallel Readers’ and Literal Versions, or the Readers’ Version alone with a full-width introduction and two-column Bible text.", "Print PDFs use black-and-white text and full web addresses, with B5, A4 and Letter paper choices. Online PDFs use B5 pages, colour and live links. All PDFs have clickable links. For printing, use actual size, double-sided, with long-edge binding.", "Deuterocanonical and other books include early drafts. In parallel editions, the versions are paired by chapter; their verses and lines do not necessarily correspond. Missing versions are identified in those PDFs. Readers’ Version downloads include only books available in that version."]
 
 [preface]
 source_side = "rv"

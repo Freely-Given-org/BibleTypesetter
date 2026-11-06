@@ -105,11 +105,28 @@ enabled = false
 The artwork stays in its source folder. PTXPrint copies the selected images
 into its build directory so retained builds are reproducible.
 
+## Script versions and line breaking
+
+Both drivers and the batch builder report `--script-version`; the shared
+`PREPROCESSOR_VERSION` in `oet_publication.py` also appears in PDF credits.
+Increment it whenever either toolchain changes. This layout and hyphenation
+update is v1.1.0.
+
+The OET parallel profile uses RV outside (53% width, 10.4/12.5 pt) and LV inside
+(47% width, 9.4/11.25 pt). Matched section starts take priority over exact LV
+front/back registration. `editions` tables set `primary_column`, `primary_width`,
+`font_sizes` and `line_spacing`; each source sets `line_breaks` (`english`,
+`underscore` or `none`). RV uses standard English hyphenation. LV breaks at an
+underscore with `_` on both sides of the line break; `+`, `=` and `÷` become `_`.
+
 ## Building the complete SILE download catalogue
 
 Run `python3 SILE/build_pdfs.py` to create print and screen PDFs for OT, NT,
 DC & other, ALL, and every individual book. The supplied OET profile selects
-B5 and OET order: 84 books plus four collections, giving 176 PDFs. Publication
+OET book order, with parallel OET (84 books plus four collections) and OET-RV
+(82 available books plus four collections). Each has B5, A4 and Letter print
+PDFs and a B5 screen PDF, giving 696 downloads. Set `batch.versions`,
+`batch.print_sizes` and `batch.screen_size` to change this matrix. Publication
 paths and labels remain in `[batch]` in [profiles/oet.toml](profiles/oet.toml).
 
 The PDFs, `manifest.json`, and an `index.htm` download page go directly into
@@ -140,7 +157,7 @@ python3 SILE/build_pdfs.py --only RUT DC
 python3 SILE/build_pdfs.py --force
 ```
 
-`--only` refreshes both modes for selected targets and leaves catalogues alone;
+`--only` refreshes every configured edition and size for selected targets and leaves catalogues alone;
 run the full batch afterward to update both sites' listings. `--config`,
 `--paper-size`, `--version`, `--output-dir`, `--cache-dir` and `--catalogue-file`
 are also available. OBD preserves `OET/Downloads/` when replacing its generated
@@ -204,7 +221,7 @@ A PDF without a title page opens with those lines above the first book.
 Its final book ends with one full-width line giving the
 preprocessing script and renderer versions. Publications with a title page put
 this line on the copyright verso. In both layouts, printed LV text uses an
-underscore for the source’s `+` and `=` word joins.
+underscore for the source’s `+`, `=` and `÷` word joins.
 
 Page numbers default to the outside edge (left on even pages, right on odd
 pages). To centre them, set `page_numbers = "centred"` in
@@ -280,8 +297,8 @@ page-builder retries duplicate or move a note, the driver automatically
 uses measured note boxes and reserves whole grid rows for them on successive
 passes. These conservative reserves can leave extra space above the notes.
 The retained `note-pagination.json` records which books used this fallback.
-Very long LV words can break at a printed underscore or division sign if the
-native line breaker reports an overflow.
+LV words may break at any printed underscore, which is repeated at the start
+of the next line without adding a hyphen.
 
 Run checks with:
 

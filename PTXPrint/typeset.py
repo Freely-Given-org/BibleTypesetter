@@ -18,7 +18,7 @@ sys.path.insert(0, str(HERE.parent))
 from SILE.typeset import PARAGRAPH, paired_book, paper_size, selected_content
 from publication_config import default_profile, profile_arguments, resolve_arguments
 from oet_books import selection_arguments, select_books
-from oet_publication import (pdf_pages, merge_parts, require_poppler, default_pdf_filename,
+from oet_publication import (PREPROCESSOR_VERSION, pdf_pages, merge_parts, require_poppler, default_pdf_filename,
                              book_version_labels, toolchain_credit,
                              output_arguments, book_credits, link_publication)
 
@@ -60,9 +60,11 @@ def ptxprint_version(macros):
     return '(version unavailable)'
 
 
-def styled(run, link_number=None, tex=False):
+def styled(run, link_number=None, tex=False, line_breaks='none'):
     text = (linked_literal(run.text or '', link_number, tex=tex) if link_number is not None
             else literal(run.text or "", tex=tex))
+    if line_breaks == 'underscore' and link_number is None:
+        text = text.replace(r'\char95\relax ' if tex else '_', r'\OETJoin ')
     styles = run.get("style", "").split()
     # The replacement glyph is absent from Gentium Plus.
     text = text.replace("◘", r"\zmissing ◘\zmissing*")
@@ -104,11 +106,12 @@ class USFMWriter:
         self.notes = []
         self.block_number = 0
         self.links = {}
+        self.line_breaks = 'none'
 
     def styled(self, run, tex=False):
         href = run.get('href')
         number = self.links.setdefault(href, len(self.links) + 1) if href else None
-        return styled(run, number, tex=tex)
+        return styled(run, number, tex=tex, line_breaks=self.line_breaks)
 
     def note(self, node, silent=False):
         number = len(self.notes) + 1
@@ -139,6 +142,8 @@ class USFMWriter:
         code, version = book.get("code"), book.get("version")
         sides = book.get('sides', 'rv lv').split()
         paired = len(sides) == 2
+        flowing = not paired and book.get('body-columns') == '2'
+        self.line_breaks = book.get(sides[0] + '-line-breaks', 'none')
         intro = [f"\\id {code} {book.get('publication-title', '')}", f"\\h {book.get('name')}"]
         if book.get('opening-title'):
             if book.get('logo-opening-src'):
@@ -163,6 +168,7 @@ class USFMWriter:
         chapters = dict.fromkeys(sides, 0)
         for index, section in enumerate(book.findall("section")):
             for side in sides:
+                self.line_breaks = book.get(side + '-line-breaks', 'none')
                 if paired:
                     if body:
                         body.append("\\p")
@@ -209,6 +215,8 @@ class USFMWriter:
                         body.append(f"\\v {block.get('verse')} {text}")
                     else:
                         body.append(text)
+        if flowing:
+            body.extend([r'\p', r'\goone'])
         for side, label in book_version_labels(book).items():
             body.append('\\p')
             if paired:
@@ -238,16 +246,25 @@ def prepare(directory, books, size, version, publication=None, start_page=1):
     screen = layout is not None and layout.get('medium') == 'screen'
     sides = layout.get('sides', 'rv lv').split() if layout is not None else default_profile().sides(version)
     paired = len(sides) == 2
+    body_columns = int(layout.get('body-columns', '1')) if layout is not None else 1
+    primary_width = float(layout.get('primary-width', '0.5')) if layout is not None else 0.5
+    sizes = {side: float(layout.get(side + '-font-size', default)) if layout is not None else default
+             for side, default in [('rv', 10.4), ('lv', 9.8)]}
+    spacing = {side: float(layout.get(side + '-line-spacing', '12.5')) if layout is not None else 12.5
+               for side in sides}
     colours = {key: layout.get('colour-' + key, '000000') for key in ('title', 'heading', 'verse', 'call', 'wj', 'link', 'border')} if layout is not None else {}
     width, height = dimensions(size)
     width_bp, height_bp = points(width), points(height)
-    column = (width_bp - 92) / 2 if paired else width_bp - 76
-    if column < 140 or height_bp < 300:
+    column = ((width_bp - 92) * primary_width if paired else
+              (width_bp - 92) / 2 if body_columns == 2 else width_bp - 76)
+    narrowest = min(column, (width_bp - 92) * (1 - primary_width)) if paired else column
+    if narrowest < 140 or height_bp < 300:
         raise ValueError("paper is too small for this layout (columns need 140pt; height needs 300pt)")
     writer = USFMWriter()
     calls = []
     (directory / 'index-pages.tex').write_text('', encoding='utf-8')
     (directory / 'page-ranges.tex').write_text('', encoding='utf-8')
+    (directory / 'credit-offset.tex').write_text('', encoding='utf-8')
     if publication is not None:
         cover = ['\\id FRT', f'\\h {publication.get("publication-title")}',
                  *([r'\zlogo \OETOpeningLogo'] if publication.get('logo-opening-src') else []),
@@ -301,9 +318,11 @@ def prepare(directory, books, size, version, publication=None, start_page=1):
         calls += [f"\\def\\OETBookName{{{book.get('name')}}}", r"\diglotfalse", r"\usediglot{}"]
         if book.get('recto') == 'true':
             calls.append(r'\OETOpenRecto')
-        calls += [f'\\OETRecordBook{{{code}}}', f"\\ptxfile{{{code}-intro.usfm}}"]
+        calls += [r'\BodyColumns=1', f'\\OETRecordBook{{{code}}}', f"\\ptxfile{{{code}-intro.usfm}}"]
         if paired:
             calls += [r"\diglottrue", r"\usediglot{L}"]
+        else:
+            calls += [f'\\BodyColumns={body_columns}', f'\\def\\mainBodyColumns{{{body_columns}}}']
         calls.extend([r'\def\OETToolchainText{}', r'\def\OETReadingText{}'])
         if book.get('toolchain'):
             calls.append(r'\def\OETToolchainText{' + book.get('toolchain') + '}')
@@ -327,13 +346,18 @@ def prepare(directory, books, size, version, publication=None, start_page=1):
         # Literal book names use extended transliteration letters (e.g. ⱱ)
         # absent from Lato. Gentium also covers these in titles and headers.
         styles += '\n\\Marker h\n\\FontName Gentium Plus\n\\Marker mt1\n\\FontName Gentium Plus\n'
-    styles += f"\n\\Marker cat:s1box|esb\n\\Scale {96 / column:.8f}\n"
+    box_measure = (width_bp - 92) / 2 if paired else column
+    styles += f"\n\\Marker cat:s1box|esb\n\\Scale {96 / box_measure:.8f}\n"
+    # The shared page apparatus keeps its own grid, even when the reference
+    # column has tighter leading than the reading column.
+    for marker in ('f', 'fL', 'fR'):
+        styles += f'\n\\Marker {marker}\n\\BaseLine 12.5bp\n'
     for marker in sorted(PARAGRAPH | {"io1", "io2", "im", "ili1", "ili2", "zcontents"}):
-        size = 9.8 if sides == ['lv'] else 10.4
-        styles += f"\n\\Marker {marker}\n\\FontSize {size}\n\\BaseLine 12.5bp\n"
+        size = sizes[sides[0]]
+        styles += f"\n\\Marker {marker}\n\\FontSize {size}\n\\BaseLine {spacing[sides[0]]}bp\n"
         if paired:
-            styles += f"\n\\Marker {marker}L\n\\FontSize 10.4\n\\BaseLine 12.5bp\n"
-            styles += f"\n\\Marker {marker}R\n\\FontSize 9.8\n\\BaseLine 12.5bp\n"
+            styles += f"\n\\Marker {marker}L\n\\FontSize {sizes['rv']}\n\\BaseLine {spacing['rv']}bp\n"
+            styles += f"\n\\Marker {marker}R\n\\FontSize {sizes['lv']}\n\\BaseLine {spacing['lv']}bp\n"
     (directory / "oet.sty").write_text(styles, encoding="utf-8")
     shutil.copyfile(HERE / "oet.tex", directory / "oet.tex")
     setup = [r'\def\regular{"Gentium Plus"}', r'\def\bold{"Gentium Plus/B"}',
@@ -343,6 +367,19 @@ def prepare(directory, books, size, version, publication=None, start_page=1):
              r"\stylesheet{usfm_sb.sty}", r"\stylesheet{ptx2pdf.sty}", r"\stylesheet{oet.sty}",
              f"\\PaperWidth={width}", f"\\PaperHeight={height}",
              f"\\def\\OETVersion{{{version}}}", r"\input oet.tex"]
+    if paired:
+        setup += [f"\\def\\LineSpacingFactorL{{{spacing['rv'] / 12:.9f}}}",
+                  f"\\def\\LineSpacingFactorR{{{spacing['lv'] / 12:.9f}}}",
+                  f'\\def\\DiglotLFraction{{{primary_width}}}',
+                  f'\\def\\DiglotRFraction{{{1 - primary_width}}}']
+        if layout is not None and layout.get('primary-column') == 'outside':
+            setup += [r'\diglotInnerOutertrue', r'\diglotSwaptrue']
+    setup += [r'\newlanguage\OETNoHyphenLanguage', r'\lefthyphenmin=2', r'\righthyphenmin=3']
+    for side in sides:
+        suffix = {'rv': 'L', 'lv': 'R'}[side] if paired else ''
+        policy = layout.get(side + '-line-breaks', 'none') if layout is not None else 'none'
+        language = '0' if policy == 'english' else r'\number\OETNoHyphenLanguage'
+        setup.append(f'\\edef\\language{suffix}{{{language}}}' if suffix else f'\\language={language}\\relax')
     if layout is not None:
         for command, key in [('OETLeftLabel', 'rv-label'), ('OETRightLabel', 'lv-label')]:
             setup.append('\\def\\' + command + '{' + literal(layout.get(key, ''), tex=True) + '}')
@@ -441,6 +478,25 @@ def emergency_word_breaks(directory):
             stream.write(f'\n\\def\\{macro}{{\\char{char}\\penalty9999\\relax}}\n')
 
 
+def update_credit_offset(directory):
+    """Centre full-width end matter regardless of its logical column's side."""
+    positions = (directory / 'proof.creditpos').read_text().splitlines()
+    if not positions:
+        return False
+    if len(positions) != 1:
+        raise ValueError('Expected one final full-width credit block per typesetting part')
+    x, page = map(int, positions[0].split())
+    # XeTeX save positions are scaled TeX points; margins are PDF points.
+    margin = 43 if page % 2 else 33
+    shift = round(margin * 1.00375 * 65536) - x
+    text = f'\\def\\OETCreditShift{{{shift}sp}}\n'
+    path = directory / 'credit-offset.tex'
+    changed = path.read_text() != text
+    if changed:
+        path.write_text(text)
+    return changed
+
+
 def note_plan(records, heights, reserves):
     """Assign each captured note once to its actual caller's physical page."""
     callers, groups = {}, {}
@@ -502,7 +558,8 @@ def run_fixed_notes(directory, xetex, env, count):
         callers, groups = note_plan(records, heights, reserves)
         state = (callers.copy(), reserves.copy(), records)
         ranges_changed = update_page_ranges(directory)
-        if state == previous and not ranges_changed:
+        credit_changed = update_credit_offset(directory)
+        if state == previous and not ranges_changed and not credit_changed:
             verify_note_pages(records, count)
             (directory / 'note-pagination.json').write_text(json.dumps({
                 'passes': iteration, 'caller_pages': callers, 'reserved_bp': reserves,
@@ -552,7 +609,8 @@ def run_engine(directory, macros, xetex, converter, index_pages=None):
         state = tuple(p.read_bytes() for p in sorted(directory.glob("proof.*"))
                       if p.suffix in {".notepages", ".parlocs", ".picpages", '.bookpages'})
         ranges_changed = update_page_ranges(directory)
-        if state == previous and not ranges_changed:
+        credit_changed = update_credit_offset(directory)
+        if state == previous and not ranges_changed and not credit_changed:
             break
         previous = state
     else:
@@ -630,6 +688,7 @@ def render_publication(directory, books, size, version, publication, macros, xet
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--script-version", action="version", version=f"v{PREPROCESSOR_VERSION}")
     selection_arguments(parser)
     output_arguments(parser)
     profile_arguments(parser, HERE)

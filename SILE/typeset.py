@@ -18,7 +18,7 @@ import xml.etree.ElementTree as ET
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent))
 from oet_books import selection_arguments, select_books, source_path, OT
-from oet_publication import (pdf_pages, merge_parts, require_poppler, default_pdf_filename,
+from oet_publication import (PREPROCESSOR_VERSION, pdf_pages, merge_parts, require_poppler, default_pdf_filename,
                              draft_credit, copyright_paragraphs, book_version_labels,
                              toolchain_credit, output_arguments,
                              book_credits, link_publication, url_matches)
@@ -586,6 +586,7 @@ def render_publication(directory, books, front, size, executable):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--script-version", action="version", version=f"v{PREPROCESSOR_VERSION}")
     selection_arguments(parser)
     output_arguments(parser)
     profile_arguments(parser, HERE)

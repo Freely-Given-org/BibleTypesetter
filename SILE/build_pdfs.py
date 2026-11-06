@@ -2,7 +2,7 @@
 """Incrementally build a website's collection and individual-book SILE PDFs.
 
 Publication data, output locations and batch defaults come from TOML. Run
-without --only to build the complete catalogue in both print and screen modes.
+without --only to build every configured edition and print/screen paper size.
 Only a successful full batch replaces the public download manifest.
 """
 import argparse
@@ -22,7 +22,7 @@ from urllib.parse import urlsplit
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent))
 from oet_books import select_books, source_path
-from oet_publication import default_pdf_filename, pdf_pages, require_poppler
+from oet_publication import PREPROCESSOR_VERSION, default_pdf_filename, pdf_pages, require_poppler
 from publication_config import load_profile, profile_arguments
 from SILE.typeset import clean, inline, mapping_engine, paper_size
 from SILE.download_page import download_page
@@ -181,12 +181,33 @@ def build_one(target, medium, args, fingerprint, destination, log):
     return record
 
 
+def variants(profile, args):
+    """Expand the configured edition/paper matrix; CLI overrides remain explicit."""
+    batch = profile.data.get('batch', {})
+    versions = [args.version] if args.version else batch.get('versions', [profile.version])
+    fallback = batch.get('paper_size', 'B5')  # Older profiles remain supported.
+    prints = [args.paper_size] if args.paper_size else batch.get('print_sizes', [fallback])
+    screen = args.paper_size or batch.get('screen_size', fallback)
+    if not isinstance(versions, list) or not versions or len(set(versions)) != len(versions):
+        raise ValueError('batch.versions must be a nonempty list of distinct edition IDs')
+    if not isinstance(prints, list) or not prints:
+        raise ValueError('batch.print_sizes must be a nonempty list of paper sizes')
+    prints = [paper_size(size) for size in prints]
+    if len(set(prints)) != len(prints):
+        raise ValueError('batch.print_sizes must not repeat a paper size')
+    result = []
+    for version in versions:
+        profile.sides(version)
+        result += [(version, 'print', size) for size in prints]
+        result.append((version, 'screen', paper_size(screen)))
+    return result
+
+
 def run(args):
     profile = load_profile(args.layout_settings)
     batch = profile.data.get('batch', {})
-    args.version = args.version or profile.version
-    profile.sides(args.version)
-    args.paper_size = paper_size(args.paper_size or batch.get('paper_size', 'B5'))
+    matrix = variants(profile, args)
+    versions = list(dict.fromkeys(v for v, _, _ in matrix))
     output = args.output_dir or batch.get('output_dir')
     cache = args.cache_dir or batch.get('cache_dir')
     if not output or not cache:
@@ -198,16 +219,16 @@ def run(args):
             or not url.scheme and (not prefix.startswith('/') or prefix.startswith('//'))
             or url.query or url.fragment or '..' in url.path.split('/')):
         raise ValueError('batch.url_prefix must be a site-root path or an absolute HTTP(S) URL')
-    targets = catalogue(profile, args.version)
+    targets = {v: catalogue(profile, v) for v in versions}
     only = {code.upper() for code in args.only or []}
-    unknown = only - {t.key for t in targets}
+    unknown = only - {t.key for ts in targets.values() for t in ts}
     if unknown:
         raise ValueError(f'unknown --only targets: {", ".join(sorted(unknown))}')
-    chosen = [t for t in targets if not only or t.key in only]
+    chosen = {v: [t for t in ts if not only or t.key in only] for v, ts in targets.items()}
     if args.list_targets:
-        for target in chosen:
-            for medium in ('print', 'screen'):
-                print(output / default_pdf_filename(args.version, target.selection.stem, args.paper_size, medium))
+        for version, medium, size in matrix:
+            for target in chosen[version]:
+                print(output / default_pdf_filename(version, target.selection.stem, size, medium))
         return
     args.sile = renderer_executable(args.sile)
     require_poppler()
@@ -227,24 +248,25 @@ def run(args):
         state = json.loads(state_file.read_text()) if state_file.exists() else {}
         common = {m: common_inputs(profile, args.sile, m) for m in ('print', 'screen')}
         pending, skipped, failures = [], 0, []
-        for target in chosen:
-            sources = {str(p): digest(p) for p in sorted(set(target.sources))}
-            for medium in ('print', 'screen'):
-                filename = default_pdf_filename(args.version, target.selection.stem, args.paper_size, medium)
+        for version, medium, size in matrix:
+            job_args = argparse.Namespace(**{**vars(args), 'version': version, 'paper_size': size})
+            for target in chosen[version]:
+                sources = {str(p): digest(p) for p in sorted(set(target.sources))}
+                filename = default_pdf_filename(version, target.selection.stem, size, medium)
                 fingerprint = signature({'common': common[medium], 'sources': sources,
                     'books': target.selection.codes, 'order': target.selection.order,
-                    'draft': target.selection.draft_version, 'version': args.version,
-                    'paper': args.paper_size, 'medium': medium})
+                    'draft': target.selection.draft_version, 'version': version,
+                    'paper': size, 'medium': medium})
                 destination = output / filename
                 if not args.force and current(state.get(filename), fingerprint, destination):
                     skipped += 1
                 else:
-                    pending.append((target, medium, fingerprint, destination, cache / (filename + '.log')))
+                    pending.append((target, medium, job_args, fingerprint, destination, cache / (filename + '.log')))
         print(f'{len(pending)} PDFs to build; {skipped} unchanged; destination: {output}', flush=True)
         with ThreadPoolExecutor(max_workers=jobs) as pool:
             futures = {}
-            for target, medium, fingerprint, destination, log in pending:
-                future = pool.submit(build_one, target, medium, args, fingerprint, destination, log)
+            for target, medium, job_args, fingerprint, destination, log in pending:
+                future = pool.submit(build_one, target, medium, job_args, fingerprint, destination, log)
                 futures[future] = destination.name
             for i, future in enumerate(as_completed(futures), 1):
                 filename = futures[future]
@@ -260,39 +282,49 @@ def run(args):
         if only:
             print('Selected targets complete; run without --only to refresh the full download manifest.')
             return
-        entries = []
-        for target in targets:
-            entry = {'id': target.key, 'title': target.title, 'group': target.group,
-                     'kind': 'collection' if target.selection.collection else 'book',
-                     'books': target.selection.codes}
-            for medium in ('print', 'screen'):
-                name = default_pdf_filename(args.version, target.selection.stem, args.paper_size, medium)
-                entry[medium] = {k: v for k, v in state[name].items() if k != 'fingerprint'}
-                entry[medium]['url'] = prefix + name
-            entries.append(entry)
-        manifest = {'schema_version': 1, 'title': profile.title.replace('\n', ' '),
-                    'version': args.version, 'paper_size': args.paper_size.upper(),
-                    'book_order': targets[0].selection.order,
-                    'draft_version': targets[0].selection.draft_version,
-                    'groups': [{'id': t.key, 'title': t.title} for t in targets if t.key != 'ALL' and t.selection.collection],
-                    'entries': entries}
+        editions = []
+        for version in versions:
+            entries = []
+            for target in targets[version]:
+                entry = {'id': target.key, 'title': target.title, 'group': target.group,
+                         'kind': 'collection' if target.selection.collection else 'book',
+                         'books': target.selection.codes, 'files': []}
+                for v, medium, size in matrix:
+                    if v != version:
+                        continue
+                    name = default_pdf_filename(version, target.selection.stem, size, medium)
+                    file = {k: value for k, value in state[name].items() if k != 'fingerprint'}
+                    file.update(url=prefix + name, medium=medium,
+                                paper_size='Letter' if size.lower() == 'letter' else size.upper())
+                    entry['files'].append(file)
+                entries.append(entry)
+            editions.append({'id': version, 'label': profile.data['editions'][version].get('label', version),
+                             'entries': entries})
+        first = targets[versions[0]]
+        manifest = {'schema_version': 2, 'title': profile.title.replace('\n', ' '),
+                    'book_order': first[0].selection.order,
+                    'draft_version': first[0].selection.draft_version,
+                    'groups': [{'id': t.key, 'title': t.title} for t in first if t.key != 'ALL' and t.selection.collection],
+                    'editions': editions}
         atomic_json(output / 'manifest.json', manifest)
         catalogue_file = args.catalogue_file or batch.get('catalogue_file')
         if catalogue_file:
             atomic_json(Path(catalogue_file).resolve(), manifest)
         if batch.get('download_page', {}).get('enabled', False):
             atomic_bytes(output / 'index.htm', download_page(manifest, batch['download_page']).encode())
-        print(f'Catalogue ready: {len(entries) * 2} PDFs; {output / "manifest.json"}')
+        total = sum(len(e['files']) for edition in editions for e in edition['entries'])
+        print(f'Catalogue ready: {total} PDFs; {output / "manifest.json"}')
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--script-version", action="version", version=f"v{PREPROCESSOR_VERSION}")
     profile_arguments(parser, HERE)
     parser.add_argument('--output-dir', type=Path, help='override batch.output_dir')
     parser.add_argument('--cache-dir', type=Path, help='override private batch.cache_dir')
     parser.add_argument('--catalogue-file', type=Path, help='also write the download catalogue here (overrides batch.catalogue_file)')
-    parser.add_argument('--version', help='edition ID (default from TOML)')
-    parser.add_argument('--paper-size', help='override batch.paper_size')
+    parser.add_argument('--version', help='build just this edition instead of batch.versions')
+    parser.add_argument('--paper-size', help='use this size for both print and screen instead of the configured size matrix')
     parser.add_argument('--jobs', type=int, help='maximum simultaneous SILE jobs')
     parser.add_argument('--sile', help='SILE executable')
     parser.add_argument('--only', nargs='+', help='rebuild selected collections/book codes without changing the catalogue')

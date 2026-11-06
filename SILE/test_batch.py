@@ -32,6 +32,21 @@ class BatchTests(unittest.TestCase):
         self.assertTrue(any(p.name == 'OET-RV_FRT.ESFM' for p in by_key['NT'].sources))
         self.assertFalse(any(p.name == 'OET-RV_FRT.ESFM' for p in by_key['RUT'].sources))
 
+    def test_default_matrix_and_rv_membership(self):
+        profile = load_profile(Path(__file__).parent / 'settings.toml')
+        args = argparse.Namespace(version=None, paper_size=None)
+        matrix = batch.variants(profile, args)
+        self.assertEqual(len(matrix), 8)
+        for version in ('OET', 'OET-RV'):
+            self.assertEqual([(medium, size) for v, medium, size in matrix if v == version],
+                             [('print', 'b5'), ('print', 'a4'), ('print', 'letter'), ('screen', 'b5')])
+        targets = batch.catalogue(profile, 'OET-RV')
+        self.assertEqual(len(targets), 86)
+        self.assertFalse(any(t.key in ('PSS', 'ODE') for t in targets))
+        self.assertTrue(all(not any('OET-LV' in p.name for p in t.sources) for t in targets))
+        args.version, args.paper_size = 'OET-RV', 'Letter'
+        self.assertEqual(batch.variants(profile, args), [('OET-RV', 'print', 'letter'), ('OET-RV', 'screen', 'letter')])
+
     def test_fingerprint_is_independent_of_relative_script_invocation(self):
         profile = load_profile(Path(__file__).parent / 'settings.toml')
         absolute = batch.common_inputs(profile, batch.renderer_executable(), 'print')
@@ -60,16 +75,16 @@ class BatchTests(unittest.TestCase):
         self.assertIn('MRK', manifest.read_text())
 
     def test_download_page_labels_include_codes_and_escape_source_names(self):
-        file = {'url': 'https://example.org/NUM.pdf', 'bytes': 1234, 'pages': 10}
+        file = {'url': 'https://example.org/NUM.pdf', 'bytes': 1234, 'pages': 10, 'medium': 'print', 'paper_size': 'A4'}
         catalogue = {'title': 'Bible', 'draft_version': 'v1', 'paper_size': 'B5',
             'groups': [{'id': 'OT', 'title': 'Old Testament'}],
-            'entries': [{'id': 'NUM', 'kind': 'book', 'group': 'OT', 'title': 'Census', 'print': file, 'screen': file},
-                        {'id': 'JDG', 'kind': 'book', 'group': 'OT', 'title': 'Heroes and Guides', 'print': file, 'screen': file}]}
+            'editions': [{'id': 'OET-RV', 'label': 'Readers’ Version', 'entries': [{'id': 'NUM', 'kind': 'book', 'group': 'OT', 'title': 'Census', 'files': [file]},
+                        {'id': 'JDG', 'kind': 'book', 'group': 'OT', 'title': 'Heroes and Guides', 'files': [file]}]}]}
         page = download_page(catalogue, {})
         self.assertIn('<th scope="row">Census (NUM)</th>', page)
         self.assertIn('<th scope="row">Heroes and Guides (JDG)</th>', page)
-        self.assertIn('aria-label="Census (NUM) — Print PDF"', page)
-        catalogue['entries'][0]['title'] = '<not markup>'
+        self.assertIn('aria-label="Census (NUM) — Readers’ Version — Print A4 PDF"', page)
+        catalogue['editions'][0]['entries'][0]['title'] = '<not markup>'
         self.assertIn('&lt;not markup&gt; (NUM)', download_page(catalogue, {}))
 
     def test_source_change_invalidates_only_relevant_book_and_collections(self):

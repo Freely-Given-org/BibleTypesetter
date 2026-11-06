@@ -20,6 +20,7 @@ def normalise(text):
     # Ignore layout whitespace and discretionary hyphens in this text audit.
     text = unicodedata.normalize('NFKD', text).replace('\u034f', '').replace('∙', '·')
     text = re.sub(r"[\s\-‐\u00ad]", "", text)
+    text = re.sub(r'_+', '_', text)  # A broken LV join repeats its underscore.
     # PDF glyph order can reverse Hebrew and reorder its combining marks.
     # Check its letters/marks as a multiset; visual review checks RTL ordering.
     text = re.sub('[\u0590-\u05ff]+', lambda m: ''.join(sorted(unicodedata.normalize('NFD', m[0]))), text)
@@ -41,6 +42,12 @@ def audit(pdf_path, build_dir, oet_root=None, version=None, start_page=1, code='
     oet_root = oet_root or profile.source_root
     sides = profile.sides(version)
     paired = len(sides) == 2
+    settings = profile.data['editions'][version]
+    fraction = settings.get('primary_width', 0.5)
+    outside = settings.get('primary_column') == 'outside'
+    sizes = settings.get('font_sizes', {})
+    body_sizes = {10.4, 9.8, 8.04, 7.35, 7.8, 12.0, *sizes.values()}
+    body_sizes.update(round(n * .75, 2) for n in sizes.values())
     keys = profile.data.get('books', {}).get('settings_keys', {})
     settings = profile.settings_file
     aliases = read_orders(settings, profile).get(keys.get('aliases'), {}) if settings and settings.is_file() else {}
@@ -83,7 +90,9 @@ def audit(pdf_path, build_dir, oet_root=None, version=None, start_page=1, code='
                 page.close()
                 continue
             left = 43 if (page.page_number + start_page - 1) % 2 else 33
-            column = (page.width - 92) / 2 if paired else page.width - 76
+            column = (page.width - 92) * fraction if paired else page.width - 76
+            reverse = paired and outside and (page.page_number + start_page - 1) % 2 == 1
+            boundary = left + ((page.width - 92) * (1 - fraction) if reverse else column) + 8
             assert min(c["x0"] for c in chars) >= left - 0.5, page.page_number
             assert max(c["x1"] for c in chars) <= left + page.width - 76 + 0.5, page.page_number
             notechars = [c for c in chars if round(c["size"], 2) == 8.9]
@@ -97,19 +106,20 @@ def audit(pdf_path, build_dir, oet_root=None, version=None, start_page=1, code='
             for c in chars:
                 size = round(c["size"], 2)
                 y = page.height - c["matrix"][5]
-                side = ("rv" if c["x0"] < left + column + 8 else "lv") if paired else sides[0]
+                side = (("lv" if reverse else "rv") if c["x0"] < boundary else ("rv" if reverse else "lv")) if paired else sides[0]
                 if y >= note_top - 4 and size != 8.5:
                     actual["notes"] += c["text"]
                 elif "Lato" in c["fontname"]:
                     if size == 8.5 and 60 < y < page.height - 40:
                         actual["heading"] += c["text"]
-                elif size in (10.4, 9.8, 8.04, 7.35, 7.8, 12.0):
+                elif size in body_sizes:
                     # Native qs/bk/sc character styles can retain 12bp;
                     # superscripts use 75% of their edition's body size.
                     actual[side] += c["text"]
-                if size in (10.4, 9.8, 8.9, 12.0):
+                if size in {10.4, 9.8, 8.9, 12.0, *sizes.values()}:
                     phase = (y - 77) / 12.5
-                    assert abs(phase - round(phase)) * 12.5 < 0.03, (page.page_number, size, y)
+                    if not paired or side == "rv" or size == 8.9:
+                        assert abs(phase - round(phase)) * 12.5 < 0.03, (page.page_number, size, y)
                     assert 76.97 <= y <= page.height - 44.97, ("vertical margin", page.page_number, y)
                 if size == 6.9 and y < note_top - 4:
                     if small and small[0] == side and abs(small[2] - y) < 0.01 and abs(small[3] - c["x0"]) < 2:
@@ -181,7 +191,7 @@ def audit(pdf_path, build_dir, oet_root=None, version=None, start_page=1, code='
         if number in body_note_pages:
             assert body_note_pages[number] == positions["n"], (number, positions)
     print(f"{pages} pages: complete text, {boxes} boxes, {len(locations)} same-page notes; "
-          "section alignment, margins and body/note grid passed.")
+          "section alignment, margins and RV/note grid passed.")
 
 
 if __name__ == "__main__":

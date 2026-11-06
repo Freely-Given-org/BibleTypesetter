@@ -12,7 +12,7 @@ from publication_config import default_profile
 # Compatibility exports are read from TOML, never publication literals.
 PRINT_TITLE = default_profile().title
 TITLE = ' '.join(PRINT_TITLE.splitlines())
-PREPROCESSOR_VERSION = '1.0.1'
+PREPROCESSOR_VERSION = '1.1.0'
 COPYRIGHT = default_profile().publication.get('copyright', '')
 LICENCE = default_profile().publication.get('licence', '')
 SCREEN_COLOURS = default_profile().data.get('screen_colours', {})

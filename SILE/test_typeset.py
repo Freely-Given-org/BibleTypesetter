@@ -52,6 +52,7 @@ class VersionTests(unittest.TestCase):
         book = paired_book(self.root, "MRK", "OET-RV")
         self.assertEqual(book.get("name"), "RV name")
         self.assertEqual(book.get("version"), "OET-RV")
+        self.assertEqual(book.get("body-columns"), "2")
         self.assertIsNone(book.find(".//lv"))
         self.assertEqual(book.find(".//heading/note").get("ref"), "1:1")
         self.assertEqual(book.find(".//rv/block/run").text, "Readers’ text.")
@@ -70,14 +71,14 @@ class VersionTests(unittest.TestCase):
         self.assertEqual(read_edition(path, 'LV').name, '1 Shəmūʼēl/(Samuel)')
 
     def test_lv_joins_change_only_in_printable_text(self):
-        verse = r'\v 1 a+\bd b=\+it c\+it*\bd*.\f + \fr 1:1 \ft d+e=f.\f*'
+        verse = r'\v 1 a+\bd b=\+it c÷d\+it*\bd*.\f + \fr 1:1 \ft d+e=f.\f*'
         for edition in ('RV', 'LV'):
             self.write_source(edition, verse)
         book = paired_book(self.root, 'MRK')
-        for side, body, note in [('rv', 'a+b=c.', 'd+e=f.'), ('lv', 'a_b_c.', 'd_e_f.')]:
+        for side, body, note in [('rv', 'a+b=c÷d.', 'd+e=f.'), ('lv', 'a_b_c_d.', 'd_e_f.')]:
             block = book.find(f'section/{side}/block')
             self.assertEqual(''.join(r.text for r in block.findall('run')), body)
-            self.assertEqual(block.find("run[@style='bd it']").text, 'c')
+            self.assertEqual(block.find("run[@style='bd it']").text, 'c÷d' if side == 'rv' else 'c_d')
             self.assertEqual(''.join(block.find('note').itertext()), note)
 
     def test_default_pairs_verse_bridges(self):
